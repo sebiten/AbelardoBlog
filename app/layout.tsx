@@ -3,9 +3,12 @@ import Navbar from './components/Navbar'
 import MyProfilePic from './components/MyProfilePic'
 
 export const metadata = {
-  title: "Dave's Blog",
-  description: 'Created by Dave Gray',
-}
+  title: "Meta Blog",
+  description: "Created by Sebastian Burgos",
+  icons: {
+    icon: "/crisco.jpg", // Ruta relativa del icono
+  },
+};
 
 export default function RootLayout({
   children,

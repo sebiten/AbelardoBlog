@@ -1,16 +1,14 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function MyProfilePic() {
-    return (
-        <section className="w-full mx-auto">
-            <Image
-                className="border-4 border-black dark:border-green-300 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
-                src="/images/profilephoto.jpg"
-                width={200}
-                height={200}
-                alt="Healthy"
-                priority={true}
-            />
-        </section>
-    )
+  return (
+    <section className="w-full mx-auto p-4 md:p-4 lg:p-8">
+      <p className="text-center text-7xl mt-12 md:text-6xl lg:text-8xl text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[1ms] animate-delay-[112ms] animate-ease-out">
+        Meta
+        <span className="text-green-200 font-normal">B</span>
+        {/* <br></br> */}
+        log
+      </p>
+    </section>
+  );
 }
