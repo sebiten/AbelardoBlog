@@ -16,8 +16,8 @@ export default function Navbar() {
           <Link 
           href="/"
           className="text-center text-green-200 font-bold uppercase no-underline">
-            M
-            <span className="text-white font-normal">B</span>
+            Abelardo
+            <span className="text-white font-normal">Blog</span>
           </Link>
         </h1>
         <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
