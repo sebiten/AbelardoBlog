@@ -7,7 +7,7 @@ export const metadata = {
   title: "Abelardo Blog",
   description: "Created by Sebastian Burgos",
   icons: {
-    icon: "/public/abelardo.png",
+    icon: "/abelardoicon.png",
   },
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Head>
-          <link rel="icon" href="/public/abelardo.png" />
+          <link rel="icon" href="/abelardoicon.png" />
         </Head>
       </head>
       <body className="dark:bg-slate-800">
