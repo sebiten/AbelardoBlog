@@ -1,7 +1,7 @@
 ---
 title: 'Lo que nadie te dice del azucar'
 date: '2023-07-28'
-imageUrl: '/sucre-veri.jpg '
+imageUrl: '/sugar.jpg'
 ---
 
 ![AZUCAR](https://albaclinicadental.com/es/wp-content/uploads/sucre-veri.jpg)
