@@ -1,8 +1,9 @@
+import Footer from "./components/Footer";
 import Posts from "./components/Posts";
 
 export default function Home() {
   return (
-    <main className="px-4 md:px-8 lg:px-16 mx-auto">
+    <main className=" mx-auto">
       <div className="mt-12 mb-6 text-xl mx-auto max-w-2xl text-center dark:text-white lg:w-3/4 xl:w-1/2">
         
         <p className="mt-4">
@@ -13,6 +14,7 @@ export default function Home() {
         </p>
       </div>
       <Posts />
+      <Footer/>
     </main>
   );
 }
