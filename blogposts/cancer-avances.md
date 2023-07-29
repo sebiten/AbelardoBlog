@@ -1,5 +1,5 @@
 ---
-title: 'El cancer y sus avances'
+title: 'Cáncer: Explorando los Avances en la Lucha contra esta Enfermedad'
 date: '2023-07-28'
 imageUrl: '/cancer.jpg'
 ---

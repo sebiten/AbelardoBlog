@@ -1,10 +1,10 @@
 ---
-title: 'Lo que nadie te dice del azucar'
+title: 'Revelando la Verdad Oculta sobre el Azúcar: Lo que Nadie te Cuenta'
 date: '2023-07-28'
 imageUrl: '/sugar.jpg'
 ---
 
-![AZUCAR](https://albaclinicadental.com/es/wp-content/uploads/sucre-veri.jpg)
+![AZUCAR](/sugar.jpg)
 
 El azúcar es uno de los alimentos más consumidos en el mundo, pero también es uno de los más dañinos para nuestra salud. El consumo excesivo de azúcar puede conducir a una serie de problemas de salud, incluyendo obesidad, diabetes, enfermedades cardíacas, derrames cerebrales y cáncer.
 
@@ -45,10 +45,11 @@ El azúcar es un alimento dañino para nuestra salud. El consumo excesivo de az�
 
 
 
-- Obesidad: https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
-- Diabetes: https://www.diabetes.org/
-- Enfermedades cardíacas: https://www.heart.org/en/
-- Derrames cerebrales: https://www.stroke.org/
-- Cáncer: https://www.cancer.org/
+- Obesidad: [https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight)
+- Diabetes: [https://www.diabetes.org/](https://www.diabetes.org/)
+- Enfermedades cardíacas: [https://www.heart.org/en/](https://www.heart.org/en/)
+- Derrames cerebrales: [https://www.stroke.org/](https://www.stroke.org/)
+- Cáncer: [https://www.cancer.org/](https://www.cancer.org/)
 
 *Imagen de portada: [Fuente](https://albaclinicadental.com/es/wp-content/uploads/sucre-veri.jpg)*
+

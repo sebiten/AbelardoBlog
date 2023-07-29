@@ -4,7 +4,7 @@ date: '2023-07-29'
 imageUrl: '/ovni.webp'
 ---
 
-![OVNI](https://static.eldiario.es/clip/31610b1c-4080-4cf9-8632-f4b9d5538015_16-9-discover-aspect-ratio_default_0.webp)
+![OVNI](/ovni.webp)
 
 **Introducción**
 
