@@ -1,5 +1,5 @@
 ---
-title: 'El azucar y sus grandes riesgos'
+title: 'Lo que nadie te dice del azucar'
 date: '2023-07-28'
 ---
 
