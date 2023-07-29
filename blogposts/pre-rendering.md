@@ -3,8 +3,6 @@ title: 'Dos Formas de Pre-renderizado en Next.js'
 date: '2023-06-14'
 ---
 
-# Dos Formas de Pre-renderizado en Next.js
-
 Next.js tiene dos formas de pre-renderizado: **Generación Estática** y **Renderizado en el Lado del Servidor**. La diferencia radica en **cuándo** genera el HTML para una página.
 
 ## Generación Estática

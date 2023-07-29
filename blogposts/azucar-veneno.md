@@ -3,25 +3,23 @@ title: 'El azucar y sus grandes riesgos'
 date: '2023-07-28'
 ---
 
-# El azúcar nos está matando lentamente
-
 ![AZUCAR](https://albaclinicadental.com/es/wp-content/uploads/sucre-veri.jpg)
 
 El azúcar es uno de los alimentos más consumidos en el mundo, pero también es uno de los más dañinos para nuestra salud. El consumo excesivo de azúcar puede conducir a una serie de problemas de salud, incluyendo obesidad, diabetes, enfermedades cardíacas, derrames cerebrales y cáncer.
 
-# Obesidad
+## Obesidad
 
 La obesidad es uno de los problemas de salud más graves del siglo XXI. La obesidad se asocia con un mayor riesgo de desarrollar una serie de enfermedades, incluyendo diabetes, enfermedades cardíacas, derrames cerebrales y cáncer. El consumo excesivo de azúcar es uno de los principales factores que contribuyen a la obesidad.
 
-# Diabetes
+## Diabetes
 
 La diabetes es una enfermedad crónica que se caracteriza por altos niveles de azúcar en la sangre. La diabetes puede causar una serie de problemas de salud, incluyendo enfermedades cardíacas, derrames cerebrales, ceguera y amputaciones. El consumo excesivo de azúcar es uno de los principales factores de riesgo para la diabetes.
 
-# Enfermedades cardíacas
+## Enfermedades cardíacas
 
 Las enfermedades cardíacas son la principal causa de muerte en el mundo. Las enfermedades cardíacas se asocian con un alto nivel de colesterol, presión arterial alta y obesidad. El consumo excesivo de azúcar puede contribuir a todos estos factores de riesgo.
 
-# Derrames cerebrales
+## Derrames cerebrales
 
 Los derrames cerebrales son la segunda causa de muerte en el mundo. Los derrames cerebrales se asocian con un alto nivel de colesterol, presión arterial alta y obesidad. El consumo excesivo de azúcar puede contribuir a todos estos factores de riesgo.
 

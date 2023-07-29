@@ -3,8 +3,6 @@ title: 'El veneno silencioso que todos consumimos sin siquiera darnos cuenta'
 date: '2023-07-28'
 ---
 
-# El veneno silencioso que todos consumimos sin siquiera darnos cuenta: la historia de Crisco y los aceites vegetales
-
 ![Crisco y los aceites vegetales](https://images.forwardcdn.com/image/970x/center/images/cropped/crisco-1533842686.jpg)
 
 ¡Bienvenidos a otro post revelador sobre la historia oculta de los alimentos! En esta ocasión, exploraremos el impacto del consumo de aceites vegetales y cómo una marca en particular, Crisco, se convirtió en un protagonista en la vida diaria de millones de personas sin que se dieran cuenta de sus efectos nocivos para la salud.

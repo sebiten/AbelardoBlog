@@ -3,7 +3,6 @@ title: 'Cuándo Usar Generación Estática vs. Renderizado en el Lado del Servid
 date: '2023-06-17'
 ---
 
-# Cuándo Usar Generación Estática vs. Renderizado en el Lado del Servidor
 
 Recomendamos utilizar **Generación Estática** (con y sin datos) siempre que sea posible, ya que tu página puede ser construida una vez y servida por CDN, lo que la hace mucho más rápida que tener un servidor renderizando la página en cada solicitud.
 
