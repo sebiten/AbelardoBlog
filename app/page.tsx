@@ -27,8 +27,8 @@ export default function Home() {
             bien informado y conocer más sobre aspectos importantes de la vida
             contemporánea.
           </p>
-          <p className="mt-4">
-            <span className="font-bold text-green-200">¡Gracias por leer!</span>
+          <p className="mt-4 animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
+            <span className="font-bold text-green-200 ">¡Gracias por leer!</span>
           </p>
         </div>
         <Posts />

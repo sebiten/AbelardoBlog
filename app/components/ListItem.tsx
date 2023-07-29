@@ -13,7 +13,9 @@ export default function ListItem({ post }: Props) {
     const formattedDate = getFormattedDate(date)
 
     return (
-        <Link href={`/posts/${id}`}>
+        <Link
+            className="hover:animate-pulse"
+        href={`/posts/${id}`}>
       <>
         <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-72 list-none">
           {imageUrl && (
