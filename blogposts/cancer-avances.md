@@ -1,6 +1,7 @@
 ---
 title: 'El cancer y sus avances'
 date: '2023-07-28'
+imageUrl: '/cancer.jpg'
 ---
 
 ## Los últimos avances en la investigación del cáncer

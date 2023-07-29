@@ -1,6 +1,8 @@
 ---
 title: 'La magia del ayuno intermitente'
 date: '2023-07-30'
+imageUrl: '/autofagia.jpg'
+
 ---
 
 # ¿Qué es el ayuno intermitente?

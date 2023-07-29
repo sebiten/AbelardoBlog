@@ -1,6 +1,7 @@
 ---
-title: 'El veneno silencioso que todos consumimos sin siquiera darnos cuenta'
+title: 'El veneno silencioso que nos esta matando y que consumimos todos los dias'
 date: '2023-07-28'
+imageUrl: '/crisco.jpg'
 ---
 
 ![Crisco y los aceites vegetales](https://images.forwardcdn.com/image/970x/center/images/cropped/crisco-1533842686.jpg)
