@@ -8,7 +8,7 @@ export const metadata = {
   title: "Abelardo Blog",
   description: "Created by Sebastian Burgos",
   icons: {
-    icon: "/abelardo.webp",
+    icon: "/iconabelardoblog.png",
   },
 };
 

@@ -7,8 +7,8 @@ export default function MyProfilePic() {
         <Image
           src="/iconabelardoblog.png"
           alt="abelardocat"
-          height={400}
-          width={400}
+          height={300}
+          width={300}
         />
         <p className="text-center text-4xl md:text-6xl lg:text-8xl text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out">
           Abelardo
