@@ -36,5 +36,6 @@ export default function ListItem({ post }: Props) {
         </li>
       </>
     </Link>
+    
     )
 }
