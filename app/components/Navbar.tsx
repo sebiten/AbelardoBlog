@@ -1,10 +1,6 @@
 import Link from "next/link";
 import {
-  FaYoutube,
-  FaTwitter,
   FaGithub,
-  FaLaptop,
-  FaLinkedinIn,
   FaLinkedin,
 } from "react-icons/fa";
 
@@ -15,7 +11,7 @@ export default function Navbar() {
         <h1 className="text-3xl font-bold text-white grid place-content-center mb-2 md:mb-0 ">
           <Link
             href="/"
-            className="text-center text-green-200 font-bold uppercase no-underline"
+            className="text-center text-yellow-200 font-bold uppercase no-underline"
           >
             Abelardo
             <span className="text-white font-normal">Blog</span>
@@ -25,25 +21,25 @@ export default function Navbar() {
         <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
           <Link
             href={"/"}
-            className="text-white no-underline text-sm uppercase m-auto hover:text-green-200"
+            className="text-white no-underline text-sm uppercase m-auto hover:text-yellow-200"
           >
             Explorar
           </Link>
           <Link
             href="https://sebdevspace.me/"
-            className="text-white no-underline text-sm uppercase m-auto hover:text-green-200"
+            className="text-white no-underline text-sm uppercase m-auto hover:text-yellow-200"
             target="blank"
           >
             About me
           </Link>
           <Link
-            className="text-white/90 hover:text-green-200"
+            className="text-white/90 hover:text-yellow-200"
             href="https://github.com/sebiten"
           >
             <FaGithub />
           </Link>
           <Link
-            className="text-white/90 hover:text-green-200"
+            className="text-white/90 hover:text-yellow-200"
             href="https://www.linkedin.com/in/sebdevspace/"
           >
             <FaLinkedin />

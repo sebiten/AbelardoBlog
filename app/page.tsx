@@ -28,7 +28,7 @@ export default function Home() {
             contemporánea.
           </p>
           <p className="mt-4 animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
-            <span className="font-bold text-green-200 ">¡Gracias por leer!</span>
+            <span className="font-bold text-yellow-200 ">¡Gracias por leer!</span>
           </p>
         </div>
         <Posts />
