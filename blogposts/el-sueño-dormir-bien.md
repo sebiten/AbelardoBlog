@@ -1,6 +1,6 @@
 ---
 title: 'La Importancia del Sueño para la Salud: ¿Cuántas Horas de Sueño Necesitamos? Beneficios y Consejos para Dormir Mejor'
-date: '2023-08-31'
+date: '2023-08-30'
 imageUrl: '/sleep.jpeg'
 
 ---
@@ -43,5 +43,3 @@ Si continúas teniendo problemas para dormir, es recomendable que consultes con 
 Recuerda que un buen descanso es fundamental para mantener una óptima salud y bienestar en nuestra vida diaria. Asegúrate de priorizar tu sueño y tomar medidas para mejorar su calidad siempre que sea necesario.
 
 Palabras clave: sueño para la salud, cuántas horas de sueño necesitamos, beneficios del sueño, consejos para dormir mejor, calidad del sueño.
-
-[Enlace a la fuente](https://www.20minutos.es/)
