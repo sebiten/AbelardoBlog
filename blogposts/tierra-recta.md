@@ -11,7 +11,7 @@ En el principio... Todas las civilizaciones antiguas compartían una **cosmolog�
 
 *Griegos, babilónicos, persas, nórdicos, indios, mayas, hebreos, chinos, celtas, sumerios, egipcios, vedas, incas, aztecas, mapuches, japoneses, romanos*, y muchas otras civilizaciones tenían una visión similar de nuestro universo. Estas culturas eran notables por su avanzado conocimiento y tecnología.
 
-![Dos Formas de Pre-renderizado](/tierra-plana.jpg)
+![TierraPlana](/tierra-plana.jpg)
 
 Uno de los misterios más intrigantes es el de las **Pirámides egipcias**. La ciencia moderna no ha podido explicar completamente su construcción, y ni siquiera puede replicarlas con nuestra tecnología actual. Los egipcios poseían un conocimiento muy avanzado, lo cual desconcierta a la ciencia contemporánea.
 
