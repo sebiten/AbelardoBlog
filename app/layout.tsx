@@ -1,8 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
-import Head from "next/head";
-import Script from "next/script";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export const metadata = {
