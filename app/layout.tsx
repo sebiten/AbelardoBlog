@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
+import Script from "next/script";
 
 export const metadata = {
   title: "Abelardo Blog",
@@ -21,11 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <div className="container"></div>
       <head>
-        <script
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
           crossOrigin="anonymous"
-        ></script>
+          strategy="lazyOnload"
+        ></Script>
 
       </head>
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
