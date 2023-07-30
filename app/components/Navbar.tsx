@@ -36,13 +36,17 @@ export default function Navbar() {
             className="text-white/90 hover:text-yellow-200"
             href="https://github.com/sebiten"
           >
-            <FaGithub />
+            <FaGithub
+            size={30}
+            />
           </Link>
           <Link
             className="text-white/90 hover:text-yellow-200"
             href="https://www.linkedin.com/in/sebdevspace/"
           >
-            <FaLinkedin />
+            <FaLinkedin
+            size={30}
+            />
           </Link>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function ListItem({ post }: Props) {
 
     return (
         <Link
-            className="hover:animate-pulse"
+            className="hover:animate-pulse hover:scale-105"
         href={`/posts/${id}`}>
       <>
         <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-72 list-none">

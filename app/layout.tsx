@@ -30,7 +30,6 @@ export default function RootLayout({
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
-        <MyProfilePic />
         {children}
       </body>
     </html>
