@@ -1,6 +1,6 @@
 ---
 title: 'El veneno silencioso que nos esta matando y que consumimos todos los dias'
-date: '2023-07-28'
+date: '2023-07-31'
 imageUrl: '/crisco.jpg'
 ---
 
