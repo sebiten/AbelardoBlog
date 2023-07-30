@@ -5,13 +5,13 @@ export default function MyProfilePic() {
     <section className="w-full mx-auto">
       <div className="flex flex-col justify-center items-center">
         <Image
-          src="/costadologoabelardo.png"
+          src="/cat.png"
           alt="abelardocat"
           height={500}
-          width={550}
-          className="-mt-24"
+          width={300}
+          className=""
         />
-        <p className="text-center text-4xl md:text-6xl lg:text-8xl text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-48">
+        <p className="text-center text-4xl md:text-6xl lg:text-8xl text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-12">
           Abelardo
           <span className="text-yellow-200 font-normal">
             <br></br>
