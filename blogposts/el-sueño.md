@@ -1,6 +1,6 @@
 ---
 title: 'La Importancia del Sueño para la Salud: ¿Cuántas Horas de Sueño Necesitamos? Beneficios y Consejos para Dormir Mejor'
-date: '2023-08-01'
+date: '2023-08-31'
 imageUrl: '/sleep.jpeg'
 
 ---
