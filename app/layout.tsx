@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 import Head from "next/head";
 import Script from "next/script";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export const metadata = {
   title: "Abelardo Blog",
@@ -27,17 +28,8 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></script>
 
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-66SJ6716WY');
-        `}
-        </Script>
       </head>
+      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
         <MyProfilePic />
