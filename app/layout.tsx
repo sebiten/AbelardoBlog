@@ -6,7 +6,7 @@ import Script from "next/script";
 
 export const metadata = {
   title: "Abelardo Blog",
-  description: "Created by Sebastian Burgos",
+  description: "Blog moderno",
   icons: {
     icon: "/iconabelardoblog.png",
   },
