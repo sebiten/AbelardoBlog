@@ -1,7 +1,7 @@
 ---
 title: 'Agua con Limón en Ayunas: 10 Beneficios Sorprendentes para tu Salud'
 date: '2023-07-31'
-imageUrl: '/agualimon.avif'
+imageUrl: '/agualimon.webp'
 ---
 ## Los 10 beneficios de tomar agua con limón en ayunas
 
