@@ -7,7 +7,7 @@ export const metadata = {
   title: "Abelardo Blog",
   description: "Blog moderno",
   icons: {
-    icon: "/iconabelardoblog.png",
+    icon: "/cat.png",
   },
 };
 
