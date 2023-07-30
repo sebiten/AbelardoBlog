@@ -1,5 +1,5 @@
 ---
-title: 'Uno de los mayores engaños de la historia, Hollywood = NASA'
+title: 'Uno de los mayores engaños de la historia, Hollywood y la NASA'
 date: '2023-08-01'
 imageUrl: '/tierra-plana.jpg'
 
