@@ -1,5 +1,5 @@
 ---
-title: 'VIH'
+title: 'Avances en el Tratamiento y Prevención del VIH/SIDA: Vivir una Vida Saludable con VIH'
 date: '2023-07-29'
 imageUrl: '/vih1.jpg'
 ---

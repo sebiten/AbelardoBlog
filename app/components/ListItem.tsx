@@ -17,14 +17,14 @@ export default function ListItem({ post }: Props) {
             className="hover:animate-pulse hover:scale-105"
         href={`/posts/${id}`}>
       <>
-        <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-72 list-none">
+        <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-auto list-none">
           {imageUrl && (
             <Image
             width={300}
             height={300}
               src={imageUrl}
               alt="image"
-              className="w-full h-40 object-cover"
+              className="w-full h-60 object-cover"
             />
           )}
           <div className="p-4 h-32">

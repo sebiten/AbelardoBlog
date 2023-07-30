@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Abelardo Blog",
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className="dark:bg-slate-800">
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

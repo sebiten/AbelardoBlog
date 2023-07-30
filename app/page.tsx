@@ -36,8 +36,8 @@ export default function Home() {
             </span>
           </p>
         </div>
+
         <Posts />
-        <Footer />
       </main>
     </>
   );
