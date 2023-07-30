@@ -1,6 +1,6 @@
 ---
 title: 'Uno de los mayores engaños de la historia, Hollywood y la NASA'
-date: '2023-08-01'
+date: '2023-07-31'
 imageUrl: '/tierra-plana.jpg'
 
 ---
