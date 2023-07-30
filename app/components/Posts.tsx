@@ -2,7 +2,7 @@ import { getSortedPostsData } from "@/lib/posts"
 import ListItem from "./ListItem"
 
 export default function Posts() {
-    const posts = getSortedPostsData(15)
+    const posts = getSortedPostsData()
 
     return (
         <section className="mt-6 p-4 mx-auto max-w-6xl ">
