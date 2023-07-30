@@ -19,7 +19,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div className="container">
+      <div className="container"></div>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
+          crossOrigin="anonymous"
+        ></script>
+
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY" />
         <Script id="google-analytics">
           {`
@@ -30,11 +37,6 @@ export default function RootLayout({
           gtag('config', 'G-66SJ6716WY');
         `}
         </Script>
-      </div>
-      <head>
-        <Head>
-          <link rel="icon" href="/abelardo.webp" />
-        </Head>
       </head>
       <body className="dark:bg-slate-800">
         <Navbar />
