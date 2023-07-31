@@ -2,6 +2,7 @@
 title: 'Cuándo Usar Generación Estática vs. Renderizado en el Lado del Servidor'
 date: '2023-06-17'
 imageUrl: '/server-side.png'
+categories: 'Tecnologia'
 ---
 
 

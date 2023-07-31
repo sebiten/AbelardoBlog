@@ -2,6 +2,7 @@
 title: 'Revelando la Verdad Oculta sobre el Azúcar: Lo que Nadie te Cuenta'
 date: '2023-07-28'
 imageUrl: '/sugar.jpg'
+categories: 'Nutrición'
 ---
 
 ![AZUCAR](/sugar.jpg)

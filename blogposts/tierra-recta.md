@@ -2,7 +2,7 @@
 title: 'Uno de los mayores engaños de la historia, Hollywood y la NASA'
 date: '2023-07-30'
 imageUrl: '/nasa.jpg'
-
+categories:  'Tecnologia'
 ---
 
 # Enigmas de la Cosmología Antigua y la Influencia de Hollywood

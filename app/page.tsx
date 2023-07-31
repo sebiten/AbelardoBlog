@@ -1,5 +1,4 @@
-import Script from "next/script";
-import Footer from "./components/Footer";
+
 import Posts from "./components/Posts";
 import MyProfilePic from "./components/MyProfilePic";
 

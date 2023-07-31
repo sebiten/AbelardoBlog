@@ -2,6 +2,7 @@
 title: 'El mate, un símbolo de la cultura argentina'
 date: '2023-07-31'
 imageUrl: '/mateportada.webp'
+categories: 'Cultura'
 
 ---
 

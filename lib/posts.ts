@@ -25,6 +25,7 @@ export function getSortedPostsData() {
       title: matterResult.data.title,
       date: matterResult.data.date,
       imageUrl: matterResult.data.imageUrl || "",
+      categories: matterResult.data.categories || [],
     };
 
     // Combine the data with the id
@@ -54,6 +55,7 @@ export async function getPostData(id: string) {
       date: matterResult.data.date,
       contentHtml,
       imageUrl: matterResult.data.imageUrl || "", // Nueva línea para obtener la URL de la imagen
+      categories: matterResult.data.categories || [],
     };
 
   // Combine the data with the id
