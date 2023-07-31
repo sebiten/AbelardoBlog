@@ -11,7 +11,7 @@ export default function Navbar() {
         <h1 className="text-3xl font-bold text-white grid place-content-center mb-2 md:mb-0 ">
           <Link
             href="/"
-            className="text-center text-yellow-200 font-bold uppercase no-underline"
+            className="text-center text-yellow-500 font-bold uppercase no-underline"
           >
             Abelardo
             <span className="text-white font-normal">Blog</span>
