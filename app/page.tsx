@@ -6,22 +6,9 @@ import MyProfilePic from "./components/MyProfilePic";
 export default function Home() {
   return (
     <>
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-66SJ6716WY');
-        `}
-        </Script>
-      </div>
       <main className=" mx-auto">
         <div className="mt-12 mb-6 text-xl mx-auto max-w-2xl text-center dark:text-white lg:w-3/4 xl:w-1/2">
           <MyProfilePic />
-
           <p className="mt-4">
             Aquí tendrás acceso a una amplia variedad de artículos sobre salud
             moderna, tecnología, alimentación y otros temas interesantes. Mi
@@ -36,7 +23,6 @@ export default function Home() {
             </span>
           </p>
         </div>
-
         <Posts />
       </main>
     </>

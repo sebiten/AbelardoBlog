@@ -1,5 +1,5 @@
 {
-  "name": "healthy",
+  "name": "abelardo.blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,7 +30,7 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
   },
-  "description": "healthy blog",
+  "description": "abelardo-blog",
   "main": "next.config.js",
   "directories": {
     "lib": "lib"

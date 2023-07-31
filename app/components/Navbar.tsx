@@ -1,8 +1,5 @@
 import Link from "next/link";
-import {
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -36,17 +33,13 @@ export default function Navbar() {
             className="text-white/90 hover:text-yellow-200"
             href="https://github.com/sebiten"
           >
-            <FaGithub
-            size={30}
-            />
+            <FaGithub size={30} />
           </Link>
           <Link
             className="text-white/90 hover:text-yellow-200"
             href="https://www.linkedin.com/in/sebdevspace/"
           >
-            <FaLinkedin
-            size={30}
-            />
+            <FaLinkedin size={30} />
           </Link>
         </div>
       </div>
