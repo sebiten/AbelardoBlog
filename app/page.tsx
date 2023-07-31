@@ -31,7 +31,7 @@ export default function Home() {
             moderna.
           </p>
           <p className="mt-4 animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
-            <span className="font-bold text-yellow-200 ">
+            <span className="font-bold text-yellow-500 ">
               ¡Gracias por leer!
             </span>
           </p>

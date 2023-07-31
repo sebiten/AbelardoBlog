@@ -50,7 +50,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <Link href="/">← Back to home</Link>
           </p>
           <p className=" animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
-            <span className="font-bold text-3xl text-yellow-200 ">
+            <span className="font-bold text-3xl text-yellow-500 ">
               ¡Gracias por leer!
             </span>
           </p>

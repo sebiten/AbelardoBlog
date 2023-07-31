@@ -31,7 +31,7 @@ export default function ListItem({ post }: Props) {
             <h3 className="text-xl font-semibold dark:text-white/90 mb-2 line-clamp-2">
               {title}
             </h3>
-            <p className="text-sm text-green-200">{formattedDate}</p>
+            <p className="text-sm text-green-700 font-bold">{formattedDate}</p>
           </div>
         </li>
       </>
