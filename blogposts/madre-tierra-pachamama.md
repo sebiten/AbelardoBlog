@@ -1,7 +1,7 @@
 ---
 title: 'La Pachamama: La Sabiduría Ancestral de la Madre Tierra y sus Rituales Sagrados'
 date: '2023-08-01'
-imageUrl: '/pacha1.webp'
+imageUrl: '/pacha1.jpg'
 categories: 'Cultura'
 ---
 
@@ -9,7 +9,7 @@ categories: 'Cultura'
 
 La **Pachamama** es una deidad de la tierra y la fertilidad venerada por las culturas andinas, como los incas, aymaras y quechuas. Se la considera la madre de toda la vida y responsable de proveer los recursos necesarios para la supervivencia humana.
 
-![Pachamama](/pacha2.jpg)
+![Pachamama](/pacha2.png)
 
 ## Ritual y Devoción
 
@@ -32,7 +32,9 @@ La Pachamama simboliza la trascendencia de la tierra y la naturaleza en las cult
 
 Los rituales en honor a la Pachamama enseñan a los humanos a respetar la tierra y utilizar sus recursos de manera sostenible. Asimismo, promueven la armonía con los animales y las plantas.
 
-![Sahumar](/pacha1.jpg)
+![Sahumar](/clarinpacha.jpg)
+
+*Imagen de portada: [Fuente](https://www.clarin.com/viajes/pachamama-celebra-dia_0_ryOAQj2EX.html)*
 
 ## Métodos Caseros para Sahumar en Honor a la Pachamama
 

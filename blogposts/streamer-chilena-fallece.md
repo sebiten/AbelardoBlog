@@ -1,6 +1,6 @@
 --- 
 title: "Trágico Accidente: Streamer Chilena Fallece, Otros Creadores de Contenido Heridos"
-date: 31-08-2023
+date: '2023-08-31'
 categories: ["Noticias"]
 imageUrl: '/maru.jpeg'
 
