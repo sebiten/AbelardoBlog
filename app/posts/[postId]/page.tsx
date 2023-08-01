@@ -50,20 +50,20 @@ export default async function Post({ params }: { params: { postId: string } }) {
         <div className="flex flex-col">
           <p>
             <Link
-              className="animate-pulse 
+              className="animate-pulse  
               animate-infinite
               animate-duration-[100ms]
-              animate-delay-[14ms]
+              animate-delay-[22ms]
               animate-ease-out
-              text-yellow-500
-              hover:text-yellow-600
+              text-yellow-600
+              hover:text-yellow-700
               dark:text-yellow-400
               dark:hover:text-yellow-500
               font-bold
               text-2xl
               mt-4
               mb-0
-              
+
                 "
               href="/"
             >
