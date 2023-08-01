@@ -35,12 +35,12 @@ export default function ListItem({ post }: Props) {
             >
               {title}
             </h3>
-            <p className="text-sm text-yellow-500 font-bold">{formattedDate}</p>
+            <p className="text-sm text-yellow-600 font-bold">{formattedDate}</p>
             <div
               className="absolute bottom-0 left-4 "
             >
               <p
-                className="text-sm text-gray-500 dark:text-white/60"
+                className="text-sm text-gray-500 font-bold dark:text-white/60"
               >{categories}</p>
             </div>
           </div>

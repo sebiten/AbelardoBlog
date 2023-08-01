@@ -49,7 +49,26 @@ export default async function Post({ params }: { params: { postId: string } }) {
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <div className="flex flex-col">
           <p>
-            <Link href="/">← Back to home</Link>
+            <Link
+              className="animate-pulse 
+              animate-infinite
+              animate-duration-[100ms]
+              animate-delay-[14ms]
+              animate-ease-out
+              text-yellow-500
+              hover:text-yellow-600
+              dark:text-yellow-400
+              dark:hover:text-yellow-500
+              font-bold
+              text-2xl
+              mt-4
+              mb-0
+              
+                "
+              href="/"
+            >
+              ← Volver al inicio
+            </Link>
           </p>
           <p className=" animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
             <span className="font-bold text-3xl text-yellow-500 ">
