@@ -1,7 +1,7 @@
 ---
 title: 'La Pachamama: La Sabiduría Ancestral de la Madre Tierra y sus Rituales Sagrados'
 date: '2023-08-01'
-imageUrl: '/agualimon.webp'
+imageUrl: '/pacha1.webp'
 categories: 'Cultura'
 ---
 
