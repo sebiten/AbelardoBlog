@@ -1,8 +1,8 @@
 ---
 title: 'Beneficios de la Exposición al Sol: Vitamina D, Estado de Ánimo y Seguridad Solar'
 date: '2023-07-30'
-imageUrl: '/sun.webp'
-categories: 'Salud'
+# imageUrl: '/sun.webp'
+# categories: 'Salud'
 ---
 
 # Los beneficios de la exposición al sol

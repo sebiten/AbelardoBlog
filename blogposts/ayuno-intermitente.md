@@ -1,8 +1,8 @@
 ---
 title: 'Desvelando los Encantos de la Magia del Ayuno Intermitente'
 date: '2023-07-30'
-imageUrl: '/autofagia.jpg'
-categories: 'Nutrición'
+# imageUrl: '/autofagia.jpg'
+# categories: 'Nutrición'
 
 ---
 

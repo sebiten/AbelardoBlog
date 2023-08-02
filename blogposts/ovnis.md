@@ -1,8 +1,8 @@
 ---
 title: 'EE. UU. y los OVNIs: Testimonios Explosivos y una Búsqueda de la Verdad'
 date: '2023-07-29'
-imageUrl: '/ovni.webp'
-categories: 'Noticias'
+# imageUrl: '/ovni.webp'
+# categories: 'Noticias'
 ---
 
 ![OVNI](/ovni.webp)

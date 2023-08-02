@@ -1,8 +1,8 @@
 ---
 title: 'Cáncer: Explorando los Avances en la Lucha contra esta Enfermedad'
 date: '2023-07-28'
-imageUrl: '/cancer.jpg'
-categories: 'Salud'
+# imageUrl: '/cancer.jpg'
+# categories: 'Salud'
 ---
 
 ## Los últimos avances en la investigación del cáncer

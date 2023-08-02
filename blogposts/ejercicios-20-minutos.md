@@ -1,8 +1,8 @@
 ---
 title: 'La Importancia del Ejercicio: Mejora tu Salud Física y Mental'
 date: '2023-07-28'
-imageUrl: '/images.jpg'
-categories: 'Salud'
+# imageUrl: '/images.jpg'
+# categories: 'Salud'
 ---
 
 # La importancia de hacer ejercicio

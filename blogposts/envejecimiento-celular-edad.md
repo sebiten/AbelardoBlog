@@ -1,8 +1,8 @@
 ---
 title: 'Envejecimiento: Como evitar perder musculo y disfrutar de una mejor calidad de vida'
 date: '2023-08-02'
-imageUrl: '/celulas.webp'
-categories: 'Salud'
+# imageUrl: '/celulas.webp'
+# categories: 'Salud'
 ---
 
 ## Manteniendo la Juventud: Cómo Prevenir el Envejecimiento y Disfrutar de una Mejor Calidad de Vida
