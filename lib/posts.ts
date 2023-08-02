@@ -1,63 +1,59 @@
-import fs from "fs";
-import path from "path";
+import * as fs from "fs";
+import * as path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
 const postsDirectory = path.join(process.cwd(), "blogposts");
 
-export function getSortedPostsData() {
-  // Get file names under /posts
+interface BlogPost {
+  id: string;
+  title: string;
+  date: string;
+  contentHtml: string;
+  imageUrl: string;
+  categories: string[];
+}
+
+export function getSortedPostsData(): BlogPost[] {
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames.map((fileName) => {
-    // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
-
-    // Read markdown file as string
     const fullPath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, "utf8");
-
-    // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
 
     const blogPost: BlogPost = {
       id,
       title: matterResult.data.title,
       date: matterResult.data.date,
+      contentHtml: "", // ContentHtml se llenará más adelante en la función getPostData
       imageUrl: matterResult.data.imageUrl || "",
       categories: matterResult.data.categories || [],
     };
 
-    // Combine the data with the id
     return blogPost;
   });
-  // Sort posts by date
-  return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
-} // que hace esta función? -> obtiene los datos de los posts y los ordena por fecha de forma descendente (del más reciente al más antiguo) y los devuelve en un array// que hace ese array que devuelve? 
 
-export async function getPostData(id: string) {
+  return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+export async function getPostData(id: string): Promise<BlogPost> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
-
-  // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
 
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
-
+  const processedContent = await remark().use(html).process(matterResult.content);
   const contentHtml = processedContent.toString();
 
-  const blogPostWithHTML: BlogPost & { contentHtml: string; imageUrl: string } =
-    {
-      id,
-      title: matterResult.data.title,
-      date: matterResult.data.date,
-      contentHtml,
-      imageUrl: matterResult.data.imageUrl || "", // Nueva línea para obtener la URL de la imagen
-      categories: matterResult.data.categories || [],
-    };
+  const blogPostWithHTML: BlogPost = {
+    id,
+    title: matterResult.data.title,
+    date: matterResult.data.date,
+    contentHtml,
+    imageUrl: matterResult.data.imageUrl || "",
+    categories: matterResult.data.categories || [],
+  };
 
-  // Combine the data with the id
   return blogPostWithHTML;
 }
