@@ -13,7 +13,7 @@ export default function ListItem({ post }: Props) {
 
   return (
     <Link
-      className="hover:scale-105 transition-all duration-200 ease-in-out relative"
+      className="hover:scale-105 gap-2 transition-all duration-200 ease-in-out relative"
       href={`/posts/${id}`}
     >
       <li className="mt-4 rounded-md shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
