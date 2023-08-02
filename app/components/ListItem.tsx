@@ -12,7 +12,7 @@ export default function ListItem({ post }: Props) {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <Link
+    <a
       className="hover:scale-105 transition-all duration-200 ease-in-out relative"
       href={`/posts/${id}`}
     >
@@ -44,6 +44,6 @@ export default function ListItem({ post }: Props) {
           </div>
         </li>
       </>
-    </Link>
+    </a>
   );
 }
