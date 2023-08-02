@@ -1,8 +1,8 @@
 ---
-title: 'La Pachamama: La Sabiduría Ancestral de la Madre Tierra y sus Rituales Sagrados'
-date: '2023-08-01'
-imageUrl: '/pacha1.jpg'
-categories: 'Cultura'
+title: "La Pachamama: La Sabiduría Ancestral de la Madre Tierra y sus Rituales Sagrados"
+date: "2023-08-01"
+imageUrl: "/pacha1.jpg"
+categories: "Cultura"
 ---
 
 # La Pachamama: La Madre Tierra
@@ -34,7 +34,7 @@ Los rituales en honor a la Pachamama enseñan a los humanos a respetar la tierra
 
 ![Sahumar](/clarinpacha.jpg)
 
-*Imagen de portada: [Fuente](https://www.clarin.com/viajes/pachamama-celebra-dia_0_ryOAQj2EX.html)*
+_Imagen de portada: [Fuente](https://www.clarin.com/viajes/pachamama-celebra-dia_0_ryOAQj2EX.html)_
 
 ## Métodos Caseros para Sahumar en Honor a la Pachamama
 
