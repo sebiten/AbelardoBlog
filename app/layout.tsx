@@ -20,11 +20,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta charSet="utf-8" />
-        <meta name="description" content={metadata.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', "G-66SJ6716WY");
+        `}
+      </Script>
       </head>
-      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
         {children}
