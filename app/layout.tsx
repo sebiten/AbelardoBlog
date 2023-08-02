@@ -24,7 +24,7 @@ export default function RootLayout({
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         ></Script>
       </head>
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
