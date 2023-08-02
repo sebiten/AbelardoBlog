@@ -18,7 +18,8 @@ export default function ListItem({ post }: Props) {
         alt={title}
         width={500}
         height={300}
-        className="object-coverh-48"
+        className="object-cover h-48
+            "
       />
       <Link
         className="hover:scale-105 transition-all duration-200 ease-in-out relative"
