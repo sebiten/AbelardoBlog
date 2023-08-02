@@ -34,7 +34,6 @@ Los rituales en honor a la Pachamama enseñan a los humanos a respetar la tierra
 
 ![Sahumar](/clarinpacha.jpg)
 
-_Imagen de portada: [Fuente](https://www.clarin.com/viajes/pachamama-celebra-dia_0_ryOAQj2EX.html)_
 
 ## Métodos Caseros para Sahumar en Honor a la Pachamama
 
