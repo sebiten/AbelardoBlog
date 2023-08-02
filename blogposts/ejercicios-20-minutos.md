@@ -1,11 +1,9 @@
 ---
 title: 'La Importancia del Ejercicio: Mejora tu Salud Física y Mental'
 date: '2023-07-28'
-# imageUrl: '/images.jpg'
-# categories: 'Salud'
+imageUrl: '/images.jpg'
+categories: 'Salud'
 ---
-
-# La importancia de hacer ejercicio
 
 El ejercicio físico es una parte esencial de una vida saludable. Tiene muchos beneficios para la salud física y mental, y puede ayudar a reducir el riesgo de muchas enfermedades crónicas.
 

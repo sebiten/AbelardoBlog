@@ -1,13 +1,12 @@
 ---
 title: 'EE. UU. y los OVNIs: Testimonios Explosivos y una Búsqueda de la Verdad'
 date: '2023-07-29'
-# imageUrl: '/ovni.webp'
-# categories: 'Noticias'
+imageUrl: '/ovni.webp'
+categories: 'Noticias'
 ---
 
 ![OVNI](/ovni.webp)
 
-**Introducción**
 
 Una sorprendente noticia ha sacudido el panorama estadounidense en los últimos días: un grupo de militares retirados se ha presentado ante el Congreso para revelar que el Gobierno de EE. UU. guarda tanto restos de OVNIs como cuerpos de extraterrestres. Estas declaraciones han generado especulaciones y debates en la opinión pública, especialmente entre los jóvenes que siguen con gran interés las noticias sobre lo desconocido. En este artículo, examinaremos los detalles de estos impactantes testimonios y las implicaciones que podrían tener para el futuro.
 

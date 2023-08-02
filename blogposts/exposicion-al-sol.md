@@ -1,11 +1,9 @@
 ---
 title: 'Beneficios de la Exposición al Sol: Vitamina D, Estado de Ánimo y Seguridad Solar'
 date: '2023-07-30'
-# imageUrl: '/sun.webp'
-# categories: 'Salud'
+imageUrl: '/sun.webp'
+categories: 'Salud'
 ---
-
-# Los beneficios de la exposición al sol
 
 La exposición al sol es esencial para la salud humana. La luz solar ayuda a nuestro cuerpo a producir vitamina D, que es importante para la salud de los huesos, el corazón y el sistema inmunológico. La luz solar también puede ayudar a mejorar el estado de ánimo y la energía.
 
