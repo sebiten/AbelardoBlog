@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
   return posts.map((post) => ({
     postId: post.id,
-  }));
+  })); // 
 }
 
 export function generateMetadata({ params }: { params: { postId: string } }) {

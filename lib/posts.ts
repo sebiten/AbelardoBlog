@@ -33,7 +33,7 @@ export function getSortedPostsData() {
   });
   // Sort posts by date
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
-}
+} // que hace esta función? -> obtiene los datos de los posts y los ordena por fecha de forma descendente (del más reciente al más antiguo) y los devuelve en un array// que hace ese array que devuelve? 
 
 export async function getPostData(id: string) {
   const fullPath = path.join(postsDirectory, `${id}.md`);
