@@ -21,9 +21,9 @@ export default function ListItem({ post }: Props) {
         className="object-cover h-48
             "
       />
-      <Link
+      <a
         className="hover:scale-105 transition-all duration-200 ease-in-out relative"
-        href={`/posts/${id}`}
+        href={`posts/${id}`}
       >
         <div className="p-4 h-32">
           <h3
@@ -40,7 +40,7 @@ export default function ListItem({ post }: Props) {
             </p>
           </div>
         </div>
-      </Link>
+      </a>
     </li>
   );
 }
