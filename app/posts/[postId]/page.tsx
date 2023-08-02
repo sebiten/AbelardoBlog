@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
   return posts.map((post) => ({
     postId: post.id,
-  })); //
+  }));
 }
 
 export function generateMetadata({ params }: { params: { postId: string } }) {
@@ -62,7 +62,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
               font-bold
               text-2xl
               mt-4
-              mb-0"
+              mb-0
+
+                "
               href="/"
             >
               ← Volver al inicio

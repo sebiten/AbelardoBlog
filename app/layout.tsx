@@ -1,5 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import MyProfilePic from "./components/MyProfilePic";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Script from "next/script";
 
@@ -19,7 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        ></Script>
       </head>
+      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
         {children}

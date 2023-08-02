@@ -9,42 +9,44 @@ type Props = {
 export default function ListItem({ post }: Props) {
   const { id, title, date, imageUrl, categories } = post;
 
-  const linkPusher = (id: string) => {
-    return `/posts/${id}`;
-  };
-
   const formattedDate = getFormattedDate(date);
 
   return (
-    <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
-      <Image
-        src={imageUrl}
-        alt={title}
-        width={500}
-        height={300}
-        className="object-cover h-48
-"
-      />
-      <a
-        className="relative"
-        href={linkPusher(id)}
-      >
-        <div className="p-4 h-32">
-          <h3
-            className="text-xl font-semibold dark:text-white/90 mb-2
+    <Link
+      className="hover:scale-105 transition-all duration-200 ease-in-out relative"
+      href={`/posts/${id}`}
+    >
+      <>
+        <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
+          {imageUrl && (
+            <Image
+              width={300}
+              height={300}
+              src={imageUrl}
+              alt="image"
+              className="w-full h-60 object-cover"
+            />
+          )}
+          <div className="p-4 h-32">
+            <h3
+              className="text-xl font-semibold dark:text-white/90 mb-2
             hover:text-yellow-500
             "
-          >
-            {title}
-          </h3>
-          <p className="text-sm text-yellow-600 font-bold">{formattedDate}</p>
-          <div className="absolute bottom-[-50px] left-4 ">
-            <p className="text-sm text-gray-500 font-bold dark:text-white/60">
-              {categories}
-            </p>
+            >
+              {title}
+            </h3>
+            <p className="text-sm text-yellow-600 font-bold">{formattedDate}</p>
+            <div
+              className="absolute bottom-0 left-4 "
+            >
+              <p
+                className="text-sm text-gray-500 font-bold dark:text-white/60"
+              >{categories}</p>
+            </div>
           </div>
-        </div>
-      </a>
-    </li>
+      
+        </li>
+      </>
+    </Link>
   );
 }
