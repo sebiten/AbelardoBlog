@@ -12,20 +12,20 @@ export default function ListItem({ post }: Props) {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <a
-      className="hover:scale-105 transition-all duration-200 ease-in-out relative"
-      href={`/posts/${id}`}
-    >
-      <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
-        <Image
-          src={imageUrl}
-          alt={title}
-          width={500}
-          height={300}
-          className="object-cover
+    <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
+      <Image
+        src={imageUrl}
+        alt={title}
+        width={500}
+        height={300}
+        className="object-cover
               h-48
             "
-        />
+      />
+      <Link
+        className="hover:scale-105 transition-all duration-200 ease-in-out relative"
+        href={`/posts/${id}`}
+      >
         <div className="p-4 h-32">
           <h3
             className="text-xl font-semibold dark:text-white/90 mb-2
@@ -41,7 +41,7 @@ export default function ListItem({ post }: Props) {
             </p>
           </div>
         </div>
-      </li>
-    </a>
+      </Link>
+    </li>
   );
 }

@@ -28,8 +28,8 @@ export function getSortedPostsData(): BlogPost[] {
       title: matterResult.data.title,
       date: matterResult.data.date,
       contentHtml: "", // ContentHtml se llenará más adelante en la función getPostData
-      imageUrl: matterResult.data.imageUrl || "",
-      categories: matterResult.data.categories || [],
+      imageUrl: matterResult.data.imageUrl,
+      categories: matterResult.data.categories
     };
 
     return blogPost;
@@ -51,8 +51,8 @@ export async function getPostData(id: string): Promise<BlogPost> {
     title: matterResult.data.title,
     date: matterResult.data.date,
     contentHtml,
-    imageUrl: matterResult.data.imageUrl || "",
-    categories: matterResult.data.categories || [],
+    imageUrl: matterResult.data.imageUrl,
+    categories: matterResult.data.categories 
   };
 
   return blogPostWithHTML;

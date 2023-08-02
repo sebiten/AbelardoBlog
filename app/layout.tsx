@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import MyProfilePic from "./components/MyProfilePic";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Script from "next/script";
