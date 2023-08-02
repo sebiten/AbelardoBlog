@@ -19,19 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-        window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', "G-66SJ6716WY");
-        `}
-      </Script>
       </head>
       <body className="dark:bg-slate-800">
         <Navbar />

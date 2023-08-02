@@ -22,7 +22,8 @@ export default function ListItem({ post }: Props) {
         alt={title}
         width={500}
         height={300}
-        className="object-cover h-48"
+        className="object-cover h-48
+"
       />
       <a
         className="relative"
