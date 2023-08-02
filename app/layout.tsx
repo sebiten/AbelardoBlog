@@ -1,6 +1,7 @@
 import './globals.css'
 import Navbar from './components/Navbar'
 import MyProfilePic from './components/MyProfilePic'
+import Footer from './components/Footer'
 
 export const metadata = {
   title: "Abelardo Blog",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <Navbar />
         <MyProfilePic />
         {children}
+      <Footer/>
       </body>
     </html>
   )
