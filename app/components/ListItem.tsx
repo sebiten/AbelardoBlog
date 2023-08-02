@@ -12,38 +12,36 @@ export default function ListItem({ post }: Props) {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <Link
+    <a
       className="hover:scale-105 transition-all duration-200 ease-in-out relative"
       href={`/posts/${id}`}
     >
-      <>
-        <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
-          <Image
-            src={imageUrl}
-            alt={title}
-            width={500}
-            height={300}
-            className="object-cover
+      <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none">
+        <Image
+          src={imageUrl}
+          alt={title}
+          width={500}
+          height={300}
+          className="object-cover
               h-48
             "
-          />
-          <div className="p-4 h-32">
-            <h3
-              className="text-xl font-semibold dark:text-white/90 mb-2
+        />
+        <div className="p-4 h-32">
+          <h3
+            className="text-xl font-semibold dark:text-white/90 mb-2
             hover:text-yellow-500
             "
-            >
-              {title}
-            </h3>
-            <p className="text-sm text-yellow-600 font-bold">{formattedDate}</p>
-            <div className="absolute bottom-0 left-4 ">
-              <p className="text-sm text-gray-500 font-bold dark:text-white/60">
-                {categories}
-              </p>
-            </div>
+          >
+            {title}
+          </h3>
+          <p className="text-sm text-yellow-600 font-bold">{formattedDate}</p>
+          <div className="absolute bottom-0 left-4 ">
+            <p className="text-sm text-gray-500 font-bold dark:text-white/60">
+              {categories}
+            </p>
           </div>
-        </li>
-      </>
-    </Link>
+        </div>
+      </li>
+    </a>
   );
 }
