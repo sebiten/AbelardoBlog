@@ -34,7 +34,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   if (!posts.find((post) => post.id === postId)) notFound();
 
-  const { title, date, contentHtml } = await getPostData(postId);
+  const { title, date, contentHtml, imageUrl, categories } = await getPostData(
+    postId
+  );
 
   const pubDate = getFormattedDate(date);
 
@@ -71,6 +73,10 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <span className="font-bold text-3xl text-yellow-500 ">
               ¡Gracias por leer!
             </span>
+          </p>
+          <p className="text-xl mt-4 mb-0">
+            <span className="font-bold text-yellow-500 ">Categoría: </span>
+            {categories}
           </p>
         </div>
       </article>

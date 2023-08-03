@@ -1,26 +1,41 @@
-import './globals.css'
-import Navbar from './components/Navbar'
-import MyProfilePic from './components/MyProfilePic'
-import Footer from './components/Footer'
+import "./globals.css";
+import Navbar from "./components/Navbar";
+import MyProfilePic from "./components/MyProfilePic";
+import Footer from "./components/Footer";
+import Script from "next/script";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export const metadata = {
   title: "Abelardo Blog",
-  description: 'Blog de Abelardo',
-}
-
+  description: "Blog de Abelardo",
+  icons: {
+    icon: "/cat.png",
+  },
+};
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src={`
+          https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}
+          `}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        ></Script>
+      </head>
+      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
         <MyProfilePic />
         {children}
-      <Footer/>
+        <Footer />
       </body>
     </html>
-  )
+  );
 }
