@@ -1,10 +1,12 @@
-import Posts from "./components/Posts"
+import Posts from "./components/Posts";
+import MyProfilePic from "./components/MyProfilePic";
 
 export default function Home() {
   return (
     <>
-      <main className=" mx-auto">
+      <div className=" mx-auto">
         <div className="mt-12 mb-6 text-xl mx-auto max-w-2xl text-center dark:text-white lg:w-3/4 xl:w-1/2">
+          <MyProfilePic />
           <p className="mt-4">
             Aquí tendrás acceso a una amplia variedad de artículos sobre salud
             moderna, tecnología, alimentación y otros temas interesantes. Mi
@@ -20,7 +22,7 @@ export default function Home() {
           </p>
         </div>
         <Posts />
-      </main>
+      </div>
     </>
-  )
+  );
 }

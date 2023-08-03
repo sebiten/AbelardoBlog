@@ -34,9 +34,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   if (!posts.find((post) => post.id === postId)) notFound();
 
-  const { title, date, contentHtml, imageUrl, categories } = await getPostData(
-    postId
-  );
+  const { title, date, contentHtml, categories } = await getPostData(postId);
 
   const pubDate = getFormattedDate(date);
 
@@ -45,15 +43,14 @@ export default async function Post({ params }: { params: { postId: string } }) {
       <h1 className="text-3xl mt-4 mb-0">{title}</h1>
       <p className="mt-0">{pubDate}</p>
       <p className="text-xl mt-4 mb-0">
-            <span className="font-bold text-yellow-500 ">Categoría: </span>
-            {categories}
-          </p>
+        <span className="font-bold text-yellow-500 ">Categoría: </span>
+        {categories}
+      </p>
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <div className="flex flex-col">
-          <>
-            <Link
-              className="animate-pulse  
+          <Link
+            className="animate-pulse  
               animate-infinite
               animate-duration-[100ms]
               animate-delay-[22ms]
@@ -66,13 +63,12 @@ export default async function Post({ params }: { params: { postId: string } }) {
               text-2xl
               mt-4
               mb-0
-
                 "
-              href="/"
-            >
-              ← Volver al inicio
-            </Link>
-          </>
+            href="/"
+          >
+            ← Volver al inicio
+          </Link>
+
           <p className=" animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
             <span className="font-bold text-3xl text-yellow-500 ">
               ¡Gracias por leer!
