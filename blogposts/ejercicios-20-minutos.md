@@ -23,6 +23,8 @@ Si no estás acostumbrado a hacer ejercicio, comienza con sesiones cortas e ir a
 
 Hay muchas formas de hacer ejercicio, así que encuentra algo que te guste y que puedas incorporar a tu rutina diaria. Puedes caminar, correr, nadar, montar en bicicleta, bailar, ir al gimnasio, o hacer cualquier otra actividad que te haga mover el cuerpo.
 
+![Ejercicio](/images.jpg)
+
 El ejercicio físico es una de las mejores cosas que puedes hacer por tu salud. Así que no te demores, comienza a moverte hoy mismo.
 
 Aquí hay algunos consejos para empezar a hacer ejercicio:

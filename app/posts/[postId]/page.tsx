@@ -41,9 +41,13 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main className="px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
+    <main className="px-6 mt-14 prose prose-xl prose-slate dark:prose-invert mx-auto">
       <h1 className="text-3xl mt-4 mb-0">{title}</h1>
       <p className="mt-0">{pubDate}</p>
+      <p className="text-xl mt-4 mb-0">
+            <span className="font-bold text-yellow-500 ">Categoría: </span>
+            {categories}
+          </p>
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <div className="flex flex-col">
@@ -73,10 +77,6 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <span className="font-bold text-3xl text-yellow-500 ">
               ¡Gracias por leer!
             </span>
-          </p>
-          <p className="text-xl mt-4 mb-0">
-            <span className="font-bold text-yellow-500 ">Categoría: </span>
-            {categories}
           </p>
         </div>
       </article>
