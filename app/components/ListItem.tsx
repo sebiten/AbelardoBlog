@@ -1,5 +1,6 @@
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
+import Image from "next/image";
 
 type Props = {
   post: BlogPost;
@@ -16,12 +17,12 @@ export default function ListItem({ post }: Props) {
     >
       <div className="blog-content">
         <h2 className="text-xl md:text-2xl font-bold dark:text-white/90 mb-2">
-          <a
+          <Link
             className="hover:underline hover:text-black/70 dark:hover:text-white"
             href={`/posts/${id}`}
           >
             {title}
-          </a>
+          </Link>
         </h2>
         <p className="text-sm md:text-base font-bold text-gray-500 dark:text-gray-400 mb-1">
           {formattedDate}
@@ -30,10 +31,10 @@ export default function ListItem({ post }: Props) {
           {categories}
         </p>
       </div>
-      <img
+      <Image
         className="rounded-md object-cover h-48 w-full"
         src={imageUrl}
-        alt=""
+        alt={title}
       />
     </Link>
   );
