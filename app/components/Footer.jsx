@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 pt-8 mt-16 pb-6">
       <div className="container mx-auto px-4">
-        <hr className="my-6 border-gray-700" />
+        <hr className="my-6 border-gray-700"/>
         <div
           className="flex justify-center text-gray-400 gap-4"
         >

@@ -35,6 +35,8 @@ export default function ListItem({ post }: Props) {
         className="rounded-md object-cover h-48 w-full"
         src={imageUrl}
         alt={title}
+        width={300}
+        height={300}
       />
     </Link>
   );

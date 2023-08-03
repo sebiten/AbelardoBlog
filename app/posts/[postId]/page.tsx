@@ -51,7 +51,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <div className="flex flex-col">
-          <p>
+          <>
             <Link
               className="animate-pulse  
               animate-infinite
@@ -72,7 +72,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             >
               ← Volver al inicio
             </Link>
-          </p>
+          </>
           <p className=" animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
             <span className="font-bold text-3xl text-yellow-500 ">
               ¡Gracias por leer!
