@@ -1,11 +1,9 @@
 ---
-title: 'Desmitificando la Sal y el Sodio: Descubre su Impacto en tu Salud'
+title: 'Desmitificando la Sal y el Sodio: Lo que Nadie te Cuenta'
 date: '2023-08-03'
 imageUrl: '/sal-comun.webp'
 categories: 'Salud'
 ---
-
-
 
 ![Representación artística de la importancia de la sal y el sodio en nuestra salud](/sal-comun.webp)
 
