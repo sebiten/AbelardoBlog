@@ -12,11 +12,11 @@ export default function ListItem({ post }: Props) {
 
   return (
     <Link
-    className="hover:scale-90 transition-all duration-200 ease-in-out relative"
+    className="hover:scale-90 relative"
     href={`/posts/${id}`}
   >
     <>
-      <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[380px] list-none ">
+      <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[400px] list-none ">
         {imageUrl && (
           <Image
             width={300}
