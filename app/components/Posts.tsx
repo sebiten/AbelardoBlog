@@ -7,8 +7,8 @@ export default function Posts() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
-        <h2 className="text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400">
+      <div className="flex flex-col justify-center items-center mt-12">
+        <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400">
           Artículos
         </h2>
         <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12 3xl:w-7/12">
@@ -31,9 +31,9 @@ export default function Posts() {
               WhatsApp.
             </Link>
           </p>
+          
         </div>
       </div>
-
       <div
         className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12
       3xl:w-7/12

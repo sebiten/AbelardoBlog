@@ -1,8 +1,7 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const links = [
-  { href: "/", text: "Explorar", target: "_self" },
-  { href: "https://sebdevspace.me/", text: "Sobre mi", target: "_blank" },
+  { href: "/", text: "Inicio", target: "_self" },
   {
     href: "/abelardo",
     text: "¿Quien es Abelardo ? ",
@@ -11,11 +10,17 @@ export const links = [
   {
     href: "https://github.com/sebiten",
     target: "_blank",
-    icon: <FaGithub size={30} />,
+    icon: <FaGithub size={22} />,
   },
   {
     href: "https://www.linkedin.com/in/sebdevspace/",
-    icon: <FaLinkedin size={30} />,
+    icon: <FaLinkedin size={22} />,
     target: "_blank",
   },
+  {
+    href: "https://www.instagram.com/abelardo.blog/",
+    icon: <FaInstagram size={22} />,
+    target: "_blank",
+
+  }
 ];

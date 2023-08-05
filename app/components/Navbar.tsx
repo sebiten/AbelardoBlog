@@ -14,12 +14,12 @@ export default function Navbar() {
             <span className="text-white font-normal">Blog</span>
           </Link>
         </div>
-        <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
+        <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-sm lg:text-5xl">
           {links.map((link, index) => (
             <Link
               key={index}
               href={link.href}
-              className="text-white no-underline text-sm uppercase m-auto hover:text-yellow-200"
+              className="text-white no-underline text-xs uppercase m-auto hover:text-yellow-200"
               target={link.target || ""}
             >
               {link.icon ? link.icon : link.text}
