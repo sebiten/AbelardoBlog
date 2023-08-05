@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { links } from "../constantes/link";
 
 export default function Navbar() {
   return (
@@ -15,31 +15,16 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
-          <Link
-            href={"/"}
-            className="text-white no-underline text-sm uppercase m-auto hover:text-yellow-200"
-          >
-            Explorar
-          </Link>
-          <Link
-            href="https://sebdevspace.me/"
-            className="text-white no-underline text-sm uppercase m-auto hover:text-yellow-200"
-            target="blank"
-          >
-            Sobre mi
-          </Link>
-          <Link
-            className="text-white/90 hover:text-yellow-200"
-            href="https://github.com/sebiten"
-          >
-            <FaGithub size={30} />
-          </Link>
-          <Link
-            className="text-white/90 hover:text-yellow-200"
-            href="https://www.linkedin.com/in/sebdevspace/"
-          >
-            <FaLinkedin size={30} />
-          </Link>
+          {links.map((link, index) => (
+            <Link
+              key={index}
+              href={link.href}
+              className="text-white no-underline text-sm uppercase m-auto hover:text-yellow-200"
+              target={link.target || ""}
+            >
+              {link.icon ? link.icon : link.text}
+            </Link>
+          ))}
         </div>
       </div>
     </nav>
