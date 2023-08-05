@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Abelardo() {
   return (
-    <div className="max-w-2xl mx-auto mt-8">
+    <div className="max-w-2xl mx-auto mt-8 px-4">
       <div className="dark:text-white">
         <h2 className="text-4xl font-bold mb-4">¿Quién es Abelardo?</h2>
         <p className="text-xl">

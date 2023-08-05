@@ -28,10 +28,16 @@ export default function Posts() {
               className="text-yellow-500 dark:text-yellow-400 underline"
               href="https://wa.link/vcbj5h"
             >
-              WhatsApp.
+              WhatsApp {""}
+            </Link>
+            o un {""}
+            <Link
+              className="text-yellow-500 dark:text-yellow-400 underline"
+              href="mailto:sebdevspace@gmail.com"
+            >
+              Correo electronico
             </Link>
           </p>
-          
         </div>
       </div>
       <div
