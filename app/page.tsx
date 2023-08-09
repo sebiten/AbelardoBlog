@@ -15,7 +15,7 @@ export default function Home() {
         </p>
       </div>
       <Posts />
-        <p className="mt-12 text-center text-3xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
+        <p className="mt-24 text-center text-3xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
           <span className="font-bold text-yellow-500 ">¡Gracias por leer!</span>
         </p>
     </div>

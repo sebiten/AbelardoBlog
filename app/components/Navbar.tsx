@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { links } from "../constantes/link";
+import { links } from "../constantes/constantes";
 
 export default function Navbar() {
   return (
