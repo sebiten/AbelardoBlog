@@ -2,7 +2,7 @@
 title: 'Agua con Limón en Ayunas: 10 Beneficios Sorprendentes para tu Salud'
 date: '2023-07-31'
 imageUrl: '/agualimon.webp'
-categories: 'Salud'
+categories: 'Nutrición'
 ---
 
 El agua con limón es una bebida que ha ganado popularidad en los últimos años debido a sus múltiples beneficios para la salud. Se cree que beber agua con limón en ayunas puede mejorar la digestión, la salud de la piel, el sistema inmunológico y el metabolismo.

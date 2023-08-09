@@ -71,17 +71,13 @@ export default function Abelardo() {
         <div className="mt-8 rounded-lg shadow-lg overflow-hidden">
           <Link
             className="animate-pulse  
-    animate-infinite
-    animate-duration-[100ms]
-    animate-delay-[22ms]
-    animate-ease-out
-    text-yellow-600
-    hover:text-yellow-700
-    dark:text-yellow-400
-    dark:hover:text-yellow-500
-    font-bold
-    text-2xl
-    mt-4"
+           animate-infinite animate-duration-[100ms]animate-delay-[22ms] animate-ease-out
+             text-yellow-600
+               hover:text-yellow-700
+                 dark:text-yellow-400
+                 dark:hover:text-yellow-500 font-bold
+               text-2xl
+            mt-4"
             href="/"
           >
             ← Volver al inicio

@@ -21,6 +21,14 @@ export const links = [
     href: "https://www.instagram.com/abelardo.blog/",
     icon: <FaInstagram size={22} />,
     target: "_blank",
+  },
+];
 
-  }
+export const filterOptions = [
+  { value: "", label: "All" },
+  { value: "Tecnologia", label: "Tecnologia" },
+  { value: "Salud", label: "Salud" },
+  { value: "Cultura", label: "Cultura" },
+  { value: "Nutricion", label: "Nutricion" },
+  { value: "Noticias", label: "Deportes" },
 ];
