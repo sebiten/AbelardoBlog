@@ -8,6 +8,11 @@ export const links = [
     target: "_self",
   },
   {
+    href: "/favorites",
+    text: "Favoritos ",
+    target: "_self",
+  },
+  {
     href: "https://github.com/sebiten",
     target: "_blank",
     icon: <FaGithub size={22} />,
@@ -22,6 +27,7 @@ export const links = [
     icon: <FaInstagram size={22} />,
     target: "_blank",
   },
+
 ];
 
 export const filterOptions = [
@@ -29,6 +35,6 @@ export const filterOptions = [
   { value: "Tecnologia", label: "Tecnologia" },
   { value: "Salud", label: "Salud" },
   { value: "Cultura", label: "Cultura" },
-  { value: "Nutricion", label: "Nutricion" },
-  { value: "Noticias", label: "Deportes" },
+  { value: "Nutrición", label: "Nutrición" },
+  { value: "Noticias", label: "Noticias" },
 ];

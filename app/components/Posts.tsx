@@ -5,6 +5,7 @@ import Link from "next/link";
 import { filterOptions } from "../constantes/constantes";
 import NoEncontrado from "./NotFound";
 import Spinner from "./Spinner";
+import Controller from "./Controller";
 
 interface BlogPost {
   id: string;
@@ -18,31 +19,34 @@ interface BlogPost {
 export default function Posts() {
   const [categoryFilter, setCategoryFilter] = useState("");
   const [posts, setPosts] = useState<BlogPost[]>([]);
-  const [isLoading, setIsLoading] = useState(true); // New state for loading
+  const [isLoading, setIsLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
   useEffect(() => {
     async function fetchPosts() {
-      setIsLoading(true); // Set loading to true when fetching
+      setIsLoading(true);
       try {
-        const response = await fetch(`/api/hello?categoryFilter=${categoryFilter}`);
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const response = await fetch(
+          `/api/hello?categoryFilter=${categoryFilter}&startIndex=${startIndex}&limit=${itemsPerPage}`
+        );
         const data = await response.json();
         setPosts(data);
       } catch (error) {
         console.error("Error fetching posts:", error);
       }
-      setIsLoading(false); // Set loading to false when fetching is done
+      setIsLoading(false);
     }
     fetchPosts();
-  }, [categoryFilter]);
+  }, [categoryFilter, currentPage]);
 
   function handleCategoryChange(event: React.ChangeEvent<HTMLSelectElement>) {
     setCategoryFilter(event.target.value);
+    setCurrentPage(1); // Reset to the first page when changing category
   }
-
-
   return (
     <>
-   
       ;
       <div className="flex flex-col justify-center items-center mt-12">
         <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400">
@@ -77,7 +81,7 @@ export default function Posts() {
           </p>
         </div>
       </div>
-        <div className=" my-8 w-7/12 mx-auto flex items-center justify-center">
+      <div className=" my-8 w-7/12 mx-auto flex items-center justify-center">
         <label
           htmlFor="categoryFilter"
           className="mr-2 text-gray-600 dark:text-gray-300"
@@ -111,25 +115,40 @@ export default function Posts() {
         </select>
       </div>
       <div>
-      {isLoading ? (
-      <div className="flex items-center justify-center mt-24">
-        {/* Use the Spinner component */}
-        <Spinner />
+        {isLoading ? (
+          <div className="flex items-center justify-center mt-24">
+            {/* Use the Spinner component */}
+            <Spinner />
+          </div>
+        ) : (
+          <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12 3xl:w-7/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            {posts && posts.length > 0
+              ? posts.map((post, index) => {
+                  const startIndex = (currentPage - 1) * itemsPerPage; // Calculate startIndex here
+                  if (
+                    index >= startIndex &&
+                    index < startIndex + itemsPerPage
+                  ) {
+                    return <ListItem key={post.id} post={post} />;
+                  }
+                  return null;
+                })
+              : null}
+          </div>
+        )}
+        {/* Here's the "NoEncontrado" message */}
+        {!isLoading && posts.length === 0 && (
+          <div className="flex items-center justify-center mt-24">
+            <NoEncontrado />
+          </div>
+        )}
       </div>
-    ) : (
-      <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12 3xl:w-7/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-        {posts && posts.length > 0 ? (
-          posts.map((post) => <ListItem key={post.id} post={post} />)
-        ) : null}
-      </div>
-    )}
-    {/* Here's the "NoEncontrado" message */}
-    {!isLoading && posts.length === 0 && (
-      <div className="flex items-center justify-center mt-24">
-        <NoEncontrado />
-      </div>
-    )}
-      </div>
+      <Controller
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+        posts={posts}
+        itemsPerPage={itemsPerPage}
+      />
     </>
   );
 }
