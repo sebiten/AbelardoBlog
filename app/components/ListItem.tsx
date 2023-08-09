@@ -62,7 +62,7 @@ export default function ListItem({ post }: Props) {
               mt-2
               mr-2
               cursor-cell
-              z-10"
+              z-0"
       >
         <Favorite
           id={id}
