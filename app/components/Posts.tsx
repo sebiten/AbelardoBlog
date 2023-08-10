@@ -12,7 +12,7 @@ interface BlogPost {
   title: string;
   date: string;
   imageUrl: string;
-  categories: string;
+  categories: string[];
   content: string;
 }
 
@@ -48,12 +48,12 @@ export default function Posts() {
   return (
     <>
       ;
-      <div className="flex flex-col justify-center items-center mt-12">
+      <div className="flex flex-col justify-center items-center ">
         <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400">
           Artículos
         </h2>
         <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12 3xl:w-7/12">
-          <p className="text-center text-gray-600 dark:text-gray-300 mt-4">
+          <p className="text-center text-gray-600 dark:text-gray-300 mt-4 p-2">
             Si deseas escribir un artículo para este blog sobre algún tema,
             estaría encantado de leerlo y publicarlo. Puedes contactarme por mi
             cuenta de{" "}
@@ -84,9 +84,9 @@ export default function Posts() {
       <div className=" my-8 w-7/12 mx-auto flex items-center justify-center">
         <label
           htmlFor="categoryFilter"
-          className="mr-2 text-gray-600 dark:text-gray-300"
+          className="text-gray-600 dark:text-gray-300 mr-2"
         >
-          Filtra por categorias
+          Filtrar por categoría:
         </label>
         <select
           id="categoryFilter"
