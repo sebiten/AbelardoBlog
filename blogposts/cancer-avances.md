@@ -1,13 +1,13 @@
 ---
 title: 'Cáncer: Explorando los Avances en la Lucha contra esta Enfermedad'
 date: '2023-07-28'
-imageUrl: '/cancer.jpg'
+imageUrl: '/cancer.webp'
 categories: 'Salud'
 ---
 
 La investigación del cáncer es un campo en constante evolución, y cada año se hacen nuevos descubrimientos. En los últimos años, se han producido avances importantes en la comprensión de los mecanismos del cáncer, lo que ha llevado a nuevos tratamientos más eficaces.
 
-![CANCER](/cancer.jpg)
+![CANCER](/cancer.webp)
 
 Estos son algunos de los últimos avances en la investigación del cáncer:
 

@@ -1,7 +1,7 @@
 ---
 title: 'Horror en Ledesma: El Inquietante Descubrimiento de un Feto en un Canal'
 date: '2023-08-09'
-imageUrl: '/ledesma-fabrica.jpg'
+imageUrl: '/ledesma-fabrica.webp'
 categories: 'Noticias'
 ---
 

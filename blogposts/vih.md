@@ -1,7 +1,7 @@
 ---
 title: 'Avances en el Tratamiento y Prevención del VIH/SIDA: Vivir una Vida Saludable con VIH'
 date: '2023-07-29'
-imageUrl: '/vih1.jpg'
+imageUrl: '/vih1.webp'
 categories: 'Salud'
 
 ---
@@ -9,7 +9,7 @@ categories: 'Salud'
 
 **El SIDA** (síndrome de inmunodeficiencia adquirida) es una enfermedad causada por el virus de la inmunodeficiencia humana (VIH). El VIH ataca el sistema inmunitario, que es responsable de proteger al cuerpo de las infecciones. Sin un tratamiento, el VIH puede progresar a SIDA, una enfermedad que puede ser mortal.
 
-![VIH1](/vih2.png)
+![VIH1](/vih2.webp)
 
 ## Los síntomas del SIDA
 
@@ -29,7 +29,7 @@ En las primeras etapas de la infección por VIH, las personas pueden no experime
 
 El diagnóstico del **SIDA** se realiza mediante una prueba de sangre. La prueba de detección del VIH es una prueba rápida que puede detectar el virus en la sangre en pocos días. La prueba de confirmación del VIH es una prueba más precisa que se utiliza para confirmar el diagnóstico.
 
-![VIH2](/vih1.jpg)
+![VIH2](/vih1.webp)
 
 ## El tratamiento del SIDA
 

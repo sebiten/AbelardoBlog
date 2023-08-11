@@ -1,7 +1,7 @@
 ---
 title: "Desvelando los Encantos de la Magia del Ayuno Intermitente"
 date: "2023-07-30"
-imageUrl: "/autofagia.jpg"
+imageUrl: "/autofagia.webp"
 categories: "Nutrición"
 ---
 
@@ -36,7 +36,7 @@ La autofagia tiene muchos beneficios para la salud, incluyendo:
 - Mejora de la función cognitiva.
 - Aumento de la longevidad.
 
-![AUTOFAGIA](/autofagia.jpg)
+![AUTOFAGIA](/autofagia.webp)
 
 ## ¿Quiénes pueden hacer el ayuno intermitente?
 

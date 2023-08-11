@@ -1,11 +1,11 @@
 ---
 title: 'Revelando la Verdad Oculta sobre el Azúcar: Lo que Nadie te Cuenta'
 date: '2023-07-28'
-imageUrl: '/sugar.jpg'
+imageUrl: '/sugar.webp'
 categories: 'Nutrición'
 ---
 
-![AZUCAR](/sugar.jpg)
+![AZUCAR](/sugar.webp)
 
 El azúcar es uno de los alimentos más consumidos en el mundo, pero también es uno de los más dañinos para nuestra salud. El consumo excesivo de azúcar puede conducir a una serie de problemas de salud, incluyendo obesidad, diabetes, enfermedades cardíacas, derrames cerebrales y cáncer.
 

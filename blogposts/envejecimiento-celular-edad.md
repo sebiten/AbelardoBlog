@@ -43,7 +43,7 @@ Para los hombres, mantener niveles saludables de testosterona puede ser benefici
 
 El uso regular del sauna puede estimular el crecimiento muscular y prevenir la pérdida de masa muscular. Además, cualquier tipo de ejercicio físico, especialmente el entrenamiento de fuerza, es efectivo para mantener la masa muscular y promover la longevidad.
 
-![Ejercicio](/images.jpg)
+![Ejercicio](/images.webp)
 
 ## Conclusión
 

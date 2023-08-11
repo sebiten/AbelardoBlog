@@ -1,11 +1,11 @@
 ---
 title: 'El veneno silencioso que nos esta matando y que consumimos todos los dias'
 date: '2023-07-31'
-imageUrl: '/criscoportada.jpg'
+imageUrl: '/criscoportadaa.webp'
 categories: 'Nutrición'
 ---
 
-![Crisco y los aceites vegetales](/crisco.jpg)
+![Crisco y los aceites vegetales](/criscos.webp)
 
 ¡Bienvenidos a otro post revelador sobre la historia oculta de los alimentos! En esta ocasión, exploraremos el impacto del consumo de aceites vegetales y cómo una marca en particular, Crisco, se convirtió en un protagonista en la vida diaria de millones de personas sin que se dieran cuenta de sus efectos nocivos para la salud.
 

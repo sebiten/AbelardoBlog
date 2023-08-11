@@ -1,12 +1,12 @@
 ---
 title: "Descubre Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad"
 date: "2023-08-07"
-imageUrl: "/postenergia.png"
+imageUrl: "/postenergia.webp"
 categories: "Salud"
 
 ---
 
-![ENERGIA](/postenergia.png)
+![ENERGIA](/postenergia.webp)
 
 # Optimizando tu Rutina para Mayor Energía y Salud
 
