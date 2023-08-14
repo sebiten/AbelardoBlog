@@ -13,6 +13,7 @@ export default function Home() {
           poco comunes, pero igualmente interesantes. Así, podrás estar bien
           informado y conocer más sobre aspectos importantes de la vida moderna.
         </p>
+     
       </div>
       <Posts />
         <p className="mt-24 text-center text-3xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">

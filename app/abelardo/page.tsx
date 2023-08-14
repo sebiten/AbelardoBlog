@@ -5,7 +5,12 @@ export default function Abelardo() {
   return (
     <div className="max-w-2xl mx-auto mt-8 px-4">
       <div className="dark:text-white">
-        <h2 className="text-4xl font-bold mb-4">Presentación de Abelardo</h2>
+      <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert my-4">
+          <span className="text-yellow-500 font-normal text-4xl -z-10">
+            <br></br>
+            Presentacion del Abelardo
+          </span>
+        </h3>
         <p className="text-xl">
           Le damos la bienvenida a este distinguido blog de{" "}
           <span className="text-center text-xl text-yellow-500 font-bold uppercase no-underline">
@@ -13,13 +18,13 @@ export default function Abelardo() {
           </span>
           , el felino más sagaz, entregado al arte del descanso y un compañero sin igual.
         </p>
-        <div className="mt-6 rounded-lg shadow-lg overflow-hidden">
+        <div className="mt-6 w-full rounded-lg shadow-lg overflow-hidden">
           <Image
             src="/abelardowebp.webp"
             alt="Abelardo"
             width={400}
             height={300}
-            className="mx-auto"
+            className="mx-auto w-full"
           />
         </div>
         <p className="mt-6 text-xl italic">

@@ -1,10 +1,36 @@
 import Link from "next/link";
-import { links } from "../constantes/constantes";
+import { FaInstagram } from "react-icons/fa";
 
+export const links = [
+  { href: "/", text: "Inicio", target: "_self" },
+  {
+    href: "/abelardo",
+    text: "¿Quien es Abelardo ? ",
+    target: "_self",
+  },
+  {
+    href: "/favorites",
+    text: "Favoritos ",
+    target: "_self",
+  },
+  // {
+  //   href: "/",
+  //   text: "Redactar Post",
+  // },
+  {
+    href: "/servicios",
+    text: "Servicios",
+  },
+  {
+    href: "https://www.instagram.com/abelardo.blog/",
+    icon: <FaInstagram size={22} />,
+    target: "_blank",
+  },
+];
 export default function Navbar() {
   return (
     <nav className="bg-gray-800 p-8 sticky top-0 drop-shadow-xl z-10">
-      <div className="prose prose-xl mx-auto flex justify-between flex-col sm:flex-row ">
+      <div className="w-full 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row ">
         <div className="text-xl font-bold text-white grid place-content-center mb-2 md:mb-0 ">
           <Link
             href="/"

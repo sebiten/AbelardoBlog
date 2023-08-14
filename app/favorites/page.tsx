@@ -39,11 +39,15 @@ const Favorites = () => {
   };
 
   return (
-    <div className="flex h-screen justify-center items-start bg-gray-100 dark:bg-gray-900">
+    <div className="flex h-screen justify-center items-start bg-gray-100 dark:bg-gray-800">
+      
       <div className="w-full max-w-3xl p-4">
-        <p className="my-10 text-center text-3xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
-          <span className="font-bold text-yellow-500 ">Tus favoritos</span>
-        </p>
+      <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert">
+          <span className="text-yellow-500 font-normal text-5xl -z-10">
+            <br></br>
+            Favoritos
+          </span>
+        </h3>
         {loading ? (
           <p>Cargando...</p>
         ) : (
@@ -61,7 +65,7 @@ const Favorites = () => {
                 No hay favoritos aún.😢
               </p>
             ) : (
-              <ul className="space-y-4">
+              <ul className="space-y-4 mt-10">
                 {favorites.map((fav: FavoriteData, index: number) => (
                   <li
                     key={index}

@@ -3,12 +3,13 @@ import Navbar from "./components/Navbar";
 import Script from "next/script";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
+import Image from "next/image";
 
 export const metadata = {
   title: "Abelardo Blog",
   description: "Blog de Abelardo",
   icons: {
-    icon: "/cat.png",
+    icon: "/cat.webp",
   },
 };
 export default function RootLayout({
@@ -28,7 +29,17 @@ export default function RootLayout({
       </head>
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
+
         <Navbar />
+        <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+          <Image
+            src="/cat.webp"
+            className="mx-auto w-auto h-auto mt-4"
+            alt="abelardo-blog"
+            height={500}
+            width={300}
+          />
+        </div>
         {children}
         <Footer />
       </body>
