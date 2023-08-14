@@ -14,7 +14,7 @@ export default function Footer() {
               className="text-center text-yellow-500 font-bold uppercase no-underline"
             >
               <Image
-                src="/cat.png"
+                src="/cat.webp"
                 alt="Abelardo"
                 width={50}
                 height={300}
