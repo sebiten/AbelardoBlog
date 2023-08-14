@@ -31,7 +31,7 @@ export const links = [
 ];
 
 export const filterOptions = [
-  { value: "", label: "All" },
+  { value: "", label: "Todos" },
   { value: "Tecnologia", label: "Tecnologia" },
   { value: "Salud", label: "Salud" },
   { value: "Cultura", label: "Cultura" },

@@ -53,7 +53,7 @@ export default function Posts() {
           Artículos
         </h2>
         <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12 3xl:w-7/12">
-          <p className="text-center text-gray-600 dark:text-gray-300 mt-4 p-2">
+          {/* <p className="text-center w-1/2 mx-auto text-gray-600 dark:text-gray-300 mt-0 p-2">
             Si deseas escribir un artículo para este blog sobre algún tema,
             estaría encantado de leerlo y publicarlo. Puedes contactarme por mi
             cuenta de{" "}
@@ -78,15 +78,15 @@ export default function Posts() {
             >
               Correo electrónico
             </Link>
-          </p>
+          </p> */}
         </div>
       </div>
-      <div className=" my-8 w-7/12 mx-auto flex items-center justify-center">
+      <div className=" my-2 w-7/12 mx-auto flex items-center justify-center">
         <label
           htmlFor="categoryFilter"
           className="text-gray-600 dark:text-gray-300 mr-2"
         >
-          Filtrar por categoría:
+          Categoría:
         </label>
         <select
           id="categoryFilter"
@@ -121,7 +121,7 @@ export default function Posts() {
             <Spinner />
           </div>
         ) : (
-          <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-7/12 3xl:w-7/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+          <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-6/12 3xl:w-6/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             {posts && posts.length > 0
               ? posts.map((post, index) => {
                   const startIndex = (currentPage - 1) * itemsPerPage; // Calculate startIndex here
