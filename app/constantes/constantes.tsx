@@ -19,6 +19,10 @@ export const filterOptions = [
   { value: "Cultura", label: "Cultura" },
   { value: "Nutrición", label: "Nutrición" },
   { value: "Noticias", label: "Noticias" },
+  // { value: "Deportes", label: "Deportes" },
+  { value: "Política", label: "Política" },
+  { value: "Economia", label: "Economia" },
+
 ];
 
 export const demostraciones = [
@@ -47,7 +51,7 @@ export const services = [
   {
     icon: FaCode,
     color: "text-green-500",
-    title: "Desarrollo Front-End",
+    title: "Desarrollo web a medida",
     description:
       "Diseño Funcional y Creativo: Sitios web atractivos y funcionales que cumplen objetivos, profesionales (abogados, escribanos, etc.) como también empresariales.",
   },

@@ -1,11 +1,11 @@
 ---
 title: Resultados de las Elecciones PASO en Argentina y el Surgimiento de Javier Milei
 date: "2023-08-14"
-categories: Política
+categories: "Política"
 imageUrl: '/resultados.jpg'
 ---
 
-# Resultados de las Elecciones PASO en Argentina y el Surgimiento de Javier Milei
+<!-- # Resultados de las Elecciones PASO en Argentina y el Surgimiento de Javier Milei -->
 
 ![Elecciones en Argentina](/resultados.jpg)
 
