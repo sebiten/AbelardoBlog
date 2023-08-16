@@ -19,6 +19,8 @@ La **radiación ultravioleta**, ya sea proveniente del sol o de camas solares, p
 
 El **equilibrio hormonal** juega un papel crucial en la producción de colágeno. Tanto niveles bajos como altos de hormonas, como el *estrógeno* y la *testosterona*, pueden tener un impacto negativo en la síntesis de colágeno. Este desequilibrio hormonal puede resultar en una disminución de la producción de colágeno en la piel y otros tejidos, lo que a su vez contribuye al envejecimiento prematuro y la pérdida de elasticidad.
 
+![HORMONAS](/envejecimiento.webp)
+
 ## **Nutrición y Síntesis de Colágeno**
 
 La **síntesis de colágeno** requiere una combinación de nutrientes esenciales, incluyendo proteínas, vitaminas y minerales. Una dieta equilibrada y rica en nutrientes esenciales, como las vitaminas **A, B1, B2, B6, C y K**, así como minerales como *cromo, cobre, manganeso y zinc*, es fundamental para respaldar la producción y mantenimiento de colágeno en nuestro cuerpo.
