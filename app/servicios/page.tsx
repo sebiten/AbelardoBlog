@@ -91,6 +91,7 @@ const ServicesPage: React.FC = () => {
             my-4
             "
             key={index}
+            target="_blank"
           >
             <h3 className="my-2 text-center text-lg font-semibold">
               {demostracion.title}
