@@ -1,8 +1,8 @@
 ---
 title: "Cómo Potenciar la Capacidad Cognitiva de Tu Cerebro de Forma Natural"
 date: "2023-08-18"
-imageUrl: "URL_DE_LA_IMAGEN"
-categories: "Salud Mental, Productividad"
+imageUrl: "/droga-cerebro.webp"
+categories: "Salud, Productividad"
 ---
 
 ![Imagen relacionada](/droga-cerebro.webp)
