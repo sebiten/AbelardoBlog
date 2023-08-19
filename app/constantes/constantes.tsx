@@ -19,7 +19,7 @@ export const filterOptions = [
   { value: "Cultura", label: "Cultura" },
   { value: "Nutrición", label: "Nutrición" },
   { value: "Noticias", label: "Noticias" },
-  // { value: "Deportes", label: "Deportes" },
+  { value: "Deportes", label: "Deportes" },
   { value: "Política", label: "Política" },
   { value: "Economia", label: "Economia" },
 
