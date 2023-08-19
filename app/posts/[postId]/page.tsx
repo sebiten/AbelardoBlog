@@ -40,7 +40,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   return (
     <main className="mt-14 w-9/12 flex gap-4 mx-auto " >
-      <div className=" mr-2 flex flex-col w-full prose-a:dark:text-white prose-strong:dark:text-white prose-strong:font-black prose-headings:dark:text-white  mx-auto prose prose-headings:font-bold prose-headings:text-3xl prose-headings:my-4 dark:text-white text-gray-800">
+      <div className=" mr-2 flex flex-col w-full prose-a:dark:text-white prose-strong:dark:text-white prose-strong:font-bold prose-headings:dark:text-white  mx-auto prose prose-headings:font-bold prose-headings:text-3xl prose-headings:my-4 dark:text-white text-gray-800">
         <h1 className="text-3xl mt-4 mb-0 ">{title}</h1>
         <p className="mt-0">{pubDate}</p>
         <p className="text-xl mt-4 mb-0">
