@@ -21,7 +21,7 @@ La dopamina no solo influye en la motivación, sino también en nuestra conducta
 
 Entonces, ¿cómo podemos aumentar naturalmente nuestros niveles de dopamina? Una estrategia es realizar un "**ayuno de dopamina**", que implica evitar sustancias o situaciones que aumenten artificialmente los niveles de dopamina en el cerebro. Esto incluye evitar actividades como juegos de video, redes sociales, entretenimiento digital excesivo y el consumo de ciertos alimentos.
 
-## Ayno de dopamina: La solución.
+## Ayuno de dopamina: La solución.
 
 Realizar un ayuno de dopamina durante unos días puede permitir que tu cerebro se reequilibre. Puedes aprovechar este tiempo para enfocarte en actividades productivas y reales, y redirigir tu motivación interna hacia objetivos importantes en lugar de depender de estímulos artificiales.
 
