@@ -1,13 +1,13 @@
 ---
-title: "La Dopamina: Cómo Vencer la Procrastinación y Potenciar la Motivación"
+title: "La Dopamina y la motivación: Cómo Vencer la Procrastinación y Potenciar la productividad en tu vida"
 date: "2023-08-21"
-imageUrl: "/dopamina.webp"
+imageUrl: "/dopamina-y-la-motivacion.webp"
 categories: "Salud, Motivación"
 ---
 
-![Dopamina](/dopamina.webp)
+![Dopamina](/dopamina-y-la-motivacion.webp)
 
-# Descifrando los Misterios de la Dopamina y su Impacto en la Motivación y el Cerebro
+# Descifrando los Misterios de la Dopamina y la Motivación en el cerebro
 
 La búsqueda de la motivación es una constante en nuestras vidas, y ¿qué sería de nosotros sin una recompensa cerebral por nuestros esfuerzos? La **dopamina**, un **neurotransmisor** asombroso que habita en nuestro cerebro, cumple este papel de forma magistral. Estas moléculas son las **intrincadas mensajeras que las neuronas emplean para comunicarse**. Si los **neurotransmisores no funcionan de manera eficaz**, **nuestro cerebro también se resiente**. No solo son pilares de la **memoria**, sino que también gobiernan nuestro **estado de ánimo** y nuestras **capacidades motrices**.
 
@@ -23,7 +23,7 @@ Los efectos de la **dopamina** no solo se limitan a la motivación; también inc
 
 Adoptar un **ayuno de dopamina** durante unos días puede permitir que el cerebro recupere su equilibrio. Esta ventana de tiempo se puede aprovechar para **enfocarnos en actividades reales y productivas**, redirigiendo nuestra motivación interna hacia **metas importantes en lugar de depender de estímulos artificiales**.
 
-***Para llevar a cabo el ayuno de dopamina, podríamos empezar con acciones sencillas como organizar la cama y el entorno personal al despertar, seguido de las tareas diarias**. Esta secuencia intensificará la liberación de dopamina de manera significativa en comparación con dejar las responsabilidades pendientes. Además, este proceso generará una satisfacción más profunda y auténtica, contribuyendo a un éxtasis personal al lograr la finalización de las tareas*.
+**\*Para llevar a cabo el ayuno de dopamina, podríamos empezar con acciones sencillas como organizar la cama y el entorno personal al despertar, seguido de las tareas diarias**. Esta secuencia intensificará la liberación de dopamina de manera significativa en comparación con dejar las responsabilidades pendientes. Además, este proceso generará una satisfacción más profunda y auténtica, contribuyendo a un éxtasis personal al lograr la finalización de las tareas\*.
 
 **Enfocarse en lo crucial en la vida es un aspecto fundamental para experimentar una existencia plena y gratificante**. Al **eliminar las distracciones y adicciones**, ganamos tiempo para invertir en **actividades de verdadera importancia**. Además, mantener **niveles óptimos de neurotransmisores**, como la dopamina, es esencial para alcanzar un **rendimiento cognitivo sobresaliente** y disfrutar de cada día.
 
@@ -34,6 +34,6 @@ Si no es viable un **ayuno completo de dopamina**, existen formas de **acelerar 
 En conclusión, la **dopamina ejerce un papel central en la motivación y el bienestar**. Adoptar un enfoque consciente para mantener un **equilibrio adecuado de dopamina** puede ayudarnos a alcanzar nuestras metas, incrementar nuestra motivación y estar dispuestos a **sacrificarnos con tal de concretar nuestros sueños**.
 
 ## Fuentes e Imágenes
+
 - [Dopamina](https://www.upb.edu.co/es/imagenes/img-diferenciaplacerbienestar-blg-1464210260228.jpg)
 - [Placer](https://cdn0.psicologia-online.com/es/posts/6/5/3/que_es_la_dopamina_definicion_y_funciones_4356_orig.jpg)
-

@@ -21,7 +21,7 @@ La escalada en los precios generó un revuelo considerable, llevando al equipo e
 
 ## Perspectivas y Desafíos
 
-El incremento de precios plantea desafíos significativos para el gobierno y la economía en su conjunto. La depreciación de la moneda ha generado una inflación que supera el 20% en los primeros ocho meses del año, lo que lleva a cuestionar si los precios de los combustibles lograrán mantenerse en sintonía con la inflación oficial. Además, la estrategia de "Precios Justos" se ve amenazada, y la coordinación con las principales compañías del sector se vuelve crucial para evitar un impacto negativo en la estabilidad económica.
+El aumento de precios de combustible plantea desafíos significativos para el gobierno y la economía en su conjunto. La depreciación de la moneda ha generado una inflación que supera el 20% en los primeros ocho meses del año, lo que lleva a cuestionar si los precios de los combustibles lograrán mantenerse en sintonía con la inflación oficial. Además, la estrategia de "Precios Justos" se ve amenazada, y la coordinación con las principales compañías del sector se vuelve crucial para evitar un impacto negativo en la estabilidad económica.
 
 ## Comparación Internacional
 

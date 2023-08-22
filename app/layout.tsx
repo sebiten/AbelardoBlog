@@ -7,9 +7,9 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Abelardo Blog",
-  description: "Blog de Abelardo",
+  description: "Abelardo-blog",
   icons: {
-    icon: "/cat.png",
+    icon: "/abelardo-blog.png",
   },
 };
 export default function RootLayout({
@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-      <Script
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <Script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}`}
           crossOrigin="anonymous"
@@ -29,11 +31,10 @@ export default function RootLayout({
       </head>
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
-
         <Navbar />
         <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
           <Image
-            src="/cat.png"
+            src="/abelardo-blog.png"
             className="mx-auto w-auto h-auto mt-4"
             alt="abelardo-blog"
             height={500}

@@ -1,7 +1,7 @@
 ---
 title: "Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad"
 date: "2023-08-03"
-imageUrl: "/varabilidad.webp"
+imageUrl: "/estres-fisico-y-mental.webp"
 categories: "Salud"
 ---
 
@@ -11,7 +11,7 @@ En el mundo acelerado y demandante en el que vivimos, mantener una buena **salud
 
 Imagina contar con una **métrica** que te permita **predecir** cuándo tienes más riesgo de enfermarte, para que puedas tomar medidas preventivas y mantener el control de tu salud. Esta métrica existe y se llama "**variabilidad de la frecuencia cardíaca**." Es una medida que revela cómo tu cuerpo responde al estrés físico y mental y puede ofrecerte información valiosa sobre el estado de tu **sistema nervioso** y tu **sistema inmunológico**.
 
-![Variabilidad de la Frecuencia Cardíaca](/varabilidad.webp)
+![Variabilidad de la Frecuencia Cardíaca](/estres-fisico-y-mental.webp)
 
 [Enlace a la Fuente](https://www.whoop.com/thelocker/heart-rate-variability-hrv/)
 

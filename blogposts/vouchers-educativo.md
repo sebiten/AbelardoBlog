@@ -1,5 +1,5 @@
 ---
-title: "Revolucionando la Educación a través de Vouchers: Empoderando Elecciones y Desbloqueando Potencial"
+title: "Revolucionando la Educación a través de Voucher educativo: Lo que necesitas saber"
 date: "2023-08-22"
 imageUrl: "/voucher-educativo.webp"
 categories: "Economia, Educación"
@@ -7,7 +7,7 @@ categories: "Economia, Educación"
 
 ![VOUCHERS-EDUCATIVOS](/aula.webp)
 
-# Maximizando el Potencial Educativo: Explorando a Fondo los Vouchers en la Educación
+# Explorando el Potencial del Voucher educativo
 
 ## Introducción
 

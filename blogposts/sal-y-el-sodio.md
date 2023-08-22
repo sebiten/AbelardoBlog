@@ -1,15 +1,15 @@
 ---
 title: 'Desmitificando la Sal y el Sodio: Lo que Nadie te Cuenta'
 date: '2023-08-03'
-imageUrl: '/sal-comun.webp'
+imageUrl: '/sal-y-sodio.webp'
 categories: 'Nutrición'
 ---
 
 ![Representación artística de la importancia de la sal y el sodio en nuestra salud](/sal-comun.webp)
 
-# Explorando el Valor del Sodio en Nuestra Salud: Más Allá de los Mitos
+# Explorando el Valor de la Sal y el Sodio en Nuestra Salud: Más Allá de los Mitos
 
-En un mundo donde la sal ha sido vilipendiada y señalada como una fuente de malestar, es crucial ahondar en la verdadera naturaleza del sodio y su papel esencial en nuestro bienestar. Este artículo se aventura más allá de las superficiales advertencias, para desentrañar por qué el sodio es un elemento fundamental para el funcionamiento eficiente de nuestro cuerpo, desde la sinapsis neuronal hasta la densidad ósea. Acompáñanos en este viaje por la ciencia detrás de la sal y su impacto real en una dieta saludable.
+En un mundo donde la sal ha sido vilipendiada y señalada como una fuente de malestar, es crucial ahondar en la verdadera naturaleza del sodio y su papel esencial en nuestro bienestar. Este artículo se aventura más allá de las superficiales advertencias, para desentrañar por qué la sal y el sodio son un elemento fundamental para el funcionamiento eficiente de nuestro cuerpo, desde la sinapsis neuronal hasta la densidad ósea. Acompáñanos en este viaje por la ciencia detrás de la sal y su impacto real en una dieta saludable.
 
 ## La Histórica Significancia del Sodio
 

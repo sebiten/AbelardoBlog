@@ -1,11 +1,11 @@
 ---
 title: 'Beneficios de la Exposición al Sol: Vitamina D, Estado de Ánimo y Seguridad Solar'
 date: '2023-07-30'
-imageUrl: '/sun.webp'
+imageUrl: '/exposicion-al-sol.webp'
 categories: 'Salud'
 ---
 
-# Irradiando Vitalidad: La Luminosa Importancia de la Exposición Solar en Nuestra Salud
+# Irradiando Vitalidad: La Gran Importancia de la Exposición al Sol en Nuestra Salud
 
 No hay duda de que el sol es el motor de la vida en nuestro planeta, y su luz va más allá de simplemente iluminar nuestro camino. La exposición al sol emerge como un elemento esencial para el florecimiento de nuestra salud humana, desencadenando una serie de procesos vitales en nuestro cuerpo que van mucho más allá de broncear nuestra piel.
 

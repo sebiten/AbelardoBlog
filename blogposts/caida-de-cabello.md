@@ -1,5 +1,5 @@
 ---
-title: "Cabello Fuerte y Saludable: Descubre Cómo Combatir la Caída y Recuperar tu Confianza"
+title: "Cabello Fuerte y Saludable: Descubre Cómo Combatir la Caída de cabello y Recuperar tu Confianza"
 date: "2023-08-15"
 imageUrl: "/caida.webp"
 categories: "Salud"

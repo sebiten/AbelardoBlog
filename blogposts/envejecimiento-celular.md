@@ -1,15 +1,15 @@
 ---
-title: 'Envejecimiento: Como evitar perder musculo y disfrutar de una mejor calidad de vida'
+title: 'Envejecimiento Celular: Como evitar perder musculo y disfrutar de una mejor calidad de vida'
 date: '2023-08-02'
-imageUrl: '/celulas.webp'
+imageUrl: '/envejecimiento-celular.webp'
 categories: 'Salud'
 ---
 
-# Descifrando los Enigmas del Envejecimiento: Claves para una Vida Duradera y Vital
+# Descifrando los Enigmas del Envejecimiento Celular: Claves para una Vida Duradera y Vital
 
 El envejecimiento, una travesía compleja y fascinante, reverbera en cada rincón de nuestras células. Aunque sus orígenes son multifacéticos, los científicos desvelan gradualmente sus engranajes, iluminando el sendero hacia la perpetua juventud y vitalidad.
 
-![Envejecimiento](/celulas.webp)
+![Envejecimiento](/envejecimiento-celular.webp)
 
 ## Tejidos en Transformación: Desechos Celulares y Mutaciones Genéticas
 

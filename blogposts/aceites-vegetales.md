@@ -1,5 +1,5 @@
 ---
-title: 'El veneno silencioso que nos esta matando y que consumimos todos los dias'
+title: 'El veneno silencioso que nos esta matando: Aceites vegetales'
 date: '2023-07-31'
 imageUrl: '/criscoportadaa.webp'
 categories: 'Nutrición'

@@ -14,8 +14,8 @@ export default function Footer() {
               className="text-center text-yellow-500 font-bold uppercase no-underline"
             >
               <Image
-                src="/cat.png"
-                alt="Abelardo"
+                src="/abelardo-blog.png"
+                alt="Abelardo-blog"
                 width={50}
                 height={300}
                 className=""

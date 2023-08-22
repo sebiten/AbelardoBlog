@@ -1,12 +1,12 @@
 ---
 title: 'Los efectos Devastadores de la Falta de Sueño: Descubre la Importancia de Descansar Bien'
 date: '2023-08-05'
-imageUrl: '/sueño.webp'
+imageUrl: '/importancia-de-descansar-bien.webp'
 categories: 'Salud'
 ---
-![SUEÑO](/sueño.webp)
+![SUEÑO](/importancia-de-descansar-bien.webp)
 
-**Potenciando la Significancia del Sueño y Explorando las Ramificaciones de su Privación**
+**Potenciando la Significancia del Sueño y la Importancia de Descansar Bien**
 
 Desde mi formación inicial, tuve la noción arraigada de que el sueño abarcaría una tercera parte de mi vida, y no se trataría de una fracción cualquiera, sino del segmento más rico en experiencias, donde desencadenarían todas las situaciones más cautivadoras. No obstante, combinar esta noción con el impulso hiperproductivo y motivacional imperante en la actualidad, que considera el descanso como una inversión de tiempo poco provechosa, engendra una fusión verdaderamente perjudicial. **A pesar de que muchos sostienen que pueden aumentar su productividad reduciendo sus horas de sueño o sacrificando descanso en favor del trabajo, esta creencia ha sido desacreditada de manera reiterada.**
 
