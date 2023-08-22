@@ -9,7 +9,7 @@ export const metadata = {
   title: "Abelardo Blog",
   description: "Blog de Abelardo",
   icons: {
-    icon: "/cat.webp",
+    icon: "/cat.png",
   },
 };
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
         <Navbar />
         <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
           <Image
-            src="/cat.webp"
+            src="/cat.png"
             className="mx-auto w-auto h-auto mt-4"
             alt="abelardo-blog"
             height={500}
