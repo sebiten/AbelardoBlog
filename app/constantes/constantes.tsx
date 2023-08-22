@@ -10,8 +10,6 @@ import {
 import { BiTimer } from "react-icons/bi";
 import { TbTruckDelivery } from "react-icons/tb";
 
-
-
 export const filterOptions = [
   { value: "", label: "Todos" },
   { value: "Tecnologia", label: "Tecnologia" },
@@ -20,32 +18,32 @@ export const filterOptions = [
   { value: "Nutrición", label: "Nutrición" },
   { value: "Noticias", label: "Noticias" },
   { value: "Deportes", label: "Deportes" },
-  { value: "Política", label: "Política" },
   { value: "Economia", label: "Economia" },
-
 ];
 
 export const demostraciones = [
   {
     title: "Gimnasios y entrenamiento",
-    description: "Este ejemplo ofrece páginas web diseñadas específicamente para gimnasios y centros de entrenamiento. Presenta un diseño dinámico y moderno que resalta los servicios ofrecidos, horarios de clases y testimonios de los usuarios. La imagen de fondo evoca una sensación de energía y vitalidad, capturando la esencia del mundo del fitness.",
+    description:
+      "Este ejemplo ofrece páginas web diseñadas específicamente para gimnasios y centros de entrenamiento. Presenta un diseño dinámico y moderno que resalta los servicios ofrecidos, horarios de clases y testimonios de los usuarios. La imagen de fondo evoca una sensación de energía y vitalidad, capturando la esencia del mundo del fitness.",
     image: "/gym.png",
     link: "https://famous-centaur-3fe604.netlify.app/",
   },
   {
     title: "Restaurantes, bares y cafeterías",
-    description: "Esta demostración se centra en el diseño web para restaurantes y bares, exhibiendo de manera atractiva las delicias culinarias y bebidas. El diseño incluye imágenes apetitosas, menús interactivos y una disposición elegante que refleja la experiencia gastronómica. Los colores y el estilo visual se adaptan para realzar la experiencia del usuario.",
+    description:
+      "Esta demostración se centra en el diseño web para restaurantes y bares, exhibiendo de manera atractiva las delicias culinarias y bebidas. El diseño incluye imágenes apetitosas, menús interactivos y una disposición elegante que refleja la experiencia gastronómica. Los colores y el estilo visual se adaptan para realzar la experiencia del usuario.",
     image: "/food.png",
     link: "https://dancing-sherbet-b9a756.netlify.app",
   },
   {
     title: "Profesionales independientes",
-    description: "Diseñado para profesionales independientes como abogados, escribanos y diseñadores, este ejemplo destaca cómo crear una presencia en línea sólida. El diseño limpio y moderno comunica profesionalismo y confianza, mientras que las secciones dedicadas a los servicios, el portafolio y los detalles de contacto facilitan a los visitantes la búsqueda y comunicación con el profesional.",
+    description:
+      "Diseñado para profesionales independientes como abogados, escribanos y diseñadores, este ejemplo destaca cómo crear una presencia en línea sólida. El diseño limpio y moderno comunica profesionalismo y confianza, mientras que las secciones dedicadas a los servicios, el portafolio y los detalles de contacto facilitan a los visitantes la búsqueda y comunicación con el profesional.",
     image: "/portfolio.png",
     link: "https://sebdevspace.me/",
   },
 ];
-
 
 export const services = [
   {

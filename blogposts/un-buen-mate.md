@@ -28,8 +28,6 @@ El mate es una bebida tradicional de Argentina, Uruguay, Paraguay y Brasil. Se p
 
 **La temperatura del agua debe ser de entre 70 y 80 grados centígrados**. Si el agua está demasiado caliente, la yerba mate se quemará y el mate tendrá un sabor amargo. Si el agua está demasiado fría, el mate no tendrá sabor. Por lo general es aqui donde la mayoria de la gente se equivoca, en caso de que el agua este hirviendo, se debe esperar unos minutos para que se enfrie un poco o agregarle un poco de agua fria.
 
-![Preparación de Mate](/mate.webp)
-
 ### Otro punto importante a la hora de preparar un mate ###
 
 Es importante **quitar el exceso de polvo** de la yerba mate antes de preparar el mate. El polvo puede obstruir la bombilla y hacer que el mate sea difícil de tomar, además de que puede ser dañino para la salud.

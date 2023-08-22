@@ -36,6 +36,5 @@ Si no tienes tiempo para un ayuno completo de dopamina, existen formas de aceler
 En conclusión, la dopamina desempeña un papel central en nuestra motivación y bienestar. Un enfoque consciente en mantener un equilibrio adecuado de dopamina puede ayudarnos a alcanzar nuestros objetivos, tener más motivación y estar dispuestos a sacrificar más para lograr nuestros sueños.
 
 ## Fuente e imagenes
-- [Video de Dr.La Rosa](https://www.youtube.com/watch?v=d9EOO-qhC-g)
 - [Dopamina](https://www.upb.edu.co/es/imagenes/img-diferenciaplacerbienestar-blg-1464210260228.jpg)
 - [Placer](https://cdn0.psicologia-online.com/es/posts/6/5/3/que_es_la_dopamina_definicion_y_funciones_4356_orig.jpg)
