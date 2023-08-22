@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 
 export const links = [
-  { href: "/", text: "Inicio", target: "_self" },
+  { href: "/", text: "Inicio", target: "_parent" },
   {
     href: "/abelardo",
     text: "¿Quien es Abelardo ? ",
@@ -33,6 +33,7 @@ export default function Navbar() {
       <div className="w-full 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row ">
         <div className="text-xl font-bold text-white grid place-content-center mb-2 md:mb-0 ">
           <Link
+            target="_parent"
             href="/"
             className="text-center text-yellow-500 font-bold uppercase no-underline"
           >

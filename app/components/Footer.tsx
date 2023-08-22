@@ -10,6 +10,7 @@ export default function Footer() {
         <div className="text-white flex justify-center gap-4">
           <div className="flex flex-col justify-center items-center gap-2 ">
             <Link
+              target="_parent"
               href="/"
               className="text-center text-yellow-500 font-bold uppercase no-underline"
             >
