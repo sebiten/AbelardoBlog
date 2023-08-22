@@ -30,14 +30,14 @@ export default function Footer() {
             </Link>
             <div className=" flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
               <Link
-                href="https://github.com/tu_usuario"
+                href="https://github.com/sebiten"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithubAlt className="text-xl text-gray-500 hover:text-gray-400" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/tu_perfil/"
+                href="https://www.linkedin.com/in/sebdevspace/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
