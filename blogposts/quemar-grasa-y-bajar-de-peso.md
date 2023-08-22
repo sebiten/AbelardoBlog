@@ -5,7 +5,7 @@ imageUrl: "/grasa-abdomen.webp"
 categories: "Nutrición, Salud"
 ---
 
-![Grasa Abdominal](/grasa-abdomen.webp)
+![Quemar grasa y bajar de peso](/grasa-abdomen.webp)
 
 ## Desbloqueando los Secretos del Ayuno Intermitente para quemar grasa y bajar de peso
 

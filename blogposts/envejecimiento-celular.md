@@ -9,7 +9,7 @@ categories: 'Salud'
 
 El envejecimiento, una travesía compleja y fascinante, reverbera en cada rincón de nuestras células. Aunque sus orígenes son multifacéticos, los científicos desvelan gradualmente sus engranajes, iluminando el sendero hacia la perpetua juventud y vitalidad.
 
-![Envejecimiento](/envejecimiento-celular.webp)
+![envejecimiento-celular](/envejecimiento-celular.webp)
 
 ## Tejidos en Transformación: Desechos Celulares y Mutaciones Genéticas
 

@@ -4,7 +4,7 @@ date: '2023-08-05'
 imageUrl: '/importancia-de-descansar-bien.webp'
 categories: 'Salud'
 ---
-![SUEÑO](/importancia-de-descansar-bien.webp)
+![importancia-de-descansar-bien](/importancia-de-descansar-bien.webp)
 
 **Potenciando la Significancia del Sueño y la Importancia de Descansar Bien**
 

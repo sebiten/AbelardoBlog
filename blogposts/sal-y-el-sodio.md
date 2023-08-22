@@ -1,11 +1,11 @@
 ---
 title: 'Desmitificando la Sal y el Sodio: Lo que Nadie te Cuenta'
 date: '2023-08-03'
-imageUrl: '/sal-y-sodio.webp'
+imageUrl: '/sal-y-el-sodio.webp'
 categories: 'Nutrición'
 ---
 
-![Representación artística de la importancia de la sal y el sodio en nuestra salud](/sal-comun.webp)
+![sal-y-el-sodio](/sal-comun.webp)
 
 # Explorando el Valor de la Sal y el Sodio en Nuestra Salud: Más Allá de los Mitos
 
@@ -37,7 +37,7 @@ Si bien las pautas nutricionales actuales promueven un consumo moderado de sodio
 2. **Sal Rosa del Himalaya:** Abundante en minerales y considerada menos procesada que la sal de mesa convencional.
 3. **Mezclas Herbales de Sal:** Fusiones de sal con hierbas secas para realzar el sabor sin incrementar significativamente el contenido de sodio.
 
-![Sales de mar y sal rosa del Himalaya](/sales-bien.webp)
+![Sales](/sales-bien.webp)
 
 ## En Conclusión
 

@@ -6,7 +6,7 @@ categories: "Salud"
 
 ---
 
-![ENERGIA](/energía-y-vitalidad.webp)
+![energía-y-vitalidad](/energía-y-vitalidad.webp)
 
 # **Maestría en Energía y Vitalidad: Reforzando tu Rutina para una Vida Saludable**
 

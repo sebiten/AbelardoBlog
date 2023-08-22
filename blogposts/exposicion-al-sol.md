@@ -15,6 +15,8 @@ La radiante estrella en el centro de nuestro sistema solar no solo nos brinda lu
 
 La Organización Mundial de la Salud (OMS) establece que la vitamina D desempeña una partitura vibrante en la salud ósea y muscular, además de componer melodías de inmunidad, salud cardiovascular y prevención del cáncer. Un nutriente tan poderoso no debería pasar desapercibido: la OMS recomienda una dosis diaria de al menos 10 microgramos (mcg) de vitamina D para adultos entre 19 y 70 años.
 
+![exposicion-al-sol](/exposicion-al-sol.webp)
+
 Sin embargo, la vitamina D no se encuentra en un estante de la tienda, sino en el resplandor de la luz solar. Sumergirse en sus rayos es la forma más natural y efectiva de absorber este nutriente vital. No obstante, abrazar al sol con cautela es esencial para evitar las quemaduras solares que pueden eclipsar sus beneficios.
 
 ## Luminosidad en el Ánimo y Energía

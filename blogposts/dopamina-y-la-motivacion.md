@@ -5,7 +5,7 @@ imageUrl: "/dopamina-y-la-motivacion.webp"
 categories: "Salud, Motivación"
 ---
 
-![Dopamina](/dopamina-y-la-motivacion.webp)
+![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.webp)
 
 # Descifrando los Misterios de la Dopamina y la Motivación en el cerebro
 
