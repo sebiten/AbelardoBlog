@@ -5,7 +5,7 @@ imageUrl: "/capacidad-cognitiva.webp"
 categories: "Salud, Productividad"
 ---
 
-![Imagen relacionada](/capacidad-cognitiva.webp)
+![capacidad-cognitiva](/capacidad-cognitiva.webp)
 
 # Amplificando la Capacidad Cognitiva de Tu Cerebro de Manera Natural
 

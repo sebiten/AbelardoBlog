@@ -1,7 +1,7 @@
 ---
 title: "Cabello Fuerte y Saludable: Descubre Cómo Combatir la Caída de cabello y Recuperar tu Confianza"
 date: "2023-08-15"
-imageUrl: "/caida.webp"
+imageUrl: "/caida-de-cabello.webp"
 categories: "Salud"
 ---
 
@@ -12,7 +12,7 @@ categories: "Salud"
 
 ¿Has notado que tu sombra se vuelve más prominente y estás enfrentando la inquietante experiencia de la caída del cabello? ¡Entonces estás en el lugar correcto! Y si eres una mujer, ¡tranquilidad! Aquí encontrarás información crucial para abordar este problema. Únete a nosotros en un **fascinante viaje** a través del mundo de las hormonas, en particular la **testosterona** y la **DHT** (*hidro testosterona*), y su relación con la pérdida de cabello. Descubre por qué esta preocupación es tan común y, más importante aún, cómo puedes tomar las riendas para obtener lo mejor de ambos mundos: conservar tu cabello y mantener tus niveles hormonales en equilibrio.
 
-![Hormonas](/caida.webp)
+![caida-de-cabello](/caida-de-cabello.webp)
 
 ## Desentrañando el Misterio de la DHT y la Pérdida de Cabello
 
