@@ -39,7 +39,7 @@ const Favorites = () => {
   };
 
   return (
-    <div className="flex h-screen justify-center items-start bg-gray-100 dark:bg-gray-800">
+    <div className="flex h-full justify-center items-start bg-gray-100 dark:bg-gray-800">
       
       <div className="w-full max-w-3xl p-4">
       <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert">
@@ -83,7 +83,7 @@ const Favorites = () => {
                             height={200}
                             src={fav.imageUrl}
                             alt={fav.id}
-                            className="object-cover"
+                            className="object-cover my-4"
                           />
                         </Link>
                       </div>
