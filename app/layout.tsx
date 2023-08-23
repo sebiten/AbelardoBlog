@@ -5,6 +5,7 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "@next/font/google";
+import { motion } from "framer-motion";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",

@@ -1,43 +1,37 @@
-'use client'
-import { Power4, gsap } from "gsap";
-import { useEffect } from "react";
+"use client";
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 
 export default function MyProfilePic() {
-  useEffect(() => {
-    // Animación para el título
-    gsap.from(".abelardo", {
-      opacity: 0,
-      y: -50,
-      scale: 0.8,
-      rotation: -10,
-      duration: 2,
-      delay: 0,
-      ease: Power4.easeOut,
-    });
-
-  }, []);
-
-  useEffect(() => {
-    // Animación para el título
-    gsap.from(".abelardotit", {
-      opacity: 0,
-      y: -50,
-      scale: 0.8,
-      rotation: -10,
-      duration: 1,
-      delay: 0,
-    });
-
-  }, []);
   return (
-    <section className="w-full mx-auto mt-6">
-      <div className="flex flex-col justify-center items-center ">
-        <h1 className="text-center text-white font-bold uppercase -mt-24 prose prose-xl prose-slate dark:prose-invert abelardotit ">
-          <span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4 ">
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="w-full mx-auto mt-6"
+    >
+      <div className="flex flex-col justify-center items-center">
+        <motion.h1
+          initial={{ opacity: 0, rotate: -180, y: 20, scale: 1.5 }} // Inicialmente girado, escalado y ligeramente desplazado hacia abajo
+          animate={{ opacity: 1, rotate: 0, y: 0, scale: 1 }} // Girar, desplazarse a la posición original y escalar
+          transition={{
+            delay: 0,
+            duration: 1.5,
+            type: "spring",
+            stiffness: 100,
+            damping: 10,
+          }}
+          className="text-center text-white font-bold uppercase -mt-24 prose prose-xl prose-slate dark:prose-invert abelardotit"
+        >
+          <motion.span
+            className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4"
+            // Otras propiedades de animación aquí si es necesario
+          >
             <br />
             ABelardo Blog
-          </span>
-        </h1>
+          </motion.span>
+        </motion.h1>
+
         <p className="mt-4 abelardo">
           Aquí tendrás acceso a una amplia variedad de artículos sobre salud
           moderna, tecnología, alimentación y otros temas interesantes. Mi
@@ -46,6 +40,6 @@ export default function MyProfilePic() {
           informado y conocer más sobre aspectos importantes de la vida moderna.
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 }
