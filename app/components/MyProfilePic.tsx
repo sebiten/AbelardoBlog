@@ -12,13 +12,13 @@ export default function MyProfilePic() {
     >
       <div className="flex flex-col justify-center items-center">
         <motion.h1
-          initial={{ opacity: 0, rotate: -180, y: 20, scale: 1.5 }} // Inicialmente girado, escalado y ligeramente desplazado hacia abajo
-          animate={{ opacity: 1, rotate: 0, y: 0, scale: 1 }} // Girar, desplazarse a la posición original y escalar
+          initial={{ opacity: 0, rotate: -180}} // Inicialmente girado, escalado y ligeramente desplazado hacia abajo
+          animate={{ opacity: 1, rotate: 0}} // Girar, desplazarse a la posición original y escalar
           transition={{
-            delay: 0,
-            duration: 1.5,
+            delay: 1.5,
+            duration: 1,
             type: "spring",
-            stiffness: 100,
+            stiffness: 70,
             damping: 10,
           }}
           className="text-center text-white font-bold uppercase -mt-24 prose prose-xl prose-slate dark:prose-invert abelardotit"
