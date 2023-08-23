@@ -4,12 +4,7 @@ import { motion } from "framer-motion";
 
 export default function MyProfilePic() {
   return (
-    <section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-      className="w-full mx-auto mt-6"
-    >
+    <section className="w-full mx-auto mt-6">
       <div className="flex flex-col justify-center items-center">
         <motion.h1
           initial={{ opacity: 0, rotate: -180 }} // Inicialmente girado, escalado y ligeramente desplazado hacia abajo
