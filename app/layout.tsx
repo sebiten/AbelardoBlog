@@ -1,3 +1,4 @@
+"use client";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Script from "next/script";
@@ -17,7 +18,7 @@ const montserrat = Montserrat({
   weight: "400",
 });
 
-export const metadata = {
+const metadata = {
   title: "Abelardo Blog",
   description: "Abelardo-blog",
   icons: {
@@ -36,7 +37,8 @@ export default function RootLayout({
     >
       <head>
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <meta name={metadata.description} content={metadata.description} />
+        <link rel="icon" href="/abelardo-blog.png" />
         <Script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}`}
@@ -47,7 +49,12 @@ export default function RootLayout({
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
-        <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2 }}
+          className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2"
+        >
           <Image
             src="/abelardo-blog.png"
             className="mx-auto w-auto h-auto mt-4"
@@ -55,7 +62,7 @@ export default function RootLayout({
             height={500}
             width={300}
           />
-        </div>
+        </motion.div>
         {children}
         <Footer />
       </body>

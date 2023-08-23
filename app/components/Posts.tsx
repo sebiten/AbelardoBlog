@@ -5,6 +5,7 @@ import Link from "next/link";
 import { filterOptions } from "../constantes/constantes";
 import NoEncontrado from "./NotFound";
 import Spinner from "./Spinner";
+import { motion } from "framer-motion";
 import Controller from "./Controller";
 
 interface BlogPost {
@@ -22,7 +23,6 @@ export default function Posts() {
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
-
 
   useEffect(() => {
     async function fetchPosts() {
@@ -47,7 +47,11 @@ export default function Posts() {
     setCurrentPage(1); // Reset to the first page when changing category
   }
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+    >
       ;
       <div className="flex flex-col justify-center items-center ">
         <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400 title">
@@ -122,6 +126,6 @@ export default function Posts() {
         posts={posts}
         itemsPerPage={itemsPerPage}
       />
-    </>
+    </motion.div>
   );
 }

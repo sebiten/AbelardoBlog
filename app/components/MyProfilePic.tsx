@@ -15,7 +15,6 @@ export default function MyProfilePic() {
           initial={{ opacity: 0, rotate: -180}} // Inicialmente girado, escalado y ligeramente desplazado hacia abajo
           animate={{ opacity: 1, rotate: 0}} // Girar, desplazarse a la posición original y escalar
           transition={{
-            delay: 1.5,
             duration: 1,
             type: "spring",
             stiffness: 70,
