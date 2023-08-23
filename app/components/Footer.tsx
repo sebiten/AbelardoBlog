@@ -24,7 +24,7 @@ export default function Footer() {
             </Link>
             <Link
               href="/"
-              className="text-center text-yellow-500 font-bold uppercase no-underline"
+              className="text-center font-title text-yellow-500 font-bold uppercase no-underline"
             >
               Abelardo
               <span className="text-white font-normal">Blog</span>

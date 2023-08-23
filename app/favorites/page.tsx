@@ -42,7 +42,7 @@ const Favorites = () => {
     <div className="flex h-full justify-center items-start bg-gray-100 dark:bg-gray-800">
       
       <div className="w-full max-w-3xl p-4">
-      <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert">
+      <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert font-title">
           <span className="text-yellow-500 font-normal text-5xl -z-10">
             <br></br>
             Favoritos

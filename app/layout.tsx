@@ -4,6 +4,17 @@ import Script from "next/script";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Image from "next/image";
+import { Montserrat_Alternates, Montserrat } from "@next/font/google";
+
+const montserrat_alternates = Montserrat_Alternates({
+  variable: "--title-font",
+  weight: "700",
+});
+
+const montserrat = Montserrat({
+  variable: "--body-font",
+  weight: "400",
+});
 
 export const metadata = {
   title: "Abelardo Blog",
@@ -18,7 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
+    <html
+      className={` ${montserrat_alternates.variable} ${montserrat.variable} font-body`}
+      lang="es"
+    >
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />

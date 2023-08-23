@@ -35,18 +35,18 @@ export default function Navbar() {
           <Link
             target="_parent"
             href="/"
-            className="text-center text-yellow-500 font-bold uppercase no-underline"
+            className="text-center font-title text-yellow-500 font-bold uppercase no-underline"
           >
             Abelardo
             <span className="dark:text-white text-black font-bold">Blog</span>
           </Link>
         </div>
-        <div className="flex font-sans flex-row justify-center items-center sm:justify-between align-middle gap-4 text-white text-sm lg:text-5xl">
+        <div className="flex flex-row justify-center items-center sm:justify-between align-middle gap-4 text-white text-sm lg:text-5xl">
           {links.map((link, index) => (
             <Link
               key={index}
               href={link.href}
-              className="text-gray-800 font-bold dark:text-white no-underline text-sm m-auto hover:text-yellow-500"
+              className="text-gray-800 font-bold uppercase dark:text-white no-underline text-sm m-auto hover:text-yellow-500"
               target={link.target || ""}
             >
               {link.icon ? link.icon : link.text}

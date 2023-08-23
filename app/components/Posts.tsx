@@ -23,6 +23,7 @@ export default function Posts() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
 
+
   useEffect(() => {
     async function fetchPosts() {
       setIsLoading(true);
@@ -49,11 +50,11 @@ export default function Posts() {
     <>
       ;
       <div className="flex flex-col justify-center items-center ">
-        <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400">
+        <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400 title">
           Artículos
         </h2>
       </div>
-      <div className=" my-2 w-7/12 mx-auto flex items-center justify-center">
+      <div className=" my-2 w-7/12 mx-auto flex items-center justify-center filter">
         <label
           htmlFor="categoryFilter"
           className="text-gray-600 dark:text-gray-300 mr-2"

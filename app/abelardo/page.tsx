@@ -5,7 +5,7 @@ export default function Abelardo() {
   return (
     <div className="max-w-2xl mx-auto mt-8 px-4">
       <div className="dark:text-white">
-      <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert my-4">
+      <h3 className="text-center font-title text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out -mt-20 prose prose-xl prose-slate dark:prose-invert my-4">
           <span className="text-yellow-500 font-normal text-4xl -z-10">
             <br></br>
             Presentacion del Abelardo
