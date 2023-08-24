@@ -21,9 +21,7 @@ Los saqueos, un fenómeno que parece surgir en momentos de crisis económica o s
 
 La provincia de Mendoza, conocida por su belleza natural y su cultura vitivinícola, no ha escapado a los saqueos que han ocurrido en el país. Incluso en un lugar donde los trabajadores de ferias se esfuerzan por vender sus productos de manera honesta, la amenaza de los robos y saqueos ha dejado su marca. Estos trabajadores, que representan la lucha de muchos argentinos por ganarse la vida de manera digna, ahora enfrentan la angustia de perder sus inversiones y la sensación de inseguridad constante en medio de la ola de "saqueos en todo el país".
 
-## Video de saqueos en mendoza
 
-[![Saqueos en la argentina](https://res.cloudinary.com/marcomontalbano/image/upload/v1692892513/video_to_markdown/images/youtube--jpFtq5koKUY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=jpFtq5koKUY "Saqueos en la argentina"){:target="_blank"}
 
 
 ## Impacto en los Trabajadores de las Ferias
@@ -33,6 +31,10 @@ Los trabajadores de las ferias, quienes a menudo ya luchan contra desafíos econ
 ## Medidas para Abordar la Situación
 
 Frente a esta situación, es esencial que las autoridades y la sociedad en general trabajen juntas para abordar los saqueos a nivel nacional. Además de una respuesta policial efectiva, es fundamental abordar las raíces de la desigualdad y la falta de oportunidades que pueden estar contribuyendo a estos actos. Programas de educación, capacitación laboral y apoyo económico pueden desempeñar un papel crucial en la prevención de futuros saqueos en todo el país.
+
+## Video de saqueos en mendoza
+
+[![Saqueos en la argentina](https://res.cloudinary.com/marcomontalbano/image/upload/v1692892513/video_to_markdown/images/youtube--jpFtq5koKUY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=jpFtq5koKUY "Saqueos en la argentina"){:target="_blank"}
 
 ## Conclusión
 
