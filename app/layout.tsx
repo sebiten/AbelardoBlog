@@ -5,6 +5,7 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "@next/font/google";
+import UnderConstruction from "./components/refaction";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
@@ -54,7 +55,8 @@ export default function RootLayout({
             width={300}
           />
         </div>
-        {children}
+        {/* {children} */}
+        <UnderConstruction />
         <Footer />
       </body>
     </html>
