@@ -5,7 +5,7 @@ imageUrl: '/sal-y-el-sodio.webp'
 categories: 'Nutrición'
 ---
 
-![sal-y-el-sodio](/sal-comun.webp)
+![sal-y-el-sodio](/sal-y-el-sodio.webp)
 
 # Explorando el Valor de la Sal y el Sodio en Nuestra Salud: Más Allá de los Mitos
 
