@@ -19,7 +19,7 @@ const montserrat = Montserrat({
 });
 
 const metadata = {
-  title: "Abelardo Blog",
+  title: "Abelardo Blog: ",
   description: "Abelardo-blog",
   icons: {
     icon: "/abelardo-blog.png",
