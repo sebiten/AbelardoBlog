@@ -2,7 +2,7 @@
 title: 'Revelando la Verdad Oculta sobre el Azúcar: Lo que Nadie te Cuenta'
 date: '2023-07-28'
 imageUrl: '/sugar.webp'
-categories: 'Nutrición'
+categories: 'Salud, Nutrición'
 ---
 
 # El Impacto del Consumo Excesivo de Azúcar en la Salud: Riesgos y Estrategias para Reducirlo
