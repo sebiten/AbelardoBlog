@@ -1,4 +1,3 @@
-"use client";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Script from "next/script";
@@ -6,7 +5,6 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "@next/font/google";
-import { motion } from "framer-motion";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
@@ -18,7 +16,7 @@ const montserrat = Montserrat({
   weight: "400",
 });
 
-const metadata = {
+export const metadata = {
   title: "Abelardo Blog: ",
   description: "Abelardo-blog",
   icons: {
@@ -36,8 +34,6 @@ export default function RootLayout({
       lang="es"
     >
       <head>
-        <title>{metadata.title}</title>
-        <meta name={metadata.description} content={metadata.description} />
         <link rel="icon" href="/abelardo-blog.png" />
         <Script
           async
@@ -49,12 +45,7 @@ export default function RootLayout({
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 2 }}
-          className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2"
-        >
+        <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
           <Image
             src="/abelardo-blog.png"
             className="mx-auto w-auto h-auto mt-4"
@@ -62,7 +53,7 @@ export default function RootLayout({
             height={500}
             width={300}
           />
-        </motion.div>
+        </div>
         {children}
         <Footer />
       </body>
