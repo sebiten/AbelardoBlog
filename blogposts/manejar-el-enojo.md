@@ -1,11 +1,11 @@
 ---
 title: "Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones"
 date: "2023-08-16"
-imageUrl: "/manejar-el-enojo.png"
+imageUrl: "/manejar-el-enojo.webp"
 categories: "Salud y Bienestar"
 ---
 
-![Imagen](/manejar-el-enojo.png)
+![Imagen](/manejar-el-enojo.webp)
 
 # Empoderando tu Mente: Maestría Emocional para Relaciones más Fulgurantes
 

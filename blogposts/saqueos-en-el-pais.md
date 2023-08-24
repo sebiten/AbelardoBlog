@@ -1,11 +1,11 @@
 ---
 title: "Saqueos en Todo el País: Impacto en los Trabajadores y en su economia"
 date: "2023-08-24"
-imageUrl: "/saqueos-en-el-pais.png"
+imageUrl: "/saqueos-en-el-pais.webp"
 categories: "Noticias"
 ---
 
-![saqueos-en-el-pais](/saqueos-en-el-pais.png)
+![saqueos-en-el-pais](/saqueos-en-el-pais.webp)
 
 # Saqueos en Todo el País: Impacto en los Trabajadores de Ferias, como en Mendoza
 

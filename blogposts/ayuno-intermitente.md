@@ -1,13 +1,13 @@
 ---
 title: "Desvelando los Encantos de la Magia del Ayuno Intermitente"
 date: "2023-07-30"
-imageUrl: "/ayuno-intermitente.png"
+imageUrl: "/ayuno-intermitente.webp"
 categories: "Nutrición"
 ---
 
 # Explorando las Maravillas de la Magia detrás del Ayuno Intermitente
 
-![Ayuno Intermitente](/ayuno-intermitente.png)
+![Ayuno Intermitente](/ayuno-intermitente.webp)
 
 El concepto del ayuno intermitente ha emergido como una fascinante senda hacia la optimización de la salud y el bienestar. Este enfoque nutricional, que combina períodos de ayuno con períodos de alimentación, ha capturado la atención de muchos por sus posibles beneficios para la salud y su capacidad para desencadenar un proceso sorprendente conocido como autofagia. En esta jornada hacia una mejor comprensión del ayuno intermitente, nos adentraremos en sus diversas dimensiones y descubriremos su conexión con la mágica autofagia.
 

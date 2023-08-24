@@ -1,10 +1,10 @@
 ---
 title: "Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad"
 date: "2023-08-03"
-imageUrl: "/estres-fisico-y-mental.png"
+imageUrl: "/estres-fisico-y-mental.webp"
 categories: "Salud"
 ---
-![estres-fisico-y-mental](/estres-fisico-y-mental.png)
+![estres-fisico-y-mental](/estres-fisico-y-mental.webp)
 
 # Enfrentando el Estrés: Cuidando Tu Salud Física y Mental
 

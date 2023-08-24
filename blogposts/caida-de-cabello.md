@@ -1,10 +1,10 @@
 ---
 title: "Cabello Fuerte y Saludable: Descubre Cómo Combatir la Caída de cabello y Recuperar tu Confianza"
 date: "2023-08-15"
-imageUrl: "/caida-de-cabello.png"
+imageUrl: "/caida-de-cabello.webp"
 categories: "Salud"
 ---
-![caida-de-cabello](/caida-de-cabello.png)
+![caida-de-cabello](/caida-de-cabello.webp)
 
 # Desentrañando las Claves de la Caída del Cabello y su Vínculo con las Hormonas
 

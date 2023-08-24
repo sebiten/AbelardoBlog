@@ -1,11 +1,11 @@
 ---
 title: "Revolucionando la Educación a través de los Vouchers educativos: Lo que necesitas saber"
 date: "2023-08-22"
-imageUrl: "/vouchers-educativos.png"
+imageUrl: "/vouchers-educativos.webp"
 categories: "Economia, Educación"
 ---
 
-![VOUCHERS-EDUCATIVOS](/vouchers-educativos.png)
+![VOUCHERS-EDUCATIVOS](/vouchers-educativos.webp)
 
 # Explorando el Potencial de los Vouchers educativos
 

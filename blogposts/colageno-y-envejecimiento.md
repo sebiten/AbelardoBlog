@@ -1,11 +1,11 @@
 ---
 title: "Factores que Afectan la Producción de Colágeno y su Relación con el Envejecimiento"
 date: "2023-08-16"
-imageUrl: "/colageno.png"
+imageUrl: "/colageno.webp"
 categories: "Salud"
 ---
 
-![COLAGENO](/colageno.png)
+![COLAGENO](/colageno.webp)
 
 ## **Elevando la Importancia del Colágeno y el envejecimiento**
 

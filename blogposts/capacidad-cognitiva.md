@@ -1,11 +1,11 @@
 ---
 title: "Cómo Potenciar la Capacidad Cognitiva de Tu Cerebro de Forma Natural"
 date: "2023-08-18"
-imageUrl: "/capacidad-cognitiva.png"
+imageUrl: "/capacidad-cognitiva.webp"
 categories: "Salud, Productividad"
 ---
 
-![capacidad-cognitiva](/capacidad-cognitiva.png)
+![capacidad-cognitiva](/capacidad-cognitiva.webp)
 
 # Amplificando la Capacidad Cognitiva de Tu Cerebro de Manera Natural
 

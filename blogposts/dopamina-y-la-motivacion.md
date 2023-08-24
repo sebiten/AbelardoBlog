@@ -1,11 +1,11 @@
 ---
 title: "La Dopamina y la motivación: Cómo Vencer la Procrastinación y Potenciar la productividad en tu vida"
 date: "2023-08-21"
-imageUrl: "/dopamina-y-la-motivacion.png"
+imageUrl: "/dopamina-y-la-motivacion.webp"
 categories: "Salud, Motivación"
 ---
 
-![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.png)
+![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.webp)
 
 # Descifrando los Misterios de la Dopamina y la Motivación en el cerebro
 

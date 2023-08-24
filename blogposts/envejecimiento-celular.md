@@ -1,7 +1,7 @@
 ---
 title: 'Envejecimiento Celular: Como evitar perder musculo y disfrutar de una mejor calidad de vida'
 date: '2023-08-02'
-imageUrl: '/envejecimiento-celular.png'
+imageUrl: '/envejecimiento-celular.webp'
 categories: 'Salud, Nutrición'
 ---
 
@@ -9,7 +9,7 @@ categories: 'Salud, Nutrición'
 
 El envejecimiento, una travesía compleja y fascinante, reverbera en cada rincón de nuestras células. Aunque sus orígenes son multifacéticos, los científicos desvelan gradualmente sus engranajes, iluminando el sendero hacia la perpetua juventud y vitalidad.
 
-![envejecimiento-celular](/envejecimiento-celular.png)
+![envejecimiento-celular](/envejecimiento-celular.webp)
 
 ## Tejidos en Transformación: Desechos Celulares y Mutaciones Genéticas
 

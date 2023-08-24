@@ -1,11 +1,11 @@
 ---
 title: "Quemar grasa y bajar de peso sin hacer nada? Es posible gracias al ayuno intermitente!"
 date: "2023-08-10"
-imageUrl: "/grasa-abdomen.png"
+imageUrl: "/grasa-abdomen.webp"
 categories: "Salud, Nutricion"
 ---
 
-![Quemar grasa y bajar de peso](/grasa-abdomen.png)
+![Quemar grasa y bajar de peso](/grasa-abdomen.webp)
 
 ## Desbloqueando los Secretos del Ayuno Intermitente para quemar grasa y bajar de peso
 

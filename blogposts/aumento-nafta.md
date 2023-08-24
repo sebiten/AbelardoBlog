@@ -1,11 +1,11 @@
 ---
 title: "Aumento de Precios de Combustibles en Argentina: Análisis y Consecuencias"
 date: "2023-08-19"
-imageUrl: "/aumento-nafta.png"
+imageUrl: "/aumento-nafta.webp"
 categories: "Economía, Análisis"
 ---
 
-![Análisis de Precios de Combustibles](/aumento-nafta.png)
+![Análisis de Precios de Combustibles](/aumento-nafta.webp)
 
 # Aumento de Precios de Combustibles en Argentina: Análisis y Consecuencias
 

@@ -1,11 +1,11 @@
 ---
 title: 'Desmitificando la Sal y el Sodio: Lo que Nadie te Cuenta'
 date: '2023-08-03'
-imageUrl: '/sal-y-el-sodio.png'
+imageUrl: '/sal-y-el-sodio.webp'
 categories: 'Nutrición'
 ---
 
-![sal-y-el-sodio](/sal-y-el-sodio.png)
+![sal-y-el-sodio](/sal-y-el-sodio.webp)
 
 # Explorando el Valor de la Sal y el Sodio en Nuestra Salud: Más Allá de los Mitos
 
