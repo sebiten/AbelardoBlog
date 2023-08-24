@@ -6,9 +6,6 @@ import html from "remark-html";
 
 const postsDirectory = path.join(process.cwd(), "blogposts");
 
-
-
-
 export function getSortedPostsData(categoryFilter?: string ) {
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames.map((fileName) => {
