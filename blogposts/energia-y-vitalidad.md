@@ -1,12 +1,11 @@
 ---
 title: "Descubre Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad"
 date: "2023-08-07"
-imageUrl: "/energía-y-vitalidad.webp"
+imageUrl: "/energia-y-vitalidad.png"
 categories: "Salud"
-
 ---
 
-![energia-y-vitalidad](/energía-y-vitalidad.webp)
+![energia-y-vitalidad](/energia-y-vitalidad.png)
 
 # **Maestría en Energía y Vitalidad: Reforzando tu Rutina para una Vida Saludable**
 

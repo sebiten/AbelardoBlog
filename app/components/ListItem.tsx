@@ -27,7 +27,7 @@ export default function ListItem({ post }: Props) {
         <>
           <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[420px] list-none ">
             {imageUrl && (
-              <Image
+              <img
                 width={300}
                 height={300}
                 src={imageUrl}

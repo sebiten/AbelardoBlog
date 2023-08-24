@@ -1,15 +1,15 @@
 ---
 title: 'Envejecimiento Celular: Como evitar perder musculo y disfrutar de una mejor calidad de vida'
 date: '2023-08-02'
-imageUrl: '/envejecimiento-celular.webp'
-categories: 'Salud'
+imageUrl: '/envejecimiento-celular.png'
+categories: 'Salud, Nutrición'
 ---
 
 # Descifrando los Enigmas del Envejecimiento Celular: Claves para una Vida Duradera y Vital
 
 El envejecimiento, una travesía compleja y fascinante, reverbera en cada rincón de nuestras células. Aunque sus orígenes son multifacéticos, los científicos desvelan gradualmente sus engranajes, iluminando el sendero hacia la perpetua juventud y vitalidad.
 
-![envejecimiento-celular](/envejecimiento-celular.webp)
+![envejecimiento-celular](/envejecimiento-celular.png)
 
 ## Tejidos en Transformación: Desechos Celulares y Mutaciones Genéticas
 
@@ -45,7 +45,6 @@ Mantener niveles saludables de testosterona resulta beneficioso para conservar l
 
 Incorporar regularmente sesiones de sauna puede fomentar el crecimiento muscular y prevenir su pérdida. Además, cualquier forma de ejercicio físico, especialmente el entrenamiento de fuerza, sostiene la musculatura y promueve la longevidad.
 
-![Ejercicio](/images.webp)
 
 ## Conclusión
 

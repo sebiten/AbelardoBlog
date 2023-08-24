@@ -1,16 +1,15 @@
 ---
 title: "Cabello Fuerte y Saludable: Descubre Cómo Combatir la Caída de cabello y Recuperar tu Confianza"
 date: "2023-08-15"
-imageUrl: "/caida-de-cabello.webp"
+imageUrl: "/caida-de-cabello.png"
 categories: "Salud"
 ---
-
+![caida-de-cabello](/caida-de-cabello.png)
 
 # Desentrañando las Claves de la Caída del Cabello y su Vínculo con las Hormonas
 
 ¿Has notado que tu sombra se vuelve más prominente y estás enfrentando la inquietante experiencia de la caída del cabello? ¡Entonces estás en el lugar correcto! Y si eres una mujer, ¡tranquilidad! Aquí encontrarás información crucial para abordar este problema. Únete a nosotros en un **fascinante viaje** a través del mundo de las hormonas, en particular la **testosterona** y la **DHT** (*hidro testosterona*), y su relación con la pérdida de cabello. Descubre por qué esta preocupación es tan común y, más importante aún, cómo puedes tomar las riendas para obtener lo mejor de ambos mundos: conservar tu cabello y mantener tus niveles hormonales en equilibrio.
 
-![caida-de-cabello](/caida-de-cabello.webp)
 
 ## Desentrañando el Misterio de la DHT y la Pérdida de Cabello
 
@@ -18,7 +17,6 @@ La caída del cabello es un desafío que afecta a muchos de nosotros, pero detr�
 
 ## La DHT: Hormona con Doble Identidad
 
-![Cabello saludable](/hormonas.webp)
 
 La **DHT**, un derivado de la testosterona, desempeña múltiples roles en nuestro cuerpo. No solo influye en el desarrollo de características sexuales secundarias, como el vello corporal y la profundidad de la voz, sino que también está vinculada a la salud de los órganos sexuales masculinos y al crecimiento de la barba. Sin embargo, esta hormona tiene su lado oscuro, ya que se relaciona con la pérdida de cabello en lo que se conoce como **alopecia androgénica**. Pero, ¿cómo puede una misma hormona tener efectos tan dispares y a veces contrapuestos? Es hora de sumergirse en los detalles.
 
@@ -38,7 +36,6 @@ Nuestro viaje a través del mundo de las hormonas nos conduce a explorar cómo o
 
 Si estás enfrentando la caída del cabello, no todo está perdido. Existen enfoques respaldados por la ciencia que pueden ayudar en este desafío. Exploraremos tratamientos farmacológicos, como el finasteride y el dutasteride, que bloquean la enzima responsable de convertir la testosterona en DHT. También consideraremos la aplicación tópica de minoxidil directamente en el cuero cabelludo y cómo la microagujaterapia puede estimular los folículos pilosos para fomentar el crecimiento capilar.
 
-![Cabello saludable](/cabellosano.webp)
 
 ## Mirando Hacia el Futuro: El Cabello y las Hormonas
 

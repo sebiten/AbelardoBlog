@@ -1,11 +1,11 @@
 ---
 title: "Quemar grasa y bajar de peso sin hacer nada? Es posible gracias al ayuno intermitente!"
 date: "2023-08-10"
-imageUrl: "/grasa-abdomen.webp"
-categories: "Nutrición, Salud"
+imageUrl: "/grasa-abdomen.png"
+categories: "Salud, Nutricion"
 ---
 
-![Quemar grasa y bajar de peso](/grasa-abdomen.webp)
+![Quemar grasa y bajar de peso](/grasa-abdomen.png)
 
 ## Desbloqueando los Secretos del Ayuno Intermitente para quemar grasa y bajar de peso
 
@@ -15,7 +15,6 @@ categories: "Nutrición, Salud"
 ## Descifrando el Concepto del Ayuno Intermitente
 El ayuno intermitente, un enfoque dietético que alterna entre periodos de consumo alimenticio y periodos de ayuno, ha llegado a desplazar la atención de lo que comemos a cuándo comemos. A diferencia de las dietas convencionales, el foco no recae en la selección de alimentos, sino en el momento de la ingesta. Durante los intervalos de ayuno, el cuerpo agota sus reservas de glucosa y comienza a consumir la grasa almacenada como fuente primaria de energía.
 
-![Ayuno Intermitente](/ayuno.webp)
 
 ## Beneficios que Encierra el Ayuno Intermitente
 - **Transformación de Grasa en Energía:** Durante el ayuno, el cuerpo adopta un estado metabólico que desencadena la conversión de la grasa en energía. Este proceso conlleva a la disminución de la grasa corporal y, en última instancia, a la pérdida de peso.

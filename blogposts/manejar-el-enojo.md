@@ -1,11 +1,11 @@
 ---
 title: "Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones"
 date: "2023-08-16"
-imageUrl: "/manejar-el-enojo.webp"
+imageUrl: "/manejar-el-enojo.png"
 categories: "Salud y Bienestar"
 ---
 
-![manejar-el-enojo](/enojo.webp)
+![Imagen](/manejar-el-enojo.png)
 
 # Empoderando tu Mente: Maestría Emocional para Relaciones más Fulgurantes
 
@@ -19,7 +19,6 @@ Después de años consagrados a ayudar a otros a descifrar las intrincadas sinfo
 
 Previo a adentrarnos en las estrategias concretas, es imperativo desentrañar el origen de este huracán interno. La reacción de lucha o huida, primitiva y ancestral, se activa cuando nos sentimos amenazados o incómodos. Si la huida no es una opción, el instinto nos empuja a luchar, y así florece la ira. Aun así, este enfoque, aunque ancestral, suele ser contraproducente, erosionando nuestras relaciones en vez de fortalecerlas.
 
-![Imagen](/manejar-el-enojo.webp)
 
 ## Arte de la Serenidad: La Respiración Consciente
 

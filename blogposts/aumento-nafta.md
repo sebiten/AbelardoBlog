@@ -1,11 +1,11 @@
 ---
 title: "Aumento de Precios de Combustibles en Argentina: Análisis y Consecuencias"
 date: "2023-08-19"
-imageUrl: "/combustible.webp"
+imageUrl: "/aumento-nafta.png"
 categories: "Economía, Análisis"
 ---
 
-![Análisis de Precios de Combustibles](/combustible.webp)
+![Análisis de Precios de Combustibles](/aumento-nafta.png)
 
 # Aumento de Precios de Combustibles en Argentina: Análisis y Consecuencias
 
@@ -31,4 +31,4 @@ A pesar de este aumento, Argentina aún se encuentra en una posición relativame
 
 El aumento de precios de los combustibles en Argentina ha generado un escenario de incertidumbre en la economía nacional. El contexto de devaluación y los desafíos planteados por el plan "Precios Justos" exigen una cuidadosa gestión por parte del gobierno y una cooperación estrecha con las compañías petroleras. El análisis y las decisiones tomadas en el próximo cuatrimestre serán cruciales para determinar la dirección que tomará la política de precios de combustibles y su impacto en la economía del país.
 
-![Análisis de Precios de Combustibles](/estacion-servicio.webp)
+

@@ -1,14 +1,15 @@
 ---
 title: 'El mate, un símbolo de la cultura argentina'
 date: '2023-07-31'
-imageUrl: '/el-mate.webp'
+imageUrl: '/el-mate.png'
 categories: 'Cultura'
 
 ---
+![el-Mate](/el-mate.png)
+
 
 El mate es una bebida tradicional de Argentina, Uruguay, Paraguay y Brasil. Se prepara con yerba mate, una planta que se cultiva en la región del Cono Sur. La yerba mate contiene cafeína, teína y otras sustancias que le dan un sabor amargo y estimulante.
 
-![el-Mate](/el-mate.webp)
 
 ## Ingredientes necesarios
 

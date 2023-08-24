@@ -1,11 +1,11 @@
 ---
 title: "La Dopamina y la motivación: Cómo Vencer la Procrastinación y Potenciar la productividad en tu vida"
 date: "2023-08-21"
-imageUrl: "/dopamina-y-la-motivacion.webp"
+imageUrl: "/dopamina-y-la-motivacion.png"
 categories: "Salud, Motivación"
 ---
 
-![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.webp)
+![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.png)
 
 # Descifrando los Misterios de la Dopamina y la Motivación en el cerebro
 
@@ -27,7 +27,6 @@ Adoptar un **ayuno de dopamina** durante unos días puede permitir que el cerebr
 
 **Enfocarse en lo crucial en la vida es un aspecto fundamental para experimentar una existencia plena y gratificante**. Al **eliminar las distracciones y adicciones**, ganamos tiempo para invertir en **actividades de verdadera importancia**. Además, mantener **niveles óptimos de neurotransmisores**, como la dopamina, es esencial para alcanzar un **rendimiento cognitivo sobresaliente** y disfrutar de cada día.
 
-![Dopamina](/placer.webp)
 
 Si no es viable un **ayuno completo de dopamina**, existen formas de **acelerar el proceso**. El **consumo de aminoácidos como la tirosina**, fundamental para la producción de dopamina, puede resultar beneficioso. Además, **la meditación puede contribuir al reequilibrio de los neurotransmisores, mejorando el enfoque y el bienestar general**.
 

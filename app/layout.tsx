@@ -55,8 +55,8 @@ export default function RootLayout({
             width={300}
           />
         </div>
-        {/* {children} */}
-        <UnderConstruction />
+        {children}
+        {/* <UnderConstruction /> */}
         <Footer />
       </body>
     </html>

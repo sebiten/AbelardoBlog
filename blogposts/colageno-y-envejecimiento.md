@@ -1,11 +1,11 @@
 ---
 title: "Factores que Afectan la Producción de Colágeno y su Relación con el Envejecimiento"
 date: "2023-08-16"
-imageUrl: "/colageno.webp"
+imageUrl: "/colageno.png"
 categories: "Salud"
 ---
 
-![COLAGENO](/colageno.webp)
+![COLAGENO](/colageno.png)
 
 ## **Elevando la Importancia del Colágeno y el envejecimiento**
 
@@ -19,7 +19,6 @@ La *radiación ultravioleta*, emanada del trono del sol o de camas solares, trae
 
 Los hilos de *hormonas* desempeñan un papel maestro en la sinfonía de producción de colágeno. Los niveles hormonales, ya sean altos o bajos en las partituras de *estrógeno* y *testosterona*, dictan con mano firme el ritmo de la síntesis de colágeno. Este dueto hormonal, si se desequilibra, puede desafinar las cuerdas del colágeno, disminuyendo su presencia en piel y tejidos y, como un maestro antiguo, acelerando el marchitar prematuro y la pérdida de elasticidad.
 
-![HORMONAS](/envejecimiento.webp)
 
 ## **Nutrición: Banquete que Nutre los Hilos del Colágeno**
 
