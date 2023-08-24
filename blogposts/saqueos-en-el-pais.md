@@ -23,7 +23,8 @@ La provincia de Mendoza, conocida por su belleza natural y su cultura vitiviníc
 
 ## Video de saqueos en mendoza
 
-[![Saqueos en la argentina](https://res.cloudinary.com/marcomontalbano/image/upload/v1692892513/video_to_markdown/images/youtube--jpFtq5koKUY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=jpFtq5koKUY "Saqueos en la argentina")
+[![Saqueos en la argentina](https://res.cloudinary.com/marcomontalbano/image/upload/v1692892513/video_to_markdown/images/youtube--jpFtq5koKUY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=jpFtq5koKUY "Saqueos en la argentina"){:target="_blank"}
+
 
 ## Impacto en los Trabajadores de las Ferias
 
