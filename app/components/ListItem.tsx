@@ -25,15 +25,15 @@ export default function ListItem({ post }: Props) {
         href={`/posts/${id}`}
       >
         <>
-          <li className="mt-4 rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h-[420px] list-none ">
+          <li className="mt-4 h-[460px] rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h- list-none ">
             {imageUrl && (
               <Image
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 src={imageUrl}
                 layout="responsive"
                 alt={title}
-                className="w-full h-60 object-cover mx-auto p-4"
+                className="w-full h-full object-cover mx-auto p-4"
               />
             )}
             <div className="p-4 h-32 ">
