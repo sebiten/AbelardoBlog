@@ -25,7 +25,7 @@ export default function ListItem({ post }: Props) {
         href={`/posts/${id}`}
       >
         <>
-          <li className="mt-4 h-[460px] rounded-md overflow-hidden shadow-md bg-white dark:bg-gray-800 h- list-none ">
+          <li className="mt-4 h-full relative  rounded-lg hover:scale-95 duration-500 p-4 overflow-hidden shadow-2xl bg-white dark:bg-gray-800 h- list-none ">
             {imageUrl && (
               <Image
                 width={200}
@@ -33,20 +33,22 @@ export default function ListItem({ post }: Props) {
                 src={imageUrl}
                 layout="responsive"
                 alt={title}
-                className="w-full h-full object-cover mx-auto p-4"
+                className=" object-cover mx-auto p-4 rounded-lg"
               />
             )}
-            <div className="p-4 h-32 ">
+            <div className="flex flex-col p-4 h-44 ">
               <h3
                 className="text-xl font-semibold dark:text-white/90 mb-2
           hover:text-yellow-500"
               >
                 {title}
               </h3>
-              <p className="text-sm text-yellow-600 font-bold">
-                {formattedDate}
-              </p>
-              <div className="absolute bottom-1 left-4 ">
+              <div>
+                <p className="text-sm text-yellow-600 font-bold">
+                  {formattedDate}
+                </p>
+              </div>
+              <div className="absolute left-8 bottom-4">
                 <p className="text-sm text-gray-500 font-bold dark:text-white/60">
                   {categories}
                 </p>
@@ -58,8 +60,8 @@ export default function ListItem({ post }: Props) {
       <div
         className="
               absolute
-              bottom-1
-              right-0
+              -bottom-1
+              right-2
               mt-2
               mr-2
               cursor-cell
