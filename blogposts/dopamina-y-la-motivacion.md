@@ -7,7 +7,6 @@ categories: "Salud, Motivación"
 
 ![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.webp)
 
-# Descifrando los Misterios de la Dopamina y la Motivación en el cerebro
 
 La búsqueda de la motivación es una constante en nuestras vidas, y ¿qué sería de nosotros sin una recompensa cerebral por nuestros esfuerzos? La **dopamina**, un **neurotransmisor** asombroso que habita en nuestro cerebro, cumple este papel de forma magistral. Estas moléculas son las **intrincadas mensajeras que las neuronas emplean para comunicarse**. Si los **neurotransmisores no funcionan de manera eficaz**, **nuestro cerebro también se resiente**. No solo son pilares de la **memoria**, sino que también gobiernan nuestro **estado de ánimo** y nuestras **capacidades motrices**.
 

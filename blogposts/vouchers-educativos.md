@@ -7,7 +7,6 @@ categories: "Economia, Educación"
 
 ![VOUCHERS-EDUCATIVOS](/vouchers-educativos.webp)
 
-# Explorando el Potencial de los Vouchers educativos
 
 ## Introducción
 

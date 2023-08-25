@@ -5,7 +5,6 @@ imageUrl: "/ayuno-intermitente.webp"
 categories: "Nutrición"
 ---
 
-# Explorando las Maravillas de la Magia detrás del Ayuno Intermitente
 
 ![Ayuno Intermitente](/ayuno-intermitente.webp)
 

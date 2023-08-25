@@ -18,7 +18,7 @@ export const filterOptions = [
   { value: "Nutrición", label: "Nutrición" },
   { value: "Noticias", label: "Noticias" },
   { value: "Deportes", label: "Deportes" },
-  { value: "Economia", label: "Economia" },
+  { value: "Economía", label: "Economía" },
 ];
 
 export const demostraciones = [

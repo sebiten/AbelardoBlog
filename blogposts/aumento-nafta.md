@@ -7,7 +7,6 @@ categories: "Economía, Análisis"
 
 ![Análisis de Precios de Combustibles](/aumento-nafta.webp)
 
-# Aumento de Precios de Combustibles en Argentina: Análisis y Consecuencias
 
 En una sorpresiva movida el pasado 15 de agosto de 2023, las estaciones de servicio en el Área Metropolitana de Buenos Aires (AMBA) ajustaron al alza los precios de los combustibles, generando desconcierto entre los conductores y reacciones en diversos sectores de la sociedad. Este incremento, que llega en un momento sensible para la economía argentina, plantea interrogantes sobre sus causas, implicaciones y perspectivas a corto y largo plazo.
 

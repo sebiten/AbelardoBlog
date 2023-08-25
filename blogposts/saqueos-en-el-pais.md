@@ -7,7 +7,6 @@ categories: "Noticias"
 
 ![saqueos-en-el-pais](/saqueos-en-el-pais.webp)
 
-# Saqueos en Todo el País: Impacto en los Trabajadores de Ferias, como en Mendoza
 
 ## Introducción
 

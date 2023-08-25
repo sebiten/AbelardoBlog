@@ -6,7 +6,6 @@ categories: "Salud"
 ---
 ![estres-fisico-y-mental](/estres-fisico-y-mental.webp)
 
-# Enfrentando el Estrés: Cuidando Tu Salud Física y Mental
 
 En el mundo acelerado y demandante en el que vivimos, mantener una buena **salud física y mental** se ha convertido en una **prioridad** para todos. Nadie quiere estar enfermo, y todos buscamos evitar incluso los cuadros más simples de resfriados. Por ello, es esencial comprender cómo el **estrés**, tanto físico como mental, puede afectar nuestra salud y aprender a **prevenirlo** para llevar una vida más plena y saludable.
 

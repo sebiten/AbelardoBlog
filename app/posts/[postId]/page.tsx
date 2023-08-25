@@ -41,9 +41,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
   return (
     <main className="mt-14 w-9/12 flex items-center justify-center gap-4 mx-auto ">
       <div className="lg:flex block">
-        <div className="mr-2 flex flex-col w-full prose-a:dark:text-white prose-strong:dark:text-white prose-strong:font-semibold prose-headings:dark:text-white mx-auto prose prose-headings:font-black prose-headings:text-3xl prose-headings:my-4 dark:text-white text-gray-800">
-          <h1 className="text-3xl mt-4 mb-0 font-title">{title}</h1>
-          <p className="mt-0">{pubDate}</p>
+        <div className="mr-0 flex flex-col w-full prose-a:dark:text-white prose-strong:dark:text-white prose-strong:font-semibold prose-headings:dark:text-white mx-auto prose prose-headings:font-black prose-headings:text-3xl prose-headings:my-4 dark:text-white text-gray-800">
+          <h1 className="text-3xl mt-4 mb-0 font-title ">{title}</h1>
+          <p className="mt-0 ">{pubDate}</p>
           <p className="text-xl mt-4 mb-0">
             <span className="font-bold text-yellow-500">Categoría: </span>
             {categories}
@@ -77,11 +77,11 @@ export default async function Post({ params }: { params: { postId: string } }) {
             </div>
           </article>
         </div>
-        <article className="w-12/12 lg:w-2/12 lg:absolute lg:right-0 mr-0 xl:right-36 mt-10 lg:ml-10 ">
+        <article className="w-12/12 lg:w-2/12 lg:absolute lg:right-0 mr-0 xl:right-12 mt-10 lg:ml-10 ">
           <aside className="mx-auto">
             <div className="flex flex-col mx-auto dark:text-white text-gray-800">
               <h3 className="text-2xl font-bold mb-4">Más articulos</h3>
-              <ul className="list-disc pl-6">
+              <ul className="list-none pl-4">
                 {/* Loop through related articles and display them */}
                 {posts.map((relatedPost) => (
                   <li key={relatedPost.id} className="mb-2">
