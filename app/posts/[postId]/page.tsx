@@ -48,7 +48,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <span className="font-bold text-yellow-500">Categoría: </span>
             {categories}
           </p>
-          <article className="w-full text-justify dark:text-white text-lg text-gray-800">
+          <article className="w-full text-start dark:text-white text-lg text-gray-800">
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
             <div className="flex flex-col">
               <Link
