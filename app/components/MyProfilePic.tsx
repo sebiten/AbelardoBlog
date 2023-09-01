@@ -41,19 +41,6 @@ export default function MyProfilePic() {
             ABelardo Blog
           </motion.span>
         </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="mt-4 abelardo"
-        >
-          Aquí tendrás acceso a una amplia variedad de artículos sobre salud
-          moderna, tecnología, alimentación y otros temas interesantes. Mi
-          objetivo es brindarte información útil e intrigante sobre estos temas
-          poco comunes, pero igualmente interesantes. Así, podrás estar bien
-          informado y conocer más sobre aspectos importantes de la vida moderna.
-        </motion.p>
         <div className="mt-8 grid gap-2 px-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
           {dolar.map((dol) => (
             <div
