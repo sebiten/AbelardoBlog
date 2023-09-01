@@ -48,7 +48,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <span className="font-bold text-yellow-500">Categoría: </span>
             {categories}
           </p>
-          <article className="w-full text-start dark:text-white text-lg text-gray-800">
+          <article className="w-full dark:text-white text-lg text-gray-800">
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
             <div className="flex flex-col">
               <Link
@@ -69,7 +69,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
               >
                 ← Volver al inicio
               </Link>
-              <p className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
+              <p className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out my-14">
                 <span className="font-bold text-3xl text-yellow-500 ">
                   ¡Gracias por leer!
                 </span>
