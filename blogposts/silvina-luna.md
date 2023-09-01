@@ -47,6 +47,9 @@ Cuando tenemos una autoestima sana, no necesitamos recurrir a la cirugía estét
 - Es importante hablar con un profesional de la salud mental para abordar cualquier problema de autoestima que pueda estar motivando la cirugía estética.
 - Es importante recordar que la belleza es subjetiva y que cada persona es bella a su manera.
 
+![Silvina Luna](/inyeccion-silvina.webp)
+
+
 ## Conclusión
 
 La muerte de **Silvina Luna** es un trágico recordatorio de los peligros de la cirugía estética. También nos invita a reflexionar sobre la importancia de la autoestima y la belleza subjetiva.
