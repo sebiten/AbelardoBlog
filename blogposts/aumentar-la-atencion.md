@@ -51,6 +51,9 @@ Aplicaciones como Freedom o Clear Space pueden ayudarte a establecer límites al
 
 9. **Consumo Consciente de Estímulos Supernormales: Equilibra tus Fuentes de Placer**
 
+Así como no te excedes en comida chatarra, evita el consumo excesivo de entretenimiento vacío o contenido para adultos en línea. Establece un equilibrio saludable y consciente al consumir contenido en línea para mantener un **aumento sostenible de la atención**.
+
+
 ![Atencion](/atencion.webp)
 
 ## Conclusión 
