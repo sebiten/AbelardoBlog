@@ -14,7 +14,7 @@ export default function Controller({
   const totalPages = Math.ceil(posts.length / itemsPerPage);
   
   return (
-    <div className="flex items-center justify-center my-10 gap-4">
+    <div className="flex items-center justify-center mt-10 gap-4">
       <button
         onClick={() => setCurrentPage(currentPage - 1)}
         disabled={currentPage === 1}

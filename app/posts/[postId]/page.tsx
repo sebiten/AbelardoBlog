@@ -50,7 +50,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
           </p>
           <article className="w-full dark:text-white text-lg text-gray-800">
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-            <div className="flex flex-col">
+            <div className="flex flex-col mb-10 items-center">
               <Link
                 className="animate-pulse  
           animate-infinite
@@ -63,17 +63,12 @@ export default async function Post({ params }: { params: { postId: string } }) {
           dark:hover:text-yellow-500
           font-bold
           text-2xl
-          mt-4
+          my-4
           mb-0"
                 href="/"
               >
                 ← Volver al inicio
               </Link>
-              <p className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out my-14">
-                <span className="font-bold text-3xl text-yellow-500 ">
-                  ¡Gracias por leer!
-                </span>
-              </p>
             </div>
           </article>
         </div>

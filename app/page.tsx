@@ -1,7 +1,6 @@
 'use client'
 import Posts from "./components/Posts";
 import MyProfilePic from "./components/MyProfilePic";
-import NewsletterSubscribe from "./components/Form/NewsletterSubscribe";
 
 export default function Home() {
   return (
@@ -11,13 +10,6 @@ export default function Home() {
       </div>
       <Posts />
       <div>
-        <p className="mt-24 text-center text-2xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
-          <span className="font-bold text-yellow-500 ">
-            ¡Gracias por leer!<br></br> No olvides suscribirte para no perderte
-            ninguna novedad
-          </span>
-        </p>
-        <NewsletterSubscribe/>
       </div>
     </div>
   );
