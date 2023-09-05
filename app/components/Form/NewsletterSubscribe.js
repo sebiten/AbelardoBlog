@@ -1,19 +1,14 @@
 "use client";
-import MailchimpSubscribe from "react-mailchimp-subscribe"; 
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 import NewsletterForm from "./NewsletterForm";
 
-const NewsletterSubscribe: React.FC = () => {
+const NewsletterSubscribe = () => {
   const MAILCHIMP_URL = process.env.NEXT_PUBLIC_MAILCHIMP_URL;
-
-  if (!MAILCHIMP_URL) {
-    // Manejar el caso en que MAILCHIMP_URL sea undefined o null
-    return <div>URL de Mailchimp no definida</div>;
-  }
 
   return (
     <MailchimpSubscribe
       url={MAILCHIMP_URL}
-      render={(props: any) => {
+      render={(props) => {
         const { subscribe, status, message } = props || {};
         return (
           <NewsletterForm

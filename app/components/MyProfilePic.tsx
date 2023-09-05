@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import getFormattedDate from "@/lib/getFormattedDate";
-import NewsletterForm from "./NewsletterForm";
 
 interface DolarData {
   compra: number;

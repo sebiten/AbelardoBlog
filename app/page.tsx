@@ -1,7 +1,7 @@
 'use client'
 import Posts from "./components/Posts";
 import MyProfilePic from "./components/MyProfilePic";
-import NewsletterForm from "./components/NewsletterForm";
+import NewsletterSubscribe from "./components/Form/NewsletterSubscribe";
 
 export default function Home() {
   return (
@@ -17,9 +17,7 @@ export default function Home() {
             ninguna novedad
           </span>
         </p>
-        <NewsletterForm status={""} message={""} onValidated={function (formData: { EMAIL: string; }): boolean | null {
-          throw new Error("Function not implemented.");
-        } } />
+        <NewsletterSubscribe/>
       </div>
     </div>
   );
