@@ -72,7 +72,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             </div>
           </article>
         </div>
-        <article className="w-12/12 lg:w-2/12 lg:absolute lg:right-0 mr-0 xl:right-12 mt-10 lg:ml-10 ">
+        <article className="w-12/12 lg:w-2/12 lg:absolute lg:right-0 mr-0 xl:right-12 mt-10 lg:ml-10 hidden xl:block ">
           <aside className="mx-auto">
             <div className="flex flex-col mx-auto dark:text-white text-gray-800">
               <h3 className="text-2xl font-bold mb-4">Más articulos</h3>

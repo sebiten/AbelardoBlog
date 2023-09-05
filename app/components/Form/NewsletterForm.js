@@ -60,7 +60,7 @@ const NewsletterForm = ({ status, message, onValidated }) => {
   };
 
   return (
-    <div className="mb-24 text-white text-start prose mx-auto">
+    <div className="mb-24 px-4 sm:px-1 text-white text-start prose mx-auto">
       <p className="text-2xl font-bold text-yellow-500 mb-4">
         ¡Gracias por leer!
         <br></br>
