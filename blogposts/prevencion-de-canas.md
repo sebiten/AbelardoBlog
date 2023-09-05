@@ -19,6 +19,9 @@ Las canas son el resultado de la pérdida de pigmentación en las células cerca
 
 2. **Daño a las Células Productoras de Pigmento:** Las células que producen el pigmento del cabello pueden dañarse y dejar de producir pigmento.
 
+![Imagen de Canas](/canas.webp)
+
+
 ## Tipos de Encanecimiento
 
 Existen dos tipos de encanecimiento: el asociado al envejecimiento normal y el resultado del envejecimiento prematuro. Estos requieren enfoques diferentes:
