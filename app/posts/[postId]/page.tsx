@@ -41,8 +41,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
   return (
     <main className="mt-14 w-10/12 xl:w-9/12 flex items-center justify-center gap-4 mx-auto ">
       <div className="lg:flex block">
-        <div className="mr-0 flex flex-col w-full prose-a:dark:text-white prose-strong:dark:text-white prose-strong:font-semibold prose-headings:dark:text-white mx-auto prose prose-headings:font-black prose-headings:text-3xl prose-headings:my-4 dark:text-white text-gray-800">
-          <h1 className="text-3xl mt-4 mb-0 font-title ">{title}</h1>
+        <div className="mr-0 flex flex-col w-full prose-a:dark:text-yellow-400 prose-strong:dark:text-yellow-500 prose-strong:font-black prose-headings:dark:text-white mx-auto prose prose-headings:text-3xl prose-h1:font-black  prose-headings:font-black prose-headings:my-4 dark:text-white text-gray-800">
+          <h1 className="text-3xl mt-4 mb-0 font-title  ">{title}</h1>
           <p className="mt-0 ">{pubDate}</p>
           <p className="text-xl mt-4 mb-0">
             <span className="font-bold text-yellow-500">Categoría: </span>
@@ -50,7 +50,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
           </p>
           <article className="w-full dark:text-white text-lg text-gray-800">
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-            <div className="flex flex-col mb-10 items-center">
+            <div className="flex flex-col mb-10 items-start">
               <Link
                 className="animate-pulse  
           animate-infinite
@@ -59,7 +59,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
           animate-ease-out
           text-yellow-600
           hover:text-yellow-700
-          dark:text-yellow-400
+          dark:text-yellow-500
           dark:hover:text-yellow-500
           font-bold
           text-2xl

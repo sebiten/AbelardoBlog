@@ -60,18 +60,18 @@ const NewsletterForm = ({ status, message, onValidated }) => {
   };
 
   return (
-    <div className="mb-24 text-white text-center">
+    <div className="mb-24 text-white text-start prose mx-auto">
       <p className="text-2xl font-bold text-yellow-500 mb-4">
         ¡Gracias por leer!
         <br></br>
         No olvides suscribirte para no perderte ninguna novedad.
       </p>
-      <div className="flex items-center justify-center space-x-4">
+      <div className="flex items-start justify-start space-x-4">
         <input
           onChange={(event) => setEmail(event?.target?.value ?? "")}
           type="email"
           placeholder="Tu mejor email :)"
-          className="appearance-none rounded-l-lg border-2 border-yellow-500 py-2 px-4  bg-gray-800 text-white placeholder-gray-400 focus:outline-none w-[440px]"
+          className="appearance-none rounded-l-lg border-2 border-yellow-500 py-2 px-4  bg-gray-800 text-white placeholder-gray-400 focus:outline-none w-full"
           onKeyUp={handleInputKeyEvent}
         />
         <button
