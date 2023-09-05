@@ -75,8 +75,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
         <article className="w-12/12 lg:w-2/12 lg:absolute lg:right-0 mr-0 xl:right-12 mt-10 lg:ml-10 hidden xl:block ">
           <aside className="mx-auto">
             <div className="flex flex-col mx-auto dark:text-white text-gray-800">
-              <h3 className="text-2xl font-bold mb-4">Más articulos</h3>
-              <ul className="list-none pl-4">
+              <h3 className="text-2xl font-bold mb-4 pl-2">Más articulos</h3>
+              <ul className="list-disc pl-2">
                 {/* Loop through related articles and display them */}
                 {posts.map((relatedPost) => (
                   <li key={relatedPost.id} className="mb-2">
