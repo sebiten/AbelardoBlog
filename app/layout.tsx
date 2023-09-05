@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "@next/font/google";
 import UnderConstruction from "./components/refaction";
+import NewsletterSubscribe from "./components/NewsletterSubscribe";
+import NewsletterForm from "./components/NewsletterForm";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
