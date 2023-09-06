@@ -24,7 +24,7 @@ export default function MyProfilePic() {
 
   return (
     <section className="w-full mx-auto mt-6">
-      <div className="flex flex-col justify-center items-center w-full">
+      <div className="flex flex-col justify-center items-center">
         <motion.h1
           initial={{ opacity: 0, rotate: -180 }}
           animate={{ opacity: 1, rotate: 0 }}
@@ -42,7 +42,7 @@ export default function MyProfilePic() {
             ABelardo Blog
           </motion.span>
         </motion.h1>
-        <div className="mt-8 grid gap-2 px-2 grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
+        <div className="mt-8 w-full grid gap-2 px-2 grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
           {dolar.map((dol) => (
             <div
               key={dol.casa}

@@ -31,7 +31,7 @@ const Clima = () => {
 
   return (
     <div className="mt-10">
-      <div className="mb-12 sm:flex gap-3 border-gray-700 border rounded-md p-4 max-w-[59ch] mx-auto items-center justify-center dark:text-white light:text-gray-800">
+      <div className="mb-12 sm:flex gap-3 border-gray-700 border rounded-md p-4 max-w-[65ch] mx-auto items-center justify-center dark:text-white light:text-gray-800">
         {weatherData ? (
           <>
             <div>
@@ -61,7 +61,7 @@ const Clima = () => {
               </p>
             </div>
             <div className="mx-auto">
-              <h2 className="text-sm font-bold uppercase my-1">
+              <h2 className="text-sm font-bold uppercase my-3">
                 Ingresa ciudad y país
               </h2>
               <input
