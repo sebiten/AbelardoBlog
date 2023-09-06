@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import getFormattedDate from "@/lib/getFormattedDate";
+import Clima from "./Clima";
 
 interface DolarData {
   compra: number;
@@ -23,7 +24,7 @@ export default function MyProfilePic() {
 
   return (
     <section className="w-full mx-auto mt-6">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center w-full">
         <motion.h1
           initial={{ opacity: 0, rotate: -180 }}
           animate={{ opacity: 1, rotate: 0 }}
@@ -34,18 +35,18 @@ export default function MyProfilePic() {
             stiffness: 70,
             damping: 10,
           }}
-          className="text-center text-white font-bold uppercase -mt-24 prose prose-xl prose-slate dark:prose-invert abelardotit"
+          className="text-center text-white font-bold uppercase -mt-24"
         >
           <motion.span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4">
             <br />
             ABelardo Blog
           </motion.span>
         </motion.h1>
-        <div className="mt-8 grid gap-2 px-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-2 px-2 grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
           {dolar.map((dol) => (
             <div
               key={dol.casa}
-              className="text-gray-700  dark:text-white flex flex-col items-center justify-center w-full mx-auto transition duration-500 ease-in-out transform hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl shadow-xl p-8 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-xl dark:hover:shadow-xl  hover:text-gray-600 dark:hover:text-gray-300"
+              className="text-gray-700 dark:text-white flex flex-col items-center justify-center w-full mx-auto transition duration-500 ease-in-out transform hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl shadow-xl p-4 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-xl dark:hover:shadow-xl  hover:text-gray-600 dark:hover:text-gray-300"
             >
               <h3 className="mt-2 text-lg font-semibold ">{dol.nombre}</h3>
               <p className="mt-1 text-xl font-bold text-gray-500 dark:text-gray-300">
@@ -58,6 +59,7 @@ export default function MyProfilePic() {
           ))}
         </div>
       </div>
+      <Clima/>
     </section>
   );
 }

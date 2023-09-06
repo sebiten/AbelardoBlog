@@ -4,7 +4,7 @@ import Script from "next/script";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import Image from "next/image";
-import { Montserrat_Alternates, Montserrat } from "@next/font/google";
+import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Form/NewsletterSubscribe";
 
 const montserrat_alternates = Montserrat_Alternates({
@@ -56,8 +56,7 @@ export default function RootLayout({
           />
         </div>
         {children}
-        {/* <UnderConstruction /> */}
-        <NewsletterSubscribe/>
+        <NewsletterSubscribe />
         <Footer />
       </body>
     </html>
