@@ -2,26 +2,10 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-type WeatherData = {
-  location: {
-    name: string;
-  };
-  current: {
-    text: string;
-    condition: {
-      icon: string;
-      text: string; // Agregar esta propiedad
-    };
-    temp_c: number;
-    humidity: number;
-    last_updated: string;
-  };
-};
-
-const Clima: React.FC = () => {
-  const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
-  const [zone, setZone] = useState<string>("Jujuy");
-  const [isCalled, setIsCalled] = useState<boolean>(false);
+const Clima = () => {
+  const [weatherData, setWeatherData] = useState(null);
+  const [zone, setZone] = useState("Jujuy");
+  const [isCalled, setIsCalled] = useState(false);
   const apiUrl = `https://api.weatherapi.com/v1/current.json?key=81109ab2335b40f880c135011230609&q=${zone}&aqi=no&lang=es`;
 
   useEffect(() => {
@@ -34,7 +18,7 @@ const Clima: React.FC = () => {
           throw new Error("No se pudo obtener la información del clima");
         }
 
-        const data: WeatherData = await response.json();
+        const data = await response.json();
         setWeatherData(data);
       } catch (error) {
         console.error("Error al obtener los datos del clima:", error);
@@ -75,9 +59,7 @@ const Clima: React.FC = () => {
                 {weatherData.current.humidity}%
               </p>
             </div>
-            <div
-              className="mx-auto"
-            >
+            <div className="mx-auto">
               <h2 className="text-sm font-bold uppercase my-1">
                 Ingresa ciudad y país
               </h2>
