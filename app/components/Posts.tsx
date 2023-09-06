@@ -7,6 +7,7 @@ import NoEncontrado from "./NotFound";
 import Spinner from "./Spinner";
 import Controller from "./Controller";
 import NewsletterForm from "./Form/NewsletterForm";
+import Items from "./Items";
 
 interface BlogPost {
   id: string;
@@ -15,11 +16,16 @@ interface BlogPost {
   imageUrl: string;
   categories: string[];
   content: string;
+  isLoading: boolean;
+}
+type Tiempo = {
+
 }
 
 export default function Posts() {
   const [categoryFilter, setCategoryFilter] = useState("");
   const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [tiempo, setTiempo] = useState<Tiempo[]>([])
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
@@ -41,6 +47,8 @@ export default function Posts() {
     }
     fetchPosts();
   }, [categoryFilter, currentPage]);
+
+  
 
   function handleCategoryChange(event: React.ChangeEvent<HTMLSelectElement>) {
     setCategoryFilter(event.target.value);
@@ -86,35 +94,12 @@ export default function Posts() {
           ))}
         </select>
       </div>
-      <div>
-        {isLoading ? (
-          <div className="flex items-center justify-center mt-24">
-            {/* Use the Spinner component */}
-            <Spinner />
-          </div>
-        ) : (
-          <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-6/12 3xl:w-6/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-4">
-            {posts && posts.length > 0
-              ? posts.map((post, index) => {
-                  const startIndex = (currentPage - 1) * itemsPerPage; // Calculate startIndex here
-                  if (
-                    index >= startIndex &&
-                    index < startIndex + itemsPerPage
-                  ) {
-                    return <ListItem key={post.id} post={post} />;
-                  }
-                  return null;
-                })
-              : null}
-          </div>
-        )}
-        {/* Here's the "NoEncontrado" message */}
-        {!isLoading && posts.length === 0 && (
-          <div className="flex items-center justify-center mt-24">
-            <NoEncontrado />
-          </div>
-        )}
-      </div>
+      <Items
+        isLoading={isLoading}
+        posts={posts}
+        currentPage={currentPage}
+        itemsPerPage={itemsPerPage}
+      />
       <Controller
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}

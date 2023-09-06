@@ -5,5 +5,6 @@ type BlogPost = {
     imageUrl: string;
     categories: string[];
     content: string;
+
   };
   
