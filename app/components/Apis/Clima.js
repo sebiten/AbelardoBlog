@@ -1,18 +1,19 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
 const Clima = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [zone, setZone] = useState("Jujuy");
   const [isCalled, setIsCalled] = useState(false);
-  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=81109ab2335b40f880c135011230609&q=${zone}&aqi=no&lang=es`;
 
   useEffect(() => {
     // Función para realizar la solicitud FETCH
     const fetchData = async () => {
       try {
-        const response = await fetch(apiUrl);
+        const response = await fetch(
+          `https://api.weatherapi.com/v1/current.json?key=81109ab2335b40f880c135011230609&q=${zone}&aqi=no&lang=es`
+        );
 
         if (!response.ok) {
           throw new Error("No se pudo obtener la información del clima");
@@ -26,7 +27,7 @@ const Clima = () => {
     };
 
     fetchData();
-  }, [apiUrl]);
+  }, [zone]);
 
   return (
     <div className="mt-10">

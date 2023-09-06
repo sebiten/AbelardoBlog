@@ -6,7 +6,7 @@ import { filterOptions } from "../constantes/constantes";
 import NoEncontrado from "./NotFound";
 import Spinner from "./Spinner";
 import Controller from "./Controller";
-import NewsletterForm from "./Form/NewsletterForm";
+import NewsletterForm from "./Apis/NewsletterForm";
 import Items from "./Items";
 
 interface BlogPost {

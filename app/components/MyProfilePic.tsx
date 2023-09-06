@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import getFormattedDate from "@/lib/getFormattedDate";
-import Clima from "./Clima";
+import Clima from "./Apis/Clima";
 
 interface DolarData {
   compra: number;

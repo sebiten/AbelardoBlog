@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithubAlt, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import NewsletterSubscribe from "./Form/NewsletterSubscribe";
+import NewsletterSubscribe from "./Apis/NewsletterSubscribe";
 
 export default function Footer() {
   return (

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Posts from "./components/Posts";
 import MyProfilePic from "./components/MyProfilePic";
 
@@ -9,8 +9,6 @@ export default function Home() {
         <MyProfilePic />
       </div>
       <Posts />
-      <div>
-      </div>
     </div>
   );
 }
