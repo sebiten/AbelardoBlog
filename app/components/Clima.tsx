@@ -22,7 +22,7 @@ const Clima: React.FC = () => {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
   const [zone, setZone] = useState<string>("Jujuy");
   const [isCalled, setIsCalled] = useState<boolean>(false);
-  const apiUrl = `http://api.weatherapi.com/v1/current.json?key=81109ab2335b40f880c135011230609&q=${zone}&aqi=no&lang=es`;
+  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=81109ab2335b40f880c135011230609&q=${zone}&aqi=no&lang=es`;
 
   useEffect(() => {
     // Función para realizar la solicitud FETCH
