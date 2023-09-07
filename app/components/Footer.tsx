@@ -1,16 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithubAlt, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import NewsletterSubscribe from "./Apis/NewsletterSubscribe";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 pb-6">
-      <div className="container mx-auto px-4 ">
+    <footer className="bg-gray-900  pb-6">
+      <div className="container mx-auto px-4">
         <hr className="mb-6 border-b-2 border-gray-700" />
         <div className="text-white flex justify-center gap-4">
-          
-          <div className="flex-col sm:flex justify-center items-center gap-2 ">
+          <div className="flex flex-col justify-center items-center gap-2 ">
             <Link
               target="_parent"
               href="/"
