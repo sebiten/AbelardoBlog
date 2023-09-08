@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
-import GoogleAdsense from "@eisberg-labs/next-google-adsense/dist/adsense";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
@@ -36,7 +35,6 @@ export default function RootLayout({
       lang="es"
     >
       <head>
-      <GoogleAdsense client_id="6692046911486022"/>
         <link rel="icon" href="/abelardo-blog.png" />
         <Script
           async
