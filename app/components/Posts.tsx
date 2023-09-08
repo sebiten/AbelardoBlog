@@ -8,7 +8,6 @@ import Spinner from "./Spinner";
 import Controller from "./Controller";
 import NewsletterForm from "./Apis/NewsletterForm";
 import Items from "./Items";
-import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 interface BlogPost {
   id: string;
@@ -102,13 +101,6 @@ export default function Posts() {
         setCurrentPage={setCurrentPage}
         posts={posts}
         itemsPerPage={itemsPerPage}
-      />
-      <AdUnit
-        className="adsbygoogle block"
-        data-ad-client="ca-pub-6692046911486022"
-        data-ad-slot="6262332698"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
       />
     </div>
   );

@@ -36,7 +36,6 @@ export default function RootLayout({
       lang="es"
     >
       <head>
-
       <GoogleAdsense client_id="6692046911486022"/>
         <link rel="icon" href="/abelardo-blog.png" />
         <Script
