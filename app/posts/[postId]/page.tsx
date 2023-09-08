@@ -2,6 +2,7 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Adunit from "@eisberg-labs/next-google-adsense/dist/adunit";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -87,23 +88,15 @@ export default async function Post({ params }: { params: { postId: string } }) {
                     </Link>
                   </li>
                 ))}
-                <script
-                  async
-                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
-                  crossOrigin="anonymous"
-                ></script>
-                <ins
-                  className="adsbygoogle block"
-                  data-ad-client="ca-pub-6692046911486022"
-                  data-ad-slot="4282487872"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"
-                ></ins>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
               </ul>
             </div>
+            <Adunit
+              className="adsbygoogle block"
+              data-ad-client="ca-pub-6692046911486022"
+              data-ad-slot="4282487872"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            />
           </aside>
         </article>
       </div>

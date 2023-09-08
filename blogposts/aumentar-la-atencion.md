@@ -13,17 +13,6 @@ En el vertiginoso mundo digital, la capacidad de **aumentar la atención** se ha
 
 Caminar por la calle y ver a personas absortas en sus dispositivos móviles es un reflejo de la época en la que vivimos. Todos hemos sido testigos de esta escena, y quizás incluso hemos sido uno de esos "zombies" móviles en algún momento. Pero, ¿qué impacto tiene este comportamiento en nuestras vidas? Pasar horas al día distraídos por nuestros teléfonos no solo afecta nuestra productividad, sino que también erosiona nuestra capacidad de concentración y, en última instancia, nuestra salud física y mental. ¡Pensemos en los números! Estamos hablando de tres meses al año y más de 15 años de vida, el tiempo promedio que dedicamos a nuestras pantallas. Las redes sociales, en particular, se han convertido en una fuente de validación y conexión, pero cuanto más las usamos, más aislados nos sentimos.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6692046911486022"
-     data-ad-slot="2339646972"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## Liberándonos del Secuestro Tecnológico: Estrategias para **Aumentar la Atención**
 
