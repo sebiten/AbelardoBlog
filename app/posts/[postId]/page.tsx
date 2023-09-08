@@ -2,6 +2,7 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Adsense from "../../components/AdSense";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -48,6 +49,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <span className="font-bold text-yellow-500">Categoría: </span>
             {categories}
           </p>
+          <Adsense adSlot="4282487872" />
           <article className="w-full dark:text-white text-lg text-gray-800">
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
             <div className="flex flex-col mb-10 items-start">

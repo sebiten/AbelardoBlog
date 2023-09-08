@@ -35,6 +35,11 @@ export default function RootLayout({
       lang="es"
     >
       <head>
+        <script
+          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
         <link rel="icon" href="/abelardo-blog.png" />
         <Script
           async
