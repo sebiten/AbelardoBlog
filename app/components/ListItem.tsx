@@ -16,6 +16,8 @@ export default function ListItem({ post }: Props) {
       className="
     flex flex-col
     relative
+    
+    sm:my-20
       "
     >
       <Link
