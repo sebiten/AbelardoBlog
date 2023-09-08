@@ -25,7 +25,7 @@ export default function ListItem({ post }: Props) {
         href={`/posts/${id}`}
       >
         <>
-          <li className="mt-4 h-full relative  rounded-lg hover:scale-95 duration-500 p-4 overflow-hidden shadow-2xl bg-white dark:bg-gray-800 h- list-none ">
+          <li className="mt-4 h-full relative hover:scale-95 duration-500 p-4 overflow-hidden bg-white dark:bg-gray-800 h- list-none ">
             {imageUrl && (
               <Image
                 width={200}
