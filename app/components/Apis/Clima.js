@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import Adsense from "../AdSense";
 
 const Clima = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -78,6 +79,7 @@ const Clima = () => {
           <p>Cargando datos del clima...</p>
         )}
       </div>
+      <Adsense adSlot="4282487872" />
     </div>
   );
 };
