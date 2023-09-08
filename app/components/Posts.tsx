@@ -8,6 +8,7 @@ import Spinner from "./Spinner";
 import Controller from "./Controller";
 import NewsletterForm from "./Apis/NewsletterForm";
 import Items from "./Items";
+import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 interface BlogPost {
   id: string;
@@ -18,14 +19,12 @@ interface BlogPost {
   content: string;
   isLoading: boolean;
 }
-type Tiempo = {
-
-}
+type Tiempo = {};
 
 export default function Posts() {
   const [categoryFilter, setCategoryFilter] = useState("");
   const [posts, setPosts] = useState<BlogPost[]>([]);
-  const [tiempo, setTiempo] = useState<Tiempo[]>([])
+  const [tiempo, setTiempo] = useState<Tiempo[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
@@ -47,8 +46,6 @@ export default function Posts() {
     }
     fetchPosts();
   }, [categoryFilter, currentPage]);
-
-  
 
   function handleCategoryChange(event: React.ChangeEvent<HTMLSelectElement>) {
     setCategoryFilter(event.target.value);
@@ -105,6 +102,13 @@ export default function Posts() {
         setCurrentPage={setCurrentPage}
         posts={posts}
         itemsPerPage={itemsPerPage}
+      />
+      <AdUnit
+        className="adsbygoogle block"
+        data-ad-client="ca-pub-6692046911486022"
+        data-ad-slot="6262332698"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
       />
     </div>
   );
