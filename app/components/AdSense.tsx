@@ -15,29 +15,35 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true); // Set the mounted state to true after the component is mounted.
+    // Marcar el componente como montado después de que se monte en el cliente.
+    setMounted(true);
 
+    // Verificar si window.adsbygoogle existe antes de intentar cargar anuncios.
     if (window.adsbygoogle) {
-      window.adsbygoogle.push({});
+      // Evitar cargar anuncios si ya hay anuncios en el elemento <ins>.
+      const insElements = document.querySelectorAll(".adsbygoogle");
+      if (insElements.length === 0) {
+        window.adsbygoogle.push({});
+      }
     }
   }, []);
 
   return (
-    <>
-      {mounted && (
-        <ins
-          className="adsbygoogle"
-          style={{
-            display: "block",
-            margin: "10px auto", // 10px en top y bottom, y centrado horizontalmente
-          }}
-          data-ad-client="ca-pub-6692046911486022"
-          data-ad-slot={adSlot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      )}
-    </>
+    // Renderizar el anuncio solo si el componente está montado.
+    // Esto evita problemas de hidratación.
+    mounted ? (
+      <ins
+        className="adsbygoogle"
+        style={{
+          display: "block",
+          margin: "10px auto", // 10px en top y bottom, y centrado horizontalmente
+        }}
+        data-ad-client="ca-pub-6692046911486022"
+        data-ad-slot={adSlot}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    ) : null
   );
 };
 

@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { filterOptions } from "../constantes/constantes";
 import Controller from "./Controller";
 import Items from "./Items";
-import AdSense from "./AdSense";
 
 interface BlogPost {
   id: string;
@@ -99,9 +98,6 @@ export default function Posts() {
           posts={posts}
           itemsPerPage={itemsPerPage}
         />
-      </div>
-      <div className="mx-auto flex items-center justify-center w-full">
-        <AdSense adSlot="3326561058" />
       </div>
     </>
   );
