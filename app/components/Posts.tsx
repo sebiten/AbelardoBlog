@@ -103,7 +103,7 @@ export default function Posts() {
         posts={posts}
         itemsPerPage={itemsPerPage}
       />
-      <AdSense adSlot="9168779205" />
+      <AdSense adSlot="9331101745" />
     </div>
   );
 }

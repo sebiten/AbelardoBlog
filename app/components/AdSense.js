@@ -11,7 +11,7 @@ const AdSense = ({ adSlot }) => {
   return (
     <ins
       className="adsbygoogle"
-      style={{ display: "block" }}
+      style={{ display: "block", margin: auto }}
       data-ad-client="ca-pub-6692046911486022" // Replace with your publisher ID
       data-ad-slot={adSlot}
       data-ad-format="auto"
