@@ -1,9 +1,7 @@
-"use client"
 import Services from "../components/Services";
 import Image from "next/image";
 import Link from "next/link";
 import { demostraciones, services } from "../constantes/constantes";
-import AdSense from "../components/AdSense";
 
 const ServicesPage: React.FC = () => {
   return (
@@ -61,9 +59,6 @@ const ServicesPage: React.FC = () => {
       <div
         className="mt-40"
       >
-        <AdSense
-          adSlot="9331101745"
-          />
         <p className="mt-12 text-center text-3xl ">
           <span className="font-bold text-yellow-500 ">Algunos Ejemplos</span>
         </p>

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect, useState } from "react";
 
 interface AdSenseProps {
@@ -16,7 +16,6 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot }) => {
 
   useEffect(() => {
     setMounted(true); // Set the mounted state to true after the component is mounted.
-
 
     if (window.adsbygoogle) {
       window.adsbygoogle.push({});
