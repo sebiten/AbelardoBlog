@@ -54,7 +54,7 @@ export default function Posts() {
   return (
     <div>
       <AdSense adSlot="7855697534" />
-      <div className="flex flex-col justify-center items-center mt-32">
+      <div className="flex flex-col justify-center items-center mt-20">
         <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400 title">
           Artículos
         </h2>
