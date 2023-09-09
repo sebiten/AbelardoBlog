@@ -8,6 +8,7 @@ import Spinner from "./Spinner";
 import Controller from "./Controller";
 import NewsletterForm from "./Apis/NewsletterForm";
 import Items from "./Items";
+import AdSense from "./AdSense";
 
 interface BlogPost {
   id: string;
@@ -52,11 +53,13 @@ export default function Posts() {
   }
   return (
     <div>
-      <div className="flex flex-col justify-center items-center ">
+      <AdSense adSlot="7855697534" />
+      <div className="flex flex-col justify-center items-center mt-32">
         <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400 title">
           Artículos
         </h2>
       </div>
+      <AdSense adSlot="7855697534" />
       <div className=" my-2 w-7/12 mx-auto flex items-center justify-center filter">
         <label
           htmlFor="categoryFilter"
@@ -102,6 +105,7 @@ export default function Posts() {
         posts={posts}
         itemsPerPage={itemsPerPage}
       />
+      <AdSense adSlot="7855697534" />
     </div>
   );
 }
