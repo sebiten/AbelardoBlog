@@ -18,7 +18,7 @@ export default function Abelardo() {
           </span>
           , el felino más sagaz, entregado al arte del descanso y un compañero sin igual.
         </p>
-        <div className="mt-6 w-full rounded-lg shadow-lg overflow-hidden">
+        <div className="mt-6 w-full rounded-lg  overflow-hidden">
           <Image
             src="/abelardowebp.webp"
             alt="Abelardo"
@@ -73,7 +73,7 @@ export default function Abelardo() {
           </p>
         </div>
 
-        <div className="mt-8 rounded-lg shadow-lg overflow-hidden">
+        <div className="my-10 rounded-lg  overflow-hidden">
           <Link
             className="animate-pulse  
            animate-infinite animate-duration-[100ms]animate-delay-[22ms] animate-ease-out
@@ -81,8 +81,7 @@ export default function Abelardo() {
                hover:text-yellow-700
                  dark:text-yellow-400
                  dark:hover:text-yellow-500 font-bold
-               text-2xl
-            mt-4"
+               text-2xl"
             href="/"
           >
             ← Regresar al inicio

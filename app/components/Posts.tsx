@@ -1,12 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import ListItem from "./ListItem";
-import Link from "next/link";
 import { filterOptions } from "../constantes/constantes";
-import NoEncontrado from "./NotFound";
-import Spinner from "./Spinner";
 import Controller from "./Controller";
-import NewsletterForm from "./Apis/NewsletterForm";
 import Items from "./Items";
 import AdSense from "./AdSense";
 
@@ -52,24 +47,25 @@ export default function Posts() {
     setCurrentPage(1); // Reset to the first page when changing category
   }
   return (
-    <div>
-      <div className="flex flex-col justify-center items-center mt-20">
-        <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400 title">
-          Artículos
-        </h2>
-      </div>
-      <div className=" my-2 w-7/12 mx-auto flex items-center justify-center filter">
-        <label
-          htmlFor="categoryFilter"
-          className="text-gray-600 dark:text-gray-300 mr-2"
-        >
-          Categoría:
-        </label>
-        <select
-          id="categoryFilter"
-          value={categoryFilter}
-          onChange={handleCategoryChange}
-          className="
+    <>
+      <div>
+        <div className="flex flex-col justify-center items-center mt-20">
+          <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-2xl font-bold text-center text-yellow-500 dark:text-yellow-400 title">
+            Artículos
+          </h2>
+        </div>
+        <div className=" my-2 w-7/12 mx-auto flex items-center justify-center filter">
+          <label
+            htmlFor="categoryFilter"
+            className="text-gray-600 dark:text-gray-300 mr-2"
+          >
+            Categoría:
+          </label>
+          <select
+            id="categoryFilter"
+            value={categoryFilter}
+            onChange={handleCategoryChange}
+            className="
             border border-gray-300 dark:border-gray-700
             rounded-md
             text-gray-600 dark:text-gray-300
@@ -83,27 +79,28 @@ export default function Posts() {
             transition
             duration-500
             ease-in-out"
-        >
-          {filterOptions.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </select>
+          >
+            {filterOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
+        <Items
+          isLoading={isLoading}
+          posts={posts}
+          currentPage={currentPage}
+          itemsPerPage={itemsPerPage}
+        />
+        <Controller
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          posts={posts}
+          itemsPerPage={itemsPerPage}
+        />
       </div>
-      <Items
-        isLoading={isLoading}
-        posts={posts}
-        currentPage={currentPage}
-        itemsPerPage={itemsPerPage}
-      />
-      <Controller
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-        posts={posts}
-        itemsPerPage={itemsPerPage}
-      />
       <AdSense adSlot="9331101745" />
-    </div>
+    </>
   );
 }

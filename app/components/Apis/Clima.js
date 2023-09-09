@@ -35,15 +35,13 @@ const Clima = () => {
       <div className="mb-12 sm:flex gap-3 border-gray-700 border rounded-md p-4 max-w-[65ch] mx-auto items-center justify-center dark:text-white light:text-gray-800">
         {weatherData ? (
           <>
-            <div>
-              <Image
-                src={`https:${weatherData.current.condition.icon}`}
-                alt={weatherData.current.text}
-                width={100}
-                height={400}
-                className="mx-auto"
-              />
-            </div>
+            <Image
+              src={`https:${weatherData.current.condition.icon}`}
+              alt={weatherData.current.text}
+              width={100}
+              height={400}
+              className="mx-auto"
+            />
             <div className="sm:text-start text-center my-2 text-sm">
               <h3 className="font-bold sm:text-start text-center text-lg">
                 {isCalled ? weatherData.location.name : "Ledesma"}
@@ -79,7 +77,6 @@ const Clima = () => {
           <p>Cargando datos del clima...</p>
         )}
       </div>
-      <Adsense adSlot="4282487872" />
     </div>
   );
 };

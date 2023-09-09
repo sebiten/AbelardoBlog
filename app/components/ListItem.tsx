@@ -16,8 +16,7 @@ export default function ListItem({ post }: Props) {
       className="
     flex flex-col
     relative
-    
-    sm:my-20
+    m-4
       "
     >
       <Link
@@ -27,7 +26,7 @@ export default function ListItem({ post }: Props) {
         href={`/posts/${id}`}
       >
         <>
-          <li className="mt-4 h-full relative hover:scale-95 duration-500 p-4 overflow-hidden bg-white dark:bg-gray-800 h- list-none ">
+          <li className="mt-2 h-full relative hover:scale-95 duration-500 p-2 overflow-hidden bg-white dark:bg-gray-800 h- list-none border border-gray-700 rounded-lg shadow-2xl ">
             {imageUrl && (
               <Image
                 width={200}
@@ -35,7 +34,7 @@ export default function ListItem({ post }: Props) {
                 src={imageUrl}
                 layout="responsive"
                 alt={title}
-                className=" object-cover mx-auto p-4 rounded-lg"
+                className=" object-cover mx-auto p-2 rounded-lg"
               />
             )}
             <div className="flex flex-col p-4 h-44 ">

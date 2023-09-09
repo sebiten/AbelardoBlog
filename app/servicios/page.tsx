@@ -2,6 +2,7 @@ import Services from "../components/Services";
 import Image from "next/image";
 import Link from "next/link";
 import { demostraciones, services } from "../constantes/constantes";
+import AdSense from "../components/AdSense";
 
 const ServicesPage: React.FC = () => {
   return (
@@ -56,14 +57,20 @@ const ServicesPage: React.FC = () => {
           />
         ))}
       </div>
-      <p className="mt-12 text-center text-3xl ">
-        <span className="font-bold text-yellow-500 ">Algunos Ejemplos</span>
-      </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-6xl">
-        {demostraciones.map((demostracion, index) => (
-          <Link
-            href={demostracion.link}
-            className="text-gray-700 dark:text-white flex flex-col items-start
+      <div
+        className="mt-40"
+      >
+        <AdSense
+          adSlot="9331101745"
+          />
+        <p className="mt-12 text-center text-3xl ">
+          <span className="font-bold text-yellow-500 ">Algunos Ejemplos</span>
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-6xl">
+          {demostraciones.map((demostracion, index) => (
+            <Link
+              href={demostracion.link}
+              className="text-gray-700 dark:text-white flex flex-col items-start
             justify-center
             max-w-sm
             mx-auto
@@ -90,25 +97,27 @@ const ServicesPage: React.FC = () => {
             dark:hover:text-gray-300
             my-4
             "
-            key={index}
-            target="_blank"
-          >
-            <h3 className="my-2 text-center text-lg font-semibold">
-              {demostracion.title}
-            </h3>
-            <Image
-              src={demostracion.image}
-              alt={demostracion.title}
-              width={500}
-              height={300}
-              className="mx-auto h-48 w-full object-cover"
-            />
-            <p className=" text-sm mt-4 text-gray-500 dark:text-gray-300">
-              {demostracion.description}
-            </p>
-          </Link>
-        ))}
+              key={index}
+              target="_blank"
+            >
+              <h3 className="my-2 text-center text-lg font-semibold">
+                {demostracion.title}
+              </h3>
+              <Image
+                src={demostracion.image}
+                alt={demostracion.title}
+                width={500}
+                height={300}
+                className="mx-auto h-48 w-full object-cover"
+              />
+              <p className=" text-sm mt-4 text-gray-500 dark:text-gray-300">
+                {demostracion.description}
+              </p>
+            </Link>
+          ))}
+        </div>
       </div>
+
       <div className="mt-8 text-center text-3xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
         <Link
           className="animate-pulse  
