@@ -1,3 +1,4 @@
+"use client"
 import Services from "../components/Services";
 import Image from "next/image";
 import Link from "next/link";
