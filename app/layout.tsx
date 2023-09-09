@@ -36,9 +36,9 @@ export default function RootLayout({
     >
       <head>
         <script
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
+          crossOrigin="anonymous"
         ></script>
         <link rel="icon" href="/abelardo-blog.png" />
         <Script

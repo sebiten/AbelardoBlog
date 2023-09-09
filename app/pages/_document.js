@@ -10,6 +10,11 @@ class MyDocument extends Document {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
+            crossorigin="anonymous"
+          ></script>
         </Head>
         <body>
           <Main />
