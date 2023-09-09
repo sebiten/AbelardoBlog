@@ -17,7 +17,6 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot }) => {
   useEffect(() => {
     setMounted(true); // Set the mounted state to true after the component is mounted.
 
-    // If you need to perform any additional logic, you can do it here.
 
     if (window.adsbygoogle) {
       window.adsbygoogle.push({});

@@ -100,7 +100,6 @@ export default function Posts() {
           itemsPerPage={itemsPerPage}
         />
       </div>
-      <AdSense adSlot="9331101745" />
     </>
   );
 }
