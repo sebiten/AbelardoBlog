@@ -31,7 +31,9 @@ Si no es viable un **ayuno completo de dopamina**, existen formas de **acelerar 
 
 En conclusión, la **dopamina ejerce un papel central en la motivación y el bienestar**. Adoptar un enfoque consciente para mantener un **equilibrio adecuado de dopamina** puede ayudarnos a alcanzar nuestras metas, incrementar nuestra motivación y estar dispuestos a **sacrificarnos con tal de concretar nuestros sueños**.
 
-## Fuentes e Imágenes
 
-- [Dopamina](https://www.upb.edu.co/es/imagenes/img-diferenciaplacerbienestar-blg-1464210260228.jpg)
-- [Placer](https://cdn0.psicologia-online.com/es/posts/6/5/3/que_es_la_dopamina_definicion_y_funciones_4356_orig.jpg)
+## Enlaces Relacionados
+
+- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad
+- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
+- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones

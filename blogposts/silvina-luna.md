@@ -56,3 +56,9 @@ La muerte de **Silvina Luna** es un trágico recordatorio de los peligros de la 
 
 Es importante que tomemos conciencia de los riesgos de la cirugía estética y que busquemos profesionales calificados y confiables. También es importante que aprendamos a aceptarnos tal como somos, con nuestras imperfecciones y nuestros defectos. La belleza está en el interior, y no debemos dejar que la presión social nos lleve a poner en riesgo nuestra salud.
 
+## Enlaces Relacionados
+
+- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad
+- [Enlace 2](https://abelardo.blog/posts/aumentar-la-atencion): Como aumentar la Atencion En una Era Digital
+- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
+

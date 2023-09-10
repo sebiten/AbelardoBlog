@@ -43,3 +43,9 @@ Para evitar enfermarnos o sufrir lesiones, es importante seguir algunas **pautas
 10. **Tecnologías de variabilidad de la frecuencia cardíaca**: Algunos dispositivos pueden ayudarte a medir y entrenar la variabilidad de la frecuencia cardíaca, lo que te permitirá tener un mejor control de tu salud.
 
 Recuerda que la **constancia** y el **equilibrio** son fundamentales para alcanzar resultados a largo plazo. La variabilidad de la frecuencia cardíaca te proporciona una guía para mejorar tu salud, prevenir enfermedades y fortalecer tu fuerza de voluntad en todas las áreas de tu vida. Con conocimiento y acción, puedes tomar el control de tu bienestar y disfrutar de una vida más plena y saludable. ¡No subestimes el poder que tienes para cuidar de ti mismo y mejorar tu calidad de vida!
+
+## Enlaces Relacionados
+
+- [Enlace 1](https://abelardo.blog/posts/aumentar-la-atencion): Como Recuperar la capacidad Atencion En una Era Digital
+- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como Aumentar la Capacidad Cognitiva de manera natural
+- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones
