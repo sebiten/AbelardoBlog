@@ -60,9 +60,6 @@ export default function MyProfilePic() {
           ))}
         </div>
       </div>
-      <div className="w-full mx-auto flex items-center justify-center my-4">
-        <AdSense adSlot="7855697534" />
-      </div>
       <Clima />
     </section>
   );

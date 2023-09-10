@@ -99,9 +99,7 @@ export default function Posts() {
           posts={posts}
           itemsPerPage={itemsPerPage}
         />
-        <div className="w-full mx-auto flex items-center justify-center my-4">
-          <AdSense adSlot="7349566540" />
-        </div>
+      
       </div>
     </>
   );
