@@ -54,20 +54,10 @@ Para aquellos inspirados a aventurarse en el ayuno intermitente, aquí hay algun
 - Nutre tu cuerpo con alimentos saludables durante los momentos de alimentación.
 - Sintoniza tu cuerpo y detén el ayuno si te sientes incómodo.
 
-## Ampliando tus Horizontes sobre el Ayuno Intermitente
-
-Si buscas más conocimientos sobre el ayuno intermitente, el vasto mundo en línea y libros especializados son tus guías. Aquí están algunos recursos recomendados para profundizar tu comprensión:
-
-- "La Guía del Ayuno Intermitente para Principiantes" por Gin Stephens
-- "The Obesity Code" por Jason Fung
-- "The Complete Guide to Fasting" por Dr. Mark Mattson
-- "The Fasting Method" por Dr. Michael Mosley
-- "The Intermittent Fasting Revolution" por Dr. Jason Fung
-
 Espero que esta exploración te haya enriquecido con conocimiento y curiosidad. ¡Hacia adelante en tu viaje hacia una salud más próspera!
 
 ## Enlaces Relacionados
 
-- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad
-- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
-- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones
+- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
+- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
+- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/manejar-el-enojo) 
