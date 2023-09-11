@@ -67,6 +67,6 @@ El futuro te pertenece a ti, y tu capacidad para **dominar tu atención** te dar
 
 ## Enlaces Relacionados
 
-- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad
-- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
-- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones
+- [Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad](https://abelardo.blog/posts/energia-y-vitalidad)
+- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/dopamina-y-la-motivacion)
+- [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)

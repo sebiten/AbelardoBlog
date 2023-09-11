@@ -71,6 +71,7 @@ La búsqueda constante de la felicidad puede ser agotadora y contraproducente. E
 
 ## Enlaces Relacionados
 
-- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estres Fisico y Mental
-- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
-- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones
+
+- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
+- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
+- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/manejar-el-enojo) 

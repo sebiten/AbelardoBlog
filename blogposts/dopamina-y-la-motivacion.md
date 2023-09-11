@@ -7,7 +7,6 @@ categories: "Salud, Motivación"
 
 ![dopamina-y-la-motivacion](/dopamina-y-la-motivacion.webp)
 
-
 La búsqueda de la motivación es una constante en nuestras vidas, y ¿qué sería de nosotros sin una recompensa cerebral por nuestros esfuerzos? La **dopamina**, un **neurotransmisor** asombroso que habita en nuestro cerebro, cumple este papel de forma magistral. Estas moléculas son las **intrincadas mensajeras que las neuronas emplean para comunicarse**. Si los **neurotransmisores no funcionan de manera eficaz**, **nuestro cerebro también se resiente**. No solo son pilares de la **memoria**, sino que también gobiernan nuestro **estado de ánimo** y nuestras **capacidades motrices**.
 
 Dentro de este complicado panorama, la **dopamina** brilla como una figura **esencial para nuestro sentido de motivación**. La **ausencia de motivación** dejaría a nuestras acciones sin dirección. Imagina la motivación como el motor que impulsa los cambios que deseas materializar en tu vida, como adoptar hábitos para mejorar tu salud. La **carencia de dopamina** a menudo se correlaciona con la **pérdida de energía y deseo**, lo cual puede traducirse en **dificultad para implementar cambios**.
@@ -26,14 +25,12 @@ Adoptar un **ayuno de dopamina** durante unos días puede permitir que el cerebr
 
 **Enfocarse en lo crucial en la vida es un aspecto fundamental para experimentar una existencia plena y gratificante**. Al **eliminar las distracciones y adicciones**, ganamos tiempo para invertir en **actividades de verdadera importancia**. Además, mantener **niveles óptimos de neurotransmisores**, como la dopamina, es esencial para alcanzar un **rendimiento cognitivo sobresaliente** y disfrutar de cada día.
 
-
 Si no es viable un **ayuno completo de dopamina**, existen formas de **acelerar el proceso**. El **consumo de aminoácidos como la tirosina**, fundamental para la producción de dopamina, puede resultar beneficioso. Además, **la meditación puede contribuir al reequilibrio de los neurotransmisores, mejorando el enfoque y el bienestar general**.
 
 En conclusión, la **dopamina ejerce un papel central en la motivación y el bienestar**. Adoptar un enfoque consciente para mantener un **equilibrio adecuado de dopamina** puede ayudarnos a alcanzar nuestras metas, incrementar nuestra motivación y estar dispuestos a **sacrificarnos con tal de concretar nuestros sueños**.
 
-
 ## Enlaces Relacionados
 
-- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad
-- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
-- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones
+- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
+- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion)
+- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/manejar-el-enojo)

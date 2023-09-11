@@ -7,7 +7,6 @@ categories: "Salud"
 
 ![energia-y-vitalidad](/energia-y-vitalidad.webp)
 
-
 En el vasto escenario de la búsqueda de bienestar, todos anhelamos con fervor sentirnos empapados de energía, bañados en un estado de ánimo luminoso y envueltos en la manta acogedora de una salud óptima. Sin duda, nuestras rutinas diarias son las directoras de esta sinfonía que resuena en la larga ópera de nuestras vidas. No subestimes el poder transformador de los ajustes sutiles; pequeñas notas pueden resonar en eco duradero en la catedral de nuestra salud y bienestar.
 
 ## **El Sueño: Cimiento de Resplandor**
@@ -38,6 +37,6 @@ En última instancia, la clave radica en tejerte una rutina que sirva de himno a
 
 ## Enlaces Relacionados
 
-- [Enlace 1](https://abelardo.blog/posts/estres-fisico-y-mental): Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad
-- [Enlace 2](https://abelardo.blog/posts/capacidad-cognitiva): Como aumentar la capacidad cognitiva de manera natural
-- [Enlace 3](https://abelardo.blog/posts/manejar-el-enojo): Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones
+- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
+- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion)
+- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/manejar-el-enojo)

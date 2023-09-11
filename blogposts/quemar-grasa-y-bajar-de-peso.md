@@ -34,3 +34,7 @@ El ayuno intermitente, un enfoque dietético que alterna entre periodos de consu
 ## Conclusión
 El ayuno intermitente puede ser una herramienta poderosa para la quema de grasa y la pérdida de peso, siempre y cuando se aborde de manera informada y responsable. Al seleccionar el método adecuado, comenzar gradualmente y priorizar la nutrición durante las ventanas de alimentación, puedes disfrutar de los beneficios de esta estrategia sin comprometer tu bienestar. Si buscas una manera novedosa y flexible de alcanzar tus objetivos de pérdida de peso, el ayuno intermitente podría ser la respuesta anhelada. ¡Emprende este camino hoy mismo y descubre cómo esta práctica tiene el potencial de transformar tu enfoque hacia la pérdida de peso y la salud en general!
 
+
+- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
+- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
+- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/manejar-el-enojo) 

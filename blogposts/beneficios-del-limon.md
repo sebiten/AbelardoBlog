@@ -51,3 +51,7 @@ La hidratación es la base de la vitalidad, y el agua de limón es tu elixir par
 Más allá de sus beneficios, el agua con limón en ayunas pinta un lienzo refrescante para tus mañanas. Cada sorbo es un recordatorio de que el auténtico sabor de la salud puede ser delicioso y satisfactorio.
 
 En resumen, si estás listo para elevar tus mañanas a un nuevo nivel de bienestar, considera este simple cambio en tu rutina. El agua con limón en ayunas no es solo una moda pasajera, es un ritual matutino respaldado por la ciencia y enriquecido por siglos de sabiduría. Permítete disfrutar de sus tesoros y brindar a tu cuerpo el regalo de la salud desde el amanecer.
+
+- [Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad](https://abelardo.blog/posts/energia-y-vitalidad)
+- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/dopamina-y-la-motivacion)
+- [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
