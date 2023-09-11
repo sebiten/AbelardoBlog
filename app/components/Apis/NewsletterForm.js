@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Spinner from "../Spinner";
 import { sanitize } from "./misc";
+import AdSenseCustom from "../AdSenseCustom";
 
 const NewsletterForm = ({ status, message, onValidated }) => {
   const [error, setError] = useState(null);
@@ -96,6 +97,9 @@ const NewsletterForm = ({ status, message, onValidated }) => {
             </div>
           )}
         </div>
+        <AdSenseCustom
+          adSlot="4081610654"
+        />
       </div>
   );
 };

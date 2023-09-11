@@ -4,6 +4,7 @@ import { filterOptions } from "../constantes/constantes";
 import Controller from "./Controller";
 import Items from "./Items";
 import AdSense from "./AdSense";
+import AdSenseCustom from "./AdSenseCustom";
 
 interface BlogPost {
   id: string;
@@ -100,6 +101,11 @@ export default function Posts() {
           itemsPerPage={itemsPerPage}
         />
       
+      </div>
+      <div>
+        <AdSenseCustom
+        adSlot="9713211283"
+        />
       </div>
     </>
   );
