@@ -60,7 +60,10 @@ const NewsletterForm = ({ status, message, onValidated }) => {
   };
 
   return (
-      <div className="mb-40 px-6 sm:px-1 text-white text-start mx-auto">
+      <div className="my-40 px-6 sm:px-1 text-white text-start mx-auto">
+        <h2
+          className="text-yellow-500 animate-bounce text-center font-bold text-2xl my-2"
+        >¡Gracias por leer! </h2>
         <h2
           className="text-yellow-500 text-center text-lg my-2"
         >No olvides de suscribirte para mantenerte informado. </h2>
