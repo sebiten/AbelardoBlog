@@ -1,9 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-interface AdSenseProps {
-  adSlot: string;
-}
 
 declare global {
   interface Window {
@@ -11,7 +8,7 @@ declare global {
   }
 }
 
-const AdSenseCustom: React.FC<AdSenseProps> = ({ adSlot }) => {
+const AdSenseCustom: React.FC= () => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -36,12 +33,12 @@ const AdSenseCustom: React.FC<AdSenseProps> = ({ adSlot }) => {
         className="adsbygoogle"
         style={{
           display: "block",
-          margin: "10px auto", // 10px en top y bottom, y centrado horizontalmente
+          // 10px en top y bottom, y centrado horizontalmente
         }}
         data-ad-format="fluid"
         data-ad-layout-key="-fb+5w+4e-db+86"
         data-ad-client="ca-pub-6692046911486022"
-        data-ad-slot={adSlot}
+        data-ad-slot="9713211283"
       ></ins>
     ) : null
   );
