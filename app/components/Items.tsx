@@ -13,7 +13,7 @@ const Items = ({isLoading, posts, currentPage, itemsPerPage }: any) => {
           <Spinner />
         </div>
       ) : (
-        <div className="w-10/12 md:w-full xl:w-11/12 2xl:w-6/12 3xl:w-6/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-4">
+        <div className="w-12/12 md:w-full xl:w-11/12 2xl:w-6/12 3xl:w-6/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-4">
           {posts && posts.length > 0
             ? posts.map((post: any, index: any) => {
                 const startIndex = (currentPage - 1) * itemsPerPage; // Calculate startIndex here

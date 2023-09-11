@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Clima from "./Apis/Clima";
 import AdSense from "./AdSense";
+import Image from "next/image";
 
 interface DolarData {
   compra: number;
@@ -38,6 +39,15 @@ export default function MyProfilePic() {
           }}
           className="text-center text-white font-bold uppercase -mt-24"
         >
+          <div className="w-full mt-20 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+            <Image
+              src="/abelardo-blog.png"
+              className="mx-auto w-auto h-auto mt-4"
+              alt="abelardo-blog"
+              height={500}
+              width={300}
+            />
+          </div>
           <motion.span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4">
             <br />
             ABelardo Blog

@@ -55,15 +55,7 @@ export default function RootLayout({
       </head>
       <body className="dark:bg-slate-800">
         <Navbar />
-        <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
-          <Image
-            src="/abelardo-blog.png"
-            className="mx-auto w-auto h-auto mt-4"
-            alt="abelardo-blog"
-            height={500}
-            width={300}
-          />
-        </div>
+
         {children}
         <NewsletterSubscribe />
         <Footer />

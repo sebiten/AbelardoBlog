@@ -18,7 +18,7 @@ export const links = [
   { href: "/", text: "Inicio", target: "_parent" },
   {
     href: "/abelardo",
-    text: "Sobre mi ",
+    text: "Abelardo ",
     target: "_self",
   },
   {
@@ -44,7 +44,7 @@ export default function Navbar() {
   return (
     <nav className="dark:bg-gray-800 bg-white p-8 sticky top-0 drop-shadow-xl z-10">
       <motion.div
-      className="w-full 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row"
+      className="w-full mt-6 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -60,7 +60,7 @@ export default function Navbar() {
         </Link>
       </motion.div>
       <motion.div
-        className="flex flex-row justify-center items-center sm:justify-between align-middle gap-4 text-white text-sm lg:text-5xl"
+        className="flex  flex-row justify-center items-center sm:justify-between align-middle gap-4 text-white text-sm lg:text-5xl"
         variants={linkVariants}
       >
         {links.map((link, index) => (
