@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
+import GoogleAds from "./components/GoogleAds";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
@@ -47,8 +48,11 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         ></Script>
+        <GoogleAds />
+        <GoogleAnalytics
+          GA_TRACKING_ID={process.env.GA_TRACKING_ID as string}
+        />
       </head>
-      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className="dark:bg-slate-800">
         <Navbar />
         <div className="w-full mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
