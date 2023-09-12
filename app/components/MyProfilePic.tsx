@@ -27,7 +27,7 @@ export default function MyProfilePic() {
   return (
     <section className="w-full mx-auto mt-6">
       <div className="flex flex-col justify-center items-center">
-        <div className="w-full mt-2 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+        <div className="w-full mt-2 text-xl text-gray-700 dark:text-white mx-auto text-center lg:w-8/12 xl:w-8/12 2xl:w-8/12">
           <Image
             src="/abelardo-blog.png"
             className="mx-auto w-auto h-auto mt-4"

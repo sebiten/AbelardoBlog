@@ -2,7 +2,7 @@
 title: "Alcohol y tu Salud: Estrategias para Detener la Resaca"
 date: "2023-09-11"
 imageUrl: "/frenar-la-resaca.webp"
-categories: "Salud, Concentración, Desarrollo Personal"
+categories: "Salud, Desarrollo Personal"
 ---
 
 ![Alcohol](/frenar-la-resaca-page.webp)

@@ -60,7 +60,7 @@ const NewsletterForm = ({ status, message, onValidated }) => {
   };
 
   return (
-      <div className="my-40 px-6 sm:px-1 text-white text-start mx-auto">
+      <div className="my-20 px-6 sm:px-1 text-white text-start mx-auto">
         <h2
           className="text-yellow-500 animate-bounce text-center font-bold text-2xl my-2"
         >¡Gracias por leer! </h2>
@@ -72,7 +72,7 @@ const NewsletterForm = ({ status, message, onValidated }) => {
             onChange={(event) => setEmail(event?.target?.value ?? "")}
             type="email"
             placeholder="Tu mejor email :)"
-            className="appearance-none rounded-l-lg border-2 border-yellow-500 py-2 px-4  bg-gray-800 text-white placeholder-gray-400 focus:outline-none w-96"
+            className="appearance-none rounded-l-lg border-2 border-yellow-500 py-2 px-4  bg-gray-800 text-white placeholder-gray-400 focus:outline-none w-[480px]"
             onKeyUp={handleInputKeyEvent}
           />
           <button

@@ -2,7 +2,7 @@
 title: "Cómo Aumentar la Atención y Recuperar tu Libertad en la Era Digital"
 date: "2023-09-04"
 imageUrl: "/aumentar-la-atencion.webp"
-categories: "Salud, Concentración, Desarrollo Personal"
+categories: "Salud, Desarrollo Personal"
 ---
 
 ![aumentar-la-atencion](/aumentar-la-atencion.webp)

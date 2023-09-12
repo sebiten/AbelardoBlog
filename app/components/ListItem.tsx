@@ -40,7 +40,7 @@ export default function ListItem({ post }: Props) {
             )}
             <div className="flex flex-col p-4 h-44 ">
               <h3
-                className="text-xl font-semibold dark:text-white/90 mb-2
+                className="text-lg font-semibold dark:text-white/90 mb-2
           hover:text-yellow-500"
               >
                 {title}
