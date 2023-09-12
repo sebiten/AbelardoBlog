@@ -101,7 +101,7 @@ const ServicesPage: React.FC = () => {
               </h3>
               <Image
                 src={demostracion.image}
-                alt={demostracion.title}
+                alt="Demostracion"
                 width={500}
                 height={300}
                 className="mx-auto h-48 w-full object-cover"

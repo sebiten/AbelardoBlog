@@ -6,22 +6,17 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script
-            data-ad-client="ca-pub-6692046911486022"
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script>
-          <script
+          <Script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
             crossorigin="anonymous"
-          ></script>
+          ></Script>
           <Script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY"
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           ></Script>
-          <Script id="google-analytics" strategy="afterInteractive">
+          <Script id="google-analytics" strategy="lazyOnload">
             {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}

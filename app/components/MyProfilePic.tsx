@@ -32,6 +32,7 @@ export default function MyProfilePic() {
             src="/abelardo-blog.png"
             className="mx-auto w-auto h-auto mt-4"
             alt="abelardo-blog"
+            priority={true}
             height={500}
             width={300}
           />

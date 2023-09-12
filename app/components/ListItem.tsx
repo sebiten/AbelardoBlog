@@ -29,12 +29,13 @@ export default function ListItem({ post }: Props) {
           <li className="mt-2 h-full relative hover:scale-95 duration-500 p-2 overflow-hidden bg-white dark:bg-gray-800 h- list-none border border-gray-700 rounded-lg shadow-2xl ">
             {imageUrl && (
               <Image
-                width={200}
-                height={200}
+                width={1920}
+                height={1080}
                 src={imageUrl}
-                layout="responsive"
                 alt={title}
-                className=" object-cover mx-auto p-2 rounded-lg"
+                quality={100}
+                priority={true}
+                className=" object-fit mx-auto p-2 rounded-lg w-full"
               />
             )}
             <div className="flex flex-col p-4 h-44 ">

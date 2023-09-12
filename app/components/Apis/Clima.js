@@ -37,10 +37,10 @@ const Clima = () => {
           <>
             <Image
               src={`https:${weatherData.current.condition.icon}`}
-              alt={weatherData.current.text}
+              alt="Imagen del clima"
               width={100}
               height={400}
-              className="mx-auto"
+              className="mx-auto w-auto h-auto"
             />
             <div className="sm:text-start text-center my-2 text-sm">
               <h3 className="font-bold sm:text-start text-center text-lg">

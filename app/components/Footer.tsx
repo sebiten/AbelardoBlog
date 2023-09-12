@@ -18,8 +18,9 @@ export default function Footer() {
                 src="/abelardo-blog.png"
                 alt="Abelardo-blog"
                 width={50}
+                priority={true}
                 height={300}
-                className=""
+                className="w-auto h-auto"
               />
             </Link>
             <Link
