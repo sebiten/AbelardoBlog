@@ -55,6 +55,10 @@ Para minimizar los efectos perjudiciales del alcohol en tu cuerpo como la famosa
 
 - **Suplementos Antioxidantes:** Considera tomar antioxidantes para proteger tu cuerpo de los daños causados por el alcohol.
 
+## Cómo Prevenir y Aliviar la Resaca: Consejos para Recuperarte Después de Beber
+
+La resaca es una experiencia desagradable que puede afectar a cualquiera después de una noche de beber alcohol. Para evitar o aliviar este malestar, es importante tomar medidas preventivas y cuidar tu cuerpo. En primer lugar, asegúrate de **beber con moderación** y alternar con agua o bebidas no alcohólicas. Antes de acostarte, consume alimentos ricos en nutrientes como _carbohidratos_ y grasas saludables para ayudar a tu cuerpo a procesar el alcohol. Al despertar, rehidrátate con agua, bebidas isotónicas o jugos naturales ricos en _vitaminas_. Además, considera tomar **analgésicos suaves** como el _ibuprofeno_ si es necesario, y descansar lo suficiente para que tu cuerpo se recupere. Recuerda que la mejor manera de evitar una resaca es beber con responsabilidad y conocer tus límites.
+
 Además, para abordar efectos negativos específicos en diferentes sistemas corporales, ten en cuenta las siguientes recomendaciones:
 
 - **Acumulación de Grasa Corporal:** Consume con moderación, come antes de beber y haz ejercicio regularmente.
