@@ -92,9 +92,6 @@ export default async function Post({ params }: { params: { postId: string } }) {
             </div>
           </aside>
         </article>
-        <div className="my-10 p-4 mx-auto w-full">
-          <AdSense adSlot="1475628617" />
-        </div>
       </div>
     </main>
   );
