@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html
       className={` ${montserrat_alternates.variable} ${montserrat.variable} font-body`}
-      lang="es"
+      lang="es-ES"
     >
       <head>
         <script
@@ -41,7 +41,6 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
           crossOrigin="anonymous"
         ></script>
-        <link rel="icon" href="/abelardo-blog.png" />
         <Script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}`}

@@ -20,12 +20,20 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 
   if (!post) {
     return {
-      title: "Post Not Found",
+      title: "Artículo No Econtrado",
+      description: "La pagina no ha sido encontrada"
     };
   }
 
   return {
     title: post.title,
+    description: post.title,
+    alternates: {
+      canonical: `/posts/${postId}`,
+      languages: {
+        "es-ES": `es-ES/posts/${postId}`,
+      },
+    },
   };
 }
 
