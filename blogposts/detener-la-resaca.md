@@ -80,3 +80,10 @@ Siguiendo estas pautas generales y específicas, puedes disfrutar del alcohol de
 ## Conclusión
 
 El alcohol, aunque una parte arraigada de muchas culturas, presenta riesgos significativos para nuestra salud. No obstante, al tomar medidas conscientes para reducir su consumo y adoptar hábitos de vida saludables, podemos minimizar estos efectos perjudiciales y mantenernos en el camino hacia una vida más saludable. Recuerda, la moderación y el autocuidado son clave cuando se trata del consumo de alcohol.
+
+## Enlaces Relacionados
+
+- [Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad](https://abelardo.blog/posts/energia-y-vitalidad)
+- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/dopamina-y-la-motivacion)
+- [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
+
