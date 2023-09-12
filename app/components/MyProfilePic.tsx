@@ -36,7 +36,7 @@ export default function MyProfilePic() {
             width={300}
           />
         </div>
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, rotate: -180 }}
           animate={{ opacity: 1, rotate: 0 }}
           transition={{
@@ -48,14 +48,15 @@ export default function MyProfilePic() {
           }}
           className="text-center text-white font-bold uppercase -mt-24"
         >
-          <div>
-            <motion.span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4">
-              <br />
-              Abelardo Blog
-            </motion.span>
-            <h2 className="my-4 font-black">Explora el mundo a través de los ojos de Abelardo: Un viaje de descubrimiento y aprendizaje.</h2>
-          </div>
-        </motion.h1>
+          <motion.span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4">
+            <br />
+            Abelardo Blog
+          </motion.span>
+          <h1 className="my-4 font-black">
+            Explora el mundo a través de los ojos de Abelardo: Un viaje de
+            descubrimiento y aprendizaje.
+          </h1>
+        </motion.div>
         <div className="mt-8 w-full grid gap-2 px-2 grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
           {dolar.map((dol) => (
             <div
