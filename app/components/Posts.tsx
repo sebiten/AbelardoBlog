@@ -101,7 +101,24 @@ export default function Posts() {
         />
       </div>
       <div className="my-10 p-4 mx-auto w-full">
-        <AdSenseCustom />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
+          crossOrigin="anonymous"
+        ></script>
+        <ins
+          className="adsbygoogle"
+          style={{
+            display: "block",
+            margin: "10px auto", // 10px en top y bottom, y centrado horizontalmente
+          }}
+          data-ad-format="fluid"
+          data-ad-layout-key="-fb+5w+4e-db+86"
+          data-ad-client="ca-pub-6692046911486022"
+          data-ad-slot="9713211283"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        {/* <AdSenseCustom /> */}
       </div>
     </>
   );
