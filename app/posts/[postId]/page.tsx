@@ -2,6 +2,7 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import AdSense from "@/app/components/AdSense";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -92,23 +93,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
           </aside>
         </article>
         <div className="my-10 p-4 mx-auto w-full">
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
-            crossOrigin="anonymous"
-          ></script>
-          <ins
-            className="adsbygoogle"
-            style={{
-              display: "block",
-              margin: "10px auto", // 10px en top y bottom, y centrado horizontalmente
-            }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="1475628617"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          <AdSense adSlot="1475628617" />
         </div>
       </div>
     </main>
