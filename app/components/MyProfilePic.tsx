@@ -27,6 +27,15 @@ export default function MyProfilePic() {
   return (
     <section className="w-full mx-auto mt-6">
       <div className="flex flex-col justify-center items-center">
+        <div className="w-full mt-2 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+          <Image
+            src="/abelardo-blog.png"
+            className="mx-auto w-auto h-auto mt-4"
+            alt="abelardo-blog"
+            height={500}
+            width={300}
+          />
+        </div>
         <motion.h1
           initial={{ opacity: 0, rotate: -180 }}
           animate={{ opacity: 1, rotate: 0 }}
@@ -39,19 +48,13 @@ export default function MyProfilePic() {
           }}
           className="text-center text-white font-bold uppercase -mt-24"
         >
-          <div className="w-full mt-20 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
-            <Image
-              src="/abelardo-blog.png"
-              className="mx-auto w-auto h-auto mt-4"
-              alt="abelardo-blog"
-              height={500}
-              width={300}
-            />
+          <div>
+            <motion.span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4">
+              <br />
+              Abelardo Blog
+            </motion.span>
+            <h2 className="my-4 font-black">Explora el mundo a través de los ojos de Abelardo: Un viaje de descubrimiento y aprendizaje.</h2>
           </div>
-          <motion.span className="font-title text-yellow-500 font-normal text-6xl z-10 mt-4">
-            <br />
-            ABelardo Blog
-          </motion.span>
         </motion.h1>
         <div className="mt-8 w-full grid gap-2 px-2 grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
           {dolar.map((dol) => (
