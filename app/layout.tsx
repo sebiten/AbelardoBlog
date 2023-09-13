@@ -55,7 +55,6 @@ export default function RootLayout({
       </head>
       <body className="dark:bg-slate-800">
         <Navbar />
-        <AdSenseTallComponent />
         {children}
         <NewsletterSubscribe />
         <Footer />
