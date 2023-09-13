@@ -1,4 +1,3 @@
-
 type Props = {
   setCurrentPage: (page: number) => void;
   currentPage: number;
@@ -12,7 +11,7 @@ export default function Controller({
   itemsPerPage,
 }: Props) {
   const totalPages = Math.ceil(posts.length / itemsPerPage);
-  
+
   return (
     <div className="flex items-center justify-center mt-10 gap-4">
       <button
