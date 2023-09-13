@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Spinner from "../Spinner";
 import { sanitize } from "./misc";
-import AdSenseLargeComponent from "../AdSenseLargeComponent";
 
 const NewsletterForm = ({ status, message, onValidated }) => {
   const [error, setError] = useState(null);
@@ -97,7 +96,6 @@ const NewsletterForm = ({ status, message, onValidated }) => {
           </div>
         )}
       </div>
-      <AdSenseLargeComponent adSlot="1476871886" />
     </div>
   );
 };
