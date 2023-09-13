@@ -10,10 +10,6 @@ class MyDocument extends Document {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
             crossorigin="anonymous"
-          ></Script>
-          <Script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY"
             strategy="lazyOnload"
           ></Script>
           <Script id="google-analytics" strategy="lazyOnload">

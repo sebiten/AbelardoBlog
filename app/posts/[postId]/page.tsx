@@ -2,7 +2,6 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import AdSense from "@/app/components/AdSense";
 import Aside from "@/app/components/Aside";
 
 export function generateStaticParams() {

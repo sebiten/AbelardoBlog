@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Clima from "./Apis/Clima";
-import AdSense from "./AdSense";
 import Image from "next/image";
 
 interface DolarData {
@@ -76,9 +75,6 @@ export default function MyProfilePic() {
         </div>
       </div>
       <Clima />
-      <AdSense
-        adSlot="2237050097"
-      />
     </section>
   );
 }
