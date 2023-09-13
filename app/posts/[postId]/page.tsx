@@ -104,7 +104,6 @@ export default async function Post({ params }: { params: { postId: string } }) {
             </div>
           </aside>
         </article>
-        <Aside/>
       </div>
     </main>
   );
