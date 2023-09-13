@@ -33,11 +33,12 @@ const AdSenseLargeComponent: React.FC<AdSenseProps> = ({ adSlot }) => {
     // Esto evita problemas de hidratación.
     mounted ? (
       <ins
-        className="adsbygoogle"
+        className="adsbygoogle mx-auto"
         style={{
           display: "inline-block",
           width: "528px",
-          height: "100px", // 10px en top y bottom, y centrado horizontalmente
+          height: "100px",
+          margin: "10px auto",// 10px en top y bottom, y centrado horizontalmente
         }}
         data-ad-client="ca-pub-6692046911486022"
         data-ad-slot={adSlot}

@@ -33,7 +33,8 @@ const AdSenseTallComponent: React.FC = () => {
         style={{
           display: "inline-block",
           width: "528px",
-          height: "100px", // 10px en top y bottom, y centrado horizontalmente
+          height: "100px",
+           // 10px en top y bottom, y centrado horizontalmente
         }}
         data-ad-client="ca-pub-6692046911486022"
         data-ad-slot="9896048265"
