@@ -11,7 +11,7 @@ declare global {
   }
 }
 
-const AdSense: React.FC<AdSenseProps> = ({ adSlot }) => {
+const AdSenseLargeComponent: React.FC<AdSenseProps> = ({ adSlot }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -36,8 +36,8 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot }) => {
         className="adsbygoogle"
         style={{
           display: "inline-block",
-          width: "400px",
-          height: "200px", // 10px en top y bottom, y centrado horizontalmente
+          width: "528px",
+          height: "100px", // 10px en top y bottom, y centrado horizontalmente
         }}
         data-ad-client="ca-pub-6692046911486022"
         data-ad-slot={adSlot}
@@ -46,4 +46,4 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot }) => {
   );
 };
 
-export default AdSense;
+export default AdSenseLargeComponent;

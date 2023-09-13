@@ -76,6 +76,9 @@ export default function MyProfilePic() {
         </div>
       </div>
       <Clima />
+      <AdSense
+        adSlot="2237050097"
+      />
     </section>
   );
 }

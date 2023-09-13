@@ -3,6 +3,7 @@ import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import AdSense from "@/app/components/AdSense";
+import Aside from "@/app/components/Aside";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -105,6 +106,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             </div>
           </aside>
         </article>
+        <Aside/>
       </div>
     </main>
   );
