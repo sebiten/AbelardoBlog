@@ -47,7 +47,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main className="mt-14 w-10/12 xl:w-6/12  flex items-center justify-center gap-4 mx-auto ">
+    <main className="mt-2 w-10/12 xl:w-6/12  flex items-center justify-center gap-4 mx-auto ">
       <div className="lg:flex block">
         <div className="mr-0 flex flex-col w-full prose-a:dark:text-yellow-400 prose-strong:dark:text-yellow-500 prose-strong:font-black prose-headings:dark:text-white mx-auto prose max-w-5xl dark:text-white text-gray-800">
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />

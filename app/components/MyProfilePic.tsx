@@ -24,12 +24,12 @@ export default function MyProfilePic() {
   }, []);
 
   return (
-    <section className="w-full mx-auto mt-6">
+    <section className="mx-auto">
       <div className="flex flex-col justify-center items-center">
         <div className="w-full mt-2 text-xl text-gray-700 dark:text-white mx-auto text-center lg:w-8/12 xl:w-8/12 2xl:w-8/12">
           <Image
             src="/abelardo-blog.png"
-            className="mx-auto w-auto h-auto mt-4"
+            className="mx-auto w-auto h-auto"
             alt="abelardo-blog"
             priority={true}
             height={500}
@@ -52,12 +52,12 @@ export default function MyProfilePic() {
             <br />
             Abelardo Blog
           </motion.span>
-          <h1 className="my-4 font-black">
-            Explora el mundo a través de los ojos de Abelardo: Un viaje de
+          <h1 className="my-4 font-black text-gray-700 dark:text-white">
+            Explora el mundo a través de los ojos de Abelardo: <br></br> Un viaje de
             descubrimiento y aprendizaje.
           </h1>
         </motion.div>
-        <div className="mt-8 w-full grid gap-2 px-2 grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
+        <div className="mt-8 grid gap-2 px-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6">
           {dolar.map((dol) => (
             <div
               key={dol.casa}

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Abelardo() {
   return (
-    <div className="max-w-2xl mx-auto px-4">
+    <div className="max-w-4xl mx-auto px-4">
       <div className="dark:text-white">
       <h3 className="text-center mt-4 font-title text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out  prose prose-xl prose-slate dark:prose-invert mb-4">
           <span className="text-yellow-500 font-normal text-4xl -z-10">
@@ -24,7 +24,7 @@ export default function Abelardo() {
             alt="Abelardo"
             width={400}
             height={300}
-            className="mx-auto w-full"
+            className="mx-auto"
           />
         </div>
         <p className="mt-6 text-xl italic">

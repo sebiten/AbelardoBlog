@@ -30,14 +30,14 @@ const Clima = () => {
   }, [zone]);
 
   return (
-    <div className="mt-10">
-      <div className="mb-12 sm:flex gap-3 border-gray-700 border rounded-md p-4 max-w-[65ch] mx-auto items-center justify-center dark:text-white light:text-gray-800">
+    <div className="mt-10 mx-10 lg:mx-0">
+      <div className="mb-12 sm:flex gap-3 border-gray-700 border rounded-md p-4 w-full xl:max-w-[90ch] items-center justify-center dark:text-white light:text-gray-800">
         {weatherData ? (
           <>
             <Image
               src={`https:${weatherData.current.condition.icon}`}
               alt="Imagen del clima"
-              width={100}
+              width={200}
               height={400}
               className="mx-auto w-auto h-auto"
             />

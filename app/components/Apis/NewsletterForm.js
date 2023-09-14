@@ -60,11 +60,18 @@ const NewsletterForm = ({ status, message, onValidated }) => {
   };
 
   return (
-    <div className="my-20 px-6 sm:px-1 text-white text-start mx-auto">
+    <div 
+    className="my-20 px-6 sm:px-1 bg-banner text-white text-start mx-auto max-w-[114ch] p-10 border-gray-600 border rounded-2xl"
+    style={{
+      backgroundImage: 'url("/suscription.png")', // Replace with your image URL
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+    >
       <h2 className="text-yellow-500 animate-bounce text-center font-bold text-2xl my-2">
         ¡Gracias por leer!{" "}
       </h2>
-      <h2 className="text-yellow-500 text-center text-lg my-2">
+      <h2 className="text-yellow-500 text-center text-lg my-2 font-bold">
         No olvides de suscribirte para mantenerte informado.{" "}
       </h2>
       <div className="flex items-center justify-center space-x-4">
