@@ -7,7 +7,11 @@ categories: "Noticias, Mundo"
 
 ![Alien en Mexico](/aliens-en-mexico-page.webp)
 
-La idea de que extraterrestres han visitado la Tierra es un tema que ha fascinado a la humanidad durante siglos. México no es una excepción, y el país tiene una rica historia de avistamientos de ovnis y encuentros con supuestos extraterrestres. En los últimos años, el interés por el fenómeno OVNI en México ha aumentado significativamente. Esto se debe en parte a la creciente disponibilidad de tecnología, que ha hecho que sea más fácil para las personas documentar sus avistamientos. También se debe a la difusión de información sobre el tema en los medios de comunicación, que ha llevado a que más personas se interesen en él. En este artículo, exploraremos algunos de los casos más famosos de ovnis en México y analizaremos las pruebas que existen para apoyar la existencia de vida extraterrestre en nuestro planeta.
+La idea de que extraterrestres han visitado la Tierra es un tema que ha fascinado a la humanidad durante siglos. México no es una excepción, y el país tiene una rica historia de avistamientos de ovnis y encuentros con supuestos extraterrestres. 
+
+En los últimos años, el interés por el fenómeno OVNI en México ha aumentado significativamente. Esto se debe en parte a la creciente disponibilidad de tecnología, que ha hecho que sea más fácil para las personas documentar sus avistamientos. También se debe a la difusión de información sobre el tema en los medios de comunicación, que ha llevado a que más personas se interesen en él. 
+
+En este artículo, exploraremos algunos de los casos más famosos de ovnis en México y analizaremos las pruebas que existen para apoyar la existencia de vida extraterrestre en nuestro planeta.
 
 ## Los cuerpos de dos supuestos extraterrestres en el congreso de México
 
@@ -17,7 +21,7 @@ En 2023, un grupo de agricultores en el estado de Tamaulipas, al norte de Méxic
 
 El ufólogo Jaime Maussan presentó el cuerpo ante el Congreso de México, alegando que era de origen extraterrestre. La publicación en línea de las imágenes de la autopsia desató un debate ardiente, con algunos expertos cuestionando su autenticidad, mientras que otros lo consideraban legítimo, reviviendo así la controversia sobre la existencia de extraterrestres, en medio de avistamientos de ovnis en México y las imágenes del supuesto alienígena de Tamaulipas.
 
-![Mexico Alien](/mexico-alien.webp)
+![Mexico Alien](/esqueleto.webp)
 
 ## **Detalles adicionales sobre el cuerpo:**
 
@@ -28,7 +32,7 @@ El ufólogo Jaime Maussan presentó el cuerpo ante el Congreso de México, alega
 
 El cuerpo sigue siendo un misterio. No hay pruebas definitivas de que sea de un extraterrestre, pero tampoco hay pruebas definitivas de que sea un fraude.
 
-![Mexico Alien](/esqueleto.webp)
+![Mexico Alien](/mexico-alien.webp)
 
 ## El debate sobre la existencia de extraterrestres
 
