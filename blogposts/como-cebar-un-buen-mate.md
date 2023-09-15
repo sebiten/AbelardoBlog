@@ -64,6 +64,11 @@ Hacer un buen mate no es solo una cuestión de seguir los pasos adecuados; es un
 
 ## Enlaces Relacionados
 
+Las impactantes imágenes de la autopsia que le hicieron a un supuesto alien en México
+    2 El especialista que llevó a cabo el estudio reveló que se detectaron unos extraños “objetos planos” que no pudo identificar.
+
+    2 Cómo fue la exhibición de los dos “seres no humanos” por Jaime Maussan en el Congreso mexicano
+
 - [Sal y Sodio](https://abelardo.blog/posts/sal-y-el-sodio)
 - [Beneficios del limon en ayunas](https://abelardo.blog/posts/beneficios-del-limon)
 - [Ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
