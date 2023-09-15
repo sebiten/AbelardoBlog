@@ -41,6 +41,8 @@ No llenes el mate hasta el borde con agua caliente. Deja espacio para que la yer
 
 Cebár un buen mate requiere paciencia. No te apresures en beberlo ni en volver a llenar el mate. Deja que cada mate se prepare adecuadamente y disfruta de cada sorbo.
 
+![mate](/mate-imagen.webp)
+
 ### **¿Cómo se Ceba el Mate en Argentina?**
 
 En Argentina, el mate se comparte en una variedad de situaciones, desde reuniones familiares hasta momentos especiales con amigos. Es una forma de conectarse, relajarse y disfrutar de la compañía de los demás.
