@@ -52,11 +52,12 @@ export default function MyProfilePic() {
             <br />
             Abelardo Blog
           </motion.span>
-          <h1 className="my-4 font-black text-gray-700 dark:text-white">
-            Explora el mundo a través de los ojos de Abelardo: <br></br> Un viaje de
-            descubrimiento y aprendizaje.
-          </h1>
         </motion.div>
+        <div className="font-bold text-2xl">
+          <h1 className="my-4 max-w-4xl font-black text-gray-700 dark:text-white">
+          Descubre el mundo a través de los ojos de Abelardo, donde la percepción se convierte en conocimiento y el mundo se desvela en su totalidad.
+          </h1>
+        </div>
         <div className="mt-8 grid gap-2 px-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6">
           {dolar.map((dol) => (
             <div
