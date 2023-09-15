@@ -34,6 +34,7 @@ Las imágenes de la autopsia de uno de los cuerpos fueron publicadas en Internet
 
 El especialista que llevó a cabo el estudio reveló que se detectaron unos extraños "objetos planos" que no pudo identificar. Estos objetos estaban incrustados en la piel del cuerpo y no se parecía a nada que hubiera visto antes.
 
+![Mexico Alien](/esqueleto.webp)
 
 ## El debate sobre la existencia de extraterrestres
 
@@ -46,4 +47,10 @@ Los creyentes, por otro lado, sostienen que las pruebas son demasiado significat
 El debate sobre la existencia de extraterrestres es un tema complejo que probablemente continuará durante muchos años. Las pruebas que existen son limitadas, pero los avistamientos de ovnis en México, así como las imágenes de la autopsia del supuesto alienígena de Tamaulipas, han reavivado el debate.
 
 Es posible que nunca sepamos con certeza si hay vida extraterrestre en nuestro planeta. Sin embargo, los avistamientos de ovnis en México son una prueba de que el fenómeno es real y que vale la pena investigarlo.
+
+# No te pierdas estos Articulos!
+
+- [Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad](https://abelardo.blog/posts/energia-y-vitalidad)
+- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/dopamina-y-la-motivacion)
+- [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
 
