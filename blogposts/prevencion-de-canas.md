@@ -78,8 +78,6 @@ La terapia de luz roja infrarroja es una opción interesante para estimular la p
 
 Siguiendo estos consejos y utilizando estos ejemplos concretos, puedes abordar la prevención y la reversión de las canas de manera más completa y comprensible. Recuerda que cada persona es única, por lo que es importante adaptar estas recomendaciones a tus necesidades y consultar a un profesional de la salud si tienes preocupaciones específicas.
 
-## Conclusión
-
 Las canas son un proceso natural del envejecimiento, pero su aparición prematura puede estar relacionada con factores que podemos controlar. Mantén un estilo de vida saludable, mejora tu dieta y considera las estrategias mencionadas para prevenir y revertir las canas. Recuerda que, al hacerlo, también puedes mejorar tu salud en general y disfrutar de un envejecimiento más saludable y vibrante.
 
 ¡Cuida tu cabello y tu bienestar en general!
