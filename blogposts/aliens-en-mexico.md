@@ -51,5 +51,5 @@ Es posible que nunca sepamos con certeza si hay vida extraterrestre en nuestro p
 # No te pierdas estos Articulos!
 
 - [Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad](https://abelardo.blog/posts/energia-y-vitalidad)
-- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/dopamina-y-la-motivacion)
+- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/importancia-de-la-dopamina-en-la-motivacion)
 - [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
