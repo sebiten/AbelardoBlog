@@ -1,11 +1,11 @@
 ---
-title: "Estrategias y Consejos para la Prevención de Canas"
+title: "Canas, Como Prevenirlas y Eliminarlas Sin Mecesidad de Teñirte"
 date: "2023-09-05"
 imageUrl: "/prevencion-canas.webp"
 categories: "Salud, Envejecimiento"
 ---
 
-![Imagen de Canas](/prevencion-canas.webp)
+![Imagen de Canas](/canas-portada-page.webp)
 
 # Explorando la Prevención de Canas y su Relación con el Envejecimiento
 
