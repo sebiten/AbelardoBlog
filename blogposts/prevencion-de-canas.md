@@ -84,4 +84,4 @@ Las canas son un proceso natural del envejecimiento, pero su aparición prematur
 
 - [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
 - [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
-- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/manejar-el-enojo) 
+- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/como-manejar-el-enojo) 
