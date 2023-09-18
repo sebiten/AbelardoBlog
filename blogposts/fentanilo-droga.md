@@ -55,7 +55,7 @@ En resumen, el fentanilo es una sustancia extremadamente peligrosa cuando se uti
 ## Enlaces Relacionados
 
 - [Cómo Optimizar tu Rutina Diaria para Obtener Más Energía y Vitalidad](https://abelardo.blog/posts/energia-y-vitalidad)
-- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/dopamina-y-la-motivacion)
+- [La Dopamina y la motivación: Cómo Vencer la Procrastinación](https://abelardo.blog/posts/importancia-de-la-dopamina-en-la-motivacion)
 - [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
 
 
