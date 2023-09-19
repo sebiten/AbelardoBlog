@@ -5,7 +5,7 @@ imageUrl: "/vouchers-educativos.webp"
 categories: "Economia, Educación"
 ---
 
-![VOUCHERS-EDUCATIVOS](/vouchers-educativos.webp)
+![VOUCHERS-EDUCATIVOS](/voucher-page.webp)
 
 
 ## Introducción
