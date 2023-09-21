@@ -61,8 +61,8 @@ El cebador es el responsable de servir el mate y asegurarse de que todos reciban
 
 Hacer un buen mate no es solo una cuestión de seguir los pasos adecuados; es una forma de arte que refleja la cultura y la amistad en Argentina. Desde la elección de la yerba hasta la temperatura del agua y la duración de la extracción, cada detalle importa. Y cuando se trata de compartir el mate, es más que una bebida, es un gesto de amistad y un puente hacia la reflexión. Así que la próxima vez que te encuentres con un grupo de amigos argentinos disfrutando de un mate, podrás unirte a la tradición y apreciar la profundidad de esta bebida única en su tipo. ¡Salud!
 
-## Enlaces Relacionados
+# No te pierdas estos Articulos!
 
-- [Sal y Sodio](https://abelardo.blog/posts/sal-y-el-sodio)
-- [Beneficios del limon en ayunas](https://abelardo.blog/posts/beneficios-del-limon)
-- [Ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

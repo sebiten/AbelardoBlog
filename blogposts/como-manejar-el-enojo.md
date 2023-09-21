@@ -99,8 +99,8 @@ Lograr la maestría en el manejo del enojo y mejorar nuestras relaciones demanda
 
 Cada encuentro se convierte en una oportunidad para crecer y aprender, y en este camino, la gestión sabia de la ira se torna la clave del éxito en la vida y en las conexiones humanas. En última instancia, este viaje nos lleva hacia la paz interior y relaciones más auténticas y profundas. Aprovechemos cada paso para cultivar la excelencia interpersonal y el autodescubrimiento emocional.
 
-## Enlaces Relacionados
+# No te pierdas estos Articulos!
 
-- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
-- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion)
-- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/como-manejar-el-enojo)
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

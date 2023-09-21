@@ -42,3 +42,9 @@ Durante la última Cumbre de BRICS, se destacó que los países miembro producen
 Las ventajas mencionadas también se entrelazan con los argumentos de quienes se oponen a la inclusión de Argentina. Los detractores destacan dos críticas clave al intento argentino de unirse a BRICS. En primer lugar, señalan las complejas relaciones entre Rusia, China, Estados Unidos y la Unión Europea en medio de conflictos internacionales, como la crisis Rusia-Ucrania y la crisis energética europea. Esta compleja situación geopolítica ha generado preocupaciones de que la entrada de Argentina pueda interpretarse como una toma de partido en estos conflictos.
 
 Otro punto de controversia se centra en los recursos naturales. Como se mencionó anteriormente, los recursos naturales compartidos fueron un factor común entre los países miembro y un factor determinante en el interés de Argentina. Mientras algunos analistas ven la membresía en un bloque de este tipo como un catalizador para la exploración, el desarrollo, la investigación y la comercialización de recursos, otros están preocupados por una posible dependencia excesiva de Rusia y China. Además, circula la especulación sobre la creación de un nuevo subbloque, en el cual Argentina y Brasil se unirían a Chile y Bolivia para salvaguardar recursos como el litio, el petróleo no convencional
+
+# No te pierdas estos Articulos!
+
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

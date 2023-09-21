@@ -31,3 +31,8 @@ A pesar de este aumento, Argentina aún se encuentra en una posición relativame
 El aumento de precios de los combustibles en Argentina ha generado un escenario de incertidumbre en la economía nacional. El contexto de devaluación y los desafíos planteados por el plan "Precios Justos" exigen una cuidadosa gestión por parte del gobierno y una cooperación estrecha con las compañías petroleras. El análisis y las decisiones tomadas en el próximo cuatrimestre serán cruciales para determinar la dirección que tomará la política de precios de combustibles y su impacto en la economía del país.
 
 
+# No te pierdas estos Articulos!
+
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

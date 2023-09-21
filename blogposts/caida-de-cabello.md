@@ -44,3 +44,8 @@ Aunque el rompecabezas de la alopecia androgénica aún tiene piezas por encajar
 
 Al explorar la intrincada interacción entre las hormonas y la caída del cabello, se vuelve evidente que la alopecia androgénica es un problema multifacético que trasciende las etiquetas tradicionales. Los mitos en torno a la testosterona y la DHT se desvanecen a medida que profundizamos en la investigación científica. Ya sea que estés lidiando con este desafío o simplemente busques entender mejor cómo cuidar tu cabello, este artículo te ha brindado información valiosa para enfrentar la situación con conocimiento y empoderamiento. ¡Tu cabello y tu bienestar merecen la atención que les brindas!
 
+# No te pierdas estos Articulos!
+
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

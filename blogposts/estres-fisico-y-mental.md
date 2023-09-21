@@ -44,9 +44,8 @@ Para evitar enfermarnos o sufrir lesiones, es importante seguir algunas **pautas
 
 Recuerda que la **constancia** y el **equilibrio** son fundamentales para alcanzar resultados a largo plazo. La variabilidad de la frecuencia cardíaca te proporciona una guía para mejorar tu salud, prevenir enfermedades y fortalecer tu fuerza de voluntad en todas las áreas de tu vida. Con conocimiento y acción, puedes tomar el control de tu bienestar y disfrutar de una vida más plena y saludable. ¡No subestimes el poder que tienes para cuidar de ti mismo y mejorar tu calidad de vida!
 
-## Enlaces Relacionados
+# No te pierdas estos Articulos!
 
-
-- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
-- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
-- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/como-manejar-el-enojo) 
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

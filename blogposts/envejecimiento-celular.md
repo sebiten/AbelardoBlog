@@ -54,6 +54,8 @@ Abrazar una nutrición inteligente, mantener niveles hormonales adecuados y honr
 Así que, no hay lugar para la desesperanza. La juventud y vitalidad siguen a nuestro alcance si tomamos decisiones acertadas y cuidamos de nuestro cuerpo a lo largo de los años.
 
 
-- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
-- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
-- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/como-manejar-el-enojo) 
+# No te pierdas estos Articulos!
+
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

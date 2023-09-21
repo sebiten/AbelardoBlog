@@ -41,8 +41,8 @@ Si no es viable un ayuno completo de dopamina, existen formas de acelerar el pro
 
 En conclusión, la dopamina ejerce un papel central en la motivación y el bienestar. Adoptar un enfoque consciente para mantener un equilibrio adecuado de dopamina puede ayudarnos a alcanzar nuestras metas, incrementar nuestra motivación y estar dispuestos a sacrificarnos con tal de concretar nuestros sueños.
 
-## Enlaces Relacionados
+# No te pierdas estos Articulos!
 
-- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
-- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion)
-- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/como-manejar-el-enojo)
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

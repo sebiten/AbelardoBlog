@@ -80,8 +80,8 @@ Siguiendo estos consejos y utilizando estos ejemplos concretos, puedes abordar l
 
 Las canas son un proceso natural del envejecimiento, pero su aparición prematura puede estar relacionada con factores que podemos controlar. Mantén un estilo de vida saludable, mejora tu dieta y considera las estrategias mencionadas para prevenir y revertir las canas. Recuerda que, al hacerlo, también puedes mejorar tu salud en general y disfrutar de un envejecimiento más saludable y vibrante.
 
-## Enlaces Relacionados
+# No te pierdas estos Articulos!
 
-- [Estrés Físico y Mental en Tu Salud: Cómo Prevenir Enfermedades y Mejorar Tu Fuerza de Voluntad](https://abelardo.blog/posts/estres-fisico-y-mental)
-- [Como aumentar la Atencion En una Era Digital](https://abelardo.blog/posts/aumentar-la-atencion) 
-- [Tomando Control de Nuestro Cerebro para Manejar el Enojo y Mejorar las Relaciones](https://abelardo.blog/posts/como-manejar-el-enojo) 
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

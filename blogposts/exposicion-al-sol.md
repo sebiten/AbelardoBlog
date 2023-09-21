@@ -36,8 +36,8 @@ Aunque los beneficios del sol son claros, no debemos ignorar los riesgos inheren
 
 Siguiendo estos consejos, podrás abrazar el sol con confianza, capturando sus beneficios sin exponerte a riesgos innecesarios.
 
-## Fuentes de Sabiduría
+# No te pierdas estos Articulos!
 
-- [Organización Mundial de la Salud (OMS)](https://www.who.int/)
-- [Journal of the American Medical Association (JAMA)](https://jamanetwork.com/journals/jama)
-- [Nature](https://www.nature.com/)
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 

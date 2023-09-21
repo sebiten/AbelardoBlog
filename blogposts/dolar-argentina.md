@@ -41,3 +41,9 @@ Una moneda estabilizada es un pivote fundamental para una economía sostenible. 
 ## Epílogo: Pintando el Mañana con Decisiones Presentes
 
 La incertidumbre que rodea al **dólar en Argentina** es un reflejo de una realidad económica y política enmarañada. La volatilidad de la moneda extranjera reverbera en diversos rincones, trascendiendo la planificación económica para impactar en la vida diaria de los ciudadanos. El futuro del Argentina pivotea sobre decisiones políticas, acuerdos financieros y políticas económicas que busquen restablecer la confianza en la moneda. La búsqueda de estabilidad y predictibilidad se postulan como cimientos para erigir un paisaje económico más robusto en el largo plazo. En última instancia, el futuro del dolar se encuentra en estado de gestación, y será el fruto de las decisiones y acciones que se gesten en el presente.
+
+# No te pierdas estos Articulos!
+
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer) 
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate) 
