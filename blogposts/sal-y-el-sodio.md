@@ -41,3 +41,6 @@ Si bien las pautas nutricionales actuales promueven un consumo moderado de sodio
 
 Este análisis enriquecedor resalta el papel del sodio en nuestra fisiología y cómo su consumo apropiado puede impactar positivamente nuestra salud. La próxima vez que sazones tus platillos, considera la opción de elegir alternativas más saludables de sal. Recuerda que el sodio no solo posee una cara negativa, sino que también es un colaborador esencial para un bienestar equilibrado. En última instancia, una dieta balanceada se erige como la clave maestra para una salud óptima en la interacción constante entre nuestra bioquímica y las elecciones que realizamos diariamente.
 
+- [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
+- [Resaca: Consejos para evitarla](https://abelardo.blog/posts/detener-la-resaca)
+- [Descubre Como Tener Un Futuro Saludable](https://abelardo.blog/posts/futuro-saludable)

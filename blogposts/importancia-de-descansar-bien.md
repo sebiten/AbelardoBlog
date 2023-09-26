@@ -109,6 +109,6 @@ En resumen, el sueño es una parte esencial de nuestra vida que a menudo pasa de
 
 ## Enlaces Relacionados
 
-- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
-- [Beneficios de Leer](https://abelardo.blog/posts/beneficios-de-leer)
-- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate)
+- [Dejar de fumar: Consejos y estrategias](https://abelardo.blog/posts/dejar-de-fumar-consejos)
+- [Resaca: Consejos para evitarla](https://abelardo.blog/posts/detener-la-resaca)
+- [Descubre Como Tener Un Futuro Saludable](https://abelardo.blog/posts/futuro-saludable)
