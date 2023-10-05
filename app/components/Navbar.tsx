@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaTiktok } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -36,6 +36,11 @@ export const links = [
   {
     href: "https://www.instagram.com/abelardo.blog/",
     icon: <FaInstagram size={22} />,
+    target: "_blank",
+  },
+  {
+    href: "https://www.tiktok.com/@abelardoblog",
+    icon: <FaTiktok size={22} />,
     target: "_blank",
   },
 ];

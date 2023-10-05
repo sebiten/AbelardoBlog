@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithubAlt, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithubAlt, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -51,6 +51,13 @@ export default function Footer() {
                 className="block text-2xl  hover:text-blue-500 underline transform transition-colors duration-300"
               >
                 <FaInstagram className="text-xl hover:text-yellow-500" />
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@abelardoblog"
+                target="_blank"
+                className="block text-2xl  hover:text-blue-500 underline transform transition-colors duration-300"
+              >
+                <FaTiktok className="text-xl hover:text-yellow-500" />
               </Link>
             </div>
             <p className="text-sm text-gray-500 font-bold dark:text-white/60">

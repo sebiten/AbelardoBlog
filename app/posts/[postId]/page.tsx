@@ -2,6 +2,7 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { FaInstagram, FaInstagramSquare, FaTiktok } from "react-icons/fa";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -59,9 +60,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
             {categories}
           </p>
           <article className="w-full dark:text-white text-[1.1rem] sm:text-lg text-gray-800">
-
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
             <div className="flex flex-col mb-10 items-start">
               <Link
@@ -82,6 +82,31 @@ export default async function Post({ params }: { params: { postId: string } }) {
               >
                 ← Volver al inicio
               </Link>
+                <p
+                  className="font-bold"
+                >
+                  Seguinos en nuestras redes para estar al tanto!😺
+                </p>
+              <div className="flex gap-4 items-center justify-center">
+                <Link
+                  href="https://www.instagram.com/abelardo.blog/"
+                  target="_blank"
+                  className="block text-2xl  hover:text-blue-500 underline transform transition-colors duration-300"
+                >
+                  <FaInstagram 
+                  size={40}
+                  className="text-xl hover:text-yellow-500" />
+                </Link>
+                <Link
+                  href="https://www.tiktok.com/@abelardoblog"
+                  target="_blank"
+                  className="block text-2xl  hover:text-blue-500 underline transform transition-colors duration-300"
+                >
+                  <FaTiktok
+                  size={40}
+                  className="text-xl hover:text-yellow-500" />
+                </Link>
+              </div>
             </div>
           </article>
         </div>
