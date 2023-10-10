@@ -52,3 +52,9 @@ Es importante destacar que no es necesario eliminar el azúcar por completo para
 Durante mis 15 días sin azúcar, adopté una aproximación equilibrada. Eliminé el azúcar añadido y reduje drásticamente el consumo de alimentos procesados. En su lugar, opté por fuentes naturales de azúcar, como frutas y miel, en cantidades moderadas.
 
 En resumen, dejar de comer azúcar durante 15 días puede tener un impacto significativo en tu bienestar físico y mental. Experimentarás una reducción del hambre y un mejor control sobre tus hábitos alimentarios. Tu estado de ánimo y claridad mental mejorarán, tu piel se transformará y tus articulaciones serán más flexibles.
+
+# No te pierdas estos Articulos!
+
+- [La Importancia de un Buen Descanso](https://abelardo.blog/posts/importancia-de-descansar-bien)
+- [Beneficios de Leer a Diario](https://abelardo.blog/posts/beneficios-de-leer)
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate)

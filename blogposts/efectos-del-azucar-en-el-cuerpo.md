@@ -92,3 +92,9 @@ Cuando tengas antojo de algo dulce, opta por opciones más saludables como fruta
 Establece límites claros para tu consumo de azúcar y mantenlos. Esto podría incluir permitirte un pequeño dulce ocasional como premio, pero evita caer en la tentación de consumir azúcar en exceso de manera regular.
 
 En resumen, el azúcar, aunque puede ser tentador y delicioso, tiene una serie de efectos perjudiciales en el cuerpo humano. Desde el aumento de peso y la obesidad hasta la diabetes tipo 2 y las enfermedades cardiovasculares, el consumo excesivo de azúcar puede tener graves consecuencias para la salud. Además, su impacto en el cerebro puede llevar a la dependencia y la adicción. Sin embargo, con determinación y cambios en los hábitos alimenticios, es posible reducir el consumo de azúcar y proteger nuestra salud a largo plazo. La próxima vez que te enfrentes a una elección entre el azúcar y una alternativa más saludable, recuerda los efectos que el azúcar puede tener en tu cuerpo y toma decisiones informadas para cuidar de tu bienestar.
+
+# No te pierdas estos Articulos!
+
+- [La Importancia de un Buen Descanso](https://abelardo.blog/posts/importancia-de-descansar-bien)
+- [Beneficios de Leer a Diario](https://abelardo.blog/posts/beneficios-de-leer)
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate)
