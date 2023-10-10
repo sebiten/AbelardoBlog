@@ -55,7 +55,7 @@ La diabetes tipo 2 es una enfermedad crónica que afecta la forma en que nuestro
 
 ### Obesidad
 
-El azúcar también está estrechamente relacionado con la obesidad. Los alimentos y bebidas ricos en azúcares añadidos tienden a ser altos en calorías vacías, lo que significa que proporcionan muchas calorías pero pocos nutrientes. Esto puede llevar a un aumento de peso no deseado. Además, como mencionamos anteriormente, el azúcar puede ser adictivo, lo que hace que sea difícil controlar el consumo de alimentos azucarados y, en última instancia, contribuye a la ganancia de peso.
+El azúcar también está estrechamente relacionado con la obesidad. Los alimentos y bebidas ricos en azúcares añadidos tienden a ser altos en calorías vacías, lo que significa que proporcionan muchas calorías pero pocos nutrientes. Esto puede llevar a un aumento de peso no deseado. Además, como mencionamos anteriormente, el azúcar puede ser adictivo, lo que hace que sea difícil controlar el consumo de alimentos azucarados y, en última instancia, contribuye a la ganancia de peso. Para bajar de peso sin hacer nada hace click aqui - [Bajar de peso con el ayuno intermitente](https://abelardo.blog/posts/quemar-grasa-y-bajar-de-peso)
 
 ![obesidad](/obesidad.webp)
 
@@ -69,7 +69,7 @@ La presión arterial alta, o hipertensión, es un factor de riesgo importante pa
 
 ## Consejos para eliminar malos hábitos
 
-Dado que los efectos del azúcar en el cuerpo humano pueden ser perjudiciales, es importante tomar medidas para reducir o eliminar los malos hábitos relacionados con su consumo. Aquí tienes algunos consejos prácticos para ayudarte a hacerlo:
+Dado que los efectos del azúcar en el cuerpo humano pueden ser perjudiciales, es importante tomar medidas para reducir o eliminar los malos hábitos relacionados con su consumo. Aquí tienes algunos consejos prácticos para ayudarte a hacerlo. Y si quieres mejoar tus habitos a nivel general como asi tambien tu autoestima visita el siguien articulo [Buenos Habitos](https://abelardo.blog/posts/buenos-habitos)
 
 ### **1**. Lee las etiquetas de los alimentos
 
@@ -87,9 +87,10 @@ Las bebidas azucaradas, como las gaseosas y los jugos de frutas, son una de las 
 
 Cuando tengas antojo de algo dulce, opta por opciones más saludables como frutas frescas, frutos secos o yogur natural con frutas. Estos alimentos pueden satisfacer tu deseo de dulce sin los efectos negativos del azúcar añadido.
 
+
 ### **5**. Establece límites
 
-Establece límites claros para tu consumo de azúcar y mantenlos. Esto podría incluir permitirte un pequeño dulce ocasional como premio, pero evita caer en la tentación de consumir azúcar en exceso de manera regular.
+Establece límites claros para tu consumo de azúcar y mantenlos. Esto podría incluir permitirte un pequeño dulce ocasional como premio, pero evita caer en la tentación de consumir azúcar en exceso de manera regular. 
 
 En resumen, el azúcar, aunque puede ser tentador y delicioso, tiene una serie de efectos perjudiciales en el cuerpo humano. Desde el aumento de peso y la obesidad hasta la diabetes tipo 2 y las enfermedades cardiovasculares, el consumo excesivo de azúcar puede tener graves consecuencias para la salud. Además, su impacto en el cerebro puede llevar a la dependencia y la adicción. Sin embargo, con determinación y cambios en los hábitos alimenticios, es posible reducir el consumo de azúcar y proteger nuestra salud a largo plazo. La próxima vez que te enfrentes a una elección entre el azúcar y una alternativa más saludable, recuerda los efectos que el azúcar puede tener en tu cuerpo y toma decisiones informadas para cuidar de tu bienestar.
 
