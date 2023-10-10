@@ -2,7 +2,7 @@
 title: "Comer Azúcar: ¿Qué Sucede Cuando Dejas de Hacerlo Durante 15 Días?"
 date: "2023-10-04"
 imageUrl: "/comer-azucar.webp"
-categories: "Salud, Bienestar"
+categories: "Nutrición, Salud"
 ---
 
 ![comer-azucar](/comer-azucar.webp)
