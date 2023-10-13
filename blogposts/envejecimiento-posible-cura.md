@@ -5,7 +5,7 @@ imageUrl: "/envejecimiento-portada.webp"
 categories: "Salud, Bienestar"
 ---
 
-![Envejecimiento](/envejecimiento.webp)
+![Envejecimiento](/envejecimiento-portada.webp)
 
 Envejecer es un proceso que la mayoría de nosotros considera inevitable, pero el genetista David Sinclair ha desafiado esta noción. Basándose en más de dos décadas de investigación, Sinclair sostiene que el envejecimiento puede retrasarse mediante cambios sencillos en nuestros hábitos de vida. Además, vislumbra un futuro en el que los medicamentos diseñados específicamente para este propósito podrían permitirnos no solo ralentizar, sino incluso revertir el proceso de envejecimiento.
 
@@ -35,7 +35,7 @@ La activación y desactivación de los aproximadamente 20,000 genes en una célu
 
 El enfoque de David Sinclair sobre el envejecimiento es, sin duda, radical. Él argumenta que debemos cambiar nuestra percepción del envejecimiento y verlo como una enfermedad tratable en lugar de un proceso natural. Sinclair está convencido de que esta perspectiva es fundamental para desbloquear el potencial de prolongar la vida humana de manera significativa.
 
-A través de investigaciones científicas, Sinclair y su equipo están explorando cómo nuestros estilos de vida pueden afectar profundamente el ritmo de envejecimiento. Se ha descubierto que factores como la elección de alimentos, la restricción calórica, el ejercicio físico y las intervenciones como la exposición al frío pueden estimular las defensas naturales del cuerpo contra el envejecimiento y las enfermedades asociadas.
+A través de investigaciones científicas, Sinclair y su equipo están explorando cómo nuestros estilos de vida pueden afectar profundamente el ritmo de envejecimiento. Se ha descubierto que factores como la elección de alimentos, la restricción calórica, el [Ejercicio Fisico](https://abelardo.blog/posts/futuro-saludable) y las intervenciones como la exposición al frío pueden estimular las defensas naturales del cuerpo contra el envejecimiento y las enfermedades asociadas. 
 
 Esta perspectiva desafía la noción de que el envejecimiento es un proceso inmutable y abre la puerta a un futuro en el que la longevidad y la vitalidad podrían estar al alcance de todos, gracias a la ciencia y la tecnología.
 
