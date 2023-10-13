@@ -50,7 +50,7 @@ export default function ListItem({ post }: Props) {
                   {formattedDate}
                 </p>
               </div>
-              <div className="absolute left-8 bottom-4">
+              <div className="absolute left-6 bottom-4">
                 <p className="text-sm text-gray-500 font-bold dark:text-white/60">
                   {categories}
                 </p>
@@ -62,7 +62,7 @@ export default function ListItem({ post }: Props) {
       <div
         className="
               absolute
-              -bottom-1
+              bottom-1
               right-2
               mt-2
               mr-2

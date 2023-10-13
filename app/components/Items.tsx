@@ -9,7 +9,6 @@ const Items = ({isLoading, posts, currentPage, itemsPerPage }: any) => {
     <div>
       {isLoading ? (
         <div className="flex items-center justify-center mt-24">
-          {/* Use the Spinner component */}
           <Spinner />
         </div>
       ) : (
