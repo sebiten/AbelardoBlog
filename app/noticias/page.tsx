@@ -19,9 +19,7 @@ interface News {
   name: string;
 }
 
-
-
-function Noticias(props: News) {
+function Noticias() {
   const [data, setData] = useState<News[]>([]);
   useEffect(() => {
     const apiKey = "49dcea2ac96cc003cb6d94e51b5c7fa2";
