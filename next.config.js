@@ -15,8 +15,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "cdn.weatherapi.com",
-        pathname: "/weather/64x64/**",
+        hostname: "**",
       },
     ],
   },

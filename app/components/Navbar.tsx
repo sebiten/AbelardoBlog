@@ -15,11 +15,11 @@ const linkVariants = {
 
 export const links = [
   { href: "/", text: "Inicio", target: "_parent" },
-  {
-    href: "/abelardo",
-    text: "Abelardo ",
-    target: "_self",
-  },
+  // {
+  //   href: "/abelardo",
+  //   text: "Abelardo ",
+  //   target: "_self",
+  // },
   {
     href: "/favorites",
     text: "Favoritos ",
@@ -32,6 +32,10 @@ export const links = [
   {
     href: "/servicios",
     text: "Servicios",
+  },
+  {
+    href: "/noticias",
+    text: "Noticias",
   },
   {
     href: "https://www.instagram.com/abelardo.blog/",

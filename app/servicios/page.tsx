@@ -1,7 +1,7 @@
 import Services from "../components/Services";
 import Image from "next/image";
 import Link from "next/link";
-import { demostraciones, services } from "../constantes/constantes";
+import { demostraciones, services } from "../components/constantes/constantes";
 
 const ServicesPage: React.FC = () => {
   return (

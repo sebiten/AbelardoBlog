@@ -1,8 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { filterOptions } from "../constantes/constantes";
+import { filterOptions } from "./constantes/constantes";
 import Controller from "./Controller";
 import Items from "./Items";
+import News from "./News";
 
 interface BlogPost {
   id: string;
@@ -99,6 +100,7 @@ export default function Posts() {
           itemsPerPage={itemsPerPage}
         />
       </div>
+      <News />
     </>
   );
 }
