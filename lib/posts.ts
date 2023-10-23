@@ -3,6 +3,15 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+type BlogPost = {
+  id: string;
+  title: string;
+  date: string;
+  imageUrl: string;
+  categories: string[];
+  content: string;
+};
+
 
 const postsDirectory = path.join(process.cwd(), "blogposts");
 

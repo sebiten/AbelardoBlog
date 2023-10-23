@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
 
-interface News {
+type News = {
   author: string;
   title: string;
   description: string;
