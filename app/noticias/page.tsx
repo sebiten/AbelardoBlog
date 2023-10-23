@@ -89,4 +89,3 @@ function Noticias(props: Source) {
   );
 }
 
-export default Noticias;
