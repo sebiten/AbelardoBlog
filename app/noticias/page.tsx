@@ -3,11 +3,26 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
-import { Source } from "@/types";
+
+interface News {
+  author: string;
+  title: string;
+  description: string;
+  url: string;
+  source: string;
+  image: string | null;
+  category: string;
+  language: string;
+  country: string;
+  published_at: string;
+  id: string;
+  name: string;
+}
 
 
-function Noticias(props: Source) {
-  const [data, setData] = useState<Source[]>([]);
+
+function Noticias(props: News) {
+  const [data, setData] = useState<News[]>([]);
   useEffect(() => {
     const apiKey = "49dcea2ac96cc003cb6d94e51b5c7fa2";
     const languages = "es";
@@ -88,4 +103,4 @@ function Noticias(props: Source) {
     </div>
   );
 }
-export { Noticias }
+export default Noticias
