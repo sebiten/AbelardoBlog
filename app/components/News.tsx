@@ -50,7 +50,7 @@ function News() {
 
   return (
     <div className="App dark:text-white ligth:text-gray-800">
-      <h1 className="text-3xl font-bold uppercase mb-4 text-center my-4 text-yellow-600">
+      {/* <h1 className="text-3xl font-bold uppercase mb-4 text-center my-4 text-yellow-600">
         Fuentes de noticias en Argentina
       </h1>
       <ul className="space-y-6 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[125ch] mx-auto">
@@ -82,7 +82,7 @@ function News() {
                     <p>{source.title}</p>
                   </div>
                 </div>
-                {/* Agrega el botón "Ir a la página" */}
+  
                 <Link href={source.url}>
                   <p className="bg-transparent-500 dark:text-white font-normal light:border-gray-200 border dark:border-gray-700 p-2 text-center rounded-b-lg block hover:bg-blue-600">
                     Ir a la página
@@ -99,7 +99,7 @@ function News() {
         >
           Ver más noticias
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -49,7 +49,7 @@ function Noticias() {
   return (
     <div className="dark:text-white ligth:text-gray-800 my-20">
       <h1 className="text-3xl font-bold uppercase mb-4 text-center my-4 text-yellow-600">
-        Fuentes de noticias en Argentina
+      Proximamente noticias, estamos trabajando en ello ☹
       </h1>
       <ul className="space-y-6 grid grid-cols-3 gap-6 max-w-[105ch] mx-auto">
         {data?.map(
