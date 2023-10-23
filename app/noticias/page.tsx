@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
 
-interface Source {
+interface SourcePage {
   author: string;
   title: string;
   description: string;
@@ -19,8 +19,8 @@ interface Source {
   name: string;
 }
 
-function Noticias({}: Source) {
-  const [data, setData] = useState<Source[]>([]);
+function Noticias({}: SourcePage) {
+  const [data, setData] = useState<SourcePage[]>([]);
   useEffect(() => {
     const apiKey = "49dcea2ac96cc003cb6d94e51b5c7fa2";
     const languages = "es";
