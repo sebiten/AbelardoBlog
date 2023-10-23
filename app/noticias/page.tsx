@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import News from "../components/News";
 import Image from "next/image";
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
+
 interface Source {
   author: string;
   title: string;
@@ -24,20 +24,28 @@ function Noticias({}: Source) {
   useEffect(() => {
     const apiKey = "49dcea2ac96cc003cb6d94e51b5c7fa2";
     const languages = "es";
+    // Obtener la fecha de ayer en formato YYYY-MM-DD
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    const formattedYesterday = yesterday.toISOString().split("T")[0];
 
-    // Construir la URL de la API
-    const apiUrl = `http://api.mediastack.com/v1/news?access_key=49dcea2ac96cc003cb6d94e51b5c7fa2&es&countries=ar&date=2023-10-19,2023-12-31`;
+    // Obtener la fecha actual en formato YYYY-MM-DD
+    const today = new Date().toISOString().split("T")[0];
+
+    // Construir la URL de la API para obtener las noticias más recientes
+    // Construir la URL de la API para obtener las noticias de ayer y hoy
+    const apiUrl = `http://api.mediastack.com/v1/news?access_key=${apiKey}&languages=${languages}&countries=ar&date=${formattedYesterday},${today}&sort=published_desc`;
 
     // Realizar la solicitud a la API
     fetch(apiUrl)
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data.data);
-      })
-      .catch((error) => {
-        console.error("Error al cargar los datos:", error);
-      });
-  }, []);
+    .then((response) => response.json())
+    .then((data) => {
+      setData(data.data.slice(0, 20));
+    })
+    .catch((error) => {
+      console.error("Error al cargar los datos:", error);
+    });
+}, []);
   return (
     <div className="dark:text-white ligth:text-gray-800 my-20">
       <h1 className="text-3xl font-bold uppercase mb-4 text-center my-4 text-yellow-600">
