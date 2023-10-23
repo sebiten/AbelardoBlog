@@ -2,6 +2,7 @@ import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Image from "next/image";
 import Favorite from "./Favorite";
+import { BlogPost } from "@/types";
 
 type Props = {
   post: BlogPost;
