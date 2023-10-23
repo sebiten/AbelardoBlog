@@ -88,4 +88,4 @@ function Noticias(props: Source) {
     </div>
   );
 }
-
+export { Noticias }
