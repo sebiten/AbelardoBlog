@@ -45,6 +45,13 @@ export const demostraciones = [
   },
 ];
 
+export const urls = [
+  "https://www.instagram.com/p/CyTUGpnJSkl/",
+  "https://www.instagram.com/p/CyEgh0VsdB9/",
+  "https://www.instagram.com/p/Cx_lNGZSJVb/",
+];
+
+
 export const services = [
   {
     icon: FaCode,
