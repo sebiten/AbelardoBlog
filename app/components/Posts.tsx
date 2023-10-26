@@ -52,7 +52,7 @@ export default function Posts() {
         <News />
 
         <div className="flex flex-col justify-center items-center mt-4">
-          <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-4xl my-4 font-bold text-center text-yellow-500 dark:text-yellow-400 title">
+          <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-3xl my-2 font-bold text-center text-yellow-500 dark:text-yellow-400 title">
             Artículos
           </h2>
         </div>

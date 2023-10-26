@@ -22,11 +22,11 @@ function News() {
           ➡ @abelardo.blog ⬅
         </Link>
       </div>
-      <div className="flex flex-wrap justify-center gap-2 my-4">
+      <div className="flex flex-wrap justify-center gap-1 my-4">
         {urls.map((url, index) => (
           <div key={index} className="p-4">
             <div className="  rounded-lg overflow-hidden">
-              <InstagramEmbed url={url} height={650} width={450} />
+              <InstagramEmbed url={url} height={555} width={340} />
             </div>
           </div>
         ))}
