@@ -12,7 +12,7 @@ function News() {
   return (
     <>
       <div className="text-center dark:text-white ligth:text-gray-800">
-        <h2 className="font-bold text-3xl my-8">¡Síguenos en Instagram!</h2>
+        <h2 className="font-bold text-2xl my-4">¡Síguenos en Instagram!</h2>
       </div>
       <div className="flex  items-center justify-center">
         <Link
@@ -22,7 +22,7 @@ function News() {
           ➡ @abelardo.blog ⬅
         </Link>
       </div>
-      <div className="flex flex-wrap justify-center gap-1 my-4">
+      <div className="flex flex-wrap justify-center gap-1 my-2">
         {urls.map((url, index) => (
           <div key={index} className="p-4">
             <div className="  rounded-lg overflow-hidden">
