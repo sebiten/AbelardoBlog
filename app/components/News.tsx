@@ -25,7 +25,7 @@ function News() {
           <FaInstagram />
         </Link>
       </div>
-      <div className="flex gap-2 flex-wrap justify-center my-2">
+      <div className="flex gap-8 flex-wrap justify-center my-2">
         {urlsReels.map((url, index) => (
           <div key={index} className="">
             <div className="rounded-lg overflow-hidden">
@@ -41,10 +41,10 @@ function News() {
           data-ad-slot="2533037295"
           data-ad-format="fluid"
           data-ad-layout-key="-fb+5w+4e-db+86"
-          data-full-width-responsive="false"
+          data-full-width-responsive="true"
         />
       </div>
-      <div className="flex gap-2 flex-wrap justify-center my-2">
+      <div className="flex gap-8 flex-wrap justify-center my-2">
         {urlsPosts.map((url, index) => (
           <div key={index} className="">
             <div className="rounded-lg overflow-hidden">
