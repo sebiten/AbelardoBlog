@@ -7,7 +7,7 @@ import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 function News() {
   return (
-    <div className="max-w-8xl mx-auto mt-10 overflow-hidden overscroll-x-none">
+    <div className="max-w-7xl mx-auto mt-10 overflow-hidden overscroll-x-none">
       <div className="text-center dark:text-white ligth:text-gray-800  mx-auto ">
         <h2 className="font-bold text-3xl my-4 animate-bounce">
           ¡Síguenos en Instagram!
@@ -27,7 +27,7 @@ function News() {
         {urlsReels.map((url, index) => (
           <div key={index} className="">
             <div className="rounded-lg overflow-hidden">
-              <InstagramEmbed url={url} height={480} width={330} />
+              <InstagramEmbed url={url} height={480} width={315} />
             </div>
           </div>
         ))}
@@ -36,10 +36,9 @@ function News() {
         <AdUnit
           className="adsbygoogle block"
           data-ad-client="ca-pub-6692046911486022"
-          data-ad-slot="2533037295"
-          data-ad-format="fluid"
-          data-ad-layout-key="-fb+5w+4e-db+86"
-          data-full-width-responsive="false"
+          data-ad-slot="8452412536"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
         />
       </div>
       <div className="flex  mt-10 gap-1 flex-wrap justify-center my-2 overflow-hidden overscroll-x-none">
