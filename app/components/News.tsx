@@ -32,14 +32,16 @@ function News() {
           </div>
         ))}
       </div>
-      <AdUnit
-        className="adsbygoogle block"
-        data-ad-client="ca-pub-6692046911486022"
-        data-ad-slot="2533037295"
-        data-ad-format="fluid"
-        data-ad-layout-key="-fb+5w+4e-db+86"
-        data-full-width-responsive="true"
-      />
+      <div className="mx-auto w-full">
+        <AdUnit
+          className="adsbygoogle block"
+          data-ad-client="ca-pub-6692046911486022"
+          data-ad-slot="2533037295"
+          data-ad-format="fluid"
+          data-ad-layout-key="-fb+5w+4e-db+86"
+          data-full-width-responsive="false"
+        />
+      </div>
       <div className="flex  mt-10 gap-1 flex-wrap justify-center my-2 overflow-hidden overscroll-x-none">
         {urlsPosts.map((url, index) => (
           <div key={index} className="">
