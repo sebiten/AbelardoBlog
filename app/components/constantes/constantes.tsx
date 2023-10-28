@@ -49,12 +49,13 @@ export const urlsReels = [
   "https://www.instagram.com/p/CyTUGpnJSkl/",
   "https://www.instagram.com/p/CyEgh0VsdB9/",
   "https://www.instagram.com/p/Cx_lNGZSJVb/",
-  // "https://www.instagram.com/p/Cxx1cZNu-NI/",
+  "https://www.instagram.com/p/Cxx1cZNu-NI/",
 ];
 export const urlsPosts = [
-  "https://www.instagram.com/p/CxqJQq2OSl5/",
-  "https://www.instagram.com/p/CyjBKZPOanT/",
-  "https://www.instagram.com/p/CxghZDiOCAs/"
+  "https://www.instagram.com/p/CwygZiPOv_g/",
+  "https://www.instagram.com/p/CwgE4OgOS6a/",
+  "https://www.instagram.com/p/CwA2k5puZ8V/",
+  "https://www.instagram.com/p/CvxEz9quZGl/"
 ]
 
 
