@@ -3,12 +3,10 @@ import Navbar from "./components/Navbar";
 import Script from "next/script";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
-import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import GoogleAds from "./components/GoogleAds";
 import News from "./components/News";
-import AsideAds from "./components/AsideAds";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
@@ -60,7 +58,6 @@ export default function RootLayout({
       <body className="dark:bg-slate-800">
         <Navbar />
         {children}
-        <AsideAds/>
         <News />
         <NewsletterSubscribe />
         <Footer />

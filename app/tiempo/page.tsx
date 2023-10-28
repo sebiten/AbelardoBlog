@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Clima from "../components/Apis/Clima";
 
 interface WeatherData {
@@ -47,7 +47,6 @@ const Tiempo: React.FC = () => {
   const [zone, setZone] = useState("Salta Argentina");
 
   const apiKey = "81109ab2335b40f880c135011230609";
-  const query = "Salta Argentina";
   useEffect(() => {
     const fetchData = async () => {
       try {

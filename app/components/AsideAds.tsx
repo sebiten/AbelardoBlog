@@ -1,4 +1,3 @@
-import React from "react";
 import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 const AsideAds = () => {
