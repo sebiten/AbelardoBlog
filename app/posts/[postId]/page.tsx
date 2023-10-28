@@ -82,20 +82,19 @@ export default async function Post({ params }: { params: { postId: string } }) {
               >
                 ← Volver al inicio
               </Link>
-                <p
-                  className="font-bold"
-                >
-                  Seguinos en nuestras redes para estar al tanto!😺
-                </p>
+              <p className="font-bold">
+                Seguinos en nuestras redes para estar al tanto!😺
+              </p>
               <div className="flex gap-4 items-center justify-center">
                 <Link
                   href="https://www.instagram.com/abelardo.blog/"
                   target="_blank"
                   className="block text-2xl  hover:text-blue-500 underline transform transition-colors duration-300"
                 >
-                  <FaInstagram 
-                  size={40}
-                  className="text-xl hover:text-yellow-500" />
+                  <FaInstagram
+                    size={40}
+                    className="text-xl hover:text-yellow-500"
+                  />
                 </Link>
                 <Link
                   href="https://www.tiktok.com/@abelardoblog"
@@ -103,8 +102,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
                   className="block text-2xl  hover:text-blue-500 underline transform transition-colors duration-300"
                 >
                   <FaTiktok
-                  size={40}
-                  className="text-xl hover:text-yellow-500" />
+                    size={40}
+                    className="text-xl hover:text-yellow-500"
+                  />
                 </Link>
               </div>
             </div>

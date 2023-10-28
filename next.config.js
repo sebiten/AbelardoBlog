@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
     i18n: {
-      locales: ["es", "en"],
+      locales: ["es"],
       defaultLocale: "es",
     },
     // Habilita el acceso a la carpeta "app" para personalizar la estructura de tu aplicación

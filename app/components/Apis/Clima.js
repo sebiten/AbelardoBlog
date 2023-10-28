@@ -30,8 +30,8 @@ const Clima = () => {
   }, [zone]);
 
   return (
-    <div className="mt-10 mx-10 lg:mx-0">
-      <div className="mb-12 sm:flex gap-3 light:border-gray-200 border dark:border-gray-700 rounded-md p-4 w-full xl:max-w-[90ch] items-center justify-center dark:text-white light:text-gray-800">
+    <div className="mt-10 mx-10 lg:mx-0 " >
+      <div className="mb-12 sm:flex gap-3 light:border-gray-200 border dark:border-gray-700 rounded-md p-4 w-full xl:max-w-[90ch] items-center justify-center dark:text-white light:text-gray-800 bg-gray-800 text-white px-10">
         {weatherData ? (
           <>
             <Image
@@ -42,7 +42,7 @@ const Clima = () => {
               className="mx-auto w-auto h-auto"
             />
             <div className="sm:text-start text-center my-2 text-lg">
-              <h3 className="font-bold sm:text-start text-center text-lg">
+              <h3 className="font-bold sm:text-start text-center text-lg text-yellow-500">
                 {isCalled ? weatherData.location.name : "Ledesma"}
               </h3>
               <p>
@@ -58,7 +58,7 @@ const Clima = () => {
                 {weatherData.current.humidity}%
               </p>
             </div>
-            <div className="mx-auto">
+            <form className="mx-auto">
               <h2 className="text-sm font-bold uppercase my-3">
                 Ingresa ciudad y país
               </h2>
@@ -70,7 +70,7 @@ const Clima = () => {
                   setIsCalled(true);
                 }}
               />
-            </div>
+            </form>
           </>
         ) : (
           <p>Cargando datos del clima...</p>

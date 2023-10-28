@@ -34,8 +34,8 @@ export const links = [
     text: "Servicios",
   },
   {
-    href: "/noticias",
-    text: "Noticias",
+    href: "/tiempo",
+    text: "Tiempo",
   },
   {
     href: "https://www.instagram.com/abelardo.blog/",

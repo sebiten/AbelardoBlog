@@ -7,15 +7,19 @@ import Image from "next/image";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import GoogleAds from "./components/GoogleAds";
+import News from "./components/News";
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
   weight: "700",
+  subsets: ['latin']
 });
 
 const montserrat = Montserrat({
   variable: "--body-font",
   weight: "400",
+  preload: false,
+  subsets: ['latin']
 });
 
 export const metadata = {
@@ -55,6 +59,7 @@ export default function RootLayout({
       <body className="dark:bg-slate-800">
         <Navbar />
         {children}
+        <News/>
         <NewsletterSubscribe />
         <Footer />
       </body>
