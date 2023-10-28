@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 const Clima = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -30,7 +31,7 @@ const Clima = () => {
   }, [zone]);
 
   return (
-    <div className="mt-10 mx-10 lg:mx-0 " >
+    <div className="mt-10 mx-10 lg:mx-0 ">
       <div className="mb-12 sm:flex gap-3 light:border-gray-200 border dark:border-gray-700 rounded-md p-4 w-full xl:max-w-[90ch] items-center justify-center dark:text-white light:text-gray-800 bg-gray-800 text-white px-10">
         {weatherData ? (
           <>
@@ -58,7 +59,14 @@ const Clima = () => {
                 {weatherData.current.humidity}%
               </p>
             </div>
-            <form className="mx-auto">
+            <form className="mx-auto relative">
+              <div className="max-w-[120px] max-h-[50px] bg-gray-300 bottom-2 absolute">
+                <AdUnit
+                  className="adsbygoogle inline-block w-[120px] h-[50px]"
+                  data-ad-client="ca-pub-6692046911486022"
+                  data-ad-slot="8080097190"
+                />
+              </div>
               <h2 className="text-sm font-bold uppercase my-3">
                 Ingresa ciudad y país
               </h2>
