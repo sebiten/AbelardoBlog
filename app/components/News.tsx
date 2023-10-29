@@ -32,7 +32,7 @@ function News() {
           </div>
         ))}
       </div>
-      <div className="mx-auto w-full">
+      <center className="mx-auto w-full">
         <AdUnit
           className="adsbygoogle block"
           data-ad-client="ca-pub-6692046911486022"
@@ -40,7 +40,7 @@ function News() {
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
-      </div>
+      </center>
       <div className="flex  mt-10 gap-1 flex-wrap justify-center my-2 overflow-hidden overscroll-x-none">
         {urlsPosts.map((url, index) => (
           <div key={index} className="">
