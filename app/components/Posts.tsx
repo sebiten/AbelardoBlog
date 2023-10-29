@@ -4,6 +4,7 @@ import { filterOptions } from "./constantes/constantes";
 import Controller from "./Controller";
 import Items from "./Items";
 import News from "./News";
+import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 interface BlogPost {
   id: string;
@@ -49,6 +50,15 @@ export default function Posts() {
   return (
     <>
       <div>
+        <center className="mx-auto w-full">
+          <AdUnit
+            className="adsbygoogle block mx-auto"
+            data-ad-client="ca-pub-6692046911486022"
+            data-ad-slot="8559158085"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
+        </center>
         <div className="flex flex-col justify-center items-center mt-4">
           <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-3xl mt-6 font-bold text-center text-yellow-500 dark:text-yellow-400 title">
             Artículos
