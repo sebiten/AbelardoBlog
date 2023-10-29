@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Clima from "../components/Apis/Clima";
+import { AdUnit } from "@eisberg-labs/next-google-adsense";
 
 interface WeatherData {
   location: {
@@ -88,6 +89,13 @@ const Tiempo: React.FC = () => {
     <div className="dark:bg-gray-800 max-w-6xl mx-auto min-h-screen p-8">
       <div className="flex flex-col items-center justify-center">
         <Clima />
+        <center>
+          <AdUnit
+               className="adsbygoogle inline-block w-[690px] h-[90px]"
+               data-ad-client="ca-pub-6692046911486022"
+               data-ad-slot="8452412536"
+          />
+        </center>
         <h1 className="text-4xl font-bold text-white mb-8">
           Pronóstico del clima para {weather.location.name},{" "}
           {weather.location.country}
