@@ -44,7 +44,7 @@ export default function Posts() {
 
   function handleCategoryChange(event: React.ChangeEvent<HTMLSelectElement>) {
     setCategoryFilter(event.target.value);
-    setCurrentPage(1); // Reset to the first page when changing category
+    setCurrentPage(1);
   }
   return (
     <>
