@@ -5,7 +5,7 @@ import { AdUnit } from "@eisberg-labs/next-google-adsense";
 import Image from "next/image";
 
 const videosPath = [
-  "/azucar.webm",
+  "/azucar-efectos.webm",
   "/buenos-habitos.webm",
   "/control-del-apetito.webm",
 ];
@@ -75,7 +75,7 @@ function News() {
           data-full-width-responsive="true"
         />
       </center>
-      <div className="text-center text-white text-xl font-bold">
+      <div className="text-center mt-8 text-white text-xl font-bold">
         <h2 className="text-yellow-500 text-3xl md:text-4xl ">
           Artículos Destacados
         </h2>
@@ -93,10 +93,10 @@ function News() {
               alt={`Image ${index + 1}`}
               priority={true}
               quality={100}
-              width={500}
-              className="border-4 border-gray-700 w-full"
+              width={450}
+              className="border-4 border-gray-700"
             />
-            <div className="flex flex-col items-start justify-center mt-2 md:mt-0 ">
+            <div className="flex flex-col items-start max-w-md justify-center mt-2 md:mt-0 ">
               <p className="text-white image-description mx-auto w-auto">
                 {image.description}
               </p>
