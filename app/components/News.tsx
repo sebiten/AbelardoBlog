@@ -5,9 +5,9 @@ import { AdUnit } from "@eisberg-labs/next-google-adsense";
 import Image from "next/image";
 
 const videosPath = [
-  "/azucar.mp4",
-  "/buenos-habitos.mp4",
-  "/control-del-apetito.mp4",
+  "/azucar.webm",
+  "/buenos-habitos.webm",
+  "/control-del-apetito.webm",
 ];
 const imagespub = [
   {
@@ -75,7 +75,7 @@ function News() {
           data-full-width-responsive="true"
         />
       </center>
-      <div className="text-center mt-16 md:mt-12 text-white text-xl font-bold">
+      <div className="text-center text-white text-xl font-bold">
         <h2 className="text-yellow-500 text-3xl md:text-4xl ">
           Artículos Destacados
         </h2>
