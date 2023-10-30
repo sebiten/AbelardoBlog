@@ -5,9 +5,9 @@ import { AdUnit } from "@eisberg-labs/next-google-adsense";
 import Image from "next/image";
 
 const videosPath = [
-  "/azucar-efectos.webm",
-  "/buenos-habitos.webm",
-  "/control-del-apetito.webm",
+  "/azucar-efectos_compressed.webm",
+  "/buenos-habitos_compressed.webm",
+  "/control-del-apetito_compressed.webm",
 ];
 const imagespub = [
   {
