@@ -5,15 +5,15 @@ import { demostraciones, services } from "../components/constantes/constantes";
 
 const ServicesPage: React.FC = () => {
   return (
-    <div className="w-full h-full bg-gray-100 dark:bg-gray-800 px-4 py-8 md:py-16">
-      <div className="mb-6 text-xl text-gray-700 dark:text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+    <div className="w-full h-full  bg-gray-800 px-4 py-8 md:py-16">
+      <div className="mb-6 text-xl text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
         <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out prose prose-xl prose-slate dark:prose-invert font-title">
           <span className="text-yellow-500 font-normal text-5xl -z-10">
             <br></br>
             Servicios
           </span>
         </h3>
-        <p className="mt-4 text-center">
+        <p className="mt-4 text-center text-lg">
           Mi oferta de servicios abarca una amplia variedad de soluciones para
           fortalecer tu presencia en línea y alcanzar tus metas. Además, nuestro
           compromiso se extiende a ofrecer generosos descuentos en la creación
@@ -66,7 +66,7 @@ const ServicesPage: React.FC = () => {
           {demostraciones.map((demostracion, index) => (
             <Link
               href={demostracion.link}
-              className="text-gray-700 dark:text-white flex flex-col items-start
+              className="text-white flex flex-col items-start
             justify-center
             max-w-sm
             mx-auto
@@ -75,21 +75,21 @@ const ServicesPage: React.FC = () => {
             ease-in-out
             transform
             hover:scale-105
-            hover:bg-gray-100
-            dark:hover:bg-gray-800
+           
+           
             rounded-xl
             shadow-xl
             p-8
-            bg-white
-            dark:bg-gray-800
+            
+            bg-gray-800
             border
-            border-gray-100
+            border-gray-700
             dark:border-gray-700
             hover:border-gray-200
             dark:hover:border-gray-600
             hover:shadow-xl
             dark:hover:shadow-xl
-            hover:text-gray-600
+         
             dark:hover:text-gray-300
             my-4
             "
@@ -106,7 +106,7 @@ const ServicesPage: React.FC = () => {
                 height={300}
                 className="mx-auto h-48 w-full object-cover"
               />
-              <p className=" text-sm mt-4 text-gray-500 dark:text-gray-300">
+              <p className=" text-sm mt-4 text-gray-200 dark:text-gray-300">
                 {demostracion.description}
               </p>
             </Link>

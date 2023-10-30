@@ -50,7 +50,7 @@ export const links = [
 ];
 export default function Navbar() {
   return (
-    <nav className="dark:bg-gray-800 bg-white p-6 sticky w-full top-0 drop-shadow-xl z-10">
+    <nav className="bg-gray-800 text-white p-6 sticky w-full top-0 drop-shadow-xl z-10">
       <div className="mt-4">
         <motion.div
           className="w-full mt-6 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row"
@@ -68,7 +68,7 @@ export default function Navbar() {
               className="text-center font-title text-yellow-500 font-bold uppercase no-underline"
             >
               Abelardo
-              <span className="dark:text-white text-black font-bold">Blog</span>
+              <span className="text-white  font-bold">Blog</span>
             </Link>
           </motion.div>
           <motion.div
@@ -79,7 +79,7 @@ export default function Navbar() {
               <Link
                 key={index}
                 href={link.href}
-                className="text-gray-800 font-bold uppercase dark:text-white no-underline mt-7 sm:mt-2 text-sm m-auto hover:text-yellow-500"
+                className="font-bold uppercase text-white no-underline mt-7 sm:mt-2 text-sm m-auto hover:text-yellow-500"
                 target={link.target || ""}
               >
                 {link.icon ? link.icon : link.text}

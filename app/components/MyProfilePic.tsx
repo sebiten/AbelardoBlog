@@ -26,7 +26,7 @@ export default function MyProfilePic() {
   return (
     <section className="mx-auto">
       <div className="flex flex-col justify-center items-center">
-        <div className="w-full mt-2 text-xl text-gray-700 dark:text-white mx-auto text-center lg:w-8/12 xl:w-8/12 2xl:w-8/12">
+        <div className="w-full mt-2 text-xl text-white mx-auto text-center lg:w-8/12 xl:w-8/12 2xl:w-8/12">
           <Image
             src="/abelardo-blog.png"
             className="mx-auto w-auto h-auto"
@@ -54,7 +54,7 @@ export default function MyProfilePic() {
           </motion.span>
         </motion.div>
         <div className="font-bold text-2xl">
-          <h1 className="my-4 max-w-4xl font-black text-gray-700 dark:text-white">
+          <h1 className="my-4 max-w-4xl font-black  text-white">
           Descubre el mundo a través de los ojos de Abelardo, donde la percepción se convierte en conocimiento y el mundo se desvela en su totalidad.
           </h1>
         </div>
@@ -62,13 +62,13 @@ export default function MyProfilePic() {
           {dolar.map((dol) => (
             <div
               key={dol.casa}
-              className="text-gray-700 dark:text-white flex flex-col items-center justify-center w-full mx-auto transition duration-500 ease-in-out transform hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl shadow-xl p-4 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-xl dark:hover:shadow-xl  hover:text-gray-600 dark:hover:text-gray-300"
+              className="text-white dark:text-white flex flex-col items-center justify-center w-full mx-auto transition duration-500 ease-in-out transform hover:scale-105  rounded-xl shadow-xl p-4  bg-gray-800 border border-gray-700 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-xl dark:hover:shadow-xl   dark:hover:text-gray-300"
             >
               <h3 className="mt-2 text-lg font-semibold ">{dol.nombre}</h3>
-              <p className="mt-1 text-xl font-bold text-gray-500 dark:text-gray-300">
+              <p className="mt-1 text-xl font-bold text-white-500 dark:text-gray-300">
                 $ {dol.venta}
               </p>
-              <p className="mt-1 text-sm text-gray-500 dark:text-gray-300">
+              <p className="mt-1 text-sm text-gray-400 dark:text-gray-300">
                 {getFormattedDate(dol.fechaActualizacion)}
               </p>
             </div>

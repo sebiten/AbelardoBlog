@@ -50,8 +50,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
   return (
     <main className="mt-2 w-10/12 xl:w-6/12  flex items-center justify-center gap-4 mx-auto ">
       <div className="lg:flex block">
-        <div className="mr-0 flex flex-col w-full prose-a:dark:text-yellow-400 prose-strong:dark:text-yellow-500 prose-strong:font-black prose-headings:dark:text-white mx-auto prose max-w-5xl dark:text-white text-gray-800">
-          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+        <div className="mr-0 flex flex-col w-full prose-a:text-yellow-400 prose-strong:text-yellow-500 prose-strong:font-black prose-p:text-white prose-headings:text-white mx-auto prose max-w-5xl text-white">
+          <hr className="h-px my-8  border-0 bg-gray-700" />
 
           <h1 className="text-3xl mt-4 mb-0 font-title  ">{title}</h1>
           <p className="mt-0 ">{pubDate}</p>

@@ -55,7 +55,7 @@ export default function RootLayout({
           GA_TRACKING_ID={process.env.GA_TRACKING_ID as string}
         />
       </head>
-      <body className="dark:bg-slate-800">
+      <body className="bg-slate-800">
         <Navbar />
         {children}
         <News />

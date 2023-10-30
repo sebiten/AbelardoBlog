@@ -32,7 +32,7 @@ const Clima = () => {
 
   return (
     <div className="mt-10 mx-10 lg:mx-0 ">
-      <div className="mb-12 sm:flex gap-3 light:border-gray-200 border dark:border-gray-700 rounded-md p-4 w-full xl:max-w-[90ch] items-center justify-center dark:text-white light:text-gray-800 bg-gray-800 text-white px-10">
+      <div className="mb-12 sm:flex gap-3  border border-gray-700 rounded-md p-4 w-full xl:max-w-[90ch] items-center justify-center text-white  bg-gray-800  px-10">
         {weatherData ? (
           <>
             <Image

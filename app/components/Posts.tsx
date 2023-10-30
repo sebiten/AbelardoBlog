@@ -67,7 +67,7 @@ export default function Posts() {
         <div className=" my-2 w-7/12 mx-auto flex items-center justify-center filter">
           <label
             htmlFor="categoryFilter"
-            className="text-gray-600 dark:text-gray-300 mr-2"
+            className="text-gray-200  mr-2"
           >
             Categoría:
           </label>
@@ -76,14 +76,14 @@ export default function Posts() {
             value={categoryFilter}
             onChange={handleCategoryChange}
             className="
-            border border-gray-300 dark:border-gray-700
+            border  border-gray-700
             rounded-md
             text-gray-600 dark:text-gray-300
             h-10
             pl-5
             pr-10
-            bg-white dark:bg-gray-800
-            hover:border-gray-400 dark:hover:border-gray-600
+             bg-gray-800
+           
             focus:outline-none
             appearance-none
             transition

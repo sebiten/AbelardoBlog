@@ -9,7 +9,7 @@ function News() {
   return (
     <div className="max-w-7xl mx-auto mt-10 overflow-hidden overscroll-x-none">
       <div className="text-center dark:text-white ligth:text-gray-800  mx-auto ">
-        <h2 className="font-bold text-3xl my-4 animate-bounce">
+        <h2 className="font-bold text-3xl my-4 animate-bounce text-yellow-500">
           ¡Síguenos en Instagram!
         </h2>
       </div>

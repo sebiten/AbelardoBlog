@@ -17,17 +17,17 @@ export default function Controller({
       <button
         onClick={() => setCurrentPage(currentPage - 1)}
         disabled={currentPage === 1}
-        className="px-4 py-2 bg-gray-300 text-gray-600 dark:bg-gray-700 dark:text-gray-300 rounded-md"
+        className="px-4 py-2 bg-gray-700 text-gray-200 dark:text-gray-300 rounded-md"
       >
         ◀
       </button>
-      <p className="text-gray-600 dark:text-gray-300 font-bold">
+      <p className="text-gray-200 dark:text-gray-300 font-bold">
         Page {currentPage} of {totalPages}
       </p>
       <button
         onClick={() => setCurrentPage(currentPage + 1)}
         disabled={currentPage === totalPages} // Disable when currentPage is the last page
-        className="px-4 py-2 bg-gray-300 text-gray-600 dark:bg-gray-700 dark:text-gray-300 rounded-md"
+        className="px-4 py-2 bg-gray-700 text-gray-200 dark:text-gray-300 rounded-md"
       >
         ▶
       </button>
