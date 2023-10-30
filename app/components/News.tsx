@@ -50,8 +50,8 @@ function News() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
         {videosPath.map((videoPath, index) => (
           <div key={index} className="p-4">
-            <video width="100%" className="" controls key={index}>
-              <source src={videoPath} type="video/mp4" />
+            <video width="100%" controls>
+              <source src={videoPath} type="video/webm" />
               <source src={videoPath} type="video/ogg" />
             </video>
             <div className="flex items-center justify-center mt-2">
