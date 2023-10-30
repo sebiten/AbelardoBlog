@@ -105,8 +105,6 @@ export default function Posts() {
             posts={posts}
             itemsPerPage={itemsPerPage}
           />
-
-          <News/>
         </div>
       ) : (
         <center>

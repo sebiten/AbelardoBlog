@@ -6,6 +6,9 @@ const NewsletterSubscribe = () => {
   const MAILCHIMP_URL = process.env.NEXT_PUBLIC_MAILCHIMP_URL;
 
   return (
+    <div
+    className="p-6"
+    >
       <MailchimpSubscribe
         url={MAILCHIMP_URL}
         render={(props) => {
@@ -19,6 +22,7 @@ const NewsletterSubscribe = () => {
           );
         }}
       />
+    </div>
   );
 };
 
