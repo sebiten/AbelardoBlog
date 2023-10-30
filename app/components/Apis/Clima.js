@@ -60,7 +60,7 @@ const Clima = () => {
               </p>
             </div>
             <form className="mx-auto relative">
-              <div className="max-w-[120px] max-h-[50px] bottom-2 absolute">
+              <div className="max-w-[120px] max-h-[50px] bottom-14 absolute bg-gray-200">
                 <AdUnit
                   className="adsbygoogle inline-block w-[120px] h-[50px]"
                   data-ad-client="ca-pub-6692046911486022"

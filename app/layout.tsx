@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import GoogleAds from "./components/GoogleAds";
-import News from "./components/News";
+import dynamic from "next/dynamic";
+const News = dynamic(() => import("./components/News"), { ssr: false });
 
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",

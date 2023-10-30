@@ -13,7 +13,7 @@ const Instagram = {
 
 const UnderConstruction: React.FC<UnderConstructionProps> = ({ pageTitle }) => {
   return (
-    <div className="text-center flex flex-col items-center justify-center my-40 dark:text-white text-2xl text-gray-800 mx-auto">
+    <div className="text-center flex flex-col items-center justify-center my-40 text-yellow-500 text-2xl  mx-auto">
       <h1>¡Página en Remodelación!💻</h1>
       <p>
         Estamos trabajando en mejorar {pageTitle}.
