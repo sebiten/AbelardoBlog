@@ -1,6 +1,6 @@
 "use client";
 import Posts from "./components/Posts";
-import MyProfilePic from "./components/MyProfilePic";
+import MyProfilePic from "./components/Heroydolar";
 
 export default function Home() {
   return (

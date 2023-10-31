@@ -13,27 +13,16 @@ type BlogPost = {
 };
 
 type Props = {
-  post: BlogPost;
+  posts: BlogPost;
 };
 
-export default function ListItem({ post }: Props) {
-  const { id, title, date, categories, imageUrl } = post;
-  const formattedDate = getFormattedDate(date);
+export default function ListItem({ posts }: Props) {
+  const { id, title, date, categories, imageUrl } = posts;
+  // const formattedDate = getFormattedDate(date);
 
   return (
-    <div
-      className="
-    flex flex-col
-    relative
-    m-4
-      "
-    >
-      <Link
-        className="
-     
-      relative"
-        href={`/posts/${id}`}
-      >
+    <div className="flex flex-col relative m-4">
+      <Link className="relative" href={`/posts/${id}`}>
         <>
           <li className="mt-2 h-full relative hover:scale-95 duration-500 p-2 overflow-hidden text-white border border-gray-700   bg-gray-800 list-none rounded-lg shadow-2xl ">
             {imageUrl && (
@@ -56,7 +45,7 @@ export default function ListItem({ post }: Props) {
               </h3>
               <div>
                 <p className="text-sm text-yellow-600 font-bold">
-                  {formattedDate}
+                  {date}
                 </p>
               </div>
               <div className="absolute left-6 bottom-4">

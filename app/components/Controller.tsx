@@ -1,36 +1,42 @@
-type Props = {
-  setCurrentPage: (page: number) => void;
-  currentPage: number;
-  posts: any[];
-  itemsPerPage: number;
-};
-export default function Controller({
-  setCurrentPage,
-  currentPage,
-  posts,
-  itemsPerPage,
-}: Props) {
-  const totalPages = Math.ceil(posts.length / itemsPerPage);
 
+interface ControllerProps {
+  currentSliceStart: number;
+  currentSliceEnd: number;
+  currentPage: number;
+  nextPage: () => void;
+  previousPage: () => void;
+  totalItems: number;
+}
+
+const Controller: React.FC<ControllerProps> = ({
+  currentSliceStart,
+  currentSliceEnd,
+  currentPage,
+  nextPage,
+  previousPage,
+  totalItems,
+}) => {
   return (
-    <div className="flex items-center justify-center mt-10 gap-4">
-      <button
-        onClick={() => setCurrentPage(currentPage - 1)}
-        disabled={currentPage === 1}
-        className="px-4 py-2 bg-gray-700 text-gray-200 dark:text-gray-300 rounded-md"
-      >
-        ◀
-      </button>
-      <p className="text-gray-200 dark:text-gray-300 font-bold">
-        Page {currentPage} of {totalPages}
-      </p>
-      <button
-        onClick={() => setCurrentPage(currentPage + 1)}
-        disabled={currentPage === totalPages} // Disable when currentPage is the last page
-        className="px-4 py-2 bg-gray-700 text-gray-200 dark:text-gray-300 rounded-md"
-      >
+    <div className="text-white flex gap-6 items-center justify-center">
+      {currentSliceStart >= 4 && (
+        <button
+          onClick={previousPage}
+          className="bg-yellow-500 hover:bg-yellow-600 text-gray-200 px-4 py-2 rounded-lg"
+        >
+          ◀
+        </button>
+      )}
+      <span className="text-xl font-bold">{currentPage}</span>
+      {currentSliceEnd < totalItems && (
+        <button
+          onClick={nextPage}
+          className="bg-yellow-500 hover:bg-yellow-600 text-gray-200 px-4 py-2 rounded-lg"
+        >
         ▶
-      </button>
+        </button>
+      )}
     </div>
   );
-}
+};
+
+export default Controller;

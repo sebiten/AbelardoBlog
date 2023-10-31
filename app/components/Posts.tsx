@@ -1,13 +1,9 @@
-"use client";
-import { useState, useEffect } from "react";
-import { filterOptions } from "./constantes/constantes";
+import Image from "next/image";
+import Link from "next/link";
 import Controller from "./Controller";
-import Items from "./Items";
-import News from "./News";
-import { AdUnit } from "@eisberg-labs/next-google-adsense";
-import Spinner from "./Spinner";
+import BlogPosts from "./BlogPosts";
 
-interface BlogPost {
+interface BlogPostType {
   id: string;
   title: string;
   date: string;
@@ -16,48 +12,66 @@ interface BlogPost {
   content: string;
   isLoading: boolean;
 }
-type Tiempo = {};
 
-export default function Posts() {
-  const [isClient, setIsClient] = useState(false); // Nuevo estado para detectar si es cliente
-  const [categoryFilter, setCategoryFilter] = useState("");
-  const [posts, setPosts] = useState<BlogPost[]>([]);
-  const [tiempo, setTiempo] = useState<Tiempo[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 9;
+const fetchPosts = () => {
+  return fetch(`http://localhost:3000/api/hello`).then((res) => res.json());
+};
 
-  useEffect(() => {
-    setIsClient(true); // Marcar como cliente en el efecto
+export default async function Posts() {
+  const startIndex = 2;
+  const itemsPerPage = 10;
+  const totalItems = 100;
 
-    async function fetchPosts() {
-      setIsLoading(true);
-      try {
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const response = await fetch(
-          `/api/hello?categoryFilter=${categoryFilter}&startIndex=${startIndex}&limit=${itemsPerPage}`
-        );
-        const data = await response.json();
-        setPosts(data);
-      } catch (error) {
-        console.error("Error fetching posts:", error);
-      }
-      setIsLoading(false);
-    }
-    fetchPosts();
-  }, [categoryFilter, currentPage]);
+  const posts = await fetchPosts();
 
-  function handleCategoryChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    setCategoryFilter(event.target.value);
-    setCurrentPage(1);
-  }
-
+  // Render the posts for the current page.
   return (
-    <>
-      {isClient ? ( // Renderizado condicional basado en 'isClient'
+    <div className="">
+      <BlogPosts posts={posts} />
+      {/* <Controller
+        startIndex={startIndex}
+        itemsPerPage={itemsPerPage}
+        totalItems={posts.length}
+      /> */}
+    </div>
+  );
+}
+
+// const [isClient, setIsClient] = useState(false); // Nuevo estado para detectar si es cliente
+// const [categoryFilter, setCategoryFilter] = useState("");
+// const [posts, setPosts] = useState<BlogPost[]>([]);
+// const [isLoading, setIsLoading] = useState(true);
+// const [currentPage, setCurrentPage] = useState(1);
+// const itemsPerPage = 9;
+// useEffect(() => {
+//   setIsClient(true); // Marcar como cliente en el efecto
+
+//   async function fetchPosts() {
+//     setIsLoading(true);
+//     try {
+//       const startIndex = (currentPage - 1) * itemsPerPage;
+//       const response = await fetch(
+//         `/api/hello?categoryFilter=${categoryFilter}&startIndex=${startIndex}&limit=${itemsPerPage}`
+//       );
+//       const data = await response.json();
+//       setPosts(data);
+//     } catch (error) {
+//       console.error("Error fetching posts:", error);
+//     }
+//     setIsLoading(false);
+//   }
+//   fetchPosts();
+// }, [categoryFilter, currentPage]);
+
+// function handleCategoryChange(event: React.ChangeEvent<HTMLSelectElement>) {
+//   setCategoryFilter(event.target.value);
+//   setCurrentPage(1);
+// }
+
+/* {isClient ? ( 
         <div>
           <center className="adsbygoogle block mx-auto">
-            {/* Tu anuncio de Google AdSense */}
+     
           </center>
           <div className="flex flex-col justify-center items-center mt-4">
             <h2 className="animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out text-3xl mt-6 font-bold text-center text-yellow-500 dark:text-yellow-400 title">
@@ -111,7 +125,5 @@ export default function Posts() {
           <Spinner />
         </center>
       )}
-      {/* Resto del contenido */}
-    </>
-  );
-}
+ 
+    </> */

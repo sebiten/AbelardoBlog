@@ -1,7 +1,9 @@
 "use client";
-import { useEffect, useState } from "react";
-import Clima from "../components/Apis/Clima";
+import React, { useEffect, useState } from "react";
 import { AdUnit } from "@eisberg-labs/next-google-adsense";
+import Pronostico from "../components/Pronostico";
+import Spinner from "../components/Spinner";
+import AirQualityInfo from "../components/AirQualityInfo";
 
 interface WeatherData {
   location: {
@@ -70,30 +72,26 @@ const Tiempo: React.FC = () => {
   }, [zone]);
 
   if (!weather) {
-    return <div>Cargando datos del clima...</div>;
+    return (
+      <center>
+        <Spinner />
+      </center>
+    );
   }
 
-  const getAQIColorClass = (aqi: number) => {
-    if (aqi <= 50) {
-      return "bg-green-500 text-white";
-    } else if (aqi <= 100) {
-      return "bg-yellow-500 text-gray-800";
-    } else if (aqi <= 150) {
-      return "bg-red-500 text-white";
-    } else {
-      return "bg-purple-500 text-white";
-    }
-  };
+  // Variables para las clases de color
+
+  // Componente reutilizable para la información de calidad del aire
 
   return (
     <div className="dark:bg-gray-800 max-w-6xl mx-auto min-h-screen p-8">
       <div className="flex flex-col items-center justify-center">
-        <Clima />
+        <Pronostico />
         <center>
           <AdUnit
-               className="adsbygoogle inline-block w-[690px] h-[90px]m"
-               data-ad-client="ca-pub-6692046911486022"
-               data-ad-slot="8452412536"
+            className="adsbygoogle inline-block w-[690px] h-[90px]m"
+            data-ad-client="ca-pub-6692046911486022"
+            data-ad-slot="8452412536"
           />
         </center>
         <h1 className="text-4xl font-bold text-white my-8">
@@ -137,27 +135,16 @@ const Tiempo: React.FC = () => {
         <h2 className="text-3xl font-semibold text-white">
           Información adicional:
         </h2>
-        <div className="flex  flex-col gap-2 bg-gray-800 text-white shadow-xl p-6 rounded-lg border border-gray-700 text-center mt-4">
+        <div className="flex flex-col gap-2 bg-gray-800 text-white shadow-xl p-6 rounded-lg border border-gray-700 text-center mt-4">
           <div className="mt-8">
             <h2 className="text-3xl font-semibold text-white">
               Información de la Calidad del Aire:
             </h2>
-            <div className="bg-gray-800 text-white shadow-xl p-6 rounded-lg border border-gray-700 text-center mt-4">
-              <p
-                className={`text-lg font-medium ${getAQIColorClass(
-                  weather.current.air_quality.pm2_5
-                )}`}
-              >
-                PM2.5: {weather.current.air_quality.pm2_5}
-              </p>
-              <p
-                className={`text-lg font-medium ${getAQIColorClass(
-                  weather.current.air_quality.pm10
-                )}`}
-              >
-                PM10: {weather.current.air_quality.pm10}
-              </p>
-            </div>
+            <AirQualityInfo
+              title="PM2.5"
+              pm25={weather.current.air_quality.pm2_5}
+              pm10={weather.current.air_quality.pm10}
+            />
           </div>
 
           <p className="text-lg font-medium">Índice UV: {weather.current.uv}</p>
