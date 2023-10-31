@@ -1,4 +1,3 @@
-
 interface ControllerProps {
   currentSliceStart: number;
   currentSliceEnd: number;
@@ -32,7 +31,7 @@ const Controller: React.FC<ControllerProps> = ({
           onClick={nextPage}
           className="bg-yellow-500 hover:bg-yellow-600 text-gray-200 px-4 py-2 rounded-lg"
         >
-        ▶
+          ▶
         </button>
       )}
     </div>

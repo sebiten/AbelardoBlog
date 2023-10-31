@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Dolar from "./Pronostico";
 import getFormattedDate from "@/lib/getFormattedDate";
 
 interface DolarData {
@@ -14,7 +12,7 @@ const fetchDolar = () => {
   return fetch(`https://dolarapi.com/v1/dolares`).then((res) => res.json());
 };
 
-export default async function Hero() {
+export default async function Heroydolar(): Promise<JSX.Element> {
   const dolar = await fetchDolar();
   return (
     <>

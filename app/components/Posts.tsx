@@ -15,7 +15,7 @@ const fetchPosts = async () => {
   return await res.json();
 };
 
-export default async function Posts() {
+export default async function Posts(): Promise<JSX.Element> {
   const posts = await fetchPosts();
   return (
     <>

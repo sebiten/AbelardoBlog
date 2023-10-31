@@ -75,24 +75,6 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
                   </li>
                 </>
               </Link>
-              <div
-                className="
-              absolute
-              bottom-1
-              right-2
-              mt-2
-              mr-2
-              cursor-cell
-              z-0"
-              >
-                {/* <Favorite
-              id={post.id}
-              imageUrl={post.imageUrl}
-              categories={post.categories}
-              date={post.date}
-              title={post.title}
-            /> */}
-              </div>
             </div>
           ))}
       </div>

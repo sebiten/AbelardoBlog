@@ -1,6 +1,3 @@
-import React from 'react'
-
-type Props = {}
 const greenColorClass = "bg-green-500 text-white";
 const yellowColorClass = "bg-yellow-500 text-gray-800";
 const redColorClass = "bg-red-500 text-white";
