@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { AdUnit } from "@eisberg-labs/next-google-adsense";
 import Pronostico from "../components/Pronostico";
 import Spinner from "../components/Spinner";
 import AirQualityInfo from "../components/AirQualityInfo";
