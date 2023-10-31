@@ -11,15 +11,12 @@ interface BlogPostType {
 }
 
 const fetchPosts = async () => {
-  const res = await fetch(`http://localhost:3000/api/hello`);
-  return await res.json();
+  return fetch(`http://localhost:3000/api/hello`).then((res) => res.json());
 };
 
-export default async function Posts(): Promise<JSX.Element> {
+async function Posts(): Promise<JSX.Element> {
   const posts = await fetchPosts();
-  return (
-    <>
-      <BlogPosts posts={posts} />
-    </>
-  );
+
+  return <BlogPosts posts={posts} />;
 }
+export default Posts;

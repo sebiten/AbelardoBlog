@@ -12,7 +12,7 @@ const fetchDolar = () => {
   return fetch(`https://dolarapi.com/v1/dolares`).then((res) => res.json());
 };
 
-export default async function Heroydolar(): Promise<JSX.Element> {
+async function Heroydolar(): Promise<JSX.Element> {
   const dolar = await fetchDolar();
   return (
     <>
@@ -62,3 +62,4 @@ export default async function Heroydolar(): Promise<JSX.Element> {
     </>
   );
 }
+export default Heroydolar;
