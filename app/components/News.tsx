@@ -5,10 +5,23 @@ import { AdUnit } from "@eisberg-labs/next-google-adsense";
 import Image from "next/image";
 
 const videosPath = [
-  "/azucar-efectos_compressed.webm",
-  "/buenos-habitos_compressed.webm",
-  "/control-del-apetito_compressed.webm",
+  {
+    path: "/azucar-efectos_compressed.webm",
+    link: "https://abelardo.blog/posts/beneficios-de-dejar-de-consumir-azucar",
+    title: "Efectos del azucar y de dejar de consumirla"
+  },
+  {
+    path: "/buenos-habitos_compressed.webm",
+    link: "https://abelardo.blog/posts/buenos-habitos",
+    title: "Buenos habitos el camino hacia una buena autoestima"
+  },
+  {
+    path: "/control-del-apetito_compressed.webm",
+    link: "https://abelardo.blog/posts/por-que-siempre-tenemos-hambre",
+    title: "¿Por que siempre tenemos hambre?"
+  },
 ];
+
 const imagespub = [
   {
     description:
@@ -50,9 +63,14 @@ function News() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
         {videosPath.map((videoPath, index) => (
           <div key={index} className="p-4">
+            <h2
+              className="text-white font-bold text-lg "
+            >
+              {videoPath.title}
+            </h2>
             <video width="100%" controls>
-              <source src={videoPath} type="video/webm" />
-              <source src={videoPath} type="video/ogg" />
+              <source src={videoPath.path} type="video/webm" />
+              <source src={videoPath.path} type="video/ogg" />
             </video>
             <div className="flex items-center justify-center mt-2">
               <Link
@@ -62,11 +80,18 @@ function News() {
               >
                 Instagram
               </Link>
+              <Link
+                className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-3 w-full border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg"
+                href={videoPath.link}
+                target="_blank"
+              >
+                Ir al artículo
+              </Link>
             </div>
           </div>
         ))}
       </div>
-      <center className="mx-auto max-w-5xl">
+      <center className="mx-auto max-w-5xl my-10">
         <AdUnit
           className="adsbygoogle block"
           data-ad-client="ca-pub-6692046911486022"
@@ -75,7 +100,7 @@ function News() {
           data-full-width-responsive="true"
         />
       </center>
-      <div className="text-center mt-8 text-white text-xl font-bold">
+      <div className="text-center mt-24 text-white text-xl font-bold">
         <h2 className="text-yellow-500 text-3xl md:text-4xl ">
           Artículos Destacados
         </h2>
@@ -97,13 +122,12 @@ function News() {
               className="border-4 border-gray-700"
             />
             <div className="flex flex-col items-start max-w-md justify-center mt-2 md:mt-0 ">
-              <p className="text-white image-description mx-auto w-auto">
+              <p className="text-white text-xl  image-description mx-auto w-auto">
                 {image.description}
               </p>
               <Link
                 className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-3  border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg mt-2 w-full"
                 href={image.link}
-                target="_blank"
               >
                 Visitar el artículo
               </Link>

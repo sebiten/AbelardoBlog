@@ -58,7 +58,7 @@ export default function MyProfilePic() {
           Descubre el mundo a través de los ojos de Abelardo, donde la percepción se convierte en conocimiento y el mundo se desvela en su totalidad.
           </h1>
         </div>
-        <div className="mt-8 grid gap-2 px-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6">
+        <div className="mt-8 grid gap-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6 px-8">
           {dolar.map((dol) => (
             <div
               key={dol.casa}
