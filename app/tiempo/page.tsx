@@ -87,13 +87,6 @@ const Tiempo: React.FC = () => {
     <div className="dark:bg-gray-800 max-w-6xl mx-auto min-h-screen p-8">
       <div className="flex flex-col items-center justify-center">
         <Pronostico />
-        <center>
-          <AdUnit
-            className="adsbygoogle inline-block w-[690px] h-[90px]m"
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="8452412536"
-          />
-        </center>
         <h1 className="text-4xl font-bold text-white my-8">
           Pronóstico del clima para {weather.location.name},{" "}
           {weather.location.country}

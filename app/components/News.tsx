@@ -91,7 +91,7 @@ function News() {
           </div>
         ))}
       </div>
-      <center className="mx-auto max-w-5xl my-10">
+      {/* <center className="mx-auto max-w-5xl my-10">
         <AdUnit
           className="adsbygoogle block"
           data-ad-client="ca-pub-6692046911486022"
@@ -99,7 +99,7 @@ function News() {
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
-      </center>
+      </center> */}
       <div className="text-center mt-24 text-white text-xl font-bold">
         <h2 className="text-yellow-500 text-3xl md:text-4xl ">
           Artículos Destacados
