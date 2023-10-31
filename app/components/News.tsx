@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
-import { AdUnit } from "@eisberg-labs/next-google-adsense";
 import Image from "next/image";
 
 const videosPath = [
