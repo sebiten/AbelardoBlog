@@ -6,7 +6,6 @@ import Link from "next/link";
 import getFormattedDate from "../../lib/getFormattedDate";
 import AirQualityInfo from "./AirQualityInfo";
 import { title } from "process";
-import { AdUnit } from "next-google-adsense";
 import GoogleAdUnit from "nextjs13_google_adsense";
 
 interface WeatherData {
