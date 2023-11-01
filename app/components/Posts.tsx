@@ -11,7 +11,7 @@ interface BlogPostType {
 }
 
 const fetchPosts = async () => {
-  return fetch(`http://localhost:3000/api/hello`).then((res) => res.json());
+  return fetch("http://[::1]:3000/api/hello").then((res) => res.json());
 };
 
 async function Posts(): Promise<JSX.Element> {

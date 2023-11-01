@@ -1,7 +1,7 @@
 import Posts from "./components/Posts";
 import Heroydolar from "./components/Heroydolar";
 
-export default function Home() {
+function Home() {
   return (
     <>
       <div className=" w-full h-full mx-auto mb-10 ">
@@ -15,3 +15,4 @@ export default function Home() {
     </>
   );
 }
+export default Home;
