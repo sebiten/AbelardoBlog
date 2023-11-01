@@ -20,11 +20,11 @@ export const links = [
   //   text: "Abelardo ",
   //   target: "_self",
   // },
-  {
-    href: "/favorites",
-    text: "Favoritos ",
-    target: "_self",
-  },
+  // {
+  //   href: "/favorites",
+  //   text: "Favoritos ",
+  //   target: "_self",
+  // },
   // {
   //   href: "/",
   //   text: "Redactar Post",

@@ -10,14 +10,14 @@ interface BlogPostType {
   isLoading: boolean;
 }
 
+const fetchPosts = async (): Promise<BlogPostType[]> => {
+  return fetch(`http://127.0.0.1:3000/api/hello`).then((res) => res.json());
+};
+
 async function Posts(): Promise<JSX.Element> {
-  const fetchPosts = async () => {
-    const response = await fetch("http://127.0.0.1:3000/api/hello");
-    const posts = await response.json();
-    return posts;
-  };
-  const posts = await fetchPosts();
+  const posts: BlogPostType[] = await fetchPosts();
 
   return <BlogPosts posts={posts} />;
 }
+
 export default Posts;

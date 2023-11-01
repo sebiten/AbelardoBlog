@@ -8,14 +8,13 @@ interface DolarData {
   fechaActualizacion: string;
 }
 
+const fetchDolar = async () => {
+  return fetch(`https://dolarapi.com/v1/dolares`).then((res) => res.json());
+};
 
 async function Heroydolar(): Promise<JSX.Element> {
-  const fetchDolar = async () => {
-    const response = await fetch("https://dolarapi.com/v1/dolares");
-    const dolar = await response.json();
-    return dolar;
-  };
-  const dolar = await fetchDolar();
+  const dolar: DolarData[] = await fetchDolar();
+
   return (
     <>
       <section className="mx-auto">
@@ -45,7 +44,7 @@ async function Heroydolar(): Promise<JSX.Element> {
           </div>
         </div>
         <div className="mt-8 grid gap-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6 px-8">
-          {dolar.map((dol: any) => (
+          {dolar.map((dol) => (
             <div
               key={dol.casa}
               className="text-white dark:text-white flex flex-col items-center justify-center w-full mx-auto transition duration-500 ease-in-out transform hover:scale-105  rounded-xl shadow-xl p-4  bg-gray-800 border border-gray-700 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-xl dark:hover:shadow-xl   dark:hover:text-gray-300"
