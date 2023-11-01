@@ -1,4 +1,3 @@
-import Posts from "./components/Posts";
 import Heroydolar from "./components/Heroydolar";
 
 function Home() {
@@ -9,8 +8,6 @@ function Home() {
           {/* @ts-expect-error Server Component */}
           <Heroydolar />
         </div>
-        {/* @ts-expect-error Server Component */}
-        <Posts />
       </div>
     </>
   );

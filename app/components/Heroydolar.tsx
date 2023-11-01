@@ -1,6 +1,7 @@
 import Image from "next/image";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Pronostico from "./Pronostico";
+import Posts from "./Posts";
 
 interface DolarData {
   casa: string;
@@ -72,6 +73,9 @@ async function Heroydolar(): Promise<JSX.Element> {
         {/* @ts-expect-error Server Component */}
         <Pronostico />
       </section>
+      {/* @ts-expect-error Server Component */}
+
+      <Posts />
     </>
   );
 }

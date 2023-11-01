@@ -1,5 +1,4 @@
 import BlogPosts from "./BlogPosts";
-import { useEffect, useState } from "react";
 import Spinner from "./Spinner";
 
 interface BlogPostType {
