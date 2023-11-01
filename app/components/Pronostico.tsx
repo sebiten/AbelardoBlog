@@ -70,18 +70,6 @@ async function Pronostico() {
           </div>
         ))}
       </div>
-      <center className="max-w-5xl mx-auto">
-        <GoogleAdUnit>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block", width: "100%" }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="5746621477"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </GoogleAdUnit>
-      </center>
       <div className="flex justify-center mt-4 gap-2">
         <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3">
           <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg text-center border border-gray-700">
@@ -97,6 +85,18 @@ async function Pronostico() {
           </div>
         </div>
       </div>
+      <center className="max-w-5xl mx-auto">
+        <GoogleAdUnit>
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block", width: "100%" }}
+            data-ad-client="ca-pub-6692046911486022"
+            data-ad-slot="5746621477"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </GoogleAdUnit>
+      </center>
     </div>
   );
 }
