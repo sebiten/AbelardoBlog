@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import BlogPosts from "./BlogPosts";
 import { useEffect, useState } from "react";
 
@@ -12,20 +12,25 @@ interface BlogPostType {
   isLoading: boolean;
 }
 
-const fetchPosts = async (): Promise<BlogPostType[]> => {
-  return fetch(`http://localhost:3000/api/hello`).then((res) => res.json());
-};
-
 function Posts(): JSX.Element {
   const [posts, setPosts] = useState<BlogPostType[] | null>(null);
 
   useEffect(() => {
-    // Fetch the posts.
-    fetchPosts().then((posts) => setPosts(posts));
+    // Fetch all available blog posts.
+    async function fetchPosts() {
+      try {
+        const response = await fetch(`/api/hello`);
+        const data = await response.json();
+        setPosts(data);
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+      }
+    }
+    fetchPosts();
   }, []);
 
   if (posts === null) {
-    return <div>Loading...</div>;
+    return <div>No posts available.</div>;
   } else {
     return <BlogPosts posts={posts} />;
   }
