@@ -40,8 +40,8 @@ async function Pronostico() {
   const weather = await getClima();
 
   return (
-    <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-4 px-8 ">
+    <div className="container mx-auto py-4 px-4 sm:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {weather.forecast.forecastday.map((day: any, index: any) => (
           <div
             key={index}
@@ -59,7 +59,7 @@ async function Pronostico() {
               priority={true}
               src={`https:${day.day.condition.icon}`}
               alt={day.day.condition.text}
-              className="mx-auto w-[80px]"
+              className="mx-auto w-20 h-20"
             />
             <p className="text-xl font-medium">{day.day.condition.text}</p>
             <p className="text-xl font-medium">Max: {day.day.maxtemp_c}°C</p>
@@ -69,18 +69,22 @@ async function Pronostico() {
           </div>
         ))}
       </div>
-      <div className="flex w-[85ch] my-4 mx-auto flex-col items-center justify-center mb-2 border border-gray-700 bg-gray-800 text-white rounded-lg p-4">
-        <h2 className="text-xl font-semibold text-center mb-2">
-          Consulta el tiempo de tu ciudad
-        </h2>
-        <Link
-          className="text-center p-4 bg-gray-800 border-gray-700 border font-black hover:bg-gray-700 text-yellow-500 rounded-lg"
-          href="/tiempo"
-        >
-          Ir a la página
-        </Link>
+      <div className="flex justify-center mt-4 gap-2">
+        <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3">
+          <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg text-center border border-gray-700">
+            <h2 className="text-xl font-semibold mb-4">
+              Consulta el tiempo de tu ciudad
+            </h2>
+            <Link
+              className="p-2 bg-gray-800 border  border-gray-700 text-yellow-500 rounded-lg hover:bg-gray-600"
+              href="/tiempo"
+            >
+              Ir a la página
+            </Link>
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 

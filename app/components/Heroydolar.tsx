@@ -54,7 +54,7 @@ async function Heroydolar(): Promise<JSX.Element> {
             </h1>
           </div>
         </div>
-        <div className="mt-8 grid gap-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6 px-8">
+        <div className="mt-8 grid gap-2 grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6 px-2 md:px-8">
           {dolar.map((dol) => (
             <div
               key={dol.casa}
