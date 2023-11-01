@@ -1,4 +1,6 @@
+'use client'
 import BlogPosts from "./BlogPosts";
+import { useEffect, useState } from "react";
 
 interface BlogPostType {
   id: string;
@@ -11,13 +13,22 @@ interface BlogPostType {
 }
 
 const fetchPosts = async (): Promise<BlogPostType[]> => {
-  return fetch(`http://127.0.0.1:3000/api/hello`).then((res) => res.json());
+  return fetch(`http://localhost:3000/api/hello`).then((res) => res.json());
 };
 
-async function Posts(): Promise<JSX.Element> {
-  const posts: BlogPostType[] = await fetchPosts();
+function Posts(): JSX.Element {
+  const [posts, setPosts] = useState<BlogPostType[] | null>(null);
 
-  return <BlogPosts posts={posts} />;
+  useEffect(() => {
+    // Fetch the posts.
+    fetchPosts().then((posts) => setPosts(posts));
+  }, []);
+
+  if (posts === null) {
+    return <div>Loading...</div>;
+  } else {
+    return <BlogPosts posts={posts} />;
+  }
 }
 
 export default Posts;
