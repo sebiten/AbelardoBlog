@@ -28,7 +28,7 @@ async function Heroydolar(): Promise<JSX.Element> {
 
   return (
     <>
-      <section className="mx-auto">
+      <section className="mx-auto ">
         <div className="flex flex-col justify-center items-center">
           <div className="w-full mt-2 text-xl text-white mx-auto text-center lg:w-8/12 xl:w-8/12 2xl:w-8/12">
             <Image
@@ -73,9 +73,8 @@ async function Heroydolar(): Promise<JSX.Element> {
         {/* @ts-expect-error Server Component */}
         <Pronostico />
       </section>
-      {/* @ts-expect-error Server Component */}
 
-      <Posts />
+      {/* <Posts /> */}
     </>
   );
 }

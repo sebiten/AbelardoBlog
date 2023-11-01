@@ -3,6 +3,16 @@ import React, { useEffect, useState } from "react";
 import Spinner from "../components/Spinner";
 import AirQualityInfo from "../components/AirQualityInfo";
 import { useDebounce } from "use-debounce";
+import Image from "next/image";
+
+interface AstroData {
+  sunrise: string;
+  sunset: string;
+  moonrise: string;
+  moonset: string;
+  moon_phase: string;
+  moon_illumination: number;
+}
 
 interface WeatherData {
   location: {
@@ -41,13 +51,25 @@ interface WeatherData {
   alerts: {
     event: string;
     description: string;
+    headline: string;
+    msgtype: string;
+    severity: string;
+    urgency: string;
+    areas: string;
+    category: string;
+    certainty: string;
+    effective: string;
+    expires: string;
+    desc: string;
+    instruction: string;
   }[];
+  astro: AstroData; // Agregamos la propiedad 'astro'
 }
 
 const Tiempo: React.FC = () => {
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [zone, setZone] = useState("Salta Argentina");
-  const [query] = useDebounce(zone, 600)
+  const [query] = useDebounce(zone, 600);
   const apiKey = "81109ab2335b40f880c135011230609";
   useEffect(() => {
     const fetchData = async () => {
@@ -104,22 +126,28 @@ const Tiempo: React.FC = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {weather.forecast.forecastday.map((day, index) => (
-          <div
-            key={index}
-            className="bg-gray-700 text-white p-6 rounded-lg shadow-lg text-center"
-          >
-            <h2 className="text-2xl font-semibold mb-2">{day.date}</h2>
-            <img
-              src={day.day.condition.icon}
-              alt={day.day.condition.text}
-              className="mx-auto"
-            />
-            <p className="text-xl font-medium">{day.day.condition.text}</p>
-            <p className="text-xl font-medium">Max: {day.day.maxtemp_c}°C</p>
-            <p className="text-xl font-medium">Min: {day.day.mintemp_c}°C</p>
-            <p className="text-lg mt-4">Viento: {day.day.maxwind_kph} km/h</p>
-            <p className="text-lg">Humedad: {day.day.avghumidity}%</p>
-          </div>
+          <>
+            <div
+              key={index}
+              className="bg-gray-700 text-white p-6 rounded-lg shadow-lg text-center"
+            >
+              <h2 className="text-2xl font-semibold mb-2">{day.date}</h2>
+              <Image
+                alt={day.day.condition.text}
+                width={1920}
+                height={1080}
+                quality={100}
+                priority={true}
+                src={`https:${day.day.condition.icon}`}
+                className="mx-auto w-[60px]"
+              />
+              <p className="text-xl font-medium">{day.day.condition.text}</p>
+              <p className="text-xl font-medium">Max: {day.day.maxtemp_c}°C</p>
+              <p className="text-xl font-medium">Min: {day.day.mintemp_c}°C</p>
+              <p className="text-lg mt-4">Viento: {day.day.maxwind_kph} km/h</p>
+              <p className="text-lg">Humedad: {day.day.avghumidity}%</p>
+            </div>
+          </>
         ))}
       </div>
       <div className="mt-8">

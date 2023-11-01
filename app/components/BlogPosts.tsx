@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Pronostico from "./Pronostico";
 import Controller from "./Controller";
+import getFormattedDate from "@/lib/getFormattedDate";
 
 interface BlogPostType {
   id: string;
@@ -12,7 +13,6 @@ interface BlogPostType {
   imageUrl: string;
   categories: string[];
   content: string;
-  isLoading: boolean;
 }
 
 export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
@@ -33,8 +33,8 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
   };
 
   return (
-    <div className="">
-      <div className="w-12/12 md:w-full xl:w-11/12 2xl:w-8/12 3xl:w-8/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 place-content-center">
+    <div>
+      <div className="w-12/12 md:w-full xl:w-12/12 2xl:w-12/12 3xl:w-12/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 place-content-center">
         {posts
           .slice(currentSliceStart, currentSliceEnd)
           .map((post: BlogPost) => (
@@ -53,16 +53,16 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
                         className=" object-fit mx-auto p-2 rounded-lg w-full"
                       />
                     )}
-                    <div className="flex flex-col p-4 h-44 ">
+                    <div className="flex items-start flex-col p-4 h-44 ">
                       <h3
-                        className="text-lg font-semibold dark:text-white/90 mb-2
+                        className="text-sm text-start font-semibold dark:text-white/90 mb-2
           hover:text-yellow-500"
                       >
                         {post.title}
                       </h3>
                       <div>
                         <p className="text-sm text-yellow-600 font-bold">
-                          {post.date}
+                          {getFormattedDate(post.date)}
                         </p>
                       </div>
                       <div className="absolute left-6 bottom-4">
@@ -86,5 +86,5 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
         totalItems={totalItems}
       />
     </div>
-  );
+  )
 }

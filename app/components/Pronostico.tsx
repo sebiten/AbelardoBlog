@@ -4,6 +4,8 @@ import Spinner from "./Spinner";
 import { useDebounce } from "use-debounce";
 import Link from "next/link";
 import getFormattedDate from "../../lib/getFormattedDate";
+import AirQualityInfo from "./AirQualityInfo";
+import { title } from "process";
 
 interface WeatherData {
   location: {
@@ -19,8 +21,9 @@ interface WeatherData {
   };
 }
 async function getClima() {
+  const query = "Salta Argentina";
   const res = await fetch(
-    " https://api.weatherapi.com/v1/current.json?key=81109ab2335b40f880c135011230609&q=Salta Argentina&aqi=no&lang=es"
+    `  https://api.weatherapi.com/v1/forecast.json?key=81109ab2335b40f880c135011230609&q=${query}&days=7&lang=es&aqi=yes&alerts=yes&hour=24`
   );
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
@@ -34,69 +37,50 @@ async function getClima() {
 }
 
 async function Pronostico() {
-  const weatherData = await getClima();
+  const weather = await getClima();
 
   return (
-    <div className="mt-10 mx-10 lg:mx-0 px-8">
-      <div className="mb-12 sm:flex gap-3 border border-gray-700 rounded-md p-4 w-full xl:max-w-[106ch] items-center justify-center text-white bg-gray-800 px-10 mx-auto">
-        {weatherData ? (
-          <>
+    <>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-4 px-8 ">
+        {weather.forecast.forecastday.map((day: any, index: any) => (
+          <div
+            key={index}
+            className="bg-gray-800 text-white p-6 rounded-lg shadow-lg text-center border border-gray-700"
+          >
+            <h2 className="text-lg font-semibold mb-2">
+              {weather.location.name}, {weather.location.country}
+              <br />
+              {day.date}
+            </h2>
             <Image
-              src={`https:${weatherData.current.condition.icon}`}
-              alt="Imagen del clima"
-              width={200}
-              height={400}
-              priority={true}
+              width={1920}
+              height={10800}
               quality={100}
-              className="mx-auto w-[100px] h-auto"
+              priority={true}
+              src={`https:${day.day.condition.icon}`}
+              alt={day.day.condition.text}
+              className="mx-auto w-[80px]"
             />
-            <div className="sm:text-start text-center my-2 mr-32 text-lg">
-              <h3 className="font-bold sm:text-start text-center text-lg text-yellow-500">
-                {weatherData.location.name}, {weatherData.location.country}
-              </h3>
-              <p>
-                <span className="font-bold">Temperatura:</span>{" "}
-                {weatherData.current.temp_c}°C
-              </p>
-              <p>
-                <span className="font-bold">Condiciones:</span>{" "}
-                {weatherData.current.condition.text}
-              </p>
-              <p>
-                <span className="font-bold">Humedad:</span>{" "}
-                {weatherData.current.humidity}%
-              </p>
-              <p>
-                <span className="font-bold">Región:</span>{" "}
-                {weatherData.location.region}
-              </p>
-            </div>
-            <div>
-              <p>
-                <span className="font-bold text-yellow-400">Fecha:</span>{" "}
-                {new Date(weatherData.location.localtime).toLocaleDateString()}
-              </p>
-              <p>
-                <span className="font-bold text-yellow-400">Hora local:</span>{" "}
-                {new Date(weatherData.location.localtime)
-                  .toLocaleTimeString()
-                  .slice(0, -3)}
-              </p>
-              <div className="mt-6">
-                <Link
-                  className="border border-gray-700 p-2 mt-10 rounded-xl text-center hover:bg-yellow-600"
-                  href="/tiempo"
-                >
-                  Busca tu ciudad
-                </Link>
-              </div>
-            </div>
-          </>
-        ) : (
-          <Spinner />
-        )}
+            <p className="text-xl font-medium">{day.day.condition.text}</p>
+            <p className="text-xl font-medium">Max: {day.day.maxtemp_c}°C</p>
+            <p className="text-xl font-medium">Min: {day.day.mintemp_c}°C</p>
+            <p className="text-lg mt-4">Viento: {day.day.maxwind_kph} km/h</p>
+            <p className="text-lg">Humedad: {day.day.avghumidity}%</p>
+          </div>
+        ))}
       </div>
-    </div>
+      <div className="flex w-[85ch] my-4 mx-auto flex-col items-center justify-center mb-2 border border-gray-700 bg-gray-800 text-white rounded-lg p-4">
+        <h2 className="text-xl font-semibold text-center mb-2">
+          Consulta el tiempo de tu ciudad
+        </h2>
+        <Link
+          className="text-center p-4 bg-gray-800 border-gray-700 border font-black hover:bg-gray-700 text-yellow-500 rounded-lg"
+          href="/tiempo"
+        >
+          Ir a la página
+        </Link>
+      </div>
+    </>
   );
 }
 

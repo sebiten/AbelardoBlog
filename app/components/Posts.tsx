@@ -1,41 +1,32 @@
 import BlogPosts from "./BlogPosts";
+import { useEffect, useState } from "react";
 import Spinner from "./Spinner";
+import { getSortedPostsData } from "@/lib/posts";
 
-interface BlogPostType {
+interface Post {
   id: string;
-  title: string;
-  date: string;
-  imageUrl: string;
-  categories: string[];
+  title: any;
+  date: any;
+  imageUrl: any;
+  categories: any;
   content: string;
-  isLoading: boolean;
+  ok?: boolean; // Propiedad opcional
 }
+
 async function getPosts() {
-  try {
-    const res = await fetch("http://localhost:3000/api/hello");
-    
-    if (!res.ok) {
-      throw new Error("Failed to fetch data");
-    }
+  const res = await getSortedPostsData();
 
+  // Verificar si la variable `res` es de tipo `Response`
+  if (res instanceof Response) {
+    // Si la variable `res` es de tipo `Response`, entonces la propiedad `json` existe
     return res.json();
-  } catch (error) {
-    // Si la primera solicitud falla, intenta con 127.0.0.1
-    console.error("Failed to fetch from localhost, trying 127.0.0.1...");
-    
-    const resFallback = await fetch("http://127.0.0.1:3000/api/hello");
-
-    if (!resFallback.ok) {
-      throw new Error("Failed to fetch data");
-    }
-
-    return resFallback.json();
+  } else {
+    // Si la variable `res` no es de tipo `Response`, entonces la propiedad `json` no existe
+    throw new Error("Failed to fetch data");
   }
 }
-
-
 async function Posts() {
-  const posts = await getPosts();
+  const posts: Post[] = await getSortedPostsData();
 
   if (posts === null) {
     return (
@@ -46,10 +37,11 @@ async function Posts() {
   } else {
     return (
       <>
-        <h2 className="text-yellow-500 font-bold text-center text-3xl animate-bounce">
+        <h2 className="text-yellow-500 mt-10 font-bold text-center text-3xl animate-bounce">
           Artículos
         </h2>
-        <BlogPosts posts={posts} />;
+
+        <BlogPosts posts={posts} />
       </>
     );
   }
