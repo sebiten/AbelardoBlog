@@ -6,6 +6,7 @@ import Link from "next/link";
 import getFormattedDate from "../../lib/getFormattedDate";
 import AirQualityInfo from "./AirQualityInfo";
 import { title } from "process";
+import { AdUnit } from "next-google-adsense";
 
 interface WeatherData {
   location: {
@@ -69,6 +70,13 @@ async function Pronostico() {
           </div>
         ))}
       </div>
+      <center className="inline-block w-[690px] h-[90px] mx-auto">
+        <AdUnit
+          publisherId="pub-6692046911486022"
+          slotId="5414992134"
+          layout="display"
+        />
+      </center>
       <div className="flex justify-center mt-4 gap-2">
         <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3">
           <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg text-center border border-gray-700">
