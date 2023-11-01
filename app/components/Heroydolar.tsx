@@ -8,11 +8,13 @@ interface DolarData {
   fechaActualizacion: string;
 }
 
-const fetchDolar = () => {
-  return fetch(`https://dolarapi.com/v1/dolares`).then((res) => res.json());
-};
 
 async function Heroydolar(): Promise<JSX.Element> {
+  const fetchDolar = async () => {
+    const response = await fetch("https://dolarapi.com/v1/dolares");
+    const dolar = await response.json();
+    return dolar;
+  };
   const dolar = await fetchDolar();
   return (
     <>
