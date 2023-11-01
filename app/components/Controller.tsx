@@ -17,7 +17,7 @@ const Controller: React.FC<ControllerProps> = ({
 }) => {
   return (
     <div className="text-white flex gap-6 items-center justify-center">
-      {currentSliceStart >= 0 && (
+      {currentSliceStart >= 4 && (
         <button
           onClick={previousPage}
           className="bg-yellow-500 hover:bg-yellow-600 text-gray-200 px-4 py-2 rounded-lg"
