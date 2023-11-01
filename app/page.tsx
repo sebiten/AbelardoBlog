@@ -9,7 +9,6 @@ function Home() {
           {/* @ts-expect-error Server Component */}
           <Heroydolar />
         </div>
-        {/* @ts-expect-error Server Component */}
         <Posts />
       </div>
     </>
