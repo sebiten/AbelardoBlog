@@ -85,7 +85,7 @@ async function Pronostico() {
           </div>
         </div>
       </div>
-      <center className="max-w-5xl mx-auto">
+      <center className="mx-auto">
         <GoogleAdUnit>
           <ins
             className="adsbygoogle"
