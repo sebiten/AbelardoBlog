@@ -1,6 +1,7 @@
 "use client";
 import BlogPosts from "./BlogPosts";
 import { useEffect, useState } from "react";
+import Spinner from "./Spinner";
 
 interface BlogPostType {
   id: string;
@@ -16,7 +17,6 @@ function Posts(): JSX.Element {
   const [posts, setPosts] = useState<BlogPostType[] | null>(null);
 
   useEffect(() => {
-    // Fetch all available blog posts.
     async function fetchPosts() {
       try {
         const response = await fetch(`/api/hello`);
@@ -30,7 +30,11 @@ function Posts(): JSX.Element {
   }, []);
 
   if (posts === null) {
-    return <div>No posts available.</div>;
+    return (
+      <center>
+        <Spinner />
+      </center>
+    );
   } else {
     return <BlogPosts posts={posts} />;
   }
