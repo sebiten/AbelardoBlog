@@ -1,5 +1,6 @@
 import Image from "next/image";
 import getFormattedDate from "@/lib/getFormattedDate";
+import Pronostico from "./Pronostico";
 
 interface DolarData {
   casa: string;
@@ -8,12 +9,21 @@ interface DolarData {
   fechaActualizacion: string;
 }
 
-const fetchDolar = async () => {
-  return fetch(`https://dolarapi.com/v1/dolares`).then((res) => res.json());
-};
+async function getDolar() {
+  const res = await fetch("https://dolarapi.com/v1/dolares");
+  // The return value is *not* serialized
+  // You can return Date, Map, Set, etc.
+
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error("Failed to fetch data");
+  }
+
+  return res.json();
+}
 
 async function Heroydolar(): Promise<JSX.Element> {
-  const dolar: DolarData[] = await fetchDolar();
+  const dolar: DolarData[] = await getDolar();
 
   return (
     <>
@@ -59,6 +69,8 @@ async function Heroydolar(): Promise<JSX.Element> {
             </div>
           ))}
         </div>
+        {/* @ts-expect-error Server Component */}
+        <Pronostico />
       </section>
     </>
   );

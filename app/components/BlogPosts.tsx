@@ -34,7 +34,7 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
 
   return (
     <div className="">
-      <Pronostico />
+      {/* <Pronostico /> */}
       <div className="w-12/12 md:w-full xl:w-11/12 2xl:w-8/12 3xl:w-8/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 place-content-center">
         {posts
           .slice(currentSliceStart, currentSliceEnd)

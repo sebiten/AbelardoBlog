@@ -36,7 +36,12 @@ function Posts(): JSX.Element {
       </center>
     );
   } else {
-    return <BlogPosts posts={posts} />;
+    return (
+      <>
+      <h2 className="text-yellow-500 font-bold text-center text-3xl animate-bounce">Artículos</h2>
+        <BlogPosts posts={posts} />;
+      </>
+    );
   }
 }
 

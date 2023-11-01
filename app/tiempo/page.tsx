@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Pronostico from "../components/Pronostico";
 import Spinner from "../components/Spinner";
 import AirQualityInfo from "../components/AirQualityInfo";
+import { useDebounce } from "use-debounce";
 
 interface WeatherData {
   location: {
@@ -47,13 +47,13 @@ interface WeatherData {
 const Tiempo: React.FC = () => {
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [zone, setZone] = useState("Salta Argentina");
-
+  const [query] = useDebounce(zone, 600)
   const apiKey = "81109ab2335b40f880c135011230609";
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${zone}&days=7&lang=es&aqi=yes&alerts=yes&hour=24`
+          `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${query}&days=7&lang=es&aqi=yes&alerts=yes&hour=24`
         );
 
         if (!response.ok) {
@@ -68,7 +68,7 @@ const Tiempo: React.FC = () => {
     };
 
     fetchData();
-  }, [zone]);
+  }, [zone, query]);
 
   if (!weather) {
     return (
@@ -85,7 +85,6 @@ const Tiempo: React.FC = () => {
   return (
     <div className="dark:bg-gray-800 max-w-6xl mx-auto min-h-screen p-8">
       <div className="flex flex-col items-center justify-center">
-        <Pronostico />
         <h1 className="text-4xl font-bold text-white my-8">
           Pronóstico del clima para {weather.location.name},{" "}
           {weather.location.country}
