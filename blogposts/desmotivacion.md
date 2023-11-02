@@ -1,11 +1,11 @@
 ---
-title: "La Oscura Razón por la que estás demotivado"
+title: "La Oscura Razón por la que estás desmotivado"
 date: "2023-11-02"
-imageUrl: "/desmotivado.webp"
+imageUrl: "/desmotivado-nuevo.webp"
 categories: "Salud, Productividad"
 ---
 
-![desmotivacion](/desmotivado.webp)
+![desmotivacion](/desmotivado-nuevo.webp)
 
 ¿Alguna vez te has sentido desmotivado? Si es así, no estás solo. La desmotivación es un sentimiento normal que todos experimentamos en algún momento de la vida. Sin embargo, cuando la desmotivación se convierte en crónica, puede convertirse en un obstáculo significativo para tu progreso y bienestar general. En este artículo, exploraremos las causas de la desmotivación crónica y cómo puedes superarla.
 
