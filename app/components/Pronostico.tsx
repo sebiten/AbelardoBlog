@@ -6,7 +6,10 @@ import Link from "next/link";
 import getFormattedDate from "../../lib/getFormattedDate";
 import AirQualityInfo from "./AirQualityInfo";
 import { title } from "process";
-import GoogleAdUnit from "nextjs13_google_adsense";
+import dynamic from "next/dynamic";
+const GoogleAdUnit = dynamic(() => import("nextjs13_google_adsense"), {
+  ssr: false,
+});
 
 interface WeatherData {
   location: {
@@ -77,7 +80,7 @@ async function Pronostico() {
               className="p-2 bg-gray-800 border  border-gray-700 text-yellow-500 rounded-lg hover:bg-gray-600"
               href="/tiempo"
             >
-             Buscar otra ciudad
+              Buscar otra ciudad
             </Link>
           </div>
         </div>
