@@ -34,45 +34,40 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
 
   return (
     <div>
-      <div className="w-12/12 md:w-full xl:w-12/12 2xl:w-12/12 3xl:w-12/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 place-content-center">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center mb-10">
         {posts
           .slice(currentSliceStart, currentSliceEnd)
           .map((post: BlogPost) => (
-            <div key={post.id} className="flex flex-col relative m-4">
-              <Link className="relative" href={`/posts/${post.id}`}>
-                <>
-                  <li className="mt-2 h-full relative hover:scale-95 duration-500 p-2 overflow-hidden text-white border border-gray-700   bg-gray-800 list-none rounded-lg shadow-2xl ">
-                    {post.imageUrl && (
-                      <Image
-                        width={1920}
-                        height={1080}
-                        src={post.imageUrl}
-                        alt={post.title}
-                        quality={100}
-                        priority={true}
-                        className=" object-fit mx-auto p-2 rounded-lg w-full"
-                      />
-                    )}
-                    <div className="flex items-start flex-col p-4 h-44 ">
-                      <h3
-                        className="text-sm text-start font-semibold dark:text-white/90 mb-2
-          hover:text-yellow-500"
-                      >
-                        {post.title}
-                      </h3>
-                      <div>
-                        <p className="text-sm text-yellow-600 font-bold">
-                          {getFormattedDate(post.date)}
-                        </p>
-                      </div>
-                      <div className="absolute left-6 bottom-4">
-                        <p className="text-sm text-gray-500 font-bold text-white/60">
-                          {post.categories}
-                        </p>
-                      </div>
+            <div key={post.id} className="flex flex-col relative">
+              <Link href={`/posts/${post.id}`} className="relative">
+                <div className="mt-2 relative hover:scale-95 duration-500 p-4 bg-gray-800 rounded-lg shadow-md">
+                  {post.imageUrl && (
+                    <Image
+                      width={1920}
+                      height={1080}
+                      src={post.imageUrl}
+                      alt={post.title}
+                      quality={100}
+                      priority={true}
+                      className="object-cover w-full rounded-lg"
+                    />
+                  )}
+                  <div className="flex flex-col p-4 h-44">
+                    <h3 className="text-lg font-normal text-start mb-2 text-gray-200 hover:text-yellow-500">
+                      {post.title}
+                    </h3>
+                    <div>
+                      <p className="text-sm text-start text-yellow-600 font-bold">
+                        {getFormattedDate(post.date)}
+                      </p>
                     </div>
-                  </li>
-                </>
+                    <div className="absolute left-10- bottom-3">
+                      <p className="text-sm text-center text-gray-500 font-bold">
+                        {post.categories}
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </Link>
             </div>
           ))}
@@ -86,5 +81,5 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
         totalItems={totalItems}
       />
     </div>
-  )
+  );
 }

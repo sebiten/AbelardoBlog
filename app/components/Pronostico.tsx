@@ -70,17 +70,14 @@ async function Pronostico() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-4 gap-2">
+      <div className="flex justify-center gap-2">
         <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3">
-          <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg text-center border border-gray-700">
-            <h2 className="text-xl font-semibold mb-4">
-              Consulta el tiempo de tu ciudad
-            </h2>
+          <div className="bg-gray-800 text-white p-4 rounded-lg text-center ">
             <Link
               className="p-2 bg-gray-800 border  border-gray-700 text-yellow-500 rounded-lg hover:bg-gray-600"
               href="/tiempo"
             >
-              Ir a la página
+             Buscar otra ciudad
             </Link>
           </div>
         </div>

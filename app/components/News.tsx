@@ -1,22 +1,28 @@
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const GoogleAdUnit = dynamic(
+  () => import("nextjs13_google_adsense"),
+  { ssr: false }
+);
 
 const videosPath = [
   {
     path: "/azucar-efectos_compressed.webm",
     link: "https://abelardo.blog/posts/beneficios-de-dejar-de-consumir-azucar",
-    title: "Efectos del azucar y de dejar de consumirla"
+    title: "Efectos del azucar y de dejar de consumirla",
   },
   {
     path: "/buenos-habitos_compressed.webm",
     link: "https://abelardo.blog/posts/buenos-habitos",
-    title: "Buenos habitos el camino hacia una buena autoestima"
+    title: "Buenos habitos el camino hacia una buena autoestima",
   },
   {
     path: "/control-del-apetito_compressed.webm",
     link: "https://abelardo.blog/posts/por-que-siempre-tenemos-hambre",
-    title: "¿Por que siempre tenemos hambre?"
+    title: "¿Por que siempre tenemos hambre?",
   },
 ];
 
@@ -45,7 +51,7 @@ function News() {
   return (
     <div className="max-w-5xl px-6 mt-10 overflow-hidden overscroll-x-none mx-auto">
       <div className="text-center dark:text-white light:text-gray-800">
-        <h2 className="font-bold text-3xl my-4 animate-bounce text-white-500">
+        <h2 className="font-bold text-4xl my-4 animate-bounce text-white-500">
           ¡Síguenos en Instagram!
         </h2>
       </div>
@@ -61,9 +67,7 @@ function News() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
         {videosPath.map((videoPath, index) => (
           <div key={index} className="p-4">
-            <h2
-              className="text-white font-bold text-lg "
-            >
+            <h2 className="text-white font-bold text-lg rounded-lg ">
               {videoPath.title}
             </h2>
             <video width="100%" controls>
@@ -89,26 +93,31 @@ function News() {
           </div>
         ))}
       </div>
-      {/* <center className="mx-auto max-w-5xl my-10">
-        <AdUnit
-          className="adsbygoogle block"
-          data-ad-client="ca-pub-6692046911486022"
-          data-ad-slot="8452412536"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-      </center> */}
-      <div className="text-center mt-24 text-white text-xl font-bold">
-        <h2 className="text-yellow-500 text-3xl md:text-4xl ">
+      <center className="mx-auto max-w-5xl my-10">
+        <GoogleAdUnit>
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-6692046911486022"
+            data-ad-slot="3521048850"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </GoogleAdUnit>
+      </center>
+      <div className="text-center mt-24 text-white text-4xl font-bold">
+        <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-red-500 text-5xl md:text-4xl">
           Artículos Destacados
         </h2>
-        <p>No te los pierdas!</p>
+        <p className="text-gray-300 text-2xl md:text-3xl mt-4">
+          No te los pierdas!
+        </p>
       </div>
-      <div className="max-w-5xl mx-auto mt-4 md:mt-10">
+      <div className="max-w-5xl mx-auto mt-8 md:mt-16">
         {imagespub.map((image, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center gap-4 mt-6 md:mt-10"
+            className="flex flex-col md:flex-row items-center gap-8 mt-8 md:mt-16"
           >
             <Image
               height={300}
@@ -117,14 +126,14 @@ function News() {
               priority={true}
               quality={100}
               width={450}
-              className="border-4 border-gray-700"
+              className="border-4 border-gray-700 rounded-md shadow-lg"
             />
-            <div className="flex flex-col items-start max-w-md justify-center mt-2 md:mt-0 ">
-              <p className="text-white text-xl  image-description mx-auto w-auto">
+            <div className="flex flex-col items-start max-w-md justify-center mt-4 md:mt-0">
+              <p className="text-white text-xl image-description mx-auto w-auto">
                 {image.description}
               </p>
               <Link
-                className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-3  border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg mt-2 w-full"
+                className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-4 border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg mt-4 w-full rounded-md"
                 href={image.link}
               >
                 Visitar el artículo
