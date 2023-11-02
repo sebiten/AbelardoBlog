@@ -35,7 +35,7 @@ La desmotivación crónica puede manifestarse en varios problemas clínicos y fa
 
 #### **Abuso Tecnológico**
 
-El abuso de la tecnología, como el uso excesivo de las redes sociales y la inmersión en contenido digital, puede sobresaturar tus sistemas dopaminérgicos. Esto genera una gran cantidad de dopamina con poco o ningún esfuerzo, lo que lleva a una sensación de vacío y desmotivación para realizar otras actividades.
+El abuso de la tecnología, como el uso excesivo de las redes sociales y la inmersión en contenido digital, puede sobresaturar tus sistemas dopaminérgicos. Esto genera una gran cantidad de dopamina con poco o ningún esfuerzo, lo que lleva a una sensación de vacío y desmotivación para realizar otras actividades. [Cómo Aumentar la Atención y Recuperar tu Libertad en la Era Digital](https://abelardo.blog/posts/aumentar-la-atencion)
 
 Si te sientes desmotivado sin razón aparente, considera limitar tu consumo de redes sociales y contenido digital. Establece barreras y horarios para su uso y evita los excesos.
 
@@ -64,3 +64,9 @@ En resumen, la desmotivación crónica es un problema real que afecta a muchas p
 ---
 
 ¡Espero que este artículo te haya proporcionado información útil sobre la desmotivación crónica y cómo superarla! Recuerda que la motivación es un recurso valioso en tu vida, y con las estrategias adecuadas, puedes recuperarla y trabajar hacia tus metas. Si te ha gustado este artículo, no dudes en dejar un comentario y compartirlo con otros que puedan estar pasando por un período de desmotivación. ¡Mantente motivado y sigue persiguiendo tus sueños!
+
+# No te pierdas estos Articulos!
+
+- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Por que siempre tenemos hambre?](https://abelardo.blog/posts/por-que-siempre-tenemos-hambre)
+- [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate)
