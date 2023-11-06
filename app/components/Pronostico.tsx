@@ -44,7 +44,7 @@ async function Pronostico() {
   const weather = await getClima();
 
   return (
-    <div className="container mx-auto py-4 px-4 sm:px-8">
+    <div className=" mx-auto py-4 px-4 sm:px-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {weather.forecast.forecastday.map((day: any, index: any) => (
           <div

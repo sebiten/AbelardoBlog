@@ -15,13 +15,10 @@ interface Post {
 
 async function getPosts() {
   const res = await getSortedPostsData();
-
   // Verificar si la variable `res` es de tipo `Response`
   if (res instanceof Response) {
-    // Si la variable `res` es de tipo `Response`, entonces la propiedad `json` existe
     return res.json();
   } else {
-    // Si la variable `res` no es de tipo `Response`, entonces la propiedad `json` no existe
     throw new Error("Failed to fetch data");
   }
 }
