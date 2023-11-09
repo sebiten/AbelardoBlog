@@ -65,8 +65,8 @@ En resumen, la desmotivación crónica es un problema real que afecta a muchas p
 
 ¡Espero que este artículo te haya proporcionado información útil sobre la desmotivación crónica y cómo superarla! Recuerda que la motivación es un recurso valioso en tu vida, y con las estrategias adecuadas, puedes recuperarla y trabajar hacia tus metas. Si te ha gustado este artículo, no dudes en dejar un comentario y compartirlo con otros que puedan estar pasando por un período de desmotivación. ¡Mantente motivado y sigue persiguiendo tus sueños!
 
-# No te pierdas estos Articulos!
+### No te pierdas estos Articulos!
 
-- [Descubre la magia del ayuno intermitente](https://abelardo.blog/posts/ayuno-intermitente)
+- [Por que siempre estamos desmotivados?](https://abelardo.blog/posts/desmotivacion)
 - [Por que siempre tenemos hambre?](https://abelardo.blog/posts/por-que-siempre-tenemos-hambre)
 - [Como Cebar Un Buen Mate](https://abelardo.blog/posts/como-cebar-un-buen-mate)
