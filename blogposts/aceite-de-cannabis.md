@@ -7,8 +7,6 @@ categories: "Salud, Bienestar"
 
 ![Alien en Mexico](/aceite-de-cannabis-page.webp)
 
-# Descubre los Beneficios del Aceite de Cannabis: ¿Dormir Bien es Posible?
-
 ¿Alguna vez te has preguntado si el aceite de cannabis podría ser la respuesta para mejorar la calidad de tu sueño? En la búsqueda de una noche de descanso reparador, el aceite de cannabis ha emergido como un tema candente. Este artículo te sumergirá en el mundo del cannabis y su influencia en nuestro sueño. Desde la reducción del insomnio hasta el alivio del dolor y la gestión de la ansiedad, exploraremos cómo el aceite de cannabis puede ser una solución natural para conciliar el sueño y despertar renovado.
 
 ## Beneficios del Aceite de Cannabis
