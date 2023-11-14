@@ -1,5 +1,5 @@
 ---
-title: "Canas, Como Prevenirlas y Eliminarlas Sin Mecesidad de Teñirte"
+title: "Canas, Como Prevenirlas y Eliminarlas Sin Necesidad de Teñirte"
 date: "2023-09-05"
 imageUrl: "/prevencion-canas.webp"
 categories: "Salud, Envejecimiento"
