@@ -57,7 +57,7 @@ const ServicesPage: React.FC = () => {
         ))}
       </div>
       <div
-        className="mt-40"
+        className="mt-12"
       >
         <p className="mt-12 text-center text-3xl ">
           <span className="font-bold text-yellow-500 ">Algunos Ejemplos</span>
