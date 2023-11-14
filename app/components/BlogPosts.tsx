@@ -18,7 +18,7 @@ interface BlogPostType {
 
 export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
   const [currentSliceStart, setCurrentSliceStart] = useState(0);
-  const [currentSliceEnd, setCurrentSliceEnd] = useState(9);
+  const [currentSliceEnd, setCurrentSliceEnd] = useState(12);
   const [currentPage, setCurrentPage] = useState(1);
   const totalItems = posts.length;
 

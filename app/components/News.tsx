@@ -2,11 +2,11 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import Contacto from "./Contacto";
 
-const GoogleAdUnit = dynamic(
-  () => import("nextjs13_google_adsense"),
-  { ssr: false }
-);
+const GoogleAdUnit = dynamic(() => import("nextjs13_google_adsense"), {
+  ssr: false,
+});
 
 const videosPath = [
   {
@@ -49,9 +49,10 @@ const imagespub = [
 
 function News() {
   return (
-    <div className="max-w-5xl px-6 mt-10 overflow-hidden overscroll-x-none mx-auto">
+    <div className="max-w-6xl px-6 mt-10 overflow-hidden overscroll-x-none mx-auto">
+      <Contacto />
       <div className="text-center dark:text-white light:text-gray-800">
-        <h2 className="font-bold text-4xl my-4 animate-bounce text-white-500">
+        <h2 className="font-bold text-3xl my-4 animate-bounce text-white-500">
           ¡Síguenos en Instagram!
         </h2>
       </div>
@@ -70,7 +71,7 @@ function News() {
             <h2 className="text-white font-bold text-lg rounded-lg ">
               {videoPath.title}
             </h2>
-            <video width="100%" controls>
+            <video className="rounded-xl" width="100%" controls>
               <source src={videoPath.path} type="video/webm" />
               <source src={videoPath.path} type="video/ogg" />
             </video>
@@ -106,7 +107,7 @@ function News() {
         </GoogleAdUnit>
       </center>
       <div className="text-center mt-24 text-white text-4xl font-bold">
-        <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-red-500 text-5xl md:text-4xl">
+        <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 text-5xl md:text-4xl">
           Artículos Destacados
         </h2>
         <p className="text-gray-300 text-2xl md:text-3xl mt-4">
@@ -133,7 +134,7 @@ function News() {
                 {image.description}
               </p>
               <Link
-                className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-4 border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg mt-4 w-full rounded-md"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-gray-700 font-semibold text-center p-4 border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg mt-4 w-full rounded-md"
                 href={image.link}
               >
                 Visitar el artículo

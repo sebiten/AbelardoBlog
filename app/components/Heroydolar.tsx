@@ -47,10 +47,9 @@ async function Heroydolar(): Promise<JSX.Element> {
             </span>
           </div>
           <div className="font-bold text-2xl">
-            <h1 className="my-4 max-w-4xl font-black  text-white">
-              Descubre el mundo a través de los ojos de Abelardo, donde la
-              percepción se convierte en conocimiento y el mundo se desvela en
-              su totalidad.
+            <h1 className="my-4 max-w-4xl font-black text-white">
+              Emprende un Viaje Único hacia la Vitalidad: Descubre el Secreto de
+              Abelardo para una Vida Plena y Saludable.
             </h1>
           </div>
         </div>
@@ -70,8 +69,7 @@ async function Heroydolar(): Promise<JSX.Element> {
             </div>
           ))}
         </div>
-        {/* @ts-expect-error Server Component */}
-        <Pronostico />
+        {/* <Pronostico /> */}
       </section>
 
       {/* <Posts /> */}
