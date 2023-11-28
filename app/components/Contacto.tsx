@@ -6,14 +6,14 @@ interface IContactoProps {}
 export default function Contacto() {
   return (
     <div
-      className="mb-12 px-6 sm:px-1 bg-banner text-white text-start mx-auto  p-10 border-gray-600 border rounded-2xl"
+      className="mb-12 max-w-5xl px-8 sm:px-1 bg-banner text-white text-start mx-auto  p-10 border-gray-600 border rounded-2xl"
       style={{
         backgroundImage: 'url("/suscription.webp")', // Replace with your image URL
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className=" p-8 rounded-md shadow-md text-white">
+      <div className=" p-8 rounded-md shadow-md text-white ">
         <h2 className="text-3xl font-bold mb-4 ">¿Necesitas una Página Web?</h2>
         <p className="text-gray-300 mb-6 text-lg font-bold">
           Estoy aquí para ayudarte a construir la página web que siempre has

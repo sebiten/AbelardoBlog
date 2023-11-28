@@ -114,7 +114,7 @@ function News() {
           No te los pierdas!
         </p>
       </div>
-      <div className="max-w-5xl mx-auto mt-8 md:mt-16">
+      <div className="max-w-5xl mx-auto mt-8 md:mt-16 ">
         {imagespub.map((image, index) => (
           <div
             key={index}
@@ -130,7 +130,7 @@ function News() {
               className="border-4 border-gray-700 rounded-md shadow-lg"
             />
             <div className="flex flex-col items-start max-w-md justify-center mt-4 md:mt-0">
-              <p className="text-white text-xl image-description mx-auto w-auto">
+              <p className="text-white text-lg image-description mx-auto w-auto">
                 {image.description}
               </p>
               <Link
