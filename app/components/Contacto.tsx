@@ -13,13 +13,15 @@ export default function Contacto() {
         backgroundPosition: "center",
       }}
     >
-      <div className=" p-8 rounded-md shadow-md text-white ">
+      <div className=" p-8 text-white flex flex-col text-center">
         <h2 className="text-3xl font-bold mb-4 ">¿Necesitas una Página Web?</h2>
         <p className="text-gray-300 mb-6 text-lg font-bold">
           Estoy aquí para ayudarte a construir la página web que siempre has
           imaginado. ¡Contáctame para discutir tus ideas y convertirlas en
           realidad!
         </p>
+      </div>
+      <div className="flex itemes-center justify-center gap-1 text-center flex-col sm:flex-row">
         <Link
           href="https://wa.link/t200i0"
           className="bg-yellow-500 hover:bg-blue-70 font-bold py-2 px-4 rounded-full text-gray-700"
