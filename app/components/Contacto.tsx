@@ -6,7 +6,7 @@ interface IContactoProps {}
 export default function Contacto() {
   return (
     <div
-      className="mb-12 max-w-5xl px-8 sm:px-1 bg-banner text-white text-start mx-auto  p-10 border-gray-600 border rounded-2xl"
+      className="mb-2 max-w-5xl px-8 sm:px-1 mt-20 bg-banner text-white text-start mx-auto  p-10 border-gray-600 border rounded-2xl"
       style={{
         backgroundImage: 'url("/suscription.webp")', // Replace with your image URL
         backgroundSize: "cover",

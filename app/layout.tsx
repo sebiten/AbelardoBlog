@@ -7,6 +7,7 @@ import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import GoogleAds from "./components/GoogleAds";
 import dynamic from "next/dynamic";
+import Contacto from "./components/Contacto";
 const News = dynamic(() => import("./components/News"), { ssr: false });
 
 const montserrat_alternates = Montserrat_Alternates({
@@ -60,6 +61,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <News />
+        <Contacto />
         <NewsletterSubscribe />
         <Footer />
       </body>

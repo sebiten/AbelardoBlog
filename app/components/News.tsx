@@ -49,42 +49,46 @@ const imagespub = [
 
 function News() {
   return (
-    <div className="max-w-6xl px-6 mt-10 overflow-hidden overscroll-x-none mx-auto">
-      <Contacto />
+    <div className="max-w-6xl px-6 mt-20 overflow-hidden overscroll-x-none mx-auto">
       <div className="text-center dark:text-white light:text-gray-800">
-        <h2 className="font-bold text-3xl my-4 animate-bounce text-white-500">
+        <h2 className="font-bold text-3xl mb-4 text-white-500 text-yellow ">
           ¡Síguenos en Instagram!
         </h2>
+        <p className="text-lg max-w-4xl mx-auto">
+          ¡Descubre todas las novedades más recientes en nuestro instagram,
+          participa en encuestas interesantes y explora nuestros fascinantes
+          reels! ¡Te invitamos a visitarnos y no te pierdas de nada!
+        </p>
       </div>
       <div className="flex flex-col items-center justify-center border-gray-700 p-2 rounded-md">
         <Link
           href="https://www.instagram.com/abelardo.blog/"
           target="_blank"
-          className="text-center bg-gradient-to-r from-pink-500 to-red-500 text-xl border flex items-center justify-center gap-2 border-gray-700 p-2 rounded-md text-white font-black bg-gray-800 hover:scale-105"
+          className="text-center bg-gradient-to-r from-pink-500 to-red-500 text-xl border flex items-center justify-center gap-2 border-gray-700 p-2 px-10 rounded-md text-white font-black bg-gray-800 hover:scale-105"
         >
           Abelardo blog <FaInstagram />
         </Link>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-2">
         {videosPath.map((videoPath, index) => (
-          <div key={index} className="p-4">
-            <h2 className="text-white font-bold text-lg rounded-lg ">
-              {videoPath.title}
-            </h2>
-            <video className="rounded-xl" width="100%" controls>
+          <div key={index} className="p-2">
+            <video className="rounded-xl h-full" width="100%" controls>
               <source src={videoPath.path} type="video/webm" />
               <source src={videoPath.path} type="video/ogg" />
             </video>
-            <div className="flex items-center justify-center mt-2">
+            {/* <h2 className="text-white text-center font-bold text-lg rounded-lg ">
+              {videoPath.title}
+            </h2> */}
+            <div className="flex items-center justify-center mt-2 ">
               <Link
-                className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-3 w-full border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg"
+                className="bg-gradient-to-r rounded-lg from-pink-500 to-red-500 text-white font-semibold text-center p-3 w-full border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg"
                 href="https://www.instagram.com/abelardo.blog"
                 target="_blank"
               >
                 Instagram
               </Link>
               <Link
-                className="bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold text-center p-3 w-full border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg"
+                className="bg-gradient-to-r rounded-lg from-pink-500 to-red-500 text-white font-semibold text-center p-3 w-full border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg"
                 href={videoPath.link}
                 target="_blank"
               >
@@ -106,13 +110,11 @@ function News() {
           ></ins>
         </GoogleAdUnit>
       </center>
-      <div className="text-center mt-24 text-white text-4xl font-bold">
-        <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 text-5xl md:text-4xl">
+      <div className="text-center mt-40 text-white text-4xl font-bold">
+        <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 text-3xl md:text-3xl">
           Artículos Destacados
         </h2>
-        <p className="text-gray-300 text-2xl md:text-3xl mt-4">
-          No te los pierdas!
-        </p>
+        <p className="text-gray-300 text-2xl md:text-2xl">No te los pierdas!</p>
       </div>
       <div className="max-w-5xl mx-auto mt-8 md:mt-16 ">
         {imagespub.map((image, index) => (
