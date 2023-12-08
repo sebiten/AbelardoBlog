@@ -50,7 +50,7 @@ const imagespub = [
 function News() {
   return (
     <div className="max-w-6xl px-6 mt-20 overflow-hidden overscroll-x-none mx-auto">
-      <div className="text-center dark:text-white light:text-gray-800">
+      <div className="text-center text-white ">
         <h2 className="font-bold text-3xl mb-4 text-white-500 text-yellow ">
           ¡Síguenos en Instagram!
         </h2>
