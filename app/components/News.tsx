@@ -69,7 +69,7 @@ function News() {
           Abelardo blog <FaInstagram />
         </Link>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-4">
         {videosPath.map((videoPath, index) => (
           <div key={index} className="p-2">
             <video className="rounded-xl h-full" width="100%" controls>
