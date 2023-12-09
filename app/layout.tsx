@@ -5,11 +5,12 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
-import GoogleAds from "./components/GoogleAds";
 import dynamic from "next/dynamic";
 import Contacto from "./components/Contacto";
 const News = dynamic(() => import("./components/News"), { ssr: false });
-
+const GoogleAds = dynamic(() => import("./components/GoogleAds"), {
+  ssr: false,
+});
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
   weight: "700",

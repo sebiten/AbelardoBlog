@@ -49,7 +49,7 @@ const imagespub = [
 
 function News() {
   return (
-    <div className="max-w-6xl px-6 mt-20 overflow-hidden overscroll-x-none mx-auto">
+    <div className="max-w-[90ch] px-6 mt-20 mb-6 overflow-hidden overscroll-x-none mx-auto">
       <div className="text-center text-white ">
         <h2 className="font-bold text-3xl mb-4 text-white-500 text-yellow ">
           ¡Síguenos en Instagram!
@@ -99,16 +99,14 @@ function News() {
         ))}
       </div>
       <center className="mx-auto max-w-5xl my-10">
-        <GoogleAdUnit>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="3521048850"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </GoogleAdUnit>
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-6692046911486022"
+          data-ad-slot="3521048850"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
       </center>
       <div className="text-center mt-40 text-white text-4xl font-bold">
         <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 text-3xl md:text-3xl">
