@@ -86,6 +86,7 @@ async function Pronostico() {
         </div>
       </div>
       <center className="mx-auto">
+        <GoogleAdUnit>
           <ins
             className="adsbygoogle"
             style={{ display: "block", width: "100%" }}
@@ -94,6 +95,7 @@ async function Pronostico() {
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
+        </GoogleAdUnit>
       </center>
     </div>
   );

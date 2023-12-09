@@ -71,14 +71,16 @@ async function Heroydolar(): Promise<JSX.Element> {
           ))}
         </div>
         <center className="mx-auto">
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block", width: "100%" }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="1326610253"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
+          <GoogleAdUnit>
+            <ins
+              className="adsbygoogle"
+              style={{ display: "block", width: "100%" }}
+              data-ad-client="ca-pub-6692046911486022"
+              data-ad-slot="1326610253"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </GoogleAdUnit>
         </center>
       </section>
 

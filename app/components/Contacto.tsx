@@ -37,6 +37,7 @@ export default function Contacto() {
         </Link>
       </div>
       <center className="mx-auto">
+        <GoogleAdUnit>
           <ins
             className="adsbygoogle"
             style={{ display: "block", width: "100%" }}
@@ -45,6 +46,7 @@ export default function Contacto() {
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
+        </GoogleAdUnit>
       </center>
     </div>
   );

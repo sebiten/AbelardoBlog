@@ -82,6 +82,7 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
         totalItems={totalItems}
       />
       <center className="mx-auto">
+        <GoogleAdUnit>
           <ins
             className="adsbygoogle"
             style={{ display: "block", width: "100%" }}
@@ -90,6 +91,7 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
+        </GoogleAdUnit>
       </center>
     </div>
   );

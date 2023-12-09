@@ -1,5 +1,5 @@
 ---
-title: 'Agua con Limón en Ayunas: 10 Beneficios del limon Sorprendentes para tu Salud'
+title: '10 Beneficios del limon para tu Salud'
 date: '2023-07-31'
 imageUrl: '/beneficios-del-limon.webp'
 categories: 'Nutrición'
