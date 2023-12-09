@@ -36,18 +36,6 @@ export default function Contacto() {
           ¡Visita mi pagina web!
         </Link>
       </div>
-      <center className="mx-auto">
-        <GoogleAdUnit>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block", width: "100%" }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="5030831798"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </GoogleAdUnit>
-      </center>
     </div>
   );
 }

@@ -81,18 +81,6 @@ export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
         previousPage={previousPage}
         totalItems={totalItems}
       />
-      <center className="mx-auto">
-        <GoogleAdUnit>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block", width: "100%" }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="1083276133"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </GoogleAdUnit>
-      </center>
     </div>
   );
 }

@@ -98,18 +98,6 @@ function News() {
           </div>
         ))}
       </div>
-      <center className="mx-auto max-w-5xl my-10">
-        <GoogleAdUnit>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-6692046911486022"
-            data-ad-slot="3521048850"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </GoogleAdUnit>
-      </center>
       <div className="text-center mt-40 text-white text-4xl font-bold">
         <h2 className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 text-3xl md:text-3xl">
           Artículos Destacados
