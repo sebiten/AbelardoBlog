@@ -57,7 +57,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="lazyOnload"
         ></Script>
-        <GoogleAds />
         <GoogleAnalytics
           GA_TRACKING_ID={process.env.GA_TRACKING_ID as string}
         />
