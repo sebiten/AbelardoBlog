@@ -63,9 +63,8 @@ export async function getPostByName(
   });
 
   const id = fileName.replace(/\.mdx$/, "");
-  // const imageUrl = `/${id}.webp`;
-  const imageUrl = `https://raw.githubusercontent.com/sebiten/posts/main/images/${id}.webp`;
-  ;
+  const imageUrl = `/${id}.webp`;
+
 
   const blogPostObj: BlogPost = {
     meta: {
