@@ -30,11 +30,11 @@ async function Heroydolar(): Promise<JSX.Element> {
   return (
     <>
       <section className="mx-auto">
-        <div className="flex flex-col">
-          <div className="w-full  bg-gray-800 mt-2 text-xl text-white mx-auto flex items-center justify-center text-center ">
+        <div className="flex flex-col items-center">
+          <div className="w-full bg-gray-800 mt-2 text-xl text-white flex items-center justify-center text-center">
             <Image
               src="/abelardo-logo-web.png"
-              className="w-auto rounded-full -mt-28 "
+              className="w-auto rounded-full -mt-28"
               alt="abelardo-blog"
               priority={true}
               height={600}
@@ -42,11 +42,11 @@ async function Heroydolar(): Promise<JSX.Element> {
             />
           </div>
           <div className="-mt-44">
-            <p className="text-center uppercase font-bold font-title text-2xl">
+            <p className="text-center uppercase font-bold font-title text-2xl text-white">
               <span className="text-yellow-400">Abelardo</span> Blog
             </p>
           </div>
-          <div className="font-bold text-[0.6rem] mt-14">
+          <div className="font-bold text-sm mt-14">
             <h1 className="my-4 max-w-2xl text-2xl mx-auto font-bold text-center leading-10 text-white">
               Emprende un Viaje Único hacia la Vitalidad: Descubre el Secreto de
               Abelardo para una Vida Plena y Saludable.
