@@ -34,25 +34,26 @@ async function Heroydolar(): Promise<JSX.Element> {
           <div className="w-full bg-gray-800 mt-2 text-xl text-white flex items-center justify-center text-center">
             <Image
               src="/abelardo-logo-web.png"
-              className="w-auto rounded-full -mt-28"
+              className="w-auto rounded-full -mt-10 md:-mt-20 lg:-mt-28"
               alt="abelardo-blog"
               priority={true}
               height={600}
               width={600}
             />
           </div>
-          <div className="-mt-44">
-            <p className="text-center uppercase font-bold font-title text-2xl text-white">
+          <div className="-mt-10 md:-mt-20">
+            <p className="text-center uppercase font-bold font-title text-3xl text-white">
               <span className="text-yellow-400">Abelardo</span> Blog
             </p>
           </div>
-          <div className="font-bold text-sm mt-14">
-            <h1 className="my-4 max-w-2xl text-2xl mx-auto font-bold text-center leading-10 text-white">
+          <div className="font-bold text-sm mt-8 md:mt-4">
+            <h1 className="my-4 max-w-2xl text-lg md:text-2xl mx-auto font-bold text-center leading-10 text-white">
               Emprende un Viaje Único hacia la Vitalidad: Descubre el Secreto de
               Abelardo para una Vida Plena y Saludable.
             </h1>
           </div>
         </div>
+
         <div className="mt-4 grid gap-2 grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 px-2 md:px-4">
           {dolar.map((dol) => (
             <div
