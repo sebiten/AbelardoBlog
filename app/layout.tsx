@@ -7,7 +7,9 @@ import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import dynamic from "next/dynamic";
 import Contacto from "./components/Contacto";
-const News = dynamic(() => import("./components/News"), { ssr: false });
+import { Metadata } from "next"
+import Redes from "./components/Redes";
+const News = dynamic(() => import("./components/Redes"), { ssr: false });
 const GoogleAds = dynamic(() => import("./components/GoogleAds"), {
   ssr: false,
 });
@@ -24,8 +26,10 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Abelardo Blog",
+  keywords: "Blog",
+  creator: "Sebastian Burgos",
   description: "Abelardo-blog",
   icons: {
     icon: "/abelardo-blog.png",
@@ -60,8 +64,10 @@ export default function RootLayout({
       </head>
       <body className="bg-slate-800">
         <Navbar />
+        <main className="px-4  md:px-6 prose-slate dark:prose-invert  w-full 2xl:w-6/12 mx-auto">
         {children}
-        <News />
+        </main>
+        <Redes />
         <Contacto />
         <NewsletterSubscribe />
         <Footer />

@@ -1,10 +1,12 @@
-type BlogPost = {
-    id: string;
-    title: string;
-    date: string;
-    imageUrl: string;
-    categories: string[];
-    content: string;
+type Meta = {
+  id: string;
+  title: string;
+  date: string;
+  tags: string[];
+  imageUrl: string;
+};
 
-  };
-  
+type BlogPost = {
+  meta: Meta;
+  content: ReactElement<any, string | JSXElementConstructor<any>>;
+};

@@ -1,78 +1,68 @@
 import getFormattedDate from "@/lib/getFormattedDate";
-import { getSortedPostsData, getPostData } from "@/lib/posts";
+import { getPostsMeta, getPostByName } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { FaInstagram, FaInstagramSquare, FaTiktok } from "react-icons/fa";
-import Image from "next/image";
-import AsidePosts from "@/app/components/AsidePosts";
-import dynamic from "next/dynamic";
+import "highlight.js/styles/github-dark.css";
 
-const NoSSR = dynamic(() => import("../../components/AsidePosts"), {
-  ssr: false,
-}); // importando el aside sin ssr
+export const revalidate = 86400;
 
-export function generateStaticParams() {
-  const posts = getSortedPostsData();
+type Props = {
+  params: {
+    postId: string;
+  };
+};
+
+export async function generateStaticParams() {
+  const posts = await getPostsMeta();
+  if (!posts) return [];
 
   return posts.map((post) => ({
     postId: post.id,
   }));
 }
 
-export function generateMetadata({ params }: { params: { postId: string } }) {
-  const posts = getSortedPostsData();
-  const { postId } = params;
-
-  const post = posts.find((post) => post.id === postId);
+export async function generateMetadata({ params: { postId } }: Props) {
+  const post = await getPostByName(`${postId}.mdx`); //deduped!
 
   if (!post) {
     return {
-      title: "Artículo No Econtrado",
-      description: "La pagina no ha sido encontrada",
+      title: "Post Not Found",
     };
   }
 
   return {
-    title: post.title,
-    description: post.title,
-    alternates: {
-      canonical: `/posts/${postId}`,
-      languages: {
-        "es-ES": `es-ES/posts/${postId}`,
-      },
-    },
+    title: post.meta.title,
   };
 }
 
-export default async function Post({ params }: { params: { postId: string } }) {
-  const posts = getSortedPostsData();
-  const { postId } = params;
+export default async function Post({ params: { postId } }: Props) {
+  const post = await getPostByName(`${postId}.mdx`); //deduped!
 
-  if (!posts.find((post) => post.id === postId)) notFound();
+  if (!post) notFound();
 
-  const { title, date, contentHtml, categories } = await getPostData(postId);
+  const { meta, content } = post;
 
-  const pubDate = getFormattedDate(date);
+  const pubDate = getFormattedDate(meta.date);
+
+  const tags = meta.tags.map((tag, i) => (
+    <Link key={i} href={`/tags/${tag}`}>
+      {tag}
+    </Link>
+  ));
 
   return (
-    <main className="mt-2 w-10/12 xl:w-6/12  flex items-center justify-center gap-4 mx-auto ">
-      <div className="block">
-        <div className="mr-0 flex flex-col w-full prose-a:text-yellow-400 prose-strong:text-yellow-500 prose-strong:font-black prose-p:text-white prose-headings:text-white mx-auto prose max-w-5xl text-white">
-          <hr className="h-px my-8  border-0 bg-gray-700" />
-
-          <h1 className="text-3xl mt-4 mb-0 font-title  ">{title}</h1>
-          <p className="mt-0 ">{pubDate}</p>
-          <p className="text-xl mt-4 mb-0">
-            <span className="font-bold text-yellow-500">Categoría: </span>
-            {categories}
-          </p>
-          <article className="w-full dark:text-white text-[1.1rem] sm:text-lg text-gray-800">
-            <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-          </article>
-        </div>
-        <NoSSR posts={posts} />
-      </div>
-    </main>
+    <div className="prose prose-xl prose-slate prose-invert prose-a:no-underline prose-headings:text-yellow-400">
+      <hr></hr>
+      <h2 className="text-3xl mt-4 mb-0">{meta.title}</h2>
+      <p className="mt-0 text-sm">{pubDate}</p>
+      <article>{content}</article>
+      <section>
+        <div className="flex flex-row gap-4 text-yellow-400">Relacionados:{tags}</div>
+      </section>
+      <p className="mb-10">
+        <Link className="border-b" href="/">← Volver al inicio </Link>🏠
+      </p>
+      <hr></hr>
+    </div>
   );
 }

@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { TiWeatherPartlySunny } from "react-icons/ti";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -20,11 +21,11 @@ export const links = [
   //   text: "Abelardo ",
   //   target: "_self",
   // },
-  // {
-  //   href: "/favorites",
-  //   text: "Favoritos ",
-  //   target: "_self",
-  // },
+  {
+    href: "/blog",
+    text: "Blog ",
+    target: "_self",
+  },
   // {
   //   href: "/",
   //   text: "Redactar Post",
@@ -35,6 +36,7 @@ export const links = [
   },
   {
     href: "/tiempo",
+    icon: <TiWeatherPartlySunny size={22} />,
     text: "Tiempo",
   },
   {
@@ -43,8 +45,8 @@ export const links = [
     target: "_blank",
   },
   {
-    href: "https://www.tiktok.com/@abelardoblog",
-    icon: <FaTiktok size={22} />,
+    href: "https://www.youtube.com/channel/UCe1X6rUXwKIsy9dSrP34euw",
+    icon: <FaYoutube size={22} />,
     target: "_blank",
   },
 ];

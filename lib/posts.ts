@@ -1,70 +1,115 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
-type BlogPost = {
-  id: string;
-  title: string;
-  date: string;
-  imageUrl: string;
-  categories: string[];
-  content: string;
+import { compileMDX } from "next-mdx-remote/rsc";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeHighlight from "rehype-highlight";
+import rehypeSlug from "rehype-slug";
+import Video from "@/app/components/Video";
+import CustomImage from "@/app/components/CustomImage";
+
+type Filetree = {
+  tree: [
+    {
+      path: string;
+    }
+  ];
 };
 
+export async function getPostByName(
+  fileName: string
+): Promise<BlogPost | undefined> {
+  const res = await fetch(
+    `https://raw.githubusercontent.com/sebiten/posts/main/${fileName}`,
+    {
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+    }
+  );
 
-const postsDirectory = path.join(process.cwd(), "blogposts");
+  if (!res.ok) return undefined;
 
-export function getSortedPostsData(categoryFilter?: string ) {
-  const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
-    const id = fileName.replace(/\.md$/, "");
-    const fullPath = path.join(postsDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, "utf8");
-    const matterResult = matter(fileContents);
+  const rawMDX = await res.text();
 
-    const blogPost = {
-      id,
-      title: matterResult.data.title,
-      date: matterResult.data.date,
-      imageUrl: matterResult.data.imageUrl,
-      categories: matterResult.data.categories,
-      content: matterResult.content,
-    };
+  if (rawMDX === "404: Not Found") return undefined;
 
-    return blogPost;
+  const { frontmatter, content } = await compileMDX<{
+    title: string;
+    date: string;
+    tags: string[];
+    imageUrl: string;
+  }>({
+    source: rawMDX,
+    components: {
+      Video,
+      CustomImage,
+    },
+    options: {
+      parseFrontmatter: true,
+      mdxOptions: {
+        rehypePlugins: [
+          // @ts-ignore
+          rehypeHighlight,
+          rehypeSlug,
+          [
+            rehypeAutolinkHeadings,
+            {
+              behavior: "wrap",
+            },
+          ],
+        ],
+      },
+    },
   });
 
-  const filteredPosts = categoryFilter
-    ? allPostsData.filter((post) => post.categories.includes(categoryFilter))
-    : allPostsData;
+  const id = fileName.replace(/\.mdx$/, "");
+  // const imageUrl = `/${id}.webp`;
+  const imageUrl = `https://raw.githubusercontent.com/sebiten/posts/main/images/${id}.webp`;
+  ;
 
-  return filteredPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
-}
-
-export async function getPostData(id: string) {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
-
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
-
-  const contentHtml = processedContent.toString();
-
-  const blogPostWithHTML: BlogPost & { contentHtml: string } = {
-    id,
-    title: matterResult.data.title,
-    date: matterResult.data.date,
-    imageUrl: matterResult.data.imageUrl,
-    categories: matterResult.data.categories,
-    content: matterResult.content,
-    contentHtml,
+  const blogPostObj: BlogPost = {
+    meta: {
+      id,
+      title: frontmatter.title,
+      date: frontmatter.date,
+      tags: frontmatter.tags,
+      imageUrl,
+    },
+    content,
   };
 
-  // Combine the data with the id
-  return blogPostWithHTML;
+  return blogPostObj;
+}
+
+export async function getPostsMeta(): Promise<Meta[] | undefined> {
+  const res = await fetch(
+    "https://api.github.com/repos/sebiten/posts/git/trees/main?recursive=1",
+    {
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+    }
+  );
+
+  if (!res.ok) return undefined;
+
+  const repoFiletree: Filetree = await res.json();
+
+  const filesArray = repoFiletree.tree
+    .map((obj) => obj.path)
+    .filter((path) => path.endsWith(".mdx"));
+
+  const posts: Meta[] = [];
+
+  for (const file of filesArray) {
+    const post = await getPostByName(file);
+    if (post) {
+      const { meta } = post;
+      posts.push(meta);
+    }
+  }
+
+  return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }

@@ -1,7 +1,10 @@
+import Link from "next/link"
+
 export default function NotFound() {
-  return (
-    <h1 className="text-center font-bold dark:text-white text-gray-800 text-2xl my-40">
-      El siguiente post no existe.😢
-    </h1>
-  );
+    return (
+        <div className="text-center">
+            <p className="mt-10">Sorry, the requested post does not exist.</p>
+            <Link href="/">Back to Home</Link>
+        </div>
+    )
 }
