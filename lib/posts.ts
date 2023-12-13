@@ -13,10 +13,9 @@ type BlogPost = {
   content: string;
 };
 
-
 const postsDirectory = path.join(process.cwd(), "blogposts");
 
-export function getSortedPostsData(categoryFilter?: string ) {
+export function getSortedPostsData(categoryFilter?: string) {
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames.map((fileName) => {
     const id = fileName.replace(/\.md$/, "");
