@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl:
-    process.env.SITE_URL || "https://abelardo.blog" || "http://localhost:3000",
+    process.env.SITE_URL,
   generateRobotsTxt: true,
   generateIndexSitemap: false,
 };

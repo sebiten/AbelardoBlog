@@ -1,23 +1,47 @@
-import { getPostsMeta } from "@/lib/posts";
-import BlogPosts from "../components/BlogPosts"
-import Link from "next/link";
+import BlogPosts from "../components/BlogPosts";
+import { useEffect, useState } from "react";
+import { getSortedPostsData } from "@/lib/posts";
+import Spinner from "../components/Spinner";
 
-export default async function Posts() {
-  const posts = await getPostsMeta();
-  if (!posts) {
-    return <p className="mt-10 text-center">Sorry, no posts available.</p>;
-  }
-  return (
-    <section className="mt-6 mx-auto w-12/12">
-      <h2 className="text-4xl font-bold text-white/90">Blog</h2>
-      <ul className="w-full list-none p-0 grid grid-cols-2">
-        {posts.map((post) => (
-          <BlogPosts key={post.id} post={post} />
-        ))}
-      </ul>
-      <p className="mb-10 text-center">
-        <Link className="" href="/">← Volver al inicio</Link>🏠
-      </p>
-    </section>
-  );
+interface Post {
+  id: string;
+  title: any;
+  date: any;
+  imageUrl: any;
+  categories: any;
+  content: string;
+  ok?: boolean; // Propiedad opcional
 }
+
+async function getPosts() {
+  const res = await getSortedPostsData();
+  // Verificar si la variable `res` es de tipo `Response`
+  if (res instanceof Response) {
+    return res.json();
+  } else {
+    throw new Error("Failed to fetch data");
+  }
+}
+async function Posts() {
+  const posts: Post[] = await getSortedPostsData();
+
+  if (posts === null) {
+    return (
+      <center>
+        <Spinner />
+      </center>
+    );
+  } else {
+    return (
+      <>
+        <h2 className="text-yellow-500 mt-10 font-bold text-center text-3xl animate-bounce">
+          Artículos
+        </h2>
+
+        <BlogPosts posts={posts} />
+      </>
+    );
+  }
+}
+
+export default Posts;

@@ -15,11 +15,11 @@ interface IAsidePostsProps {
 const AsidePosts: React.FC<IAsidePostsProps> = ({ posts }) => {
   return (
     <aside>
-      <h3 className="text-2xl font-bold mb-4 pl-2 text-yellow-500 text-center">
+      <h3 className="text-2xl font-bold pl-2 text-yellow-500 text-center">
         Más artículos
       </h3>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
-        {posts.slice(0, 6).map((relatedPost) => (
+      <ul className="flex">
+        {posts.slice(0, 4).map((relatedPost) => (
           <li key={relatedPost.id} className=" list-none">
             <Link href={`/posts/${relatedPost.id}`}>
               <Image

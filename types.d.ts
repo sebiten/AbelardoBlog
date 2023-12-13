@@ -1,4 +1,5 @@
-type Meta = {
+
+type BlogPost = {
   id: string;
   title: string;
   date: string;
@@ -6,7 +7,3 @@ type Meta = {
   imageUrl: string;
 };
 
-type BlogPost = {
-  meta: Meta;
-  content: ReactElement<any, string | JSXElementConstructor<any>>;
-};
