@@ -56,14 +56,12 @@ const ServicesPage: React.FC = () => {
           />
         ))}
       </div>
-      <div
-        className="mt-12"
-      >
+      <div className="mt-12">
         <p className="mt-12 text-center text-3xl ">
           <span className="font-bold text-yellow-500 ">Algunos Ejemplos</span>
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-6xl">
-          {demostraciones.map((demostracion, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-auto max-w-6xl">
+          {demostraciones.slice(0, 2).map((demostracion, index) => (
             <Link
               href={demostracion.link}
               className="text-white flex flex-col items-start
@@ -111,6 +109,41 @@ const ServicesPage: React.FC = () => {
               </p>
             </Link>
           ))}
+        </div>
+        <div>
+          <h3 className="text-center text-2xl animate-pulse">
+            También puedes explorar mi portafolio en línea, donde encontrarás
+            más detalles sobre mí y mis proyectos.
+          </h3>
+          <Link
+            href="www.sebdevpsce.me"
+            className="text-white flex flex-col items-center
+            justify-center
+            max-w-sm
+            mx-auto
+            transition
+            duration-500
+            ease-in-out
+            transform
+            hover:scale-105
+            rounded-xl
+            shadow-xl
+            p-8
+            bg-gray-800
+            border
+            border-gray-700
+            dark:border-gray-700
+            hover:border-gray-200
+            dark:hover:border-gray-600
+            hover:shadow-xl
+            dark:hover:shadow-xl
+            dark:hover:text-gray-300
+            my-4
+            "
+            target="_blank"
+          >
+            Ir a mi pagina web 🌐
+          </Link>
         </div>
       </div>
 

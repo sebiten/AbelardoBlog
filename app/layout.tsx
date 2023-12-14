@@ -9,10 +9,7 @@ import dynamic from "next/dynamic";
 import Contacto from "./components/Contacto";
 import { Metadata } from "next";
 import Redes from "./components/Redes";
-const News = dynamic(() => import("./components/Redes"), { ssr: false });
-const GoogleAds = dynamic(() => import("./components/GoogleAds"), {
-  ssr: false,
-});
+
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
   weight: "700",

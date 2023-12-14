@@ -1,4 +1,3 @@
-import GoogleAdUnit from "@/app/components/GoogleAdUnit";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import fs from "fs/promises";
 import path from "path";
@@ -7,6 +6,7 @@ import { compileMDX, MDXRemoteProps } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import Video from "@/app/components/Video";
 import CustomImage from "@/app/components/CustomImage";
+import { AdUnit } from "next-google-adsense";
 
 type Meta = {
   id: string;
@@ -36,7 +36,6 @@ export async function getPostByName(
       components: {
         Video,
         CustomImage,
-        GoogleAdUnit,
       },
       options: {
         mdxOptions: {

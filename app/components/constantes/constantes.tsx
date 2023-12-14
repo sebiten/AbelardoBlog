@@ -36,13 +36,6 @@ export const demostraciones = [
     image: "/food.webp",
     link: "https://dancing-sherbet-b9a756.netlify.app",
   },
-  {
-    title: "Profesionales independientes",
-    description:
-      "Diseñado para profesionales independientes como abogados, escribanos y diseñadores, este ejemplo destaca cómo crear una presencia en línea sólida. El diseño limpio y moderno comunica profesionalismo y confianza, mientras que las secciones dedicadas a los servicios, el portafolio y los detalles de contacto facilitan a los visitantes la búsqueda y comunicación con el profesional.",
-    image: "/portfolio.webp",
-    link: "https://sebdevspace.me/",
-  },
 ];
 
 export const urlsReels = [
