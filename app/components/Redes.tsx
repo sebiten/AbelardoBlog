@@ -37,7 +37,11 @@ function Redes() {
   return (
     <div className="max-w-[90ch] mt-20 mx-auto">
       <center>
-        <AdUnit slotId="9597999865" layout="display" />
+        <AdUnit
+          publisherId="pub-6692046911486022"
+          slotId="9597999865"
+          layout="display"
+        />
       </center>
       {/* YouTube Section */}
       <div className="text-center text-white mb-8">
@@ -84,7 +88,11 @@ function Redes() {
         ))}
       </div>
       <center>
-        <AdUnit slotId="4209941810" layout="display" />
+        <AdUnit
+          publisherId="pub-6692046911486022"
+          slotId="4209941810"
+          layout="display"
+        />
       </center>
       <Destacados />
     </div>

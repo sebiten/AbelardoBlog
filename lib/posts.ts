@@ -36,6 +36,7 @@ export async function getPostByName(
       components: {
         Video,
         CustomImage,
+        AdUnit
       },
       options: {
         mdxOptions: {
