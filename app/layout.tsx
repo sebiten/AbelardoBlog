@@ -7,7 +7,7 @@ import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import dynamic from "next/dynamic";
 import Contacto from "./components/Contacto";
-import { Metadata } from "next"
+import { Metadata } from "next";
 import Redes from "./components/Redes";
 const News = dynamic(() => import("./components/Redes"), { ssr: false });
 const GoogleAds = dynamic(() => import("./components/GoogleAds"), {
@@ -46,11 +46,6 @@ export default function RootLayout({
       lang="es-ES"
     >
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6692046911486022"
-          crossOrigin="anonymous"
-        ></script>
         <Script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}`}
@@ -64,7 +59,7 @@ export default function RootLayout({
       <body className="bg-slate-800">
         <Navbar />
         <main className="px-2 prose-a:no-underline prose-slate prose-invert prose prose-xl mx-auto">
-        {children}
+          {children}
         </main>
         <Redes />
         <Contacto />
