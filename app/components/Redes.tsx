@@ -6,7 +6,7 @@ import Contacto from "./Contacto";
 import Video from "./Video";
 import Destacados from "./Destacados";
 import InstagramEmbed from "./Instagram";
-import { AdUnit } from "next-google-adsense";
+import GoogleAdUnit from "nextjs13_google_adsense";
 
 type video = {
   path: string;
@@ -36,13 +36,6 @@ const videosPath = [
 function Redes() {
   return (
     <div className="max-w-[90ch] mt-20 mx-auto">
-      <center>
-        <AdUnit
-          publisherId="pub-6692046911486022"
-          slotId="9597999865"
-          layout="display"
-        />
-      </center>
       {/* YouTube Section */}
       <div className="text-center text-white mb-8">
         <h2 className="font-bold text-3xl mb-4 text-yellow-400">
@@ -87,13 +80,16 @@ function Redes() {
           </div>
         ))}
       </div>
-      <center>
-        <AdUnit
-          publisherId="pub-6692046911486022"
-          slotId="4209941810"
-          layout="display"
-        />
-      </center>
+      <GoogleAdUnit>
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block", width: "100%" }}
+          data-ad-client="ca-pub-6692046911486022"
+          data-ad-slot="9597999865"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </GoogleAdUnit>
       <Destacados />
     </div>
   );
