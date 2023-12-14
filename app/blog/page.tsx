@@ -1,47 +1,30 @@
+import { getPostsMeta } from "@/lib/posts";
 import BlogPosts from "../components/BlogPosts";
-import { useEffect, useState } from "react";
-import { getSortedPostsData } from "@/lib/posts";
-import Spinner from "../components/Spinner";
+import Link from "next/link";
 
-interface Post {
-  id: string;
-  title: any;
-  date: any;
-  imageUrl: any;
-  categories: any;
-  content: string;
-  ok?: boolean; // Propiedad opcional
-}
+export default async function Posts() {
+  const posts = await getPostsMeta();
 
-async function getPosts() {
-  const res = await getSortedPostsData();
-  // Verificar si la variable `res` es de tipo `Response`
-  if (res instanceof Response) {
-    return res.json();
-  } else {
-    throw new Error("Failed to fetch data");
+  if (!posts) {
+    return <p className="mt-10 text-center">Sorry, no posts available.</p>;
   }
+
+  return (
+    <section className="mt-6 mx-auto">
+      <h2 className="text-4xl text-center font-boldtext-white/90">Blog</h2>
+      <ul className="w-full list-none p-0 grid grid-cols-2 ">
+        {posts.slice(0, 8).map((post) => (
+          <BlogPosts key={post.id} post={post} />
+        ))}
+      </ul>
+      <div className="bg-gray-800 text-white my-2 rounded-lg text-center ">
+        <Link
+          className="p-4 bg-gray-800 border  border-gray-700 text-yellow-400 rounded-lg hover:bg-gray-600 flex items-center justify-center"
+          href="/blog"
+        >
+         Ver Todos Los Artículos
+        </Link>
+      </div>
+    </section>
+  );
 }
-async function Posts() {
-  const posts: Post[] = await getSortedPostsData();
-
-  if (posts === null) {
-    return (
-      <center>
-        <Spinner />
-      </center>
-    );
-  } else {
-    return (
-      <>
-        <h2 className="text-yellow-500 mt-10 font-bold text-center text-3xl animate-bounce">
-          Artículos
-        </h2>
-
-        <BlogPosts posts={posts} />
-      </>
-    );
-  }
-}
-
-export default Posts;

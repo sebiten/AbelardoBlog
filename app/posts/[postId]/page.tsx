@@ -1,98 +1,95 @@
 import getFormattedDate from "@/lib/getFormattedDate";
-import { getSortedPostsData, getPostData } from "@/lib/posts";
+import { getPostsMeta, getPostByName } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { FaInstagram, FaInstagramSquare, FaTiktok } from "react-icons/fa";
-import Image from "next/image";
-import AsidePosts from "@/app/components/AsidePosts";
-import dynamic from "next/dynamic";
+import "highlight.js/styles/github-dark.css";
+import Head from "next/head";
 
-const NoSSR = dynamic(() => import("../../components/AsidePosts"), {
-  ssr: false,
-}); // importando el aside sin ssr
+type Props = {
+  params: {
+    postId: string;
+  };
+};
 
-export function generateStaticParams() {
-  const posts = getSortedPostsData();
+export async function generateStaticParams() {
+  const posts = await getPostsMeta();
+
+  if (!posts) return [];
 
   return posts.map((post) => ({
     postId: post.id,
   }));
 }
 
-export function generateMetadata({ params }: { params: { postId: string } }) {
-  const posts = getSortedPostsData();
-  const { postId } = params;
-
-  const post = posts.find((post) => post.id === postId);
+export async function generateMetadata({ params: { postId } }: Props) {
+  const post = await getPostByName(`${postId}.mdx`);
 
   if (!post) {
     return {
-      title: "Artículo No Econtrado",
-      description: "La pagina no ha sido encontrada",
+      title: "Post Not Found",
+      description: "This post does not exist.",
     };
   }
 
   return {
-    title: post.title,
-    description: post.title,
+    title: post.meta.title,
+    description: post.meta.title || "", // Add a description if available
     alternates: {
       canonical: `/posts/${postId}`,
       languages: {
         "es-ES": `es-ES/posts/${postId}`,
       },
     },
+    // Add more metadata as needed
+    og: {
+      type: "article",
+      title: post.meta.title,
+      description: post.meta.title || "",
+      image: post.meta.imageUrl || "", // Add the image URL if available
+    },
   };
 }
 
-export default async function Post({ params }: { params: { postId: string } }) {
-  const posts = getSortedPostsData();
-  const { postId } = params;
+export default async function Post({ params: { postId } }: Props) {
+  const post = await getPostByName(`${postId}.mdx`);
 
-  if (!posts.find((post) => post.id === postId)) notFound();
+  if (!post) notFound();
 
-  const { title, date, contentHtml, categories } = await getPostData(postId);
+  const { meta, content } = post;
 
-  const pubDate = getFormattedDate(date);
+  const pubDate = getFormattedDate(meta.date);
+
+  const tags = meta.tags.map((tag, i) => (
+    <Link key={i} href={`/tags/${tag}`}>
+      {tag}
+    </Link>
+  ));
 
   return (
-    <main className="prose prose-xl  flex items-center justify-center gap-4 mx-auto ">
-      <div className="block">
-        <div className="mr-0 flex flex-col w-full prose-a:text-yellow-400 prose-strong:text-yellow-500 prose-strong:font-black prose-p:text-white prose-headings:text-white mx-auto prose max-w-5xl text-white">
-          <hr className="h-px my-8  border-0 bg-gray-700" />
-
-          <h1 className="text-3xl mt-4 mb-0 font-title  ">{title}</h1>
-          <p className="mt-0 ">{pubDate}</p>
-          <p className="text-xl mt-4 mb-0">
-            <span className="font-bold text-yellow-500">Categoría: </span>
-            {categories}
-          </p>
-          <article className="w-full dark:text-white text-[1.1rem] sm:text-lg text-gray-800">
-            <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-          </article>
-          <div className="mt-8 text-center text-3xl animate-bounce animate-infinite animate-duration-[100ms] animate-delay-[14ms] animate-ease-out">
-            <Link
-              className="animate-pulse  
-              animate-infinite
-              animate-duration-[100ms]
-              animate-delay-[22ms]
-              animate-ease-out
-              text-yellow-600
-              hover:text-yellow-700
-              dark:text-yellow-400
-              dark:hover:text-yellow-500
-              font-bold
-              text-2xl
-              mb-0
-                "
-              href="/"
-            >
-              ← Volver al inicio
-            </Link>
-          </div>
-        </div>
-        {/* <NoSSR posts={posts} /> */}
-      </div>
-    </main>
+    <>
+      {/* Include SEO metadata in the head of the document */}
+      <Head>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.title || ""} />
+        {/* Add more meta tags as needed */}
+      </Head>
+      <hr className="mt-10"></hr>
+      <h2 className="text-3xl mt-4 mb-0">{meta.title}</h2>
+      <p className="mt-0 text-sm">{pubDate}</p>
+      <article>{content}</article>
+      <section>
+        <h3 className="text-yellow-400">Relacionados:</h3>
+        <div className="flex flex-row gap-4 underline">#{tags}</div>
+      </section>
+      <p className="mb-10 text-2xl  hover:animate-pulse">
+        <Link
+          className="text-yellow-400 border-b font-bold border-yellow-400 "
+          href="/"
+        >
+          ← Volver al inicio 🏡
+        </Link>
+      </p>
+      <hr className="mt-10"></hr>
+    </>
   );
 }

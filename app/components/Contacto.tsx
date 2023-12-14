@@ -1,5 +1,4 @@
 import Link from "next/link";
-import GoogleAdUnit from "nextjs13_google_adsense";
 import React from "react";
 import InstagramSection from "./InstagramSection";
 

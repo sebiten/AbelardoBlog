@@ -7,9 +7,6 @@ import Video from "./Video";
 import Destacados from "./Destacados";
 import InstagramEmbed from "./Instagram";
 
-const GoogleAdUnit = dynamic(() => import("nextjs13_google_adsense"), {
-  ssr: false,
-});
 
 type video = {
   path: string;

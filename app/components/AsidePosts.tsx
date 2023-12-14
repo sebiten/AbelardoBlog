@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import GoogleAdUnit from "nextjs13_google_adsense";
 import React from "react";
 
 interface IAsidePostsProps {

@@ -1,86 +1,41 @@
-"use client";
-import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import Pronostico from "./Pronostico";
-import Controller from "./Controller";
 import getFormattedDate from "@/lib/getFormattedDate";
+import Image from "next/image";
+import CustomImage from "./CustomImage";
 
+type Props = {
+  post: Meta;
+};
 
-interface BlogPostType {
-  id: string;
-  title: string;
-  date: string;
-  imageUrl: string;
-  categories: string[];
-  content: string;
-}
-
-export default function BlogPosts({ posts }: { posts: BlogPostType[] }) {
-  const [currentSliceStart, setCurrentSliceStart] = useState(0);
-  const [currentSliceEnd, setCurrentSliceEnd] = useState(12);
-  const [currentPage, setCurrentPage] = useState(1);
-  const totalItems = posts.length;
-
-  const nextPage = () => {
-    setCurrentSliceStart(currentSliceStart + 4);
-    setCurrentSliceEnd(currentSliceEnd + 4);
-    setCurrentPage(currentPage + 1);
-  };
-  const previousPage = () => {
-    setCurrentSliceStart(currentSliceStart - 4);
-    setCurrentSliceEnd(currentSliceEnd - 4);
-    setCurrentPage(currentPage - 1);
-  };
+export default function ListItem({ post }: Props) {
+  const { id, title, date, imageUrl, tags } = post;
+  const formattedDate = getFormattedDate(date);
 
   return (
-    <div>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-center mb-10">
-        {posts
-          .slice(currentSliceStart, currentSliceEnd)
-          .map((post: BlogPostType) => (
-            <div key={post.id} className="flex flex-col relative">
-              <Link href={`/posts/${post.id}`} className="relative">
-                <div className="mt-2 relative hover:scale-95 duration-500 p-4 bg-gray-800 rounded-lg shadow-md">
-                  {post.imageUrl && (
-                    <Image
-                      width={1920}
-                      height={1080}
-                      src={post.imageUrl}
-                      alt={post.title}
-                      quality={100}
-                      priority={true}
-                      className="object-cover w-full rounded-lg"
-                    />
-                  )}
-                  <div className="flex flex-col p-4 h-44">
-                    <h3 className="text-lg font-normal text-start mb-2 text-gray-200 hover:text-yellow-500">
-                      {post.title}
-                    </h3>
-                    <div>
-                      <p className="text-sm text-start text-yellow-600 font-bold">
-                        {getFormattedDate(post.date)}
-                      </p>
-                    </div>
-                    <div className="absolute left-10- bottom-3">
-                      <p className="text-sm text-center text-gray-500 font-bold">
-                        {post.categories}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          ))}
-      </div>
-      <Controller
-        currentSliceStart={currentSliceStart}
-        currentSliceEnd={currentSliceEnd}
-        currentPage={currentPage}
-        nextPage={nextPage}
-        previousPage={previousPage}
-        totalItems={totalItems}
-      />
-    </div>
+    <li className="flex flex-col ">
+      <Link href={`/posts/${id}`} className="">
+        <div className="mt-2 hover:scale-95 duration-500 bg-gray-800 rounded-lg shadow-md">
+          {imageUrl && (
+            <Image
+              width={1920}
+              height={1080}
+              src={imageUrl}
+              alt={id}
+              quality={100}
+              priority={true}
+              className="object-cover m-0 w-full rounded-lg"
+            />
+          )}
+          <div className="flex flex-col items-center justify-center">
+            <p className=" text-sm text-center text-yellow-600 font-bold">
+              {formattedDate}
+            </p>
+            <h2 className="text-lg -mt-2 text-center font-normal line-clamp-4 text-gray-200 hover:text-yellow-500">
+              {title}
+            </h2>
+          </div>
+        </div>
+      </Link>
+    </li>
   );
 }

@@ -6,7 +6,7 @@ import { demostraciones, services } from "../components/constantes/constantes";
 const ServicesPage: React.FC = () => {
   return (
     <div className="w-full h-full  bg-gray-800 px-4 py-8 md:py-16">
-      <div className="mb-6 text-xl text-white mx-auto max-w-2xl text-center lg:w-3/4 xl:w-1/2">
+      <div className="mb-6 text-xl text-white mx-auto text-center">
         <h3 className="text-center text-white font-bold uppercase animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[44ms] animate-ease-out prose prose-xl prose-slate dark:prose-invert font-title">
           <span className="text-yellow-500 font-normal text-5xl -z-10">
             <br></br>

@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Spinner from "../Spinner";
 import { sanitize } from "./misc";
-import GoogleAdUnit from "nextjs13_google_adsense";
 
 const NewsletterForm = ({ status, message, onValidated }) => {
   const [error, setError] = useState(null);

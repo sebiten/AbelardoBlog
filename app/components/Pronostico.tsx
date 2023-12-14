@@ -7,9 +7,7 @@ import getFormattedDate from "../../lib/getFormattedDate";
 import AirQualityInfo from "./AirQualityInfo";
 import { title } from "process";
 import dynamic from "next/dynamic";
-const GoogleAdUnit = dynamic(() => import("nextjs13_google_adsense"), {
-  ssr: false,
-});
+
 
 interface WeatherData {
   location: {

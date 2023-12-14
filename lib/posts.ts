@@ -1,70 +1,113 @@
-import fs from "fs";
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import fs from "fs/promises";
 import path from "path";
-import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
+import grayMatter from "gray-matter";
+import { compileMDX, MDXRemoteProps } from "next-mdx-remote/rsc";
+import rehypeSlug from "rehype-slug";
+import Video from "@/app/components/Video";
+import CustomImage from "@/app/components/CustomImage";
 
-type BlogPost = {
+
+type Meta = {
   id: string;
   title: string;
   date: string;
-  imageUrl: string;
-  categories: string[];
-  content: string;
+  tags: string[];
+  imageUrl?: string; // Add imageUrl property
 };
 
-const postsDirectory = path.join(process.cwd(), "blogposts");
+type BlogPost = {
+  meta: Meta;
+  content: any;
+};
 
-export function getSortedPostsData(categoryFilter?: string) {
-  const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
-    const id = fileName.replace(/\.md$/, "");
-    const fullPath = path.join(postsDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, "utf8");
-    const matterResult = matter(fileContents);
+export async function getPostByName(
+  fileName: string
+): Promise<BlogPost | undefined> {
+  try {
+    const filePath = path.join(process.cwd(), "blogposts", fileName);
+    const rawMDX = await fs.readFile(filePath, "utf-8");
 
-    const blogPost = {
-      id,
-      title: matterResult.data.title,
-      date: matterResult.data.date,
-      imageUrl: matterResult.data.imageUrl,
-      categories: matterResult.data.categories,
-      content: matterResult.content,
+    // Use gray-matter to extract frontmatter
+    const { data, content } = grayMatter(rawMDX);
+
+    const result = await compileMDX<MDXRemoteProps>({
+      source: content,
+      components: {
+        Video,
+        CustomImage,
+      },
+      options: {
+        mdxOptions: {
+          rehypePlugins: [
+            rehypeSlug,
+            [rehypeAutolinkHeadings, { behavior: "wrap" }],
+          ],
+        },
+      },
+    });
+
+    if (!result) {
+      console.error("Compilation failed for", fileName);
+      return undefined;
+    }
+
+    // Use the 'content' property for the rendered output
+    const renderedOutput = result.content || "";
+
+    if (!renderedOutput) {
+      console.error("Invalid result structure for", fileName);
+      return undefined;
+    }
+
+    const id = fileName.replace(/\.mdx$/, "");
+
+    const blogPostObj: BlogPost = {
+      meta: {
+        id,
+        title: data.title,
+        date: data.date,
+        tags: data.tags || [],
+        imageUrl: data.imageUrl, // Access the imageUrl property from frontmatter
+      },
+      content: renderedOutput,
     };
 
-    return blogPost;
-  });
-
-  const filteredPosts = categoryFilter
-    ? allPostsData.filter((post) => post.categories.includes(categoryFilter))
-    : allPostsData;
-
-  return filteredPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
+    return blogPostObj;
+  } catch (error) {
+    console.error("Error reading file:", error);
+    return undefined;
+  }
 }
 
-export async function getPostData(id: string) {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+export async function getPostsMeta(): Promise<Meta[] | undefined> {
+  try {
+    const dirPath = path.join(process.cwd(), "blogposts");
+    const filesArray = await getFilesInDirectory(dirPath, ".mdx");
 
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
+    const posts: Meta[] = [];
 
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
+    for (const file of filesArray) {
+      const post = await getPostByName(file);
+      if (post) {
+        const { meta } = post;
+        posts.push(meta);
+      }
+    }
 
-  const contentHtml = processedContent.toString();
+    return posts.sort((a, b) =>
+      new Date(a.date).getTime() > new Date(b.date).getTime() ? -1 : 1
+    );
+  } catch (error) {
+    console.error("Error fetching posts meta:", error);
+    return undefined;
+  }
+}
 
-  const blogPostWithHTML: BlogPost & { contentHtml: string } = {
-    id,
-    title: matterResult.data.title,
-    date: matterResult.data.date,
-    imageUrl: matterResult.data.imageUrl,
-    categories: matterResult.data.categories,
-    content: matterResult.content,
-    contentHtml,
-  };
-
-  // Combine the data with the id
-  return blogPostWithHTML;
+async function getFilesInDirectory(
+  dirPath: string,
+  fileExtension: string
+): Promise<string[]> {
+  const files = await fs.readdir(dirPath);
+  return files.filter((file) => file.endsWith(fileExtension));
 }
