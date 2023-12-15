@@ -3,10 +3,10 @@ import { FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import Contacto from "./Contacto";
-import Video from "./Video";
 import Destacados from "./Destacados";
 import InstagramEmbed from "./Instagram";
 import GoogleAdUnit from "nextjs13_google_adsense";
+import VideoBlog from "./VideoBlog";
 
 type video = {
   path: string;
@@ -72,7 +72,7 @@ function Redes() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
         {videosPath.map((path) => (
           <div key={path.key} className="">
-            <Video id={path.path} />
+            <VideoBlog id={path.path} />
             <div className="">
               <div className="flex items-center justify-center mt-2">
                 {/* <Link

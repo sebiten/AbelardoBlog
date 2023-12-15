@@ -4,9 +4,10 @@ import path from "path";
 import grayMatter from "gray-matter";
 import { compileMDX, MDXRemoteProps } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
-import Video from "@/app/components/Video";
 import CustomImage from "@/app/components/CustomImage";
 import GoogleAdUnit from 'nextjs13_google_adsense'
+import Video from "../app/components/Video"
+
 
 
 type BlogPost = {
