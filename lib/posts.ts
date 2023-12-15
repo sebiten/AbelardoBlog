@@ -8,13 +8,6 @@ import Video from "@/app/components/Video";
 import CustomImage from "@/app/components/CustomImage";
 import GoogleAdUnit from 'nextjs13_google_adsense'
 
-type Meta = {
-  id: string;
-  title: string;
-  date: string;
-  tags: string[];
-  imageUrl?: string; // Add imageUrl property
-};
 
 type BlogPost = {
   meta: Meta;
@@ -68,6 +61,7 @@ export async function getPostByName(
         id,
         title: data.title,
         date: data.date,
+        description: data.description,
         tags: data.tags || [],
         imageUrl: data.imageUrl, // Access the imageUrl property from frontmatter
       },

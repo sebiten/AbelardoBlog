@@ -33,19 +33,19 @@ export async function generateMetadata({ params: { postId } }: Props) {
 
   return {
     title: post.meta.title,
-    description: post.meta.title || "", // Add a description if available
+    description: post.meta.description || "", // Use unique description
+    keywords: post.meta.tags,
     alternates: {
       canonical: `/posts/${postId}`,
       languages: {
         "es-ES": `es-ES/posts/${postId}`,
       },
     },
-    // Add more metadata as needed
     og: {
       type: "article",
       title: post.meta.title,
-      description: post.meta.title || "",
-      image: post.meta.imageUrl || "", // Add the image URL if available
+      description: post.meta.description || "",
+      image: post.meta.imageUrl || "",
     },
   };
 }
@@ -67,18 +67,12 @@ export default async function Post({ params: { postId } }: Props) {
 
   return (
     <>
-      {/* Include SEO metadata in the head of the document */}
-      <Head>
-        <title>{meta.title}</title>
-        <meta name="description" content={meta.title || ""} />
-        {/* Add more meta tags as needed */}
-      </Head>
       <hr className="mt-10"></hr>
-      <h2 className="text-3xl mt-4 mb-0">{meta.title}</h2>
+      <h1 className="text-3xl mt-4 mb-0">{meta.title}</h1> {/* Use h1 for the title */}
       <p className="mt-0 text-sm">{pubDate}</p>
       <article>{content}</article>
       <section>
-        <h3 className="text-yellow-400">Relacionados:</h3>
+        <h2 className="text-yellow-400">Relacionados:</h2> {/* Use h2 for subheadings */}
         <div className="flex flex-row gap-4 underline">#{tags}</div>
       </section>
       <p className="mb-10 text-2xl  hover:animate-pulse">
