@@ -1,3 +1,4 @@
+import Video from "@/app/components/Video";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import fs from "fs/promises";
 import path from "path";
@@ -5,10 +6,7 @@ import grayMatter from "gray-matter";
 import { compileMDX, MDXRemoteProps } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import CustomImage from "@/app/components/CustomImage";
-import GoogleAdUnit from 'nextjs13_google_adsense'
-import Video from "../app/components/Video"
-
-
+import GoogleAdUnit from "nextjs13_google_adsense";
 
 type BlogPost = {
   meta: Meta;
@@ -30,7 +28,7 @@ export async function getPostByName(
       components: {
         Video,
         CustomImage,
-        GoogleAdUnit
+        GoogleAdUnit,
       },
       options: {
         mdxOptions: {
