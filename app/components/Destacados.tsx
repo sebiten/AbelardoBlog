@@ -14,7 +14,7 @@ const imagespub = [
     description:
       "La ansiedad y la depresión son afecciones que impactan a numerosos jóvenes en la actualidad, un tema que, lamentablemente, no recibe la atención que merece. Exploraremos esta problemática y reflexionaremos sobre la necesidad de abordarla de manera más adecuada en nuestro blog.",
     path: "/ansiedad-depresion.webp",
-    link: "https://abelardo.blog/posts/ansiedad-y-depresion",
+    link: "https://abelardo.blog/posts/como-combatir-los-pensamientos-de-ansiedad-y-depresion",
   },
   {
     description:
