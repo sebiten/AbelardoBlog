@@ -32,7 +32,7 @@ async function Heroydolar(): Promise<JSX.Element> {
         <div className="flex flex-col items-center">
           <div className="w-full bg-gray-800 my-2 text-xl text-white flex items-center justify-center text-center">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               className="rounded-full "
               alt="abelardo-blog"
               priority={true}
