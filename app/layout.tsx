@@ -24,14 +24,22 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Abelardo Blog",
-  keywords: "Blog",
+  title: "Abelardo Blog - Salud, Bienestar y Fitness para una Vida Plena",
+  keywords: "Abelardo, Salud, Bienestar, Fitness, Sebastian Burgos",
   creator: "Sebastian Burgos",
-  description: "Abelardo-blog",
+  description:
+    "Explora artículos y consejos sobre salud, bienestar y fitness en el blog Abelardo. Descubre cómo llevar una vida plena y activa.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "es-ES": "/es-ES/",
+    },
+  },
   icons: {
     icon: "/abelardo-blog.png",
   },
 };
+
 export default function RootLayout({
   children,
 }: {
