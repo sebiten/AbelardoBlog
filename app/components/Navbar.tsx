@@ -1,18 +1,6 @@
-"use client";
 import Link from "next/link";
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
-import { motion } from "framer-motion";
 import { TiWeatherPartlySunny } from "react-icons/ti";
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { delay: 0.2, duration: 0.8 } },
-};
-
-const linkVariants = {
-  hidden: { opacity: 0, y: -10 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
-};
 
 export const links = [
   { href: "/", text: "Inicio", target: "_parent" },
@@ -54,16 +42,8 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-6 sticky w-full top-0 drop-shadow-xl z-10">
       <div className="mt-4">
-        <motion.div
-          className="w-full mt-6 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
-          <motion.div
-            className="text-xl font-bold text-white grid place-content-center"
-            variants={linkVariants}
-          >
+        <div className="w-full mt-6 3xl:w-6/12 xl:w-6/12 prose-xl mx-auto flex justify-between flex-col sm:flex-row">
+          <div className="text-xl font-bold text-white grid place-content-center">
             <Link
               target="_parent"
               href="/"
@@ -72,11 +52,8 @@ export default function Navbar() {
               Abelardo
               <span className="text-white  font-bold">Blog</span>
             </Link>
-          </motion.div>
-          <motion.div
-            className="flex  flex-row justify-center items-center sm:justify-between align-middle gap-4 text-white text-sm lg:text-5xl"
-            variants={linkVariants}
-          >
+          </div>
+          <div className="flex  flex-row justify-center items-center sm:justify-between align-middle gap-4 text-white text-sm lg:text-5xl">
             {links.map((link, index) => (
               <Link
                 key={index}
@@ -87,8 +64,8 @@ export default function Navbar() {
                 {link.icon ? link.icon : link.text}
               </Link>
             ))}
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </nav>
   );

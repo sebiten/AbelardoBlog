@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   description:
     "Explora artículos y consejos sobre salud, bienestar y fitness en el blog Abelardo. Descubre cómo llevar una vida plena y activa.",
   alternates: {
-    canonical: "/",
+    canonical: "https://abelardo.blog",
     languages: {
-      "es-ES": "/es-ES/",
+      "es-ES": "https://abelardo.blog",
     },
   },
   icons: {
