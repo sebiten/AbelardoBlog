@@ -4,7 +4,6 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import Contacto from "./Contacto";
 import Destacados from "./Destacados";
-import InstagramEmbed from "./Instagram";
 import GoogleAdUnit from "nextjs13_google_adsense";
 import VideoBlog from "./VideoBlog";
 
