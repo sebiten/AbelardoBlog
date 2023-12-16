@@ -13,7 +13,7 @@ export default async function Posts() {
     <section className="mt-6 mx-auto">
       <h2 className="text-4xl text-center font-boldtext-white/90">Blog</h2>
       <ul className="w-full list-none p-0 grid grid-cols-2 ">
-        {posts.slice(0, 8).map((post) => (
+        {posts.map((post) => (
           <BlogPosts key={post.id} post={post} />
         ))}
       </ul>
