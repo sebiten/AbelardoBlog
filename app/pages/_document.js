@@ -20,6 +20,8 @@ export default function Document() {
         gtag('config', 'G-66SJ6716WY');
         `}
         </Script>
+      {/* or */}
+
       </Head>
       <body>
         <Main />
