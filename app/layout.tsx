@@ -5,7 +5,6 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
-import dynamic from "next/dynamic";
 import Contacto from "./components/Contacto";
 import { Metadata } from "next";
 import Redes from "./components/Redes";
@@ -53,13 +52,11 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}`}
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID}`}
           crossOrigin="anonymous"
           strategy="lazyOnload"
         ></Script>
-        <GoogleAnalytics
-          GA_TRACKING_ID={process.env.GA_TRACKING_ID as string}
-        />
+        <GoogleAnalytics />
       </head>
       <body className="bg-slate-800">
         <Navbar />
