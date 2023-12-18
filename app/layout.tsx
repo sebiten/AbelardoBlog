@@ -56,6 +56,20 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="lazyOnload"
         ></Script>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ID}`}
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ID}');
+          
+          `}
+        </Script>
         <GoogleAnalytics />
       </head>
       <body className="bg-slate-800">
