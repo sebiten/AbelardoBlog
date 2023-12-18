@@ -57,6 +57,17 @@ export default function RootLayout({
           strategy="lazyOnload"
         ></Script>
         <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY"
+        ></Script>
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-66SJ6716WY');`}
+        </Script>
+        <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ID}`}
         />
