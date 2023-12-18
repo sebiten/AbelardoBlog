@@ -77,9 +77,7 @@ export default function RootLayout({
         <main className="px-2 prose-a:no-underline prose-slate prose-invert prose prose-xl mx-auto">
           {children}
         </main>
-        <Redes />
         <Contacto />
-        <NewsletterSubscribe />
         <Footer />
       </body>
     </html>
