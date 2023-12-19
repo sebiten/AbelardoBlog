@@ -3,7 +3,7 @@ import { getPostsMeta, getPostByName } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import "highlight.js/styles/github-dark.css";
-import Head from "next/head";
+import AsidePosts from "@/app/components/AsidePosts";
 
 type Props = {
   params: {
@@ -68,12 +68,15 @@ export default async function Post({ params: { postId } }: Props) {
   return (
     <>
       <hr className="mt-10"></hr>
-      <h1 className="text-3xl mt-4 mb-0">{meta.title}</h1> {/* Use h1 for the title */}
+      <h1 className="text-3xl mt-4 mb-0">{meta.title}</h1>{" "}
+      {/* Use h1 for the title */}
       <p className="mt-0 text-sm">{pubDate}</p>
       <article className="prose-a:text-yellow-400">{content}</article>
       <section>
-        <h2 className="text-yellow-400">Relacionados:</h2> {/* Use h2 for subheadings */}
+        <h2 className="text-yellow-400">Relacionados:</h2>{" "}
+        {/* Use h2 for subheadings */}
         <div className="flex flex-row gap-4 underline">#{tags}</div>
+        <AsidePosts />
       </section>
       <p className="mb-10 text-2xl  hover:animate-pulse">
         <Link

@@ -1,51 +1,30 @@
-import Image from "next/image";
+import { getPostsMeta } from "@/lib/posts";
+import BlogPosts from "./BlogPosts";
 import Link from "next/link";
-import React from "react";
 
-interface IAsidePostsProps {
-  posts: Array<{
-    id: string;
-    title: string;
-    imageUrl: string;
-    // Add other properties as needed
-  }>;
-}
+export default async function Posts() {
+  const posts = await getPostsMeta();
 
-const AsidePosts: React.FC<IAsidePostsProps> = ({ posts }) => {
+  if (!posts) {
+    return <p className="mt-10 text-center">Sorry, no posts available.</p>;
+  }
+
   return (
-    <aside>
-      <h3 className="text-2xl font-bold pl-2 text-yellow-500 text-center">
-        Más artículos
-      </h3>
-      <ul className="flex">
-        {posts.slice(0, 4).map((relatedPost) => (
-          <li key={relatedPost.id} className=" list-none">
-            <Link href={`/posts/${relatedPost.id}`}>
-              <Image
-                width={1920}
-                height={1080}
-                src={relatedPost.imageUrl}
-                alt={relatedPost.title}
-                quality={100}
-                priority={true}
-                className="object-cover w-full rounded-lg"
-              />
-            </Link>
-          </li>
+    <section className="mt-6 mx-auto">
+      <h2 className="text-4xl text-center font-boldtext-white/90">Más Articulos</h2>
+      <ul className="w-full list-none p-0 grid grid-cols-1 md:grid-cols-2 ">
+        {posts.slice(4, 8).map((post) => (
+          <BlogPosts key={post.id} post={post} />
         ))}
       </ul>
-      {/* <div>
-        <div className="flex items-center justify-center mb-10  text-white mt-4">
-          <Link
-            className="animate-pulse animate-infinite animate-duration-[100ms] animate-delay-[22ms] animate-ease-out text-yellow-600 hover:text-yellow-700 dark:text-yellow-500 dark:hover:text-yellow-500 font-bold text-3xl my-4 mb-0"
-            href="/"
-          >
-            ← Volver al inicio
-          </Link>
-        </div>
-      </div> */}
-    </aside>
+      <div className="bg-gray-800 text-white my-2 rounded-lg text-center ">
+        <Link
+          className="p-4 bg-gray-800 border  border-gray-700 text-yellow-400 rounded-lg hover:bg-gray-600 flex items-center justify-center"
+          href="/blog"
+        >
+         Ver Todos Los Artículos
+        </Link>
+      </div>
+    </section>
   );
-};
-
-export default AsidePosts;
+}
