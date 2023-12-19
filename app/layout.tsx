@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Script from "next/script";
-import GoogleAnalytics from "./components/GoogleAnalytics";
 import Footer from "./components/Footer";
 import { Montserrat_Alternates, Montserrat } from "next/font/google";
 import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
@@ -50,23 +49,11 @@ export default function RootLayout({
       lang="es-ES"
     >
       <head>
-        <Script
+        <script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID}`}
           crossOrigin="anonymous"
-          strategy="lazyOnload"
-        ></Script>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-66SJ6716WY"
-        ></Script>
-        <Script id="google-analytics">
-          {`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-66SJ6716WY');`}
-        </Script>
+        ></script>
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ID}`}
@@ -81,14 +68,12 @@ export default function RootLayout({
           
           `}
         </Script>
-        <GoogleAnalytics />
       </head>
       <body className="bg-slate-800">
         <Navbar />
         <main className="px-2 prose-a:no-underline prose-slate prose-invert prose prose-xl mx-auto">
           {children}
         </main>
-        <Contacto />
         <Footer />
       </body>
     </html>

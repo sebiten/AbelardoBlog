@@ -37,7 +37,7 @@ export default function Destacados() {
         {imagespub.map((image, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center gap-8 mt-8 md:mt-16"
+            className="flex flex-col md:flex-row items-center gap-8 mt-8 md:mt-8"
           >
             <Image
               height={300}
@@ -45,15 +45,15 @@ export default function Destacados() {
               alt={`Image ${index + 1}`}
               priority={true}
               quality={100}
-              width={450}
-              className="border-4 border-gray-700 rounded-md shadow-lg"
+              width={430}
+              className="border-4 border-gray-700 rounded-md shadow-lg m-0"
             />
-            <div className="flex flex-col items-start max-w-md justify-center mt-4 md:mt-0">
-              <p className="text-white text-lg image-description mx-auto w-auto">
+            <div className="flex flex-col items-start max-w-md justify-center">
+              <p className="text-white text-lg image-description mx-auto w-auto m-0">
                 {image.description}
               </p>
               <Link
-                className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-gray-700 font-semibold text-center p-4 border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg mt-4 w-full rounded-md"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-600 mt-2 text-gray-700 font-semibold text-center p-4 border border-gray-500 transition duration-300 transform hover:scale-105 hover:shadow-lg w-full rounded-md"
                 href={image.link}
               >
                 Visitar el artículo

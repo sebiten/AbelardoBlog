@@ -40,7 +40,6 @@ export default function Contacto() {
           </Link>
         </div>
       </div>
-      <InstagramSection />
     </>
   );
 }

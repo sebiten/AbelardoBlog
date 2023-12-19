@@ -2,6 +2,7 @@ import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import AsideRight from "./components/AsideRight";
 import Contacto from "./components/Contacto";
 import Heroydolar from "./components/Heroydolar";
+import InstagramSection from "./components/InstagramSection";
 import Posts from "./components/Posts";
 import Pronostico from "./components/Pronostico";
 import Redes from "./components/Redes";
@@ -19,7 +20,8 @@ function Home() {
           <Posts />
           <AsideRight />
           <Redes />
-          <NewsletterSubscribe />
+          <InstagramSection />
+          <Contacto />
         </div>
       </div>
     </>
