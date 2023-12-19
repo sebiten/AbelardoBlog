@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/NewsletterSubscribe.js", "app/components/Apis/NewsletterForm.js", "app/components/Apis/Clima.js", "app/components/News.t/sx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/NewsletterSubscribe.js", "app/components/Apis/NewsletterForm.js", "app/components/Apis/Clima.js", "app/components/News.t/sx", "app/pages/_app.js", "app/pages/_document.jsx", "app/components/GoogleAnalytics.jsx", "app/components/GoogleAdUnit.js"],
   "exclude": ["node_modules"]
 }

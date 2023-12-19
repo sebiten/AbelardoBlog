@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://abelardo.blog
+Host: http://localhost:3000
 
 # Sitemaps
-Sitemap: https://abelardo.blog/sitemap.xml
+Sitemap: http://localhost:3000/sitemap.xml

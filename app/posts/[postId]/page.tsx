@@ -5,6 +5,8 @@ import Link from "next/link";
 import "highlight.js/styles/github-dark.css";
 import AsidePosts from "@/app/components/AsidePosts";
 
+export const revalidate = 86400;
+
 type Props = {
   params: {
     postId: string;

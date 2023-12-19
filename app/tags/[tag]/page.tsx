@@ -2,6 +2,7 @@ import { getPostsMeta } from "@/lib/posts"
 import BlogPosts from "@/app/components/BlogPosts"
 import Link from "next/link"
 
+export const revalidate = 86400;
 
 type Props = {
     params: {
