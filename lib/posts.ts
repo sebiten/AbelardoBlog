@@ -7,7 +7,6 @@ import { compileMDX, MDXRemoteProps } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import CustomImage from "@/app/components/CustomImage";
 import GoogleAdUnit from "nextjs13_google_adsense";
-import RandomLinks from "@/app/components/RandomLinks";
 
 type BlogPost = {
   meta: Meta;
@@ -30,7 +29,6 @@ export async function getPostByName(
         Video,
         CustomImage,
         GoogleAdUnit,
-        RandomLinks
       },
       options: {
         mdxOptions: {
