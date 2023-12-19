@@ -15,7 +15,7 @@ export default function Contacto() {
           backgroundPosition: "center",
         }}
       >
-        <div className=" p-8 text-white flex flex-col text-center">
+        <div className=" text-white flex flex-col text-center">
           <h2 className="text-3xl font-bold mb-4 ">
             ¿Necesitas una Página Web?
           </h2>
