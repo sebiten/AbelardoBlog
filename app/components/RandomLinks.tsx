@@ -56,13 +56,13 @@ const SingleComponent: React.FC<SingleComponentProps> = () => {
   const shuffledLinks = shuffleArray(relatedLinks);
 
   return (
-    <div className="bg-gray-800 p-4">
+    <div className="bg-gray-800 p-4 ">
       <h2 className="text-lg font-bold mb-4">Artículos Relacionados</h2>
       <ul>
         {shuffledLinks.map((link, index) => (
           <li key={index} className="">
             <Link href={link.href}>
-              <p className="text-blue-500 hover:underline">{link.name}</p>
+              <p className="text-yellow-400 hover:underline">{link.name}</p>
             </Link>
           </li>
         ))}

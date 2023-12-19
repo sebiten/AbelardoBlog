@@ -67,10 +67,9 @@ export default function RootLayout({
       </head>
       <body className="bg-slate-800">
         <Navbar />
-        <main className="px-2 prose-a:no-underline prose-slate prose-invert prose prose-xl mx-auto">
+        <main className="px-2 prose-a:no-underline prose-slate  prose-invert prose prose-xl mx-auto">
           {children}
         </main>
-        <Contacto />
         <Footer />
       </body>
     </html>

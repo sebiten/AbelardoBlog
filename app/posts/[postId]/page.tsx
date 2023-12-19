@@ -70,7 +70,7 @@ export default async function Post({ params: { postId } }: Props) {
       <hr className="mt-10"></hr>
       <h1 className="text-3xl mt-4 mb-0">{meta.title}</h1> {/* Use h1 for the title */}
       <p className="mt-0 text-sm">{pubDate}</p>
-      <article>{content}</article>
+      <article className="prose-a:text-yellow-400">{content}</article>
       <section>
         <h2 className="text-yellow-400">Relacionados:</h2> {/* Use h2 for subheadings */}
         <div className="flex flex-row gap-4 underline">#{tags}</div>

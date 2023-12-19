@@ -30,7 +30,7 @@ export async function getPostByName(
         Video,
         CustomImage,
         GoogleAdUnit,
-        RandomLinks,
+        RandomLinks
       },
       options: {
         mdxOptions: {
