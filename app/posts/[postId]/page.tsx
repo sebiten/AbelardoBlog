@@ -66,19 +66,19 @@ export default async function Post({ params: { postId } }: Props) {
   ));
 
   return (
-    <>
+    <div className="prose prose-invert mx-auto">
       <hr className="mt-10"></hr>
       <h1 className="text-3xl mt-4 mb-0">{meta.title}</h1>{" "}
       {/* Use h1 for the title */}
       <p className="mt-0 text-sm">{pubDate}</p>
       <article className="prose-a:text-yellow-400">{content}</article>
-      <section>
+      <div className="flex flex-col">
         <h2 className="text-yellow-400">Relacionados:</h2>{" "}
         {/* Use h2 for subheadings */}
-        <div className="flex flex-row gap-4 underline">#{tags}</div>
+        <div className="flex flex-col md:flex-row gap-4 underline">{tags}</div>
         {/* @ts-expect-error Async Server Component */}
         <AsidePosts />
-      </section>
+      </div>
       <p className="mb-10 text-2xl  hover:animate-pulse">
         <Link
           className="text-yellow-400 border-b font-bold border-yellow-400 "
@@ -88,6 +88,6 @@ export default async function Post({ params: { postId } }: Props) {
         </Link>
       </p>
       <hr className="mt-10"></hr>
-    </>
+    </div>
   );
 }
