@@ -7,7 +7,6 @@ import Posts from "./components/Posts";
 import Pronostico from "./components/Pronostico";
 import Redes from "./components/Redes";
 
-export const revalidate = 86400;
 
 function Home() {
   return (
