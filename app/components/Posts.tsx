@@ -22,7 +22,7 @@ export default async function Posts() {
           className="p-4 bg-gray-800 border  border-gray-700 text-yellow-400 rounded-lg hover:bg-gray-600 flex items-center justify-center"
           href="/blog"
         >
-         Ver Todos Los Artículos
+          Ver Todos Los Artículos
         </Link>
       </div>
     </section>
