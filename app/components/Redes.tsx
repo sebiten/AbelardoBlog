@@ -35,16 +35,6 @@ const videosPath = [
 function Redes() {
   return (
     <div className="max-w-[90ch] mt-20 mx-auto">
-      <GoogleAdUnit>
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block", width: "100%" }}
-          data-ad-client="ca-pub-6692046911486022"
-          data-ad-slot="4042420857"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </GoogleAdUnit>
       <div className="text-center text-white mb-8">
         <h2 className="font-bold text-3xl mb-4 text-yellow-400">
           ¡Suscríbete a nuestro canal de YouTube!
@@ -88,16 +78,6 @@ function Redes() {
           </div>
         ))}
       </div>
-      <GoogleAdUnit>
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block", width: "100%" }}
-          data-ad-client="ca-pub-6692046911486022"
-          data-ad-slot="9597999865"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </GoogleAdUnit>
       <Destacados />
     </div>
   );
