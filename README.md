@@ -16,7 +16,7 @@ Este blog está creado con Next.js 14 y Tailwind CSS, combinando la potencia de 
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-blog.git
+   git clone https://github.com/sebiten/next06.git
    cd nombre-del-blog
    ```
 
@@ -44,7 +44,7 @@ La aplicación estará disponible en [http://localhost:3000](http://localhost:30
 
 ## Contacto
 
-Para más información, puedes contactarnos en [correo@example.com](mailto:correo@example.com) o seguirnos en [Twitter](https://twitter.com/tu_usuario).
+Para más información, puedes contactarnos en [abelardoblog@gmail.com](mailto:abelardoblog@gmail.com) 
 
 ¡Esperamos que encuentres inspiración y motivación en nuestro blog para lograr tus objetivos de fitness, salud y bienestar!
 
