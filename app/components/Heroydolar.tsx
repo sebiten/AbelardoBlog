@@ -11,7 +11,9 @@ interface DolarData {
 }
 
 async function getDolar() {
-  const res = await fetch("https://dolarapi.com/v1/dolares");
+  const res = await fetch("https://dolarapi.com/v1/dolares", {
+    next: { revalidate: 43200 },
+  });
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
     throw new Error("Failed to fetch data");

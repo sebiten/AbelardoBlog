@@ -8,7 +8,6 @@ import AirQualityInfo from "./AirQualityInfo";
 import { title } from "process";
 import dynamic from "next/dynamic";
 
-
 interface WeatherData {
   location: {
     name: string;
@@ -25,7 +24,10 @@ interface WeatherData {
 async function getClima() {
   const query = "Salta Argentina";
   const res = await fetch(
-    `  https://api.weatherapi.com/v1/forecast.json?key=81109ab2335b40f880c135011230609&q=${query}&days=3&lang=es&aqi=yes&alerts=yes&hour=24`
+    `  https://api.weatherapi.com/v1/forecast.json?key=81109ab2335b40f880c135011230609&q=${query}&days=3&lang=es&aqi=yes&alerts=yes&hour=24`,
+    {
+      next: { revalidate: 43200 },
+    }
   );
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
