@@ -11,7 +11,6 @@ async function comment(formData: FormData, articuloId: any) {
     .insert({ nombre, email, comentario, articuloId })
     .select();
   if (data) {
-    console.log(data);
     revalidatePath(`/posts/${articuloId}`);
   } else {
     console.log(error);
