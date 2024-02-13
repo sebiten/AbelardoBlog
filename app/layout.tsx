@@ -7,7 +7,7 @@ import NewsletterSubscribe from "./components/Apis/NewsletterSubscribe";
 import Contacto from "./components/Contacto";
 import { Metadata } from "next";
 import Redes from "./components/Redes";
-
+import toast, { Toaster } from "react-hot-toast";
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
   weight: "700",
@@ -69,6 +69,12 @@ export default function RootLayout({
         <Navbar />
         <main className="px-2 prose-a:no-underline prose-slate  prose-invert prose prose-xl mx-auto">
           {children}
+          <Toaster
+            position="top-right"
+            toastOptions={{
+              duration: 5000,
+            }}
+          />
         </main>
         <Footer />
       </body>
