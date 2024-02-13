@@ -61,7 +61,11 @@ export default async function Post({ params: { postId } }: Props) {
   const pubDate = getFormattedDate(meta.date);
 
   const tags = meta.tags.map((tag, i) => (
-    <Link key={i} href={`/tags/${tag}`}>
+    <Link
+      className="border flex items-center justify-center mt-6 p-2 rounded-full px-4 hover:bg-yellow-500  font-bold "
+      key={i}
+      href={`/tags/${tag}`}
+    >
       {tag}
     </Link>
   ));
@@ -73,9 +77,10 @@ export default async function Post({ params: { postId } }: Props) {
       {/* Use h1 for the title */}
       <p className="mt-0 text-sm">{pubDate}</p>
       <article className="prose-a:text-yellow-400">{content}</article>
-      <CommentForm postId={postId}/>
+      <CommentForm postId={postId} />
       <div className="flex flex-col">
         <h2 className="text-yellow-400">Relacionados:</h2>{" "}
+        <h3 className="text-xl">Haz click para elegir un tema</h3>
         {/* Use h2 for subheadings */}
         <div className="flex flex-col md:flex-row gap-4 underline">{tags}</div>
         {/* @ts-expect-error Async Server Component */}
