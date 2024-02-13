@@ -2,7 +2,7 @@ import supabase from "@/lib/db";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Image from "next/image";
 import React from "react";
-
+export const revalidate = 10;
 export default async function PostComment({ postId }: { postId: any }) {
   const { data: comentario, error } = await supabase
     .from("Comentarios")
