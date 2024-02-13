@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import "highlight.js/styles/github-dark.css";
 import AsidePosts from "@/app/components/AsidePosts";
+import CommentForm from "@/app/components/CommentForm";
 
 type Props = {
   params: {
@@ -72,6 +73,7 @@ export default async function Post({ params: { postId } }: Props) {
       {/* Use h1 for the title */}
       <p className="mt-0 text-sm">{pubDate}</p>
       <article className="prose-a:text-yellow-400">{content}</article>
+      <CommentForm />
       <div className="flex flex-col">
         <h2 className="text-yellow-400">Relacionados:</h2>{" "}
         {/* Use h2 for subheadings */}
