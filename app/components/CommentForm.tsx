@@ -1,10 +1,11 @@
 // components/CommentForm.tsx
 import supabase from "@/lib/db";
 import getFormattedDate from "@/lib/getFormattedDate";
-import { redirect } from "next/navigation";
 import React from "react";
 
-const CommentForm = async () => {
+const CommentForm = async (postId: any) => {
+  console.log(postId.postId);
+
   const { data: comentario, error } = await supabase
     .from("Comentarios")
     .select("*")
@@ -15,15 +16,16 @@ const CommentForm = async () => {
 
   async function comment(formData: FormData) {
     "use server";
+    const articuloId = postId.postId;
     const nombre = formData.get("name") as String;
     const email = formData.get("email") as String;
     const comentario = formData.get("comentario") as String;
     const { data, error } = await supabase
       .from("Comentarios")
-      .insert({ nombre, email, comentario })
+      .insert({ nombre, email, comentario, articuloId })
       .select();
     if (data) {
-      alert("Se ha agregado el comentario");
+      console.log(data);
     } else {
       console.log(error);
     }
@@ -36,7 +38,7 @@ const CommentForm = async () => {
         <input
           name="name"
           type="text"
-          className="mt-1 p-2 border rounded-md w-full"
+          className="mt-1 p-2 border rounded-md w-full text-black"
           required
         />
 
@@ -46,7 +48,7 @@ const CommentForm = async () => {
         <input
           name="email"
           type="email"
-          className="mt-1 p-2 border rounded-md w-full"
+          className="mt-1 p-2 border rounded-md w-full text-black"
           required
         />
 
@@ -55,7 +57,7 @@ const CommentForm = async () => {
         </label>
         <textarea
           name="comentario"
-          className="mt-1 p-2 border rounded-md w-full"
+          className="mt-1 p-2 border rounded-md w-full text-black"
           rows={4}
           required
         />
