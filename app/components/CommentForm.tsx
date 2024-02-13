@@ -64,6 +64,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
           </span>
         </button>
       </form>
+      {/* @ts-expect-error Async Server Component */}
       <PostComment postId={postId} />
     </div>
   );
