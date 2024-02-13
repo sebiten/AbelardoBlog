@@ -1,10 +1,32 @@
 // components/CommentForm.tsx
+import supabase from "@/lib/db";
+import getFormattedDate from "@/lib/getFormattedDate";
+import { redirect } from "next/navigation";
 import React from "react";
 
-const CommentForm = () => {
+const CommentForm = async () => {
+  const { data: comentario, error } = await supabase
+    .from("Comentarios")
+    .select("*")
+    .order("created_at", { ascending: false });
+  if (error) {
+    console.log(error);
+  }
+
   async function comment(formData: FormData) {
     "use server";
-    console.log(formData);
+    const nombre = formData.get("name") as String;
+    const email = formData.get("email") as String;
+    const comentario = formData.get("comentario") as String;
+    const { data, error } = await supabase
+      .from("Comentarios")
+      .insert({ nombre, email, comentario })
+      .select();
+    if (data) {
+      alert("Se ha agregado el comentario");
+    } else {
+      console.log(error);
+    }
   }
 
   return (
@@ -46,7 +68,27 @@ const CommentForm = () => {
         </button>
       </form>
       <div>
-
+        <div className="container mx-auto p-4">
+          <div className="flex flex-col">
+            <h3 className="text-2xl font-bold mb-4">Comentarios</h3>
+            <div className="flex flex-col gap-4">
+              {comentario?.slice(0, 4).map((comentario) => (
+                <div key={comentario.id} className=" p-4 rounded-md shadow-2xl">
+                  <div className="flex flex-col">
+                    <p className="text-lg font-semibold mb-1">
+                      {comentario.nombre}
+                    </p>
+                    <p className="text-sm text-gray-500 mb-2">
+                      {getFormattedDate(comentario.created_at)}
+                    </p>
+                    <p className="text-gray-700 mb-2">{comentario.email}</p>
+                    <p className="text-sm mb-2">{comentario.comentario}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

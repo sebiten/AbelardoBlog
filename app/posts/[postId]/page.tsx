@@ -79,7 +79,7 @@ export default async function Post({ params: { postId } }: Props) {
         {/* Use h2 for subheadings */}
         <div className="flex flex-col md:flex-row gap-4 underline">{tags}</div>
         {/* @ts-expect-error Async Server Component */}
-        <AsidePosts />
+        <AsidePosts params={postId} />
       </div>
       <p className="mb-10 text-2xl  hover:animate-pulse">
         <Link
