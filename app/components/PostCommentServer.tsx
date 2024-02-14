@@ -10,11 +10,6 @@ export default async function PostCommentServer({ postId }: { postId: any }) {
     .select("*")
     .eq("postId", postId)
     .order("created_at", { ascending: false });
-  if (comentario) {
-    revalidatePath(`/posts/${postId}`);
-  } else {
-    console.log(error);
-  }
   return (
     <div>
       <div className="p-8 rounded-lg shadow-2xl mt-10">

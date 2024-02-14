@@ -1,43 +1,30 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import toast from "react-hot-toast";
 import { IoMdMail } from "react-icons/io";
 import PostCommentServer from "./PostCommentServer";
-import supabase from "@/lib/db";
-import { revalidatePath } from "next/cache";
-
+import comment from "../action";
 const CommentForm = ({ postId }: { postId: any }) => {
-  async function comment(formData: FormData) {
-    "use server";
-    try {
-      const nombre = formData.get("name") as String;
-      const email = formData.get("email") as String;
-      const comentario = formData.get("comentario") as String;
-      const { data, error } = await supabase
-        .from("Comentarios")
-        .insert({
-          nombre: nombre,
-          email: email,
-          comentario: comentario,
-          postId: postId,
-        })
-        .select();
-      if (data) {
-        console.log(comentario);
-        revalidatePath(`/posts/${postId}`);
-      } else {
-        console.error("Error al insertar el comentario:", error);
-      }
-    } catch (error) {
-      console.error("Error en la función comment:", error);
-    }
-  }
+  const ref = useRef<HTMLFormElement>(null);
+  const articuloId = postId;
+
   return (
     <div>
       <h3>
-        <span className="border-b border-yellow-500 font-bold">
+        <span className="border-b border-yellow-500">
           ¿Qué te parece este artículo?
         </span>
       </h3>
-      <form action={comment} className="mt-6">
+      <form
+        ref={ref}
+        action={async (formData) => {
+          await comment(formData, articuloId);
+          toast.success("Se ha agregado el comentario🎊");
+          // reseteamos form
+          ref.current?.reset();
+        }}
+        className="mt-6"
+      >
         <label className="block text-sm font-medium text-white">Name:</label>
         <input
           name="name"
@@ -72,7 +59,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
         >
           <span className="border-b flex items-center justify-center gap-1 border-yellow-500">
             Enviar comentario
-            <IoMdMail size={26} />
+            <IoMdMail className={`hover:`} size={26} />
           </span>
         </button>
       </form>
