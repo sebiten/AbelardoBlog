@@ -1,14 +1,27 @@
 // components/CommentForm.tsx
-"use client";
 import React, { useRef } from "react";
-import PostComment from "./PostComment";
-import comment from "@/lib/formAction";
-import toast from "react-hot-toast";
 import { IoMdMail } from "react-icons/io";
-const CommentForm = ({ postId }: { postId: any }) => {
-  const ref = useRef<HTMLFormElement>(null);
-  const articuloId = postId;
+import PostCommentServer from "./PostCommentServer";
+import supabase from "@/lib/db";
+import { revalidatePath } from "next/cache";
 
+const CommentForm = ({ postId }: { postId: any }) => {
+  const articuloId = postId;
+  async function comment(formData: FormData) {
+    "use server";
+    const nombre = formData.get("name") as String;
+    const email = formData.get("email") as String;
+    const comentario = formData.get("comentario") as String;
+    const { data, error } = await supabase
+      .from("Comentarios")
+      .insert({ nombre, email, comentario, articuloId })
+      .select();
+    if (data) {
+      revalidatePath(`/posts/${articuloId}`);
+    } else {
+      console.log(error);
+    }
+  }
   return (
     <div>
       <h3>
@@ -16,16 +29,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
           ¿Qué te parece este artículo?
         </span>
       </h3>
-      <form
-        ref={ref}
-        action={async (formData) => {
-          await comment(formData, articuloId);
-          toast.success("Se ha agregado el comentario🎊");
-          // reseteamos form
-          ref.current?.reset();
-        }}
-        className="mt-6"
-      >
+      <form action={comment} className="mt-6">
         <label className="block text-sm font-medium text-white">Name:</label>
         <input
           name="name"
@@ -64,8 +68,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
           </span>
         </button>
       </form>
-      {/* @ts-expect-error Async Server Component */}
-      <PostComment postId={postId} />
+      <PostCommentServer articuloId={articuloId} />
     </div>
   );
 };
