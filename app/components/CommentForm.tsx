@@ -7,16 +7,21 @@ import { revalidatePath } from "next/cache";
 const CommentForm = ({ postId }: { postId: any }) => {
   async function comment(formData: FormData) {
     "use server";
-    const nombre = formData.get("name") as String;
-    const email = formData.get("email") as String;
-    const comentario = formData.get("comentario") as String;
-    const { data, error } = await supabase
-      .from("Comentarios")
-      .insert({ nombre, email, comentario, postId })
-    if (data) {
-      revalidatePath(`/posts/${postId}`);
-    } else {
-      console.log(error);
+    try {
+      const nombre = formData.get("name") as String;
+      const email = formData.get("email") as String;
+      const comentario = formData.get("comentario") as String;
+      const { data, error } = await supabase
+        .from("Comentarios")
+        .insert({ nombre, email, comentario, postId })
+        .select();
+      if (data) {
+        console.log(comentario);
+      } else {
+        console.error("Error al insertar el comentario:", error);
+      }
+    } catch (error) {
+      console.error("Error en la función comment:", error);
     }
   }
   return (
