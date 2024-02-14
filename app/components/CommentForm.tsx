@@ -23,7 +23,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
   return (
     <div>
       <h3>
-        <span className="border-b border-yellow-500">
+        <span className="border-b border-yellow-500 font-bold">
           ¿Qué te parece este artículo?
         </span>
       </h3>
