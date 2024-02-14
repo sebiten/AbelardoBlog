@@ -13,7 +13,6 @@ const CommentForm = ({ postId }: { postId: any }) => {
     const { data, error } = await supabase
       .from("Comentarios")
       .insert({ nombre, email, comentario, postId })
-      .select();
     if (data) {
       revalidatePath(`/posts/${postId}`);
     } else {
