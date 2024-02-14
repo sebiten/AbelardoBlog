@@ -13,10 +13,16 @@ const CommentForm = ({ postId }: { postId: any }) => {
       const comentario = formData.get("comentario") as String;
       const { data, error } = await supabase
         .from("Comentarios")
-        .insert({ nombre, email, comentario, postId })
+        .insert({
+          nombre: nombre,
+          email: email,
+          comentario: comentario,
+          postId: postId,
+        })
         .select();
       if (data) {
         console.log(comentario);
+        revalidatePath(`/posts/${postId}`);
       } else {
         console.error("Error al insertar el comentario:", error);
       }
