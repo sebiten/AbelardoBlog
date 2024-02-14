@@ -1,7 +1,7 @@
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Image from "next/image";
-import CustomImage from "./CustomImage";
+import { Meta } from "@/types";
 
 type Props = {
   post: Meta;

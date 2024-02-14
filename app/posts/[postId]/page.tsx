@@ -59,7 +59,7 @@ export default async function Post({ params: { postId } }: Props) {
 
   const pubDate = getFormattedDate(meta.date);
 
-  const tags = meta.tags.map((tag, i) => (
+  const tags = meta.tags.map((tag: any, i: any) => (
     <Link
       className="border flex items-center justify-center mt-6 p-2 rounded-full px-4 hover:bg-yellow-500  font-bold "
       key={i}
@@ -82,7 +82,7 @@ export default async function Post({ params: { postId } }: Props) {
         <h3 className="text-xl">Haz click para elegir un tema</h3>
         {/* Use h2 for subheadings */}
         <div className="flex flex-col md:flex-row gap-4 underline">{tags}</div>
-        <AsidePosts/>
+        <AsidePosts />
       </div>
       <p className="mb-10 text-2xl  hover:animate-pulse">
         <Link
