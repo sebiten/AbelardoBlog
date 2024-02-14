@@ -1,5 +1,4 @@
-// components/CommentForm.tsx
-import React, { useRef } from "react";
+import React from "react";
 import { IoMdMail } from "react-icons/io";
 import PostCommentServer from "./PostCommentServer";
 import supabase from "@/lib/db";
@@ -64,10 +63,11 @@ const CommentForm = ({ postId }: { postId: any }) => {
         >
           <span className="border-b flex items-center justify-center gap-1 border-yellow-500">
             Enviar comentario
-            <IoMdMail className={`hover:`} size={26} />
+            <IoMdMail size={26} />
           </span>
         </button>
       </form>
+      {/* @ts-expect-error Async Server Component */}
       <PostCommentServer articuloId={articuloId} />
     </div>
   );
