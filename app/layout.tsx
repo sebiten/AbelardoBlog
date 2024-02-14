@@ -8,6 +8,7 @@ import Contacto from "./components/Contacto";
 import { Metadata } from "next";
 import Redes from "./components/Redes";
 import toast, { Toaster } from "react-hot-toast";
+import { Suspense } from "react";
 const montserrat_alternates = Montserrat_Alternates({
   variable: "--title-font",
   weight: "700",
@@ -68,7 +69,7 @@ export default function RootLayout({
       <body className="bg-slate-800">
         <Navbar />
         <main className="px-2 prose-a:no-underline prose-slate  prose-invert prose prose-xl mx-auto">
-          {children}
+          <Suspense>{children}</Suspense>
           <Toaster
             position="top-right"
             toastOptions={{
