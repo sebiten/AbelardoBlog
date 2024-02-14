@@ -13,9 +13,7 @@ function Home() {
     <>
       <div className="w-full h-full mx-auto mb-10 ">
         <div className="mt-2 mb-6 text-xl mx-auto text-white w-full">
-          {/* @ts-expect-error Async Server Component */}
           <Heroydolar />
-          {/* @ts-expect-error Async Server Component */}
           <Posts />
           <AsideRight />
           <Redes />

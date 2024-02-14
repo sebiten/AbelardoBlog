@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import "highlight.js/styles/github-dark.css";
 import AsidePosts from "@/app/components/AsidePosts";
+import CommentForm from "@/app/components/CommentForm";
 
 type Props = {
   params: {
@@ -30,7 +31,6 @@ export async function generateMetadata({ params: { postId } }: Props) {
       description: "This post does not exist.",
     };
   }
-
   return {
     title: post.meta.title,
     description: post.meta.description || "", // Use unique description
@@ -77,12 +77,12 @@ export default async function Post({ params: { postId } }: Props) {
       <p className="mt-0 text-sm">{pubDate}</p>
       <article className="prose-a:text-yellow-400">{content}</article>
       <div className="flex flex-col">
+        <CommentForm postId={postId} />
         <h2 className="text-yellow-400">Relacionados:</h2>{" "}
         <h3 className="text-xl">Haz click para elegir un tema</h3>
         {/* Use h2 for subheadings */}
         <div className="flex flex-col md:flex-row gap-4 underline">{tags}</div>
-        {/* @ts-expect-error Async Server Component */}
-        <AsidePosts params={postId} />
+        <AsidePosts/>
       </div>
       <p className="mb-10 text-2xl  hover:animate-pulse">
         <Link

@@ -12,7 +12,6 @@ export default function AsideRight() {
         Pronostico
       </h2>
       <div className="flex items-star justify-start">
-        {/* @ts-expect-error Async Server Component */}
         <Pronostico />
       </div>
     </div>

@@ -5,7 +5,6 @@ import supabase from "@/lib/db";
 import { revalidatePath } from "next/cache";
 
 const CommentForm = ({ postId }: { postId: any }) => {
-  const articuloId = postId;
   async function comment(formData: FormData) {
     "use server";
     const nombre = formData.get("name") as String;
@@ -13,7 +12,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
     const comentario = formData.get("comentario") as String;
     const { data, error } = await supabase
       .from("Comentarios")
-      .insert({ nombre, email, comentario, articuloId })
+      .insert({ nombre, email, comentario, postId })
       .select();
     if (data) {
       revalidatePath(`/posts/${postId}`);
@@ -67,7 +66,6 @@ const CommentForm = ({ postId }: { postId: any }) => {
           </span>
         </button>
       </form>
-      {/* @ts-expect-error Async Server Component */}
       <PostCommentServer postId={postId} />
     </div>
   );
