@@ -4,15 +4,11 @@ import React from "react";
 import Image from "next/image";
 import getFormattedDate from "@/lib/getFormattedDate";
 
-export default async function PostCommentServer({
-  articuloId,
-}: {
-  articuloId: any;
-}) {
+export default async function PostCommentServer({ postId }: { postId: any }) {
   const { data: comentario, error } = await supabase
     .from("Comentarios")
     .select("*")
-    .eq("articuloId", articuloId)
+    .eq("articuloId", postId)
     .order("created_at", { ascending: false });
   return (
     <div>

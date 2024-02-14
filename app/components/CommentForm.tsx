@@ -16,7 +16,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
       .insert({ nombre, email, comentario, articuloId })
       .select();
     if (data) {
-      revalidatePath(`/posts/${articuloId}`);
+      revalidatePath(`/posts/${postId}`);
     } else {
       console.log(error);
     }
@@ -68,7 +68,7 @@ const CommentForm = ({ postId }: { postId: any }) => {
         </button>
       </form>
       {/* @ts-expect-error Async Server Component */}
-      <PostCommentServer articuloId={articuloId} />
+      <PostCommentServer postId={postId} />
     </div>
   );
 };
