@@ -2,7 +2,7 @@ import Image from "next/image";
 import getFormattedDate from "@/lib/getFormattedDate";
 import Pronostico from "./Pronostico";
 import Posts from "./Posts";
-
+export const revalidate = 24000; // revalidate at most every hour
 interface DolarData {
   casa: string;
   nombre: string;
@@ -12,7 +12,7 @@ interface DolarData {
 
 async function getDolar() {
   const res = await fetch("https://dolarapi.com/v1/dolares", {
-    next: { revalidate: 43200 },
+    next: { revalidate: 24000 },
   });
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
